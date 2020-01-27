@@ -1,2 +1,2 @@
-# Force11 &ndash; OCK Working Group
+# Force11 &ndash; Open Climate Knowledge Working Group
 
