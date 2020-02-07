@@ -4,6 +4,12 @@
 
 Join the group here https://www.force11.org/group/open-climate-knowledge
 
+## Meetings
+
+ - [Video conference 11 Feb 2020](agenda11022020.md)
+ 
+## About 
+
 The climate crisis of the predicted atmosphere temperatures rising to 1.5C + makes it imperative that research related to climate change be put to better use by being open and digitally connected.
 
 We are concerned with making all aspects of research open, but as an example, one analysis shows that less than 30% of research papers related to climate change are Open Access (Tai and Robinson 2018). This must change now!
@@ -26,9 +32,5 @@ The first working group meeting (public) will take place via Jitsi video confere
 ## Thank you to our supporters
 
 We would like to share our appreciation of the project supporters: Force11 for enabling the working group; the [Open Science Lab](http://tib.eu/osl) at TIB – German National Library of Science and Technology for hosting the OCK project; and to our partners the Open Science editorial platform [Generation Research](https://genr.eu/) which is a service of the [Leibniz Research Alliance Open Science](https://www.leibniz-openscience.de/). 
-
-## Meetings
-
- - [Video conference 11 Feb 2020](agenda11022020.md)
 
 (c) The authors. CC BY SA 4.0. 2020
