@@ -27,4 +27,8 @@ The first working group meeting (public) will take place via Jitsi video confere
 
 We would like to share our appreciation of the project supporters: Force11 for enabling the working group; the [Open Science Lab](http://tib.eu/osl) at TIB – German National Library of Science and Technology for hosting the OCK project; and to our partners the Open Science editorial platform [Generation Research](https://genr.eu/) which is a service of the [Leibniz Research Alliance Open Science](https://www.leibniz-openscience.de/). 
 
-2020. The authors. CC BY SA 4.0 
+## Meetings
+
+ - [Video conference 11 Feb 2020](agenda11022020.md)
+
+(c) The authors. CC BY SA 4.0. 2020
