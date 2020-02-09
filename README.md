@@ -44,9 +44,9 @@ OpenNotebook software - TBC
 ### Meetings
 
  - 11 Feb 2020 vidconf 
-  - Viconf link https://meet.jit.si/OCK
-  - Meeting agenda https://github.com/OCKProject/Force11-OCKWG/blob/master/agenda11022020.md
-  - Signup and minutes https://cryptpad.fr/pad/#/2/pad/edit/t5z-3EJz2RzMkKcCg+zDYtL+/
+   - Viconf link https://meet.jit.si/OCK
+   - Meeting agenda https://github.com/OCKProject/Force11-OCKWG/blob/master/agenda11022020.md
+   - Signup and minutes https://cryptpad.fr/pad/#/2/pad/edit/t5z-3EJz2RzMkKcCg+zDYtL+/
 
 ## Thank you to our supporters
 
