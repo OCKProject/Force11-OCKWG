@@ -27,7 +27,26 @@ You’re welcome to join the working group — we need volunteers with many diff
    - community science AKA Citizen Science areas.
  - Develop a plan for transitioning to 100% open.
 
-The first working group meeting (public) will take place via Jitsi video conference platform (https://meet.jit.si/OCK) on February 11th 2020, 8am PDT / 11am EDT / 4pm GMT / 5pm CET – duration 60 minutes. Dial in possible. This first meeting will be an open public meeting to give as many people a chance to learn about the project. You can optionally register on this public [CryptPad](https://cryptpad.fr/pad/#/2/pad/edit/t5z-3EJz2RzMkKcCg+zDYtL+/).
+The first working group meeting (public) will take place via Jitsi video conference platform (https://meet.jit.si/OCK) on February 11th 2020, 8am PDT / 11am EDT / 4pm GMT / 5pm CET – duration 60 minutes. Dial in possible. This first meeting will be an open public meeting to give as many people a chance to learn about the project. You can optionally register on this public [CryptPad](https://cryptpad.fr/pad/#/2/pad/edit/t5z-3EJz2RzMkKcCg+zDYtL+/)
+
+## WG URLs
+
+Force11 WG https://www.force11.org/group/open-climate-knowledge
+
+WG GitHub https://github.com/OCKProject/Force11-OCKWG/
+
+GitHub project https://github.com/OCKProject/
+
+OpenNotebook documentation - TBC
+
+OpenNotebook software - TBC
+
+### Meetings
+
+ - 11 Feb 2020 vidconf 
+  - Viconf link 
+  - Meeting agenda 
+  - Signup and minutes 
 
 ## Thank you to our supporters
 
