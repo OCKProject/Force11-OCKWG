@@ -12,7 +12,7 @@ All analysis is done on the client side, and if you wish to do this yourself you
 
 ## Repositories
 
-**NOTE: This is not a detailed tutorial; we'll add that later.**
+*NOTE: This is not a detailed tutorial; we'll add that later.*
 
 ### EuropePMC
 This is a European version of PubMedCentral and uses the EPMC server to download in bulk. We use `getpapers` (see https://github.com/contentmine/getpapers) , developed by Rik Smith-Unna for 
@@ -25,10 +25,21 @@ which stores up to 250 articles fitting the query "climate change", in XML in di
 
 We then run [AMI](https://github.com/petermr/ami3) with the command:
 ```
-ami-search -
+ami-search -p epmc250 --dictionary country funders ...
+```
+which queries the articles with dictionaries for `country`, funders` (and several more).
+
+The results are here
 
 [Output for epmc250](../demos/epmc250/).
 
+### biorxiv
+
+[Biorxiv](https://biorxiv.org) is a preprint server for biosciece articles run from Cold Spring Harbor laboratories and offering Open Access preprints.
+
+NOTE: this is a very preiminary result and details of the search are not given. In essence it follows the `getpapers` strategy (but uses `curl`) to issue a query, download the ResultSet of metadata, create landing pages for each and then issues requests for the fulltext in HTML.
+
+[Output for biorxiv250](../demos/biorxiv250/).
 
 
 
