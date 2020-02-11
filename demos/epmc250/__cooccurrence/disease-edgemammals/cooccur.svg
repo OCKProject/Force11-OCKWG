@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <text x="0.0" y="118.0" style="font-family:Helvetica;font-size:22px;stroke:red;">edgemammals</text>
+  <text x="0.0" y="140.0" style="font-family:Helvetica;font-size:22px;stroke:red;">disease</text>
+  <text x="10.0" y="162.0" title="malaria" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">malaria</text>
+  <text x="151.0" y="129.0" transform="matrix(6.123233995736766E-17,-1.0,1.0,6.123233995736766E-17,22.0,280.0)" title="Balaenoptera physalus" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Balaenoptera ph</text>
+  <g>
+   <rect x="140.0" y="140.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="162.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="173.0" y="129.0" transform="matrix(6.123233995736766E-17,-1.0,1.0,6.123233995736766E-17,44.0,302.0)" title="Balaenoptera physalus." style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Balaenoptera ph</text>
+  <g>
+   <rect x="162.0" y="140.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="162.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="195.0" y="129.0" transform="matrix(6.123233995736766E-17,-1.0,1.0,6.123233995736766E-17,66.0,324.0)" title="Balaenoptera musculus" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Balaenoptera mu</text>
+  <g>
+   <rect x="184.0" y="140.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="162.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="184.0" title="infectious disease" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">infectious dise</text>
+  <g>
+   <rect x="140.0" y="162.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="184.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="162.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="184.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="162.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="184.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="206.0" title="chikungunya" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">chikungunya</text>
+  <g>
+   <rect x="140.0" y="184.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="206.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="184.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="206.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="184.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="206.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="228.0" title="suppression" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">suppression</text>
+  <g>
+   <rect x="140.0" y="206.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="228.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="206.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="228.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="206.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="228.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="250.0" title="encephalitis" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">encephalitis</text>
+  <g>
+   <rect x="140.0" y="228.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="250.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="228.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="250.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="228.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="250.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="272.0" title="influenza" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">influenza</text>
+  <g>
+   <rect x="140.0" y="250.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="272.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="250.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="272.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="250.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="272.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="294.0" title="stroke" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">stroke</text>
+  <g>
+   <rect x="140.0" y="272.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="294.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="272.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="294.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="272.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="294.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="316.0" title="dengue fever" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">dengue fever</text>
+  <g>
+   <rect x="140.0" y="294.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="316.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="294.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="316.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="294.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="316.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="338.0" title="gastroenteritis" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">gastroenteritis</text>
+  <g>
+   <rect x="140.0" y="316.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="338.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="316.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="338.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="316.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="338.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="360.0" title="diarrhea" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">diarrhea</text>
+  <g>
+   <rect x="140.0" y="338.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="360.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="338.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="360.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="338.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="360.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="382.0" title="asthma" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">asthma</text>
+  <g>
+   <rect x="140.0" y="360.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="382.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="360.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="382.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="360.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="382.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="404.0" title="heart disease" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">heart disease</text>
+  <g>
+   <rect x="140.0" y="382.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="404.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="382.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="404.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="382.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="404.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="426.0" title="yellow fever," style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">yellow fever,</text>
+  <g>
+   <rect x="140.0" y="404.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="426.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="404.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="426.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="404.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="426.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="448.0" title="cancer" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">cancer</text>
+  <g>
+   <rect x="140.0" y="426.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="448.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="426.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="448.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="426.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="448.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="470.0" title="leptospirosis" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">leptospirosis</text>
+  <g>
+   <rect x="140.0" y="448.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="470.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="448.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="470.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="448.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="470.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="492.0" title="schistosomiasis" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">schistosomiasis</text>
+  <g>
+   <rect x="140.0" y="470.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="492.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="470.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="492.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="470.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="492.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="514.0" title="yellow fever" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">yellow fever</text>
+  <g>
+   <rect x="140.0" y="492.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="514.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="492.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="514.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="492.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="514.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="536.0" title="obesity" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">obesity</text>
+  <g>
+   <rect x="140.0" y="514.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="536.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="514.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="536.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="514.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="536.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="558.0" title="cryptosporidiosis" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">cryptosporidios</text>
+  <g>
+   <rect x="140.0" y="536.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="558.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="536.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="558.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="536.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="558.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="580.0" title="mouth disease" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">mouth disease</text>
+  <g>
+   <rect x="140.0" y="558.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="580.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="558.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="580.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="558.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="580.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="602.0" title="cardiovascular disease" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">cardiovascular </text>
+  <g>
+   <rect x="140.0" y="580.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="602.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="580.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="602.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="580.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="602.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="624.0" title="epilepsy" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">epilepsy</text>
+  <g>
+   <rect x="140.0" y="602.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="624.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="602.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="624.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="602.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="624.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="646.0" title="respiratory disease" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">respiratory dis</text>
+  <g>
+   <rect x="140.0" y="624.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="646.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="624.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="646.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="624.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="646.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="668.0" title="tuberculosis" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">tuberculosis</text>
+  <g>
+   <rect x="140.0" y="646.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="668.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="646.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="668.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="646.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="668.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="690.0" title="allergy" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">allergy</text>
+  <g>
+   <rect x="140.0" y="668.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="690.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="668.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="690.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="668.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="690.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+ </g>
+</svg>

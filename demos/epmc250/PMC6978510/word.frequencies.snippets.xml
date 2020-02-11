@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6978510/results/word/frequencies/results.xml">
+  <result title="frequency" word="climate" count="158"/>
+  <result title="frequency" word="change" count="110"/>
+  <result title="frequency" word="attention" count="78"/>
+  <result title="frequency" word="Climate" count="55"/>
+  <result title="frequency" word="governmental" count="47"/>
+  <result title="frequency" word="changes" count="45"/>
+  <result title="frequency" word="international" count="38"/>
+  <result title="frequency" word="agenda" count="37"/>
+  <result title="frequency" word="()." count="33"/>
+  <result title="frequency" word="presidential" count="32"/>
+  <result title="frequency" word="Mexico" count="31"/>
+  <result title="frequency" word="Change" count="29"/>
+  <result title="frequency" word="action" count="28"/>
+  <result title="frequency" word="policy" count="26"/>
+  <result title="frequency" word="public" count="24"/>
+  <result title="frequency" word="systemic" count="23"/>
+  <result title="frequency" word="(e.g." count="22"/>
+  <result title="frequency" word="number" count="22"/>
+  <result title="frequency" word="agendas" count="21"/>
+  <result title="frequency" word="levels" count="21"/>
+ </snippets>
+</snippetsTree>

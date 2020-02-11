@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+ <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes"/>
+  <meta name="type" content="article"/>
+  <meta name="category" content="article"/>
+  <meta name="HW.identifier" content="/biorxiv/early/2017/09/30/195248.atom"/>
+  <meta name="HW.pisa" content="biorxiv;195248v1"/>
+  <meta name="DC.Format" content="text/html"/>
+  <meta name="DC.Language" content="en"/>
+  <meta name="DC.Title" content="Response to Qian et al (2017): Daily and seasonal climate variations are both critical in the evolution of species’ elevational range size"/>
+  <meta name="DC.Identifier" content="10.1101/195248"/>
+  <meta name="DC.Date" content="2017-09-30"/>
+  <meta name="DC.Publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="DC.Rights" content="© 2017, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+  <meta name="DC.AccessRights" content="restricted"/>
+  <meta name="DC.Description" content="In their recent critique, [Qian et al. (2017)][1] claimed that the results of structural equation modeling analysis (SEM) in [Chan et al. (2016)][2] were flawed. Here, we show that the source of the difference in their re-analysis is that Qian et al. did not follow the standard, iterative process of SEM, which allows researchers to evaluate which model offers the best account of the data in both absolute and relative senses. Here, we provide step-by-step instructions to reproduce our published results. All of Qian et al.’s concerns regarding SEM can be put to rest. Moreover, in our original paper we used three distinct statistical methods—hierarchical partitioning, SEM, and stationary bootstrap—to show that different temporal scales of environmental variability can differentially impact the elevational range size (ERS) of species. It is time to move on to probing the pressing issue of how and why climatic variability impacts ERS. [1]: #ref-14 [2]: #ref-2"/>
+  <meta name="DC.Contributor" content="Wei-Ping Chan"/>
+  <meta name="DC.Contributor" content="I-Ching Chen"/>
+  <meta name="DC.Contributor" content="Robert K. Colwell"/>
+  <meta name="DC.Contributor" content="Wei-Chung Liu"/>
+  <meta name="DC.Contributor" content="Cho-ying Huang"/>
+  <meta name="DC.Contributor" content="Sheng-Feng Shen"/>
+  <meta name="article:published_time" content="2017-09-30"/>
+  <meta name="article:section" content="Confirmatory Results"/>
+  <meta name="citation_title" content="Response to Qian et al (2017): Daily and seasonal climate variations are both critical in the evolution of species’ elevational range size"/>
+  <meta name="citation_abstract" lang="en" content="&lt;;h3&gt;;Abstract&lt;;/h3&gt;; &lt;;p&gt;;In their recent critique, Qian et al. (2017) claimed that the results of structural equation modeling analysis (SEM) in Chan et al. (2016) were flawed. Here, we show that the source of the difference in their re-analysis is that Qian et al. did not follow the standard, iterative process of SEM, which allows researchers to evaluate which model offers the best account of the data in both absolute and relative senses. Here, we provide step-by-step instructions to reproduce our published results. All of Qian et al.’s concerns regarding SEM can be put to rest. Moreover, in our original paper we used three distinct statistical methods—hierarchical partitioning, SEM, and stationary bootstrap—to show that different temporal scales of environmental variability can differentially impact the elevational range size (ERS) of species. It is time to move on to probing the pressing issue of how and why climatic variability impacts ERS.&lt;;/p&gt;;"/>
+  <meta name="citation_journal_title" content="bioRxiv"/>
+  <meta name="citation_publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="citation_publication_date" content="2017/01/01"/>
+  <meta name="citation_mjid" content="biorxiv;195248v1"/>
+  <meta name="citation_id" content="195248v1"/>
+  <meta name="citation_public_url" content="https://www.biorxiv.org/content/10.1101/195248v1"/>
+  <meta name="citation_abstract_html_url" content="https://www.biorxiv.org/content/10.1101/195248v1.abstract"/>
+  <meta name="citation_full_html_url" content="https://www.biorxiv.org/content/10.1101/195248v1.full"/>
+  <meta name="citation_pdf_url" content="https://www.biorxiv.org/content/biorxiv/early/2017/09/30/195248.full.pdf"/>
+  <meta name="citation_doi" content="10.1101/195248"/>
+  <meta name="citation_num_pages" content="9"/>
+  <meta name="citation_article_type" content="Article"/>
+  <meta name="citation_section" content="Confirmatory Results"/>
+  <meta name="citation_firstpage" content="195248"/>
+  <meta name="citation_author" content="Wei-Ping Chan"/>
+  <meta name="citation_author_institution" content="Biodiversity Research Center, Academia Sinica"/>
+  <meta name="citation_author" content="I-Ching Chen"/>
+  <meta name="citation_author_institution" content="Biodiversity Research Center, Academia Sinica"/>
+  <meta name="citation_author_institution" content="Department of Life Sciences, National Cheng Kung University"/>
+  <meta name="citation_author" content="Robert K. Colwell"/>
+  <meta name="citation_author_institution" content="Department of Ecology and Evolutionary Biology, University of Connecticut"/>
+  <meta name="citation_author_institution" content="University of Colorado Museum of Natural History"/>
+  <meta name="citation_author_institution" content="Departmento de Ecologia, Universidade Federal de Goiás"/>
+  <meta name="citation_author" content="Wei-Chung Liu"/>
+  <meta name="citation_author_institution" content="Institute of Statistical Science, Academia Sinica"/>
+  <meta name="citation_author" content="Cho-ying Huang"/>
+  <meta name="citation_author_institution" content="Department of Geography, National Taiwan University"/>
+  <meta name="citation_author" content="Sheng-Feng Shen"/>
+  <meta name="citation_author_institution" content="Biodiversity Research Center, Academia Sinica"/>
+  <meta name="citation_author_email" content="shensf@sinica.edu.tw"/>
+  <meta name="citation_reference" content="Arbuckle, J. (2012) IBM SPSS AMOS (Version 21.0)[Computer Program]. IBM."/>
+  <meta name="citation_reference" content="Chan, W.-P., Chen, I.-C., Colwell, R.K., Liu, W.-C., Huang, C.-y. &amp;; Shen, S.-F. (2016) Seasonal and daily climate variation have opposite effects on species elevational range size. Science, 351, 1437–1439."/>
+  <meta name="citation_reference" content="citation_title=Handbook of structural equation modeling;citation_pages=232-246;citation_year=2012"/>
+  <meta name="citation_reference" content="Gilchrist, G.W. (1995) Specialists and generalists in changing environments. I. Fitness landscapes of thermal sensitivity. The American Naturalist, 146, 252–270."/>
+  <meta name="citation_reference" content="Grace, J.B. (2006) Structural equation modeling and natural systems. Cambridge University Press."/>
+  <meta name="citation_reference" content="Hoyle, R.H. (2012a) Handbook of Structural Equation Modeling. Guilford Press, New York, USA."/>
+  <meta name="citation_reference" content="citation_title=Handbook of structural equation modeling;citation_pages=3-16;citation_year=2012b"/>
+  <meta name="citation_reference" content="Janzen, D.H. (1967) Why mountain passes are higher in the tropics. The American Naturalist, 101, 233–249."/>
+  <meta name="citation_reference" content="Jöreskog, K.G. (1969) A general approach to confirmatory maximum likelihood factor analysis. Psychometrika, 34, 183–202."/>
+  <meta name="citation_reference" content="McCain, C.M. (2009) Vertebrate range sizes indicate that mountains may be ‘higher’in the tropics. Ecology Letters, 12, 550–560."/>
+  <meta name="citation_reference" content="Perez, T.M., Stroud, J.T. &amp;; Feeley, K.J. (2016) Thermal trouble in the tropics. Science, 351, 1392–1393."/>
+  <meta name="citation_reference" content="citation_title=Exploring the Limits of Bootstrap;citation_pages=263-270;citation_year=1992"/>
+  <meta name="citation_reference" content="Politis, D.N. &amp;; Romano, J.P. (1994) The stationary bootstrap. Journal of the American Statistical Association, 89, 1303–1313."/>
+  <meta name="citation_reference" content="Qian, H., Field, R., Zhang, J. &amp;; Zhang, Y. (2017) Does daily climate variation have an effect on species’ elevational range size? Journal of Biogeography, 1–5."/>
+  <meta name="citation_reference" content="Royston, P., Altman, D.G. &amp;; Sauerbrei, W. (2006) Dichotomizing continuous predictors in multiple regression: a bad idea. Statistics in Medicine, 25, 127–141."/>
+  <meta name="citation_reference" content="Tewksbury, J.J., Huey, R.B. &amp;; Deutsch, C.A. (2008) Putting the heat on tropical animals. Science, 320, 1296."/>
+  <meta name="citation_reference" content="citation_title=Handbook of structural equation modeling;citation_pages=209-231;citation_year=2012"/>
+  <meta name="citation_reference" content="Wheaton, B., Muthen, B., Alwin, D.F. &amp;; Summers, G.F. (1977) Assessing reliability and stability in panel models. Sociological Methodology, 8, 84–136."/>
+  <meta name="twitter:title" content="Response to Qian et al (2017): Daily and seasonal climate variations are both critical in the evolution of species’ elevational range size"/>
+  <meta name="twitter:site" content="@biorxivpreprint"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="twitter:description" content="In their recent critique, [Qian et al. (2017)][1] claimed that the results of structural equation modeling analysis (SEM) in [Chan et al. (2016)][2] were flawed. Here, we show that the source of the difference in their re-analysis is that Qian et al. did not follow the standard, iterative process of SEM, which allows researchers to evaluate which model offers the best account of the data in both absolute and relative senses. Here, we provide step-by-step instructions to reproduce our published results. All of Qian et al.’s concerns regarding SEM can be put to rest. Moreover, in our original paper we used three distinct statistical methods—hierarchical partitioning, SEM, and stationary bootstrap—to show that different temporal scales of environmental variability can differentially impact the elevational range size (ERS) of species. It is time to move on to probing the pressing issue of how and why climatic variability impacts ERS. [1]: #ref-14 [2]: #ref-2"/>
+  <meta name="og-title" property="og:title" content="Response to Qian et al (2017): Daily and seasonal climate variations are both critical in the evolution of species’ elevational range size"/>
+  <meta name="og-url" property="og:url" content="https://www.biorxiv.org/content/10.1101/195248v1"/>
+  <meta name="og-site-name" property="og:site_name" content="bioRxiv"/>
+  <meta name="og-description" property="og:description" content="In their recent critique, [Qian et al. (2017)][1] claimed that the results of structural equation modeling analysis (SEM) in [Chan et al. (2016)][2] were flawed. Here, we show that the source of the difference in their re-analysis is that Qian et al. did not follow the standard, iterative process of SEM, which allows researchers to evaluate which model offers the best account of the data in both absolute and relative senses. Here, we provide step-by-step instructions to reproduce our published results. All of Qian et al.’s concerns regarding SEM can be put to rest. Moreover, in our original paper we used three distinct statistical methods—hierarchical partitioning, SEM, and stationary bootstrap—to show that different temporal scales of environmental variability can differentially impact the elevational range size (ERS) of species. It is time to move on to probing the pressing issue of how and why climatic variability impacts ERS. [1]: #ref-14 [2]: #ref-2"/>
+  <meta name="og-type" property="og:type" content="article"/>
+  <meta name="og-image" property="og:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="citation_date" content="2017-09-30"/> 
+  <meta name="description" content="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution"/>
+  <meta name="generator" content="Drupal 7 (http://drupal.org)"/> 
+  <title>Response to Qian et al (2017): Daily and seasonal climate variations are both critical in the evolution of species’ elevational range size | bioRxiv</title> 
+ </head>
+ <body class="html not-front not-logged-in page-node page-node- page-node-59710 node-type-highwire-article context-content hw-default-jcode-biorxiv hw-article-type-article hw-article-category-confirmatory-results"> 
+  <div class="article fulltext-view ">
+   <span class="highwire-journal-article-marker-start"/>
+   <div class="section abstract" id="abstract-1">
+    <h2 class="">Abstract</h2>
+    <p id="p-2">In their recent critique, 
+     <a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">Qian et al. (2017)</a> claimed that the results of structural equation modeling analysis (SEM) in 
+     <a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a> were flawed. Here, we show that the source of the difference in their re-analysis is that Qian et al. did not follow the standard, iterative process of SEM, which allows researchers to evaluate which model offers the best account of the data in both absolute and relative senses. Here, we provide step-by-step instructions to reproduce our published results. All of Qian et al.’s concerns regarding SEM can be put to rest. Moreover, in our original paper we used three distinct statistical methods—hierarchical partitioning, SEM, and stationary bootstrap—to show that different temporal scales of environmental variability can differentially impact the elevational range size (ERS) of species. It is time to move on to probing the pressing issue of how and why climatic variability impacts ERS.
+    </p>
+   </div>
+   <p id="p-3">In a critique of 
+    <a id="xref-ref-2-2" class="xref-bibr" href="#ref-2">Chan 
+     <em>et al</em>. (2016)
+    </a>, 
+    <a id="xref-ref-14-2" class="xref-bibr" href="#ref-14">Qian et al. (2017)</a> concluded that the structural equation modeling (SEM) results in our 
+    <a id="xref-fig-1-1" class="xref-fig" href="#F1">Figure 1a</a> (
+    <a id="xref-ref-2-3" class="xref-bibr" href="#ref-2">Chan 
+     <em>et al.</em>, 2016
+    </a>) were flawed, because they could not repeat our results, “using the same dataset, analysis, and software.” In fact, it seems that they were unable to repeat most of our SEM results, stating, “…we cannot replicate the results reported for model 3 in 
+    <a id="xref-ref-2-4" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a>, nor those for many of the other models reported in their Table S2”. A close reading of Qian et al.’s Supporting Information explains how they arrived this conclusion. Evidently, they did not follow the standard, iterative process that distinguishes SEM from traditional statistical tests, consisting of five consecutive (and iterative) steps: (1) model specification, (2) model identification, (3) estimation, (4) evaluation of fit, and (5) model modification (
+    <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">Chou &amp;; Huh, 2012</a>; 
+    <a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">Hoyle, 2012a</a>, 
+    <a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">b</a>). Thus, it is understandable that Qian et al. did not obtain the same results we did. In retrospect, we regret not having been more comprehensive in specifying the details of our SEM analyses in the Supplemental Online Material of 
+    <a id="xref-ref-2-5" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a>.
+   </p>
+   <div id="F1" class="fig pos-float type-figure odd">
+    <div class="highwire-figure">
+     <div class="fig-inline-img-wrapper">
+      <div class="fig-inline-img">
+       <a href="https://www.biorxiv.org/content/biorxiv/early/2017/09/30/195248/F1.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="The global frequency distributions of mean terrestrial annual precipitation (MAP) and land above 2,000m, compared to the data used in our SEM analysis. The distribution of the MAP data in our SEM analysis was significantly wetter than the global distribution of MAP (Wilcoxon signed-rank test; w = 2 071 600, p &lt;; 0.0001), and it was also significantly wetter than the area of land above 2,000 m (Wilcoxon signed-rank test; w = 74 338, p &lt;; 0.0001)." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-1016909648" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;span xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;; class=&quot;;caption-title&quot;;&gt;;The global frequency distributions of mean terrestrial annual precipitation (MAP) and land above 2,000m, compared to the data used in our SEM analysis.&lt;;/span&gt;; The distribution of the MAP data in our SEM analysis was significantly wetter than the global distribution of MAP (Wilcoxon signed-rank test; w = 2 071 600, p &lt;; 0.0001), and it was also significantly wetter than the area of land above 2,000 m (Wilcoxon signed-rank test; w = 74 338, p &lt;; 0.0001).&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+        <span class="hw-responsive-img">
+         <img class="highwire-fragment fragment-image lazyload" alt="Figure 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2017/09/30/195248/F1.medium.gif" width="440" height="302"/>
+         <noscript>
+          <img class="highwire-fragment fragment-image" alt="Figure 1" src="https://www.biorxiv.org/content/biorxiv/early/2017/09/30/195248/F1.medium.gif" width="440" height="302"/>
+         </noscript>
+        </span>
+       </a>
+      </div>
+     </div>
+     <ul class="highwire-figure-links inline">
+      <li class="download-fig first">
+       <a href="https://www.biorxiv.org/content/biorxiv/early/2017/09/30/195248/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 1" data-icon-position="" data-hide-link-title="0">Download figure</a>
+      </li>
+      <li class="new-tab last">
+       <a href="https://www.biorxiv.org/content/biorxiv/early/2017/09/30/195248/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+      </li>
+     </ul>
+    </div>
+    <div class="fig-caption">
+     <span class="fig-label">Figure 1</span>
+     <span class="caption-title">The global frequency distributions of mean terrestrial annual precipitation (MAP) and land above 2,000m, compared to the data used in our SEM analysis.</span>
+     <p id="p-4" class="first-child">The distribution of the MAP data in our SEM analysis was significantly wetter than the global distribution of MAP (Wilcoxon signed-rank test; w = 2 071 600, p &lt;; 0.0001), and it was also significantly wetter than the area of land above 2,000 m (Wilcoxon signed-rank test; w = 74 338, p &lt;; 0.0001).</p>
+     <div class="sb-div caption-clear"/>
+    </div>
+   </div>
+   <p id="p-5">To clarify every step of every procedure conducted in our analysis, we have prepared additional Supplemental Materials for 
+    <a id="xref-ref-2-6" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a> [submitted to 
+    <em>Science</em>, for consideration as additional Supplemental Material for our published paper (
+    <a id="xref-ref-2-7" class="xref-bibr" href="#ref-2">Chan 
+     <em>et al</em>. 2016
+    </a>), but provided for editors and reviewers of this submission to 
+    <em>J. Biogeogrpaphy</em>], which provide full instructions and materials for repeating and refining the statistical results reported in 
+    <a id="xref-ref-2-8" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a>, including the raw and intermediate data, all source code, and the table of parameters for reproducing the results that were reported in 
+    <a id="xref-ref-2-9" class="xref-bibr" href="#ref-2">Chan et al. 2016</a> (data can be downloaded in 
+    <a href="https://data.mendeley.com/datasets/mkd68skn5z/2">https://data.mendeley.com/datasets/mkd68skn5z/2</a>). By following our instructions, we expect that anyone with access to the appropriate software (IBM SPSS AMOS, (
+    <a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">Arbuckle, 2012</a>)) can easily apply our approach and reproduce our results. All of Qian et al.’s concerns regarding the reported coefficients and criteria for model-fit can be put to rest. (We are puzzled by Qian et al.’s claim that they used the same software we did. While we used IBM SPSS AMOS, Qian et al. apparently used LAVAAN in R, although we believe the correct use of different packages should give the similar results.)
+   </p>
+   <p id="p-6">Qian et al.’s neglect of the iterative nature of SEM analysis perhaps reflects a deeper misunderstanding of SEM analysis. Many researchers, including ecologists, have repeatedly emphasized the hypothesis-testing nature of SEM analysis (
+    <a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">Grace, 2006</a>; 
+    <a id="xref-ref-3-2" class="xref-bibr" href="#ref-3">Chou &amp;; Huh, 2012</a>; 
+    <a id="xref-ref-6-2" class="xref-bibr" href="#ref-6">Hoyle, 2012a</a>). Thus, we build models to represent a number of theoretically-meaningful, candidate hypotheses, based on the literature and our subjective judgment, and subsequently, use objective statistical criteria for model-fit to develop one or more statistically adequate models. There are two ways to evaluate the alternative models. In an absolute sense, we evaluate whether each model has a reasonable fit to the observed data; and, in a relative sense, we evaluate which model offers the best account of the data.
+   </p>
+   <p id="p-7">Mathematically, an SEM is represented by a set of simultaneous equations. If there are too many free variables (parameters, coefficients, and/or intercepts) in a candidate model to produce an adequate solution of these simultaneous equations, or the data are not sufficient to support a statistically adequate solution, the value of one or more of the variables can be constrained (specified). Thus, when we found that the fit of a candidate model was inadequate (by assessing the ratio of chi-squared to degrees of freedom, which must be no greater than 5 (
+    <a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">Jöreskog, 1969</a>; 
+    <a id="xref-ref-18-1" class="xref-bibr" href="#ref-18">Wheaton 
+     <em>et al.</em>, 1977
+    </a>; 
+    <a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">West 
+     <em>et al.</em>, 2012
+    </a>)), we simplified the model (i.e. model modification), where possible and justifiable, by decreasing the number of free variables (parameters, path coefficients, and/or intercepts) to be evaluated in the SEM analysis by specifying the value of one or more variables, thereby increasing the degrees of freedom of the model. In SEM, specifying the value of a variable in a model, instead of estimating it from the model, is a means of 
+    <em>identifying</em> the variable.
+   </p>
+   <p id="p-8">All the alternative model structures that we proposed (Table S2 in 
+    <a id="xref-ref-2-10" class="xref-bibr" href="#ref-2">Chan et al. 2016</a>) required simplification by the specification of variables to achieve acceptable degrees of freedom, under the chi-squared ratio criterion. These simplifications are fully detailed in the Additional Supplemental Material [submitted to Science for online publication], in which we describe additional technical details and reproduce in detail the key results in 
+    <a id="xref-ref-2-11" class="xref-bibr" href="#ref-2">Chan 
+     <em>et al.</em> 2016
+    </a>. To fairly compare different alternative models that required specification of variables, we first explored the influences of different model identification strategies on model fit, for each model. Specifically, we compared models with (1) different numbers and (2) different positions (i.e. primary or secondary hierarchy) of identified (specified) parameters and path coefficients. We found that model fit values varied very little among different identification strategies (see Table S8 and S9). In all cases of acceptable models (RMSEA&lt;;0.08 and CFI &gt;;0.95), SRMR ranged only between 0.0218 and 0.0243 for different numbers of identifications (Table S8) and between 0.0217 to 0.0241 for different positions (Table S9), respectively). Thus, we chose (in 
+    <a id="xref-ref-2-12" class="xref-bibr" href="#ref-2">Chan et al. 2016</a>) to uniformly identify parameters and path coefficients to represent our results. Specifically, we specified the means and/or variances for a uniform set of parameters and path coefficients (the means of Latitude = 0.497, MAP = 0.322, and DTR = 0.541; the multiple regression coefficients between Latitude and STR = 0.830 and between DTR and range size = −0.233). These values can be easily computed from the model input data using any statistical tool (e.g. SPSS or R).
+   </p>
+   <p id="p-9">By this means, we were able to decrease number of free parameters and appropriately modify our models, guided by statistical evaluations of fit, and determine which candidate model was the best model, as we reported in 
+    <a id="xref-ref-2-13" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a>. In contrast, without employing the steps of model specification, identification, estimation, evaluation of fit, and model modification required for the proper and most effective use of SEM analysis, it is perhaps not surprising that Qian et al. concluded, “We are unable to meaningfully improve on the analysis of this dataset that was published by McCain (
+    <a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">McCain, 2009</a>), so we do not attempt to provide a new ‘best model’.” In short, we used SEM to evaluate alternative hypotheses, which helped us identify a better candidate hypothesis. We then performed further analyses, using stationary bootstrap, to validate the nature of our SEM findings. We found that mean annual precipitation (MAP) plays a more important role in influencing the relative importance of DTR and STR in affecting the elevational range size of species.
+   </p>
+   <p id="p-10">Many of Qian et al.’s (2017) other concerns have been adequately addressed in our original paper (
+    <a id="xref-ref-2-14" class="xref-bibr" href="#ref-2">Chan 
+     <em>et al.</em>, 2016
+    </a>), including the most appropriate and powerful statistical approaches to deal with uneven or pseudoreplicated sampling arising from aggregated geographic distributions or evolutionary relatedness of taxonomic groups. These are common issues in macroecological studies, and conventionally, rarefying samples or dichotomizing continuous predictors are widely-adopted procedures, without considering the serious statistical and inferential perils of these approaches. Instead, we conducted formal statistical analyses to deal with these sampling issues that use all the data and do not depend on arbitrary dichotomies.
+   </p>
+   <p id="p-11">Our analysis shows that latitude and MAP emerged as the geographical and environmental factors that indirectly shape elevational range size, through their influence on climatic variability (diurnal temperature range or DTR, and seasonal temperature range, or STR). As Qian et al. correctly point out, mountain gradients in the 
+    <a id="xref-ref-10-2" class="xref-bibr" href="#ref-10">McCain (2009)</a> dataset are not evenly distributed across Earth’s continents. It is precisely for this reason that we used a stationary bootstrap method to assess whether STR and/or DTR is more explanatory than expected at random along gradients of latitude and mean annual precipitation (MAP, representing the wet-arid continuum). The issue of uneven sample distribution is commonly faced by most, if not all, meta-analysis studies. Stationary bootstrap—a block-resampling procedure that joins blocks of random length—is a formal statistical method for dealing with uneven sampling along a stationary gradient, such as a time series, latitude, or an environmental variable, such as precipitation (
+    <a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">Politis &amp;; Romano, 1992</a>, 
+    <a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">1994</a>). Using stationary bootstrap analysis, we showed that DTR is more important than STR in explaining elevational range size (ERS) in regions with mid-MAP (1000mm-1600mm) and in mid-latitude regions (25-35 N), whereas STR is more important than DTR in regions with MAP between 1600mm and 2700m, but not in any particular latitude (Fig. 2 of 
+    <a id="xref-ref-2-15" class="xref-bibr" href="#ref-2">Chan et al., 2016</a>).
+   </p>
+   <p id="p-12">It might seem appropriate to rarefy the over-represented dry mountain moiety of the dataset to make the proportion of samples fit better to the proportion of dry and wet gradients in real world, as Qian et al. did by removing half of the data from the drier regions. Clearly, it is tempting to set up a qualitative dichotomy, i.e. between “wet” and “dry” conditions, for a continuous variable and evaluate results separately (as done by Qian et al.). However, the perils of dichotomizing continuous predictors—including the arbitrariness of the cut-off point and inevitably smaller sample sizes—are serious, and have been extensively discussed (
+    <a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">Royston 
+     <em>et al.</em>, 2006
+    </a>). Thus, separating the data into “arid” vs. “wet” gradients and performing the SEM separately for each group of gradients is statistically weak and potentially misleading. In fact, if we compare the distribution of climatic conditions, by surface area, globally, low-rainfall regions are actually under-represented in our analysis (
+    <a id="xref-fig-1-2" class="xref-fig" href="#F1">Figure 1</a>). Thus, the role of DTR in influencing elevational range size of species might be even more important than suggested by our analysis. Overall, applying the stationary bootstrap procedure is a more repeatable, non-arbitary, and rigorous approach to deal with this issue, although the method is not familiar to most macroecologists. We suggest that macroecologists follow our lead, and move away from arbitrarily removing data and setting up an arbitrary dichotomies, instead using more a more formal resampling method on a continuous variable to resolve the issue of the uneven sample distributions. We are not persuaded by the argument that any particular statistical procedure should be followed simply because it is familiar and commonly used, once manifestly better approaches have been developed.
+   </p>
+   <p id="p-13">Qian et al. criticized our decision not to report 
+    <em>r</em>
+    <sup>2</sup> in our SEM analysis. Instead, we provided a more comprehensive analysis of 
+    <em>r</em>
+    <sup>2</sup> for the effects of DTR and STR in our stationary bootstrap analysis (in our original Fig. 2A), with the comparison of observed to random expectation of r
+    <sup>2</sup>. This approach is more rigorous than the approach that Qian et al. used in their critique.
+   </p>
+   <p id="p-14">Qian 
+    <em>et al</em>. argued against taxonomically comprehensive analysis, adding that “McCain (pers. comm.) strongly cautions against this, arguing in particular that including the rodent data in the analysis is inappropriate because rodents have the opposite elevational range size trend to the other vertebrate groups….[O]ur final reanalysis started by excluding the rodent data and shows that removing a single, pseudoreplicated data-point again overturns the key empirical conclusion of 
+    <a id="xref-ref-2-16" class="xref-bibr" href="#ref-2">Chan et al. (2016)</a>.” In addition to taxonomic sub-setting, we note that McCain’s (2009) key analyses were based on simple regression, with elevational data truncation (elevational distribution data were truncated at certain, taxon-specific elevations and only range sizes below these elevation were compared across latitude in a series of regressions), without considering the inherent collinearity among candidate predictors and the pitfalls of data sub-setting. In our paper, we formally examined the taxon-specific effect on range sizes (Fig. S11 in 
+    <a id="xref-ref-2-17" class="xref-bibr" href="#ref-2">Chan 
+     <em>et al.</em> 2016
+    </a>). We found that DTR has a stronger effect on rodents, snakes and lizards than on other taxa. There is no 
+    <em>a priori</em> justification for removing any of these groups from the dataset. In fact, in an alternative approach, we also statistically controlled for taxonomic effect by setting taxon as a variable in the model, as described in the Supplementary Material for our published paper (
+    <a id="xref-ref-2-18" class="xref-bibr" href="#ref-2">Chan et al. 2016</a>, p.3, L91-92). Following McCain’s approach (
+    <a id="xref-ref-10-3" class="xref-bibr" href="#ref-10">McCain, 2009</a>), Qian et al. also used simple regression to conclude that, “the diurnal temperature range and mean elevational range size variables are not correlated with each other (r = .039, p = .651; 
+    <a id="xref-fig-1-3" class="xref-fig" href="#F1">Figure 1a</a>).” Simple regressions on 2-variable scatterplots can completely miss important and significant relationships, when confounding variables are not included in the analysis. It is straightforward to show that, if DTR and STR are both included in a multiple regression model, both DTR and STR have significant effects on the elevational range size of species (for DTR: t= −2.19, p = 0.03 for STR: t = 3.72, p &lt;; 0.01).
+   </p>
+   <p id="p-15">For readers interested in whether daily climate variation impacts the elevational range size (ERS) of species, we remain confident that the answer is, “Yes”. We have used three statistical methods—hierarchical partitioning, structural equation modelling (SEM), and stationary bootstrap—to show that daily temperature range (DTR) has a significantly negative influence on ERS, and that its explanatory power is, in general, higher than seasonal temperature range (STR), a factor widely viewed as representing climatic variation (e.g. DTR explains 13.8%, whereas STR explains 2.9% of explainable variation in ERS; Supplementary Material of 
+    <a id="xref-ref-2-19" class="xref-bibr" href="#ref-2">Chan et al. 2016</a>).
+   </p>
+   <p id="p-16">Following Janzen’s insightful climatic variability hypothesis (
+    <a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">Janzen, 1967</a>) and Gilchrist’s simple but elegant model (
+    <a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">Gilchrist, 1995</a>), we offered evidence for the hypothesis that different temporal scales of environmental variability can differentially impact the ERS of species. Many interesting puzzles regarding the global pattern of ERS emerge from our study, such as whether endotherms and ectotherms respond differently to DTR and STR. By what mechanisms does larger DTR promote niche specialization, and, thus, smaller range size of species (other things being equal)? And, if climate change poses a greater threat to species with smaller range sizes, as many believe (e.g. 
+    <a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">Tewksbury 
+     <em>et al.</em>, 2008
+    </a>; 
+    <a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">Perez 
+     <em>et al.</em>, 2016
+    </a>), will species in regions with large DTR be more vulnerable, just as tropical species in regions with lower STR are believed to be especially vulnerable? More studies on the impacts of climatic variability on species range size are clearly needed.
+   </p>
+   <div class="section ref-list" id="ref-list-1">
+    <h2 class="">References</h2>
+    <ol class="cit-list ref-use-labels">
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference in text" id="ref-1">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.1">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Arbuckle</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> (
+         <span class="cit-pub-date">2012</span>) 
+         <abbr class="cit-jnl-abbrev">IBM SPSS AMOS (Version 21.0)[Computer Program]. IBM</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference in text" id="ref-2">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.2" data-doi="10.1126/science.aab4119">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chan</span>, 
+          <span class="cit-name-given-names">W.-P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chen</span>, 
+          <span class="cit-name-given-names">I.-C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Colwell</span>, 
+          <span class="cit-name-given-names">R.K.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Liu</span>, 
+          <span class="cit-name-given-names">W.-C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Huang</span>, 
+          <span class="cit-name-given-names">C.-y.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Shen</span>, 
+          <span class="cit-name-given-names">S.-F.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Seasonal and daily climate variation have opposite effects on species elevational range size</span>. 
+         <abbr class="cit-jnl-abbrev">Science</abbr>, 
+         <span class="cit-vol">351</span>, 
+         <span class="cit-fpage">1437</span>–
+         <span class="cit-lpage">1439</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DScience%26rft.stitle%253DScience%26rft.aulast%253DChan%26rft.auinit1%253DW.-P.%26rft.volume%253D351%26rft.issue%253D6280%26rft.spage%253D1437%26rft.epage%253D1439%26rft.atitle%253DSeasonal%2Band%2Bdaily%2Bclimate%2Bvariation%2Bhave%2Bopposite%2Beffects%2Bon%2Bspecies%2Belevational%2Brange%2Bsize%26rft_id%253Dinfo%253Adoi%252F10.1126%252Fscience.aab4119%26rft_id%253Dinfo%253Apmid%252F27013729%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNTEvNjI4MC8xNDM3IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTcvMDkvMzAvMTk1MjQ4LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ==" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink">
+         <span>
+          <span class="cit-reflinks-abstract">Abstract</span>
+          <span class="cit-sep cit-reflinks-variant-name-sep">/</span>
+          <span class="cit-reflinks-full-text">
+           <span class="free-full-text">FREE </span>Full Text
+          </span>
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference in text" id="ref-3">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-195248v1.3">
+       <div class="cit-metadata">
+        <ol class="duplicate">
+         <li>
+          <span class="cit-ed">
+           <span class="cit-name-given-names">R.H.</span>
+           <span class="cit-name-surname">Hoyle</span>
+          </span>
+         </li>
+        </ol>
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chou</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Huh</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> (
+         <span class="cit-pub-date">2012</span>) 
+         <span class="cit-chapter-title">Model modification in structural equation modeling</span>. 
+         <span class="cit-source">Handbook of structural equation modeling</span> (ed. by 
+         <span class="cit-ed">
+          <span class="cit-name-given-names">R.H.</span>
+          <span class="cit-name-surname">Hoyle</span>
+         </span>), pp. 
+         <span class="cit-fpage">232</span>–
+         <span class="cit-lpage">246</span>. 
+         <span class="cit-publ-name">Guilford Press</span>, 
+         <span class="cit-publ-loc">New York, USA</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference in text" id="ref-4">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.4" data-doi="10.1086/285797">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gilchrist</span>, 
+          <span class="cit-name-given-names">G.W.</span>
+         </span> (
+         <span class="cit-pub-date">1995</span>) 
+         <span class="cit-article-title">Specialists and generalists in changing environments. I. Fitness landscapes of thermal sensitivity</span>. 
+         <abbr class="cit-jnl-abbrev">The American Naturalist</abbr>, 
+         <span class="cit-vol">146</span>, 
+         <span class="cit-fpage">252</span>–
+         <span class="cit-lpage">270</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DThe%2BAmerican%2BNaturalist%26rft.volume%253D146%26rft.spage%253D252%26rft_id%253Dinfo%253Adoi%252F10.1086%252F285797%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1086/285797&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1995RN01100005&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference in text" id="ref-5">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-195248v1.5">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Grace</span>, 
+          <span class="cit-name-given-names">J.B.</span>
+         </span> (
+         <span class="cit-pub-date">2006</span>) 
+         <span class="cit-source">Structural equation modeling and natural systems</span>. 
+         <span class="cit-publ-name">Cambridge University Press</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference in text" id="ref-6">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-195248v1.6">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hoyle</span>, 
+          <span class="cit-name-given-names">R.H.</span>
+         </span> (
+         <span class="cit-pub-date">2012a</span>) 
+         <span class="cit-source">Handbook of Structural Equation Modeling</span>. 
+         <span class="cit-publ-name">Guilford Press</span>, 
+         <span class="cit-publ-loc">New York, USA</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference in text" id="ref-7">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-195248v1.7">
+       <div class="cit-metadata">
+        <ol class="duplicate">
+         <li>
+          <span class="cit-ed">
+           <span class="cit-name-given-names">R.H.</span>
+           <span class="cit-name-surname">Hoyle</span>
+          </span>
+         </li>
+        </ol>
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hoyle</span>, 
+          <span class="cit-name-given-names">R.H.</span>
+         </span> (
+         <span class="cit-pub-date">2012b</span>) 
+         <span class="cit-chapter-title">Introduction and overview</span>. 
+         <span class="cit-source">Handbook of structural equation modeling</span> (ed. by 
+         <span class="cit-ed">
+          <span class="cit-name-given-names">R.H.</span>
+          <span class="cit-name-surname">Hoyle</span>
+         </span>), pp. 
+         <span class="cit-fpage">3</span>–
+         <span class="cit-lpage">16</span>. 
+         <span class="cit-publ-name">Guilford Press</span>, 
+         <span class="cit-publ-loc">New York, USA</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference in text" id="ref-8">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.8" data-doi="10.1086/282487">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Janzen</span>, 
+          <span class="cit-name-given-names">D.H.</span>
+         </span> (
+         <span class="cit-pub-date">1967</span>) 
+         <span class="cit-article-title">Why mountain passes are higher in the tropics</span>. 
+         <abbr class="cit-jnl-abbrev">The American Naturalist</abbr>, 
+         <span class="cit-vol">101</span>, 
+         <span class="cit-fpage">233</span>–
+         <span class="cit-lpage">249</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DThe%2BAmerican%2BNaturalist%26rft.volume%253D101%26rft.spage%253D233%26rft_id%253Dinfo%253Adoi%252F10.1086%252F282487%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1086/282487&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A19679698700003&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference in text" id="ref-9">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.9" data-doi="10.1007/BF02289343">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Jöreskog</span>, 
+          <span class="cit-name-given-names">K.G.</span>
+         </span> (
+         <span class="cit-pub-date">1969</span>) 
+         <span class="cit-article-title">A general approach to confirmatory maximum likelihood factor analysis</span>. 
+         <abbr class="cit-jnl-abbrev">Psychometrika</abbr>, 
+         <span class="cit-vol">34</span>, 
+         <span class="cit-fpage">183</span>–
+         <span class="cit-lpage">202</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPsychometrika%26rft.volume%253D34%26rft.spage%253D183%26rft_id%253Dinfo%253Adoi%252F10.1007%252FBF02289343%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1007/BF02289343&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1969D643000003&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference in text" id="ref-10">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.10" data-doi="10.1111/j.1461-0248.2009.01308.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">McCain</span>, 
+          <span class="cit-name-given-names">C.M.</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>) 
+         <span class="cit-article-title">Vertebrate range sizes indicate that mountains may be ‘higher’in the tropics</span>. 
+         <abbr class="cit-jnl-abbrev">Ecology Letters</abbr>, 
+         <span class="cit-vol">12</span>, 
+         <span class="cit-fpage">550</span>–
+         <span class="cit-lpage">560</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.stitle%253DEcol%2BLett%26rft.aulast%253DMcCain%26rft.auinit1%253DC.%2BM.%26rft.volume%253D12%26rft.issue%253D6%26rft.spage%253D550%26rft.epage%253D560%26rft.atitle%253DVertebrate%2Brange%2Bsizes%2Bindicate%2Bthat%2Bmountains%2Bmay%2Bbe%2B%2527higher%2527%2Bin%2Bthe%2Btropics.%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1461-0248.2009.01308.x%26rft_id%253Dinfo%253Apmid%252F19389141%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1461-0248.2009.01308.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=19389141&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2017%2F09%2F30%2F195248.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000266111200008&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference in text" id="ref-11">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.11" data-doi="10.1126/science.aaf3343">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Perez</span>, 
+          <span class="cit-name-given-names">T.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Stroud</span>, 
+          <span class="cit-name-given-names">J.T.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Feeley</span>, 
+          <span class="cit-name-given-names">K.J.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Thermal trouble in the tropics</span>. 
+         <abbr class="cit-jnl-abbrev">Science</abbr>, 
+         <span class="cit-vol">351</span>, 
+         <span class="cit-fpage">1392</span>–
+         <span class="cit-lpage">1393</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DScience%26rft.stitle%253DScience%26rft.aulast%253DPerez%26rft.auinit1%253DT.%2BM.%26rft.volume%253D351%26rft.issue%253D6280%26rft.spage%253D1392%26rft.epage%253D1393%26rft.atitle%253DThermal%2Btrouble%2Bin%2Bthe%2Btropics%26rft_id%253Dinfo%253Adoi%252F10.1126%252Fscience.aaf3343%26rft_id%253Dinfo%253Apmid%252F27013713%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzNTEvNjI4MC8xMzkyIjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTcvMDkvMzAvMTk1MjQ4LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ==" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink">
+         <span>
+          <span class="cit-reflinks-abstract">Abstract</span>
+          <span class="cit-sep cit-reflinks-variant-name-sep">/</span>
+          <span class="cit-reflinks-full-text">
+           <span class="free-full-text">FREE </span>Full Text
+          </span>
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference in text" id="ref-12">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-195248v1.12">
+       <div class="cit-metadata">
+        <ol class="duplicate">
+         <li>
+          <span class="cit-ed">
+           <span class="cit-name-given-names">R.</span>
+           <span class="cit-name-surname">Lepage</span>
+          </span> and 
+         </li>
+         <li>
+          <span class="cit-ed">
+           <span class="cit-name-given-names">L.</span>
+           <span class="cit-name-surname">Billard</span>
+          </span>
+         </li>
+        </ol>
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Politis</span>, 
+          <span class="cit-name-given-names">D.N.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Romano</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span> (
+         <span class="cit-pub-date">1992</span>) 
+         <span class="cit-chapter-title">A circular block-resampling procedure for stationary data</span>. 
+         <span class="cit-source">Exploring the Limits of Bootstrap</span> (ed. by 
+         <span class="cit-ed">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Lepage</span>
+         </span> and 
+         <span class="cit-ed">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">Billard</span>
+         </span>), pp. 
+         <span class="cit-fpage">263</span>–
+         <span class="cit-lpage">270</span>. 
+         <span class="cit-publ-name">Wiley-Interscience, Oxford, UK</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference in text" id="ref-13">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.13" data-doi="10.2307/2290993">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Politis</span>, 
+          <span class="cit-name-given-names">D.N.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Romano</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span> (
+         <span class="cit-pub-date">1994</span>) 
+         <span class="cit-article-title">The stationary bootstrap</span>. 
+         <abbr class="cit-jnl-abbrev">Journal of the American Statistical Association</abbr>, 
+         <span class="cit-vol">89</span>, 
+         <span class="cit-fpage">1303</span>–
+         <span class="cit-lpage">1313</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2Bthe%2BAmerican%2BStatistical%2BAssociation%26rft.volume%253D89%26rft.spage%253D1303%26rft_id%253Dinfo%253Adoi%252F10.2307%252F2290993%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.2307/2290993&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1994PU33000016&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference in text" id="ref-14">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.14">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Qian</span>, 
+          <span class="cit-name-given-names">H.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Field</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Zhang</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Zhang</span>, 
+          <span class="cit-name-given-names">Y.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">Does daily climate variation have an effect on species’ elevational range size?</span>
+         <abbr class="cit-jnl-abbrev">Journal of Biogeography</abbr>, 
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">5</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference in text" id="ref-15">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.15" data-doi="10.1002/sim.2331">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Royston</span>, 
+          <span class="cit-name-given-names">P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Altman</span>, 
+          <span class="cit-name-given-names">D.G.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Sauerbrei</span>, 
+          <span class="cit-name-given-names">W.</span>
+         </span> (
+         <span class="cit-pub-date">2006</span>) 
+         <span class="cit-article-title">Dichotomizing continuous predictors in multiple regression: a bad idea</span>. 
+         <abbr class="cit-jnl-abbrev">Statistics in Medicine</abbr>, 
+         <span class="cit-vol">25</span>, 
+         <span class="cit-fpage">127</span>–
+         <span class="cit-lpage">141</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DStatistics%2Bin%2Bmedicine%26rft.stitle%253DStat%2BMed%26rft.aulast%253DBrown%26rft.auinit1%253DK.%26rft.volume%253D25%26rft.issue%253D1%26rft.spage%253D127%26rft.epage%253D141%26rft.atitle%253DDichotomizing%2Bcontinuous%2Bpredictors%2Bin%2Bmultiple%2Bregression%253A%2Ba%2Bbad%2Bidea.%26rft_id%253Dinfo%253Adoi%252F10.1002%252Fsim.2331%26rft_id%253Dinfo%253Apmid%252F16217841%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1002/sim.2331&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=16217841&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2017%2F09%2F30%2F195248.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000234869800009&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference in text" id="ref-16">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.16" data-doi="10.1126/science.1159328">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tewksbury</span>, 
+          <span class="cit-name-given-names">J.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Huey</span>, 
+          <span class="cit-name-given-names">R.B.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Deutsch</span>, 
+          <span class="cit-name-given-names">C.A.</span>
+         </span> (
+         <span class="cit-pub-date">2008</span>) 
+         <span class="cit-article-title">Putting the heat on tropical animals</span>. 
+         <abbr class="cit-jnl-abbrev">Science</abbr>, 
+         <span class="cit-vol">320</span>, 
+         <span class="cit-fpage">1296</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DScience%26rft.stitle%253DScience%26rft.aulast%253DTewksbury%26rft.auinit1%253DJ.%2BJ.%26rft.volume%253D320%26rft.issue%253D5881%26rft.spage%253D1296%26rft.epage%253D1297%26rft.atitle%253DECOLOGY%253A%2BPutting%2Bthe%2BHeat%2Bon%2BTropical%2BAnimals%26rft_id%253Dinfo%253Adoi%252F10.1126%252Fscience.1159328%26rft_id%253Dinfo%253Apmid%252F18535231%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMjAvNTg4MS8xMjk2IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTcvMDkvMzAvMTk1MjQ4LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ==" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink">
+         <span>
+          <span class="cit-reflinks-abstract">Abstract</span>
+          <span class="cit-sep cit-reflinks-variant-name-sep">/</span>
+          <span class="cit-reflinks-full-text">
+           <span class="free-full-text">FREE </span>Full Text
+          </span>
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference in text" id="ref-17">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-195248v1.17">
+       <div class="cit-metadata">
+        <ol class="duplicate">
+         <li>
+          <span class="cit-ed">
+           <span class="cit-name-given-names">R.H.</span>
+           <span class="cit-name-surname">Hoyle</span>
+          </span>
+         </li>
+        </ol>
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">West</span>, 
+          <span class="cit-name-given-names">S.G.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Taylor</span>, 
+          <span class="cit-name-given-names">A.B.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wu</span>, 
+          <span class="cit-name-given-names">W.</span>
+         </span> (
+         <span class="cit-pub-date">2012</span>) 
+         <span class="cit-chapter-title">Model fit and model selection in structural equation modeling</span>. 
+         <span class="cit-source">Handbook of structural equation modeling</span> (ed. by 
+         <span class="cit-ed">
+          <span class="cit-name-given-names">R.H.</span>
+          <span class="cit-name-surname">Hoyle</span>
+         </span>), pp. 
+         <span class="cit-fpage">209</span>–
+         <span class="cit-lpage">231</span>. 
+         <span class="cit-publ-name">Guilford Press</span>, 
+         <span class="cit-publ-loc">New York, USA</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-18-1" title="View reference in text" id="ref-18">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-195248v1.18" data-doi="10.2307/270754">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wheaton</span>, 
+          <span class="cit-name-given-names">B.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Muthen</span>, 
+          <span class="cit-name-given-names">B.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Alwin</span>, 
+          <span class="cit-name-given-names">D.F.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Summers</span>, 
+          <span class="cit-name-given-names">G.F.</span>
+         </span> (
+         <span class="cit-pub-date">1977</span>) 
+         <span class="cit-article-title">Assessing reliability and stability in panel models</span>. 
+         <abbr class="cit-jnl-abbrev">Sociological Methodology</abbr>, 
+         <span class="cit-vol">8</span>, 
+         <span class="cit-fpage">84</span>–
+         <span class="cit-lpage">136</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DSociological%2BMethodology%26rft.volume%253D8%26rft.spage%253D84%26rft_id%253Dinfo%253Adoi%252F10.2307%252F270754%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.2307/270754&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+    </ol>
+   </div>
+   <span class="highwire-journal-article-marker-end"/>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_28_920488v1/results/search/funders/results.xml">
+  <result pre="Training Program Scholarship and by the institutional activities of the" exact="Joint Research Centre" post="of the European Commission; References and Notes 1. ↵"/>
+  <result pre="the institutional activities of the Joint Research Centre of the" exact="European Commission;" post="References and Notes 1. ↵ C. L. Gray ,"/>
+  <result pre="Ecol. Conserv. 15, e00424 ( 2018). OpenUrl CrossRef 34. ↵" exact="United Nations" post="Environment Program, &quot; UN Decade on Ecosystem Restoration (2018),&quot;"/>
+  <result pre="Environment Program, &quot; UN Decade on Ecosystem Restoration (2018),&quot; (" exact="United Nations," post="Switzerland, 2018). 35. ↵ R. Maggini , H. Kujala"/>
+  <result pre="to help Australia’s threatened species adapt to climate change,&quot; (" exact="National Climate Change Adaptation Research Facility," post="2013). 36. ↵ L. Cantú-Salazar , K. J. Gaston"/>
+ </snippets>
+</snippetsTree>

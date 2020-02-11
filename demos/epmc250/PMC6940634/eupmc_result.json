@@ -1,0 +1,301 @@
+{
+  "id": [
+    "31909268"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31909268"
+  ],
+  "pmcid": [
+    "PMC6940634"
+  ],
+  "doi": [
+    "10.1016/j.heliyon.2019.e03101"
+  ],
+  "title": [
+    "Geographic shifts in the bioclimatic suitability for Aedes aegypti under climate change scenarios in Colombia."
+  ],
+  "authorString": [
+    "Portilla Cabrera CV, Selvaraj JJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Portilla Cabrera CV"
+          ],
+          "firstName": [
+            "Cristiam Victoriano"
+          ],
+          "lastName": [
+            "Portilla Cabrera"
+          ],
+          "initials": [
+            "CV"
+          ],
+          "affiliation": [
+            "Universidad Nacional de Colombia, Palmira Campus, Faculty of Engineering and Administration, Department of Engineering, Cra 32 No. 12 - 00, Palmira, Código Postal 763533, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Selvaraj JJ"
+          ],
+          "firstName": [
+            "John Josephraj"
+          ],
+          "lastName": [
+            "Selvaraj"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "affiliation": [
+            "Universidad Nacional de Colombia, Palmira Campus, Faculty of Engineering and Administration, Department of Engineering, Cra 32 No. 12 - 00, Palmira, Código Postal 763533, Colombia."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2898993"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Heliyon"
+          ],
+          "ISOAbbreviation": [
+            "Heliyon"
+          ],
+          "medlineAbbreviation": [
+            "Heliyon"
+          ],
+          "NLMid": [
+            "101672560"
+          ],
+          "ISSN": [
+            "2405-8440"
+          ],
+          "ESSN": [
+            "2405-8440"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "e03101"
+  ],
+  "abstractText": [
+    "The Dengue, Chikungunya and Zika viruses are arboviruses predominantly transmitted to humans through the bite of the female mosquito Aedes aegypti. Currently, the vector represents a potential epidemiological risk in several Latin American and Pacific countries. However, little is known about the geographical distribution and bioclimatic suitability of this mosquito in the projected climate change scenarios in Colombia. Using a species distribution model of maximum entropy (MaxEnt) based on presence-only records obtained from Global Biodiversity Information Facility (GBIF), land elevation obtained from Shuttle Radar Topography Mission (SRTM) and bioclimatic variables (WorldClim), we produced environmental suitability maps of this mosquito vector for present and future geographic distribution. The future distribution were constructed based on the Community Climate System Model (CCSM4) for the years 2050 and 2070, projected according to the Representative Concentration Pathways (RCP) 2.6, 4.5 and 8.5 described by the Intergovernmental Panel on Climate Change (IPCC). For the current conditions, Colombia has ~140,612.8 square km of areas with the possible presence of the vector; however, for the future, this will be reduced by more than 30%. For the future conditions, the suitable areas for A. aegypti decreased compared to the present, mainly for the year 2070 under RCP scenarios 4.5 and 8.5, however, the probability of mosquito occurrence increases in some departments of Colombia. Areas susceptible to the presence of A. aegypti are affected by climate change. The Caribbean and Andean regions have a high probability of mosquito distribution; therefore, control and epidemiological surveillance are required in these areas. The results can serve as an input to define preventive and control measures, especially in areas with a higher risk of contracting the virus."
+  ],
+  "affiliation": [
+    "Universidad Nacional de Colombia, Palmira Campus, Faculty of Engineering and Administration, Department of Engineering, Cra 32 No. 12 - 00, Palmira, Código Postal 763533, Colombia."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Aedes aegypti",
+        "Geographical distribution",
+        "Climate change",
+        "Viral vector",
+        "environmental change",
+        "Colombia",
+        "Public Health",
+        "Mathematical Modeling",
+        "MAXENT",
+        "Environmental Suitability"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.heliyon.2019.e03101"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6940634"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6940634?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "32021924"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Heliyon. 2020 Jan 24;6(1):e03203"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-08"
+  ],
+  "firstIndexDate": [
+    "2020-01-16"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-08"
+  ],
+  "dateOfRevision": [
+    "2020-01-11"
+  ],
+  "electronicPublicationDate": [
+    "2019-12-31"
+  ],
+  "firstPublicationDate": [
+    "2019-12-31"
+  ]
+}

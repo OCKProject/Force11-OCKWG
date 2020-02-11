@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_839977v1/results/search/country/results.xml">
+  <result pre="to be conserved, primarily due to the wilderness areas of" exact="Canada" post="and the USA and extensive additional land areas in"/>
+  <result pre="among nations ( Figure 3), with notably high values in" exact="Canada" post="(79%), Costa Rica (83%), Suriname (84%), and Ecuador (81%),"/>
+  <result pre="( Figure 3), with notably high values in Canada (79%)," exact="Costa Rica" post="(83%), Suriname (84%), and Ecuador (81%), where these tropical-country"/>
+  <result pre="with notably high values in Canada (79%), Costa Rica (83%)," exact="Suriname" post="(84%), and Ecuador (81%), where these tropical-country figures reflect"/>
+  <result pre="values in Canada (79%), Costa Rica (83%), Suriname (84%), and" exact="Ecuador" post="(81%), where these tropical-country figures reflect high numbers of"/>
+  <result pre="2 of land needing conservation - an area larger than" exact="South Africa" post="representing 0.9% of Earth’s terrestrial surface - is both"/>
+  <result pre="waterways so that freshwater taxa could be included. We included" exact="Antarctica" post="and Greenland. We calculated the area of each conservation"/>
+  <result pre="the extent of the human footprint (e.g. ice-free regions of" exact="Antarctica" post="and remote sub-Antarctic islands) were set a cost of"/>
+  <result pre="We assume that once land is converted it remains converted." exact="Antarctica" post="and remote islands were excluded from this part of"/>
+ </snippets>
+</snippetsTree>

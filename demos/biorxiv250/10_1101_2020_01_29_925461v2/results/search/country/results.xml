@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="country">
+ <result pre=" Spatial distribution and hotspots of mammals in" exact="Canada" post="| bioRxiv Abstract High-latitude countries often contain the polar"/>
+ <result pre="&amp;lt;;20% of their global range in Canada. Range area in" exact="Canada" post="was strongly associated with national threat status; mammals considered"/>
+ <result pre="strongly associated with national threat status; mammals considered ‘at-risk’ in" exact="Canada" post="had 42% smaller Canadian ranges than mammals considered secure."/>
+ <result pre="conservation assessment body–the Committee on the Status of Wildlife in" exact="Canada" post="(COSEWIC)–uses IUCN criteria that emphasize local abundance and range"/>
+ <result pre="local abundance and range area. Protection of edge populations in" exact="Canada" post="is also of global conservation significance, as Canada contains"/>
+ <result pre="populations in Canada is also of global conservation significance, as" exact="Canada" post="contains the highest latitude refuges for species in the"/>
+ <result pre="for species in the Americas. Many species designated ‘at-risk’ in" exact="Canada" post="are range-edge populations of species largely distributed outside Canada"/>
+ <result pre="in Canada are range-edge populations of species largely distributed outside" exact="Canada" post="( Gibson et al. 2009; Klemet-N’Guessan et al. 2019),"/>
+ <result pre="many at-risk taxa are peripheral simply because most taxa in" exact="Canada" post="are peripheral, because edge populations have smaller range areas"/>
+ <result pre="asked two questions. Question 1) How do range area in" exact="Canada" post="and the proportion of a taxon’s global range in"/>
+ <result pre="Canada and the proportion of a taxon’s global range in" exact="Canada" post="(lower means more peripheral) relate to national conservation status?"/>
+ <result pre="at-risk taxa will have smaller percentages of their range in" exact="Canada" post="given previous findings that many at-risk taxa are edge"/>
+ <result pre="conservation risk ( Coristine &amp;amp;; Kerr 2011). We then divided" exact="Canada" post="into 100×100 km grid-cells and asked Question 2) Do"/>
+ <result pre="mammal species whose distribution polygon overlapped a polygon map of" exact="Canada" post="( Natural Earth 2018). IUCN maps are by species,"/>
+ <result pre="bars indicate species richness). Although only taxa that occur in" exact="Canada" post="are mapped, areas of high richness occur south of"/>
+ <result pre="not the percentage of their global range that occurs in" exact="Canada" post="(d). c and d show raw data, centre lines"/>
+ <result pre="bars indicate species richness). Although only taxa that occur in" exact="Canada" post="are mapped, areas of high richness occur south of"/>
+ <result pre="not the percentage of their global range that occurs in" exact="Canada" post="(d). c and d show raw data, centre lines"/>
+ <result pre="percentiles, dots are outliers. Q1) How do range area in" exact="Canada" post="and range percentage in Canada relate to national conservation"/>
+ <result pre="How do range area in Canada and range percentage in" exact="Canada" post="relate to national conservation status? We determined each taxon’s"/>
+ <result pre="We determined each taxon’s range area and range percentage in" exact="Canada" post="using the &quot;sf&quot; package. We determined range area in"/>
+ <result pre="Canada using the &quot;sf&quot; package. We determined range area in" exact="Canada" post="(km 2) by overlapping each species’ map with a"/>
+ <result pre="by overlapping each species’ map with a boundary map of" exact="Canada" post="( Natural Earth 2018), then measuring the area of"/>
+ <result pre="the percentage of each taxon’s global range that occurs in" exact="Canada" post="(i.e. the inverse of peripherality in Canada) as Canadian"/>
+ <result pre="in Canada, range percentage in Canada, and conservation status in" exact="Canada" post="using three models. We tested whether range area (ln(range"/>
+ <result pre="response; model a) or percentage (proportion response; model b) in" exact="Canada" post="differed between taxa deemed at-risk or secure (conservation status"/>
+ <result pre="(conservation status = binomial response) varied with range percentage in" exact="Canada" post="(proportion predictor) even after accounting for range size (continuous"/>
+ <result pre="the Canadian equal area map. This produced a map of" exact="Canada" post="divided into 1285 cells (not all equal in area"/>
+ <result pre="species’ as taxa with ≤20% of their global range in" exact="Canada" post="(as per Klemet-N’Guessan et al. 2019); using a threshold"/>
+ <result pre="spatial overlap between hotspots and total mammal richness. Maps of" exact="Canada" post="are divided into 1284 100[[#xD7]]100 km grid cells, shaded"/>
+ <result pre="with the highest richness of a) mammals deemed at-risk in" exact="Canada" post="(teal), and b) mammals that only occur in Canada"/>
+ <result pre="in Canada (teal), and b) mammals that only occur in" exact="Canada" post="in the northernmost 20% or less of their global"/>
+ <result pre="spatial overlap between hotspots and total mammal richness. Maps of" exact="Canada" post="are divided into 1284 100×100 km grid cells, shaded"/>
+ <result pre="with the highest richness of a) mammals deemed at-risk in" exact="Canada" post="(teal), and b) mammals that only occur in Canada"/>
+ <result pre="in Canada (teal), and b) mammals that only occur in" exact="Canada" post="in the northernmost 20% or less of their global"/>
+ <result pre="global range in Canada. Q1) How do range area in" exact="Canada" post="and range percentage in Canada relate to national conservation"/>
+ <result pre="How do range area in Canada and range percentage in" exact="Canada" post="relate to national conservation status? Range area in Canada"/>
+ <result pre="in Canada relate to national conservation status? Range area in" exact="Canada" post="differed significantly between nationally at-risk and nationally secure mammals,"/>
+ <result pre="( Fig. 1). As predicted, mammals at-risk of extinction in" exact="Canada" post="had smaller Canadian ranges than mammals considered secure (model"/>
+ <result pre="did not have smaller fractions of their global ranges in" exact="Canada" post="(model b: X 2 df=1 = 0.39, P ="/>
+ <result pre="P = 0.53; Fig. 1d). Probability of being at-risk in" exact="Canada" post="increased as Canadian range area decreased (area: X 2"/>
+ <result pre="= 0.033), but was not affected by range percentage in" exact="Canada" post="after controlling for range area (percentage: X 2 df=1"/>
+ <result pre="Similarly, hotspots of range-edge species, i.e. species only present in" exact="Canada" post="in ≤20% of their range, also had significantly higher"/>
+ <result pre="Our quantitative analyses of how mammals are spatially distributed in" exact="Canada" post="revealed three main findings. First, our results confirmed earlier"/>
+ <result pre="( Yakimowski &amp;amp;; Eckert 2007; Gibson et al. 2009) that" exact="Canada" post="is a land of edge populations; half the mammals"/>
+ <result pre="land of edge populations; half the mammals that live in" exact="Canada" post="only do so at the northernmost 20% or less"/>
+ <result pre="but that species with smaller fractions of their range in" exact="Canada" post="were not ( Fig. 1d and model c). Thus"/>
+ <result pre="have different global distributions ( Orme et al. 2005). In" exact="Canada" post="however, mammal richness concentrates in the south and west"/>
+ <result pre="conservation. Since the highest densities of mammals deemed at-risk in" exact="Canada" post="occur in the United States ( Fig. 1b), one"/>
+ <result pre="densities of mammals deemed at-risk in Canada occur in the" exact="United States" post="( Fig. 1b), one effective conservation strategy for many"/>
+ <result pre="1b), one effective conservation strategy for many at-risk taxa in" exact="Canada" post="may be to maintain habitat connections to US populations."/>
+ <result pre="numbers of mammals overall, protecting the at-risk species to whom" exact="Canada" post="deems it has a national responsibility, and protecting Canada’s"/>
+ <result pre="x 100 km cell grid overlapped on the map of" exact="Canada" post="projected in an Albers equal area projection. Mammal diversity"/>
+ <result pre="x 100 km cell grid overlapped on the map of" exact="Canada" post="projected in an Albers equal area projection. Mammal diversity"/>
+ <result pre="for ‘range-edge’ taxa from ≤20% of their global range in" exact="Canada" post="to ≤10% of their range in Canada did not"/>
+ <result pre="global range in Canada to ≤10% of their range in" exact="Canada" post="did not qualitatively change results (model 5 vs 9)."/>
+ <result pre="conservation. Proceedings of the National Academy of Sciences of the" exact="United States" post="of America 103: 19374– 19379. OpenUrl Abstract / FREE"/>
+ <result pre="conservation. Proceedings of the National Academy of Sciences of the" exact="United States" post="of America 110: E2603– E2610. OpenUrl ↵ Kerr JT"/>
+</results>

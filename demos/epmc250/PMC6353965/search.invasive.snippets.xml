@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6353965/results/search/invasive/results.xml">
+  <result pre="the distribution of the focal species, and (3) assign IUCN" exact="threat" post="categories for the focal species according to the predicted"/>
+  <result pre="number of the endemic species will change from the IUCN" exact="threat" post="category &quot;Least Concern&quot; to &quot;Critically Endangered&quot; or &quot;Extinct&quot; in"/>
+  <result pre="in the Afro-Arabian region based on species distribution models (SDMs)." exact="Species" post="distribution models allow for delineating species geographic and environmental"/>
+  <result pre="predicted change in the species’ ranges, we then assigned a" exact="threat" post="category to each species following the IUCN Red List"/>
+  <result pre="latitudinal gradient for endemic mammal species increasing northward. Figure 2" exact="Species" post="richness areas of the endemic mammal species in the"/>
+  <result pre="to the Unlimited Dispersal scenario). Figure 5 Changes in the" exact="threat" post="category for the endemic mammal species in the Afro-Arabian"/>
+  <result pre="based on the A3(c) criterion that assign species to a" exact="threat" post="category according to the degree of change in species’"/>
+  <result pre="of sub-population, and threats severity) to assign species to a" exact="threat" post="category. As such, species can be considered threatened according"/>
+  <result pre="few locations, could easily go extinct by any further local" exact="threat" post="such as land transformation or disease outbreaks 12 ."/>
+  <result pre="strategies include three options: 1) the resistance option, reducing the" exact="threat" post="impacts and conserving valued resources (e.g., reducing non-climatic stress—invasive"/>
+  <result pre="allowed for faunal interchange between Africa and Asia 20 ." exact="Species" post="data Point occurrences for 107 mammal species (Supplementary Table"/>
+  <result pre="(Supplementary Table S4). We updated species taxonomy following the Mammal" exact="Species" post="of the World portal 81 . We restricted the"/>
+  <result pre="&quot;non-analogue environments and extrapolation&quot; &amp;amp; Supplementary Figures S2 and S3)." exact="Species" post="Distribution Models (SDMs) We adopted ensemble SDMs with the"/>
+  <result pre="biodiversity patterns through two indices: species richness and species turnover." exact="Species" post="richness is important for understanding the ecological and evolutionary"/>
+  <result pre="for all species for the corresponding time 34, 124 ." exact="Species" post="turnover is a measure of dissimilarity in the composition"/>
+  <result pre="in species distribution ranges, we assigned each species to a" exact="threat" post="category following the International Union for Conservation of Nature"/>
+  <result pre="category following the International Union for Conservation of Nature (IUCN)" exact="threat" post="categories 137 . We applied the following criteria as"/>
+  <result pre="10.1046/j.1523-1739.1995.09030559.x 17. Christianini AV Oliveira PS Bruna EM Vasconcelos HL" exact="Fauna" post="in decline: Meek shall inherit Science. 2014 345 1129"/>
+  <result pre="16 1424 35 10.1111/ele.12189 24134332 30. Elith J Leathwick JR" exact="Species" post="Distribution Models: Ecological Explanation and Prediction Across Space and"/>
+  <result pre="2012 150 94 102 10.1016/j.biocon.2012.03.010 60. McGill BJ et al." exact="Species" post="abundance distributions: moving beyond single prediction theories to integration"/>
+  <result pre="5 16 10.1080/09397140.2006.10638177 73. Alqamy, H. Developing and Assessing a" exact="Population" post="Monitoring Program for Dorcas Gazelle ( Gazella dorcas) Using"/>
+  <result pre="533 10.1073/pnas.1611122114 28028225 76. Stralberg D et al. Re-Shuffling of" exact="Species" post="with Climate Disruption: A No-Analog Future for California Birds?"/>
+  <result pre="81. Wilson, D. E. &amp;amp; Reeder, D. M. (editors). Mammal" exact="Species" post="of the World. A Taxonomic and Geographic Reference. (3rd"/>
+  <result pre="University Press, 2002). 99. Naimi, B. usdm: Uncertainty Analysis for" exact="Species" post="Distribution Models. R Packag. version 1. 1- 15, https://cran.r-project.org/package=usdm"/>
+  <result pre="r726, https://r-forge.r-project.org/projects/biomod/ (2016). 115. Belkhiria J et al. Application of" exact="Species" post="Distribution Modeling for Avian Influenza surveillance in the United"/>
+  <result pre="al. Quantifying Phytogeographical Regions of Australia Using Geospatial Turnover in" exact="Species" post="Composition PLoS One 2014 9 e92558 10.1371/journal.pone.0092558 24658356 136."/>
+  <result pre="9 e92558 10.1371/journal.pone.0092558 24658356 136. Oksanen, J. et al. vegan:" exact="Community" post="Ecology Package. R Packag. version 2. 4- 4, https://CRAN.R-project.org/package=vegan"/>
+ </snippets>
+</snippetsTree>

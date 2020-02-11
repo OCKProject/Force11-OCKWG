@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_688986v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="soybean" count="118"/>
+  <result title="frequency" word="yield" count="77"/>
+  <result title="frequency" word="spring" count="42"/>
+  <result title="frequency" word="OpenUrl" count="40"/>
+  <result title="frequency" word="summer" count="38"/>
+  <result title="frequency" word="density" count="37"/>
+  <result title="frequency" word="fertilization" count="33"/>
+  <result title="frequency" word="planting" count="32"/>
+  <result title="frequency" word="rate" count="26"/>
+  <result title="frequency" word="fertilizer" count="23"/>
+  <result title="frequency" word="optimum" count="22"/>
+ </snippets>
+</snippetsTree>

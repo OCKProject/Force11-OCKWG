@@ -1,0 +1,343 @@
+{
+  "id": [
+    "31938529"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31938529"
+  ],
+  "pmcid": [
+    "PMC6953681"
+  ],
+  "doi": [
+    "10.1002/ece3.5877"
+  ],
+  "title": [
+    "Assessing the exposure of forest habitat types to projected climate change-Implications for Bavarian protected areas."
+  ],
+  "authorString": [
+    "Steinacker C, Beierkuhnlein C, Jaeschke A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Steinacker C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Steinacker"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9378-2237",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biogeography University of Bayreuth Bayreuth Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Beierkuhnlein C"
+          ],
+          "firstName": [
+            "Carl"
+          ],
+          "lastName": [
+            "Beierkuhnlein"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6456-4628",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biogeography University of Bayreuth Bayreuth Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Jaeschke A"
+          ],
+          "firstName": [
+            "Anja"
+          ],
+          "lastName": [
+            "Jaeschke"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8361-0960",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biogeography University of Bayreuth Bayreuth Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8361-0960",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9378-2237",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6456-4628",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "24"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2902239"
+      ],
+      "dateOfPublication": [
+        "2019 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Ecology and evolution"
+          ],
+          "ISOAbbreviation": [
+            "Ecol Evol"
+          ],
+          "medlineAbbreviation": [
+            "Ecol Evol"
+          ],
+          "NLMid": [
+            "101566408"
+          ],
+          "ISSN": [
+            "2045-7758"
+          ],
+          "ESSN": [
+            "2045-7758"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "14417-14429"
+  ],
+  "abstractText": [
+    "Aim:Due to their longevity and structure, forest ecosystems are particularly affected by climate change with consequences for their biodiversity, functioning, and services to mankind. In the European Union (EU), natural and seminatural forests are protected by the Habitats Directive and the Natura 2000 network. This study aimed to assess the exposure of three legally defined forest habitat types to climate change, namely (a) Tilio-Acerion forests of slopes, screes, and ravines (9180*), (b) bog woodlands (91D0*), and (c) alluvial forests with Alnus glutinosa and Fraxinus excelsior (91E0*). We analyzed possible changes in their Bavarian distribution, including their potential future coverage by Natura 2000 sites. We hypothesized that protected areas (PAs) with larger elevational ranges will remain suitable for the forests as they allow for altitudinal distribution shifts. Methods:To estimate changes in range size and coverage by PAs, we combined correlative species distribution models (SDMs) with spatial analyses. Ensembles of SDM-algorithms were applied to two climate change scenarios (RCP4.5 and RCP8.5) of the HadGEM2-ES model for the period 2061-2080. Results:Our results revealed that bog woodlands experience the highest range losses (>2/3) and lowest PA coverage (max. 15% of sites with suitable conditions). Tilio-Acerion forests exhibit opposing trends depending on the scenario, while alluvial forests are less exposed to climatic changes. As expected, the impacts of climate change are more pronounced under the \"business as usual\" scenario (RCP8.5). Additionally, PAs in flat landscapes are more likely to lose environmental suitability for currently established forest habitat types. Main conclusions:Based on these findings, we advocate the expansion of the Natura 2000 network particularly in consideration of elevational gradients, connectivity, and projected climatic suitability. Nonclimatic stressors on forest ecosystems, especially bog woodlands, should be decreased and climate change mitigation efforts enhanced. We recommend transferring the approach to other habitat types and regions."
+  ],
+  "affiliation": [
+    "Department of Biogeography University of Bayreuth Bayreuth Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Conservation",
+        "Ecosystems",
+        "Sensitivity",
+        "Vulnerability",
+        "Forests",
+        "European Union",
+        "Natura 2000",
+        "Species Distribution Models",
+        "Habitats Directive",
+        "Climate Change Impacts"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/ece3.5877"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6953681"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6953681?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-16"
+  ],
+  "firstIndexDate": [
+    "2020-01-17"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-16"
+  ],
+  "dateOfRevision": [
+    "2020-01-17"
+  ],
+  "electronicPublicationDate": [
+    "2019-11-28"
+  ],
+  "firstPublicationDate": [
+    "2019-11-28"
+  ]
+}

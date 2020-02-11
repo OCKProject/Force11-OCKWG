@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_664599v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="dengue" count="67"/>
+  <result title="frequency" word="aegypti" count="37"/>
+  <result title="frequency" word="vector" count="34"/>
+  <result title="frequency" word="containers" count="32"/>
+  <result title="frequency" word="season" count="32"/>
+  <result title="frequency" word="rainy" count="31"/>
+  <result title="frequency" word="water" count="31"/>
+  <result title="frequency" word="OpenUrl" count="26"/>
+  <result title="frequency" word="indices" count="26"/>
+  <result title="frequency" word="study" count="26"/>
+  <result title="frequency" word="PMID:" count="25"/>
+  <result title="frequency" word="hospitalization" count="25"/>
+  <result title="frequency" word="larval" count="25"/>
+  <result title="frequency" word="Tho" count="23"/>
+  <result title="frequency" word="Ae." count="22"/>
+  <result title="frequency" word="Aedes" count="22"/>
+  <result title="frequency" word="CrossRef" count="22"/>
+  <result title="frequency" word="relative" count="22"/>
+  <result title="frequency" word="dry" count="21"/>
+  <result title="frequency" word="mosquito" count="21"/>
+ </snippets>
+</snippetsTree>

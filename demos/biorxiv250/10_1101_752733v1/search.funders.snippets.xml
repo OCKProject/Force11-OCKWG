@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_752733v1/results/search/funders/results.xml">
+  <result pre="dataset was built from different databases: CORINE Land Cover -" exact="European Commission" post="2006, BD Topo 2.1 - IGN 2013, BD Forest"/>
+  <result pre="and bats: an assessment of the direct and indirect risks." exact="Canadian Wildlife Federation." post="↵ Mouquet, N. , Lagadeuc, Y. , Devictor, V."/>
+  <result pre="biology of Rhinolophus hipposideros, the lesser horseshoe bat (PhD Thesis)." exact="University of Aberdeen." post="↵ Stone, E.L. , Jones, G. , Harris, S."/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_826149v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="BIO" count="150"/>
+  <result title="frequency" word="ancestry" count="145"/>
+  <result title="frequency" word="In:" count="71"/>
+  <result title="frequency" word="Temperature" count="62"/>
+  <result title="frequency" word="time" count="61"/>
+  <result title="frequency" word="OpenUrl" count="60"/>
+  <result title="frequency" word="Quarter." count="60"/>
+  <result title="frequency" word="model" count="57"/>
+  <result title="frequency" word="Precipitation" count="56"/>
+  <result title="frequency" word="using" count="49"/>
+  <result title="frequency" word="Mean" count="48"/>
+  <result title="frequency" word="climate" count="47"/>
+  <result title="frequency" word="pp." count="45"/>
+  <result title="frequency" word="Figure" count="44"/>
+  <result title="frequency" word="vegetation" count="42"/>
+  <result title="frequency" word="spatial" count="41"/>
+  <result title="frequency" word="YAM" count="40"/>
+  <result title="frequency" word="variables" count="39"/>
+  <result title="frequency" word="NEOL" count="37"/>
+  <result title="frequency" word="ancestry." count="35"/>
+  <result title="frequency" word="used" count="35"/>
+  <result title="frequency" word="ancient" count="34"/>
+  <result title="frequency" word="Month." count="32"/>
+  <result title="frequency" word="spatiotemporal" count="31"/>
+  <result title="frequency" word="genomes" count="29"/>
+  <result title="frequency" word="kriged" count="29"/>
+  <result title="frequency" word="grid" count="28"/>
+  <result title="frequency" word="correlation" count="26"/>
+  <result title="frequency" word="new" count="26"/>
+  <result title="frequency" word="population" count="26"/>
+  <result title="frequency" word="CrossRef" count="25"/>
+  <result title="frequency" word="Neolithic" count="25"/>
+  <result title="frequency" word="Coldest" count="24"/>
+  <result title="frequency" word="Download" count="24"/>
+  <result title="frequency" word="Driest" count="24"/>
+  <result title="frequency" word="Holocene" count="24"/>
+  <result title="frequency" word="Warmest" count="24"/>
+  <result title="frequency" word="Wettest" count="24"/>
+  <result title="frequency" word="Yamnaya" count="23"/>
+  <result title="frequency" word="variable" count="23"/>
+  <result title="frequency" word="Annual" count="22"/>
+  <result title="frequency" word="type" count="22"/>
+  <result title="frequency" word="values" count="22"/>
+  <result title="frequency" word="Europe" count="21"/>
+  <result title="frequency" word="migration" count="21"/>
+  <result title="frequency" word="spread" count="21"/>
+ </snippets>
+</snippetsTree>

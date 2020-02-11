@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" 
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#" >
+    <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//scholar.google.com" />
+<link rel="dns-prefetch" href="//d33xdlntwy0kbs.cloudfront.net" />
+<link rel="shortcut icon" href="https://www.biorxiv.org/sites/default/files/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes" />
+<meta name="type" content="article" />
+<meta name="category" content="article" />
+<meta name="HW.identifier" content="/biorxiv/early/2020/01/02/2020.01.01.891705.atom" />
+<meta name="HW.pisa" content="biorxiv;2020.01.01.891705v1" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Title" content="Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models" />
+<meta name="DC.Identifier" content="10.1101/2020.01.01.891705" />
+<meta name="DC.Date" content="2020-01-02" />
+<meta name="DC.Publisher" content="Cold Spring Harbor Laboratory" />
+<meta name="DC.Rights" content="© 2020, Posted by Cold Spring Harbor Laboratory. This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under a CC0 license" />
+<meta name="DC.AccessRights" content="restricted" />
+<meta name="DC.Description" content="Process-based vegetation models attempt to represent the wide range of trait variation in biomes by grouping ecologically similar species into plant functional types (PFTs). This approach has been successful in representing many aspects of plant physiology and biophysics, but struggles to capture biogeographic history and ecological dynamics that determine biome boundaries and plant distributions. Grass dominated ecosystems are broadly distributed across all vegetated continents and harbor large functional diversity, yet most Earth System Models (ESMs) summarize grasses into two generic PFTs based primarily on differences between temperate C3 grasses and (sub)tropical C4 grasses. Incorporation of species-level trait variation is an active area of research to enhance the ecological realism of PFTs, which form the basis for vegetation processes and dynamics in ESMs. Using reported measurements, we developed grass functional trait values (physiological, structural, biochemical, anatomical, phenological, and disturbance-related) of dominant lineages to improve ESM representations. Our method is fundamentally different from previous efforts, as it uses phylogenetic relatedness to create lineage-based functional types (LFTs), situated between species-level trait data and PFT-level abstractions, thus providing a realistic representation of functional diversity and opening the door to the development of new vegetation models." />
+<meta name="DC.Contributor" content="Daniel M. Griffith" />
+<meta name="DC.Contributor" content="Colin Osborne" />
+<meta name="DC.Contributor" content="Erika J. Edwards" />
+<meta name="DC.Contributor" content="Seton Bachle" />
+<meta name="DC.Contributor" content="David J. Beerling" />
+<meta name="DC.Contributor" content="William J. Bond" />
+<meta name="DC.Contributor" content="Timothy Gallaher" />
+<meta name="DC.Contributor" content="Brent R. Helliker" />
+<meta name="DC.Contributor" content="Caroline E.R. Lehmann" />
+<meta name="DC.Contributor" content="Lila Leatherman" />
+<meta name="DC.Contributor" content="Jesse B. Nippert" />
+<meta name="DC.Contributor" content="Stephanie Pau" />
+<meta name="DC.Contributor" content="Fan Qiu" />
+<meta name="DC.Contributor" content="William J. Riley" />
+<meta name="DC.Contributor" content="Melinda D. Smith" />
+<meta name="DC.Contributor" content="Caroline Strömberg" />
+<meta name="DC.Contributor" content="Lyla Taylor" />
+<meta name="DC.Contributor" content="Mark Ungerer" />
+<meta name="DC.Contributor" content="Christopher J. Still" />
+<meta name="article:published_time" content="2020-01-02" />
+<meta name="article:section" content="New Results" />
+<meta name="citation_title" content="Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models" />
+<meta name="citation_abstract" lang="en" content="&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Process-based vegetation models attempt to represent the wide range of trait variation in biomes by grouping ecologically similar species into plant functional types (PFTs). This approach has been successful in representing many aspects of plant physiology and biophysics, but struggles to capture biogeographic history and ecological dynamics that determine biome boundaries and plant distributions. Grass dominated ecosystems are broadly distributed across all vegetated continents and harbor large functional diversity, yet most Earth System Models (ESMs) summarize grasses into two generic PFTs based primarily on differences between temperate C&lt;sub&gt;3&lt;/sub&gt; grasses and (sub)tropical C&lt;sub&gt;4&lt;/sub&gt; grasses. Incorporation of species-level trait variation is an active area of research to enhance the ecological realism of PFTs, which form the basis for vegetation processes and dynamics in ESMs. Using reported measurements, we developed grass functional trait values (physiological, structural, biochemical, anatomical, phenological, and disturbance-related) of dominant lineages to improve ESM representations. Our method is fundamentally different from previous efforts, as it uses phylogenetic relatedness to create lineage-based functional types (LFTs), situated between species-level trait data and PFT-level abstractions, thus providing a realistic representation of functional diversity and opening the door to the development of new vegetation models.&lt;/p&gt;" />
+<meta name="citation_journal_title" content="bioRxiv" />
+<meta name="citation_publisher" content="Cold Spring Harbor Laboratory" />
+<meta name="citation_publication_date" content="2020/01/01" />
+<meta name="citation_mjid" content="biorxiv;2020.01.01.891705v1" />
+<meta name="citation_id" content="2020.01.01.891705v1" />
+<meta name="citation_public_url" content="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1" />
+<meta name="citation_abstract_html_url" content="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1.abstract" />
+<meta name="citation_full_html_url" content="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1.full" />
+<meta name="citation_pdf_url" content="https://www.biorxiv.org/content/biorxiv/early/2020/01/02/2020.01.01.891705.full.pdf" />
+<meta name="citation_doi" content="10.1101/2020.01.01.891705" />
+<meta name="citation_num_pages" content="18" />
+<meta name="citation_article_type" content="Article" />
+<meta name="citation_section" content="New Results" />
+<meta name="citation_firstpage" content="2020.01.01.891705" />
+<meta name="citation_author" content="Daniel M. Griffith" />
+<meta name="citation_author_institution" content="Forest Ecosystems and Society, Oregon State University" />
+<meta name="citation_author_institution" content="US Geological Survey Western Geographic Science Center" />
+<meta name="citation_author_institution" content="NASA Ames Research Center" />
+<meta name="citation_author_email" content="griffith.dan@gmail.com" />
+<meta name="citation_author_orcid" content="http://orcid.org/0000-0001-7463-4004" />
+<meta name="citation_author" content="Colin Osborne" />
+<meta name="citation_author_institution" content="Department of Animal and Plant Sciences, University of Sheffield" />
+<meta name="citation_author" content="Erika J. Edwards" />
+<meta name="citation_author_institution" content="Department of Ecology and Evolutionary Biology, Brown University" />
+<meta name="citation_author" content="Seton Bachle" />
+<meta name="citation_author_institution" content="Division of Biology, Kansas State University" />
+<meta name="citation_author" content="David J. Beerling" />
+<meta name="citation_author_institution" content="Department of Animal and Plant Sciences, University of Sheffield" />
+<meta name="citation_author" content="William J. Bond" />
+<meta name="citation_author_institution" content="South African Environmental Observation Network, National Research Foundation" />
+<meta name="citation_author_institution" content="Department of Biological Sciences, University of Cape Town" />
+<meta name="citation_author" content="Timothy Gallaher" />
+<meta name="citation_author_institution" content="Department of Biology and the Burke Museum of Natural History and Culture, University of Washington" />
+<meta name="citation_author" content="Brent R. Helliker" />
+<meta name="citation_author_institution" content="Department of Biology, University of Pennsylvania" />
+<meta name="citation_author" content="Caroline E.R. Lehmann" />
+<meta name="citation_author_institution" content="School of GeoSciences, University of Edinburgh" />
+<meta name="citation_author" content="Lila Leatherman" />
+<meta name="citation_author_institution" content="Forest Ecosystems and Society, Oregon State University" />
+<meta name="citation_author" content="Jesse B. Nippert" />
+<meta name="citation_author_institution" content="Division of Biology, Kansas State University" />
+<meta name="citation_author" content="Stephanie Pau" />
+<meta name="citation_author_institution" content="Department of Geography, Florida State University" />
+<meta name="citation_author" content="Fan Qiu" />
+<meta name="citation_author_institution" content="Division of Biology, Kansas State University" />
+<meta name="citation_author" content="William J. Riley" />
+<meta name="citation_author_institution" content="Lawrence Berkeley National Laboratory" />
+<meta name="citation_author" content="Melinda D. Smith" />
+<meta name="citation_author_institution" content="Department of Biology, Colorado State University" />
+<meta name="citation_author" content="Caroline Strömberg" />
+<meta name="citation_author_institution" content="Department of Biology and the Burke Museum of Natural History and Culture, University of Washington" />
+<meta name="citation_author" content="Lyla Taylor" />
+<meta name="citation_author_institution" content="Department of Animal and Plant Sciences, University of Sheffield" />
+<meta name="citation_author" content="Mark Ungerer" />
+<meta name="citation_author_institution" content="Division of Biology, Kansas State University" />
+<meta name="citation_author" content="Christopher J. Still" />
+<meta name="citation_author_institution" content="Forest Ecosystems and Society, Oregon State University" />
+<meta name="citation_reference" content="Adler PB, Salguero-Gomez R, Compagnoni A, Hsu JS, Ray-Mukherjee J, Mbeau-Ache C, Franco M. 2014. Functional traits explain variation in plant life history strategies. Proceedings of the National Academy of Sciences 111: 740–745." />
+<meta name="citation_reference" content="Anderegg WRL. 2015. Spatial and temporal variation in plant hydraulic traits and their relevance for climate change impacts on vegetation. New Phytologist 205: 1008–1014." />
+<meta name="citation_reference" content="Anderson TM, Shaw J, Olff H. 2011. Ecology’s cruel dilemma, phylogenetic trait evolution and the assembly of Serengeti plant communities: Trait evolution and plant community assembly. Journal of Ecology 99: 797–806." />
+<meta name="citation_reference" content="Archibald S, Hempson GP. 2016. Competing consumers: contrasting the patterns and impacts of fire and mammalian herbivory in Africa. Philosophical Transactions of the Royal Society B: Biological Sciences 371: 20150309." />
+<meta name="citation_reference" content="Asner GP, Elmore AJ, Olander LP, Martin RE, Harris AT. 2004. Grazing systems, ecosystem responses, and global change. Annual Review of Environment and Resources 29: 261–299." />
+<meta name="citation_reference" content="Atkinson RRL, Mockford EJ, Bennett C, Christin P-A, Spriggs EL, Freckleton RP, Thompson K, Rees M, Osborne CP. 2016. C4 photosynthesis boosts growth by altering physiology, allocation and size. Nature Plants 2: 16038." />
+<meta name="citation_reference" content="citation_journal_title=Ecology Letters;citation_author=KM. Becklin;citation_author=JS. Medeiros;citation_author=KR. Sale;citation_author=JK. Ward;citation_title=Evolutionary history underlies plant physiological responses to global change since the last glacial maximum;citation_pages=691-699;citation_volume=17;citation_year=2014;citation_pmid=24636555;citation_doi=10.1111/ele.12271" />
+<meta name="citation_reference" content="Bergmann J, Ryo M, Prati D, Hempel S, Rillig MC. 2017. Root traits are more than analogues of leaf traits: the case for diaspore mass. New Phytologist." />
+<meta name="citation_reference" content="Blonder B, Violle C, Bentley LP, Enquist BJ. 2014. Inclusion of vein traits improves predictive power for the leaf economic spectrum: a response to Sack et al. (2013). Journal of Experimental Botany 65: 5109–5114." />
+<meta name="citation_reference" content="Bonan GB. 2008. Forests and climate change: forcings, feedbacks, and the climate benefits of forests. Science 320: 1444–1449." />
+<meta name="citation_reference" content="Brearley FQ, Banin LF, Saner P. 2016. The ecology of the Asian dipterocarps. Plant Ecology &amp; Diversity 9: 429–436." />
+<meta name="citation_reference" content="Cadotte MW, Jonathan Davies T, Peres-Neto PR. 2017. Why phylogenies do not always predict ecological differences. Ecological Monographs." />
+<meta name="citation_reference" content="von Caemmerer S. 2000. Biochemical models of leaf photosynthesis. Collingwood: CSIRO." />
+<meta name="citation_reference" content="Cavender-Bares J, Ackerly DD, Hobbie SE, Townsend PA. 2016. Evolutionary Legacy Effects on Ecosystems: Biogeographic Origins, Plant Traits, and Implications for Management in the Era of Global Change. Annual Review of Ecology, Evolution, and Systematics 47: 433–462." />
+<meta name="citation_reference" content="Cavender-Bares J, Kozak KH, Fine PVA, Kembel SW. 2009. The merging of community ecology and phylogenetic biology. Ecology Letters 12: 693–715." />
+<meta name="citation_reference" content="Coelho de Souza F, Dexter KG, Phillips OL, Brienen RJW, Chave J, Galbraith DR, Lopez Gonzalez G, Monteagudo Mendoza A, Pennington RT, Poorter L, et al. 2016. Evolutionary heritage influences Amazon tree ecology. Proceedings of the Royal Society B: Biological Sciences 283: 20161587." />
+<meta name="citation_reference" content="Collatz GJ, Berry JA, Clark JS. 1998. Effects of climate and atmospheric CO2 partial pressure on the global distribution of C4 grasses: present, past, and future. Oecologia 114: 441–454." />
+<meta name="citation_reference" content="Collatz G, Ribas-Carbo M, Berry J. 1992. Coupled Photosynthesis-Stomatal Conductance Model for Leaves of C 4 Plants. Australian Journal of Plant Physiology 19: 519." />
+<meta name="citation_reference" content="citation_journal_title=Journal of Ecology;citation_author=WK. Cornwell;citation_author=M. Westoby;citation_author=DS. Falster;citation_author=RG. FitzJohn;citation_author=BC. O’Meara;citation_author=MW. Pennell;citation_author=DJ. McGlinn;citation_author=JM. Eastman;citation_author=AT. Moles;citation_author=PB. Reich;citation_title=Functional distinctiveness of major plant lineages;citation_pages=345-356;citation_volume=102;citation_year=2014" />
+<meta name="citation_reference" content="Cramer W, Bondeau A, Woodward FI, Prentice IC, Betts RA, Brovkin V, Cox PM, Fisher V, Foley JA, Friend AD, et al. 2001. Global response of terrestrial ecosystem structure and function to CO2 and climate change: results from six dynamic global vegetation models. Global change biology 7: 357–373." />
+<meta name="citation_reference" content="Crisp MD, Arroyo MTK, Cook LG, Gandolfo MA, Jordan GJ, McGlone MS, Weston PH, Westoby M, Wilf P, Linder HP. 2009. Phylogenetic biome conservatism on a global scale. Nature 458: 754–756." />
+<meta name="citation_reference" content="Dahlin KM, Asner GP, Field CB. 2013. Environmental and community controls on plant canopy chemistry in a Mediterranean-type ecosystem. Proceedings of the National Academy of Sciences 110: 6895–6900." />
+<meta name="citation_reference" content="citation_journal_title=Journal of Ecology;citation_author=TJ. Davies;citation_author=EM. Wolkovich;citation_author=NJB. Kraft;citation_author=N. Salamin;citation_author=JM. Allen;citation_author=TR. Ault;citation_author=JL. Betancourt;citation_author=K. Bolmgren;citation_author=EE. Cleland;citation_author=BI. Cook;citation_title=Phylogenetic conservatism in plant phenology;citation_pages=1520-1530;citation_volume=101;citation_year=2013;citation_doi=10.1111/1365-2745.12154" />
+<meta name="citation_reference" content="Davis CC, Willis CG, Primack RB, Miller-Rushing AJ. 2010. The importance of phylogeny to the study of phenological response to global climate change. Philosophical Transactions of the Royal Society B: Biological Sciences 365: 3201–3213." />
+<meta name="citation_reference" content="Dexter KG, Pennington RT, Oliveira-Filho AT, Bueno ML, Silva de Miranda PL, Neves DM. 2018. Inserting Tropical Dry Forests Into the Discussion on Biome Transitions in the Tropics. Frontiers in Ecology and Evolution 6." />
+<meta name="citation_reference" content="Donoghue MJ, Edwards EJ. 2014. Biome Shifts and Niche Evolution in Plants. Annual Review of Ecology, Evolution, and Systematics 45: 547–572." />
+<meta name="citation_reference" content="Díaz S, Kattge J, Cornelissen JHC, Wright IJ, Lavorel S, Dray S, Reu B, Kleyer M, Wirth C, Colin Prentice I, et al. 2016. The global spectrum of plant form and function. Nature 529: 167–171." />
+<meta name="citation_reference" content="Edwards EJ, Osborne CP, Stromberg CAE, Smith SA, C4 Grasses Consortium. 2010. The Origins of C4 Grasslands: Integrating Evolutionary and Ecosystem Science. Science 328: 587–591." />
+<meta name="citation_reference" content="Edwards EJ, Still CJ. 2008. Climate, phylogeny and the ecological distribution of C4 grasses. Ecology Letters 11: 266–276." />
+<meta name="citation_reference" content="Ehleringer JR, Cerling TE, Helliker BR. 1997. C4 photosynthesis, atmospheric CO2, and climate. Oecologia 112: 285–299." />
+<meta name="citation_reference" content="Farquhar G v, von Caemmerer S von, Berry JA. 1980. A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species. Planta 149: 78–90." />
+<meta name="citation_reference" content="Foody GM, Dash J. 2007. Discriminating and mapping the C3 and C4 composition of grasslands in the northern Great Plains, USA. Ecological Informatics 2: 89–93." />
+<meta name="citation_reference" content="Forrestel EJ, Donoghue MJ, Edwards EJ, Jetz W, du Toit JCO, Smith MD. 2017. Different clades and traits yield similar grassland functional responses. Proceedings of the National Academy of Sciences 114: 705–710." />
+<meta name="citation_reference" content="Gibson DJ. 2009. Grasses and grassland ecology. Oxford University Press." />
+<meta name="citation_reference" content="Grant RF, Garcia RL, Pinter JPJ, Hunsaker D, Wall GW, Kimball BA, LaMORTE RL. 1995. Interaction between atmospheric CO2 concentration and water deficit on gas exchange and crop growth: testing of ecosys with data from the Free Air CO2 Enrichment (FACE) experiment. Global Change Biology 1: 443–454." />
+<meta name="citation_reference" content="Grass Phylogeny Working Group II. 2012. New grass phylogeny resolves deep evolutionary relationships and discovers C4 origins. New Phytologist 193: 304–312." />
+<meta name="citation_reference" content="Griffith D. 2017. Comment on ‘The extent of forest in dryland biomes’. Science." />
+<meta name="citation_reference" content="Griffith DM, Anderson TM, Hamilton EW. 2017. Ungulate grazing drives higher ramet turnover in sodium-adapted Serengeti grasses. Journal of Vegetation Science." />
+<meta name="citation_reference" content="Griffith DM, Anderson TM, Osborne CP, Strömberg CAE, Forrestel EJ, Still CJ. 2015. Biogeographically distinct controls on C 3 and C 4 grass distributions: merging community and physiological ecology: Climate disequilibrium in C 4 grass distributions. Global Ecology and Biogeography 24: 304–313." />
+<meta name="citation_reference" content="Griffith DM, Quigley KM, Anderson TM. 2016. Leaf thickness controls variation in leaf mass per area (LMA) among grazing-adapted grasses in Serengeti. Oecologia." />
+<meta name="citation_reference" content="Heskel MA, O’Sullivan OS, Reich PB, Tjoelker MG, Weerasinghe LK, Penillard A, Egerton JJG, Creek D, Bloomfield KJ, Xiang J, et al. 2016. Convergence in the temperature response of leaf respiration across biomes and plant functional types. Proceedings of the National Academy of Sciences 113: 3832–3837." />
+<meta name="citation_reference" content="Higgins SI, Bond WJ, Trollope WSW. 2000. Fire, resprouting and variability: a recipe for grass-tree coexistence in savanna. Journal of Ecology 88: 213–229." />
+<meta name="citation_reference" content="Higgins SI, Buitenwerf R, Moncrieff GR. 2016. Defining functional biomes and monitoring their change globally. Global Change Biology 22: 3583–3593." />
+<meta name="citation_reference" content="HilleRisLambers J, Adler PB, Harpole WS, Levine JM, Mayfield MM. 2012. Rethinking Community Assembly through the Lens of Coexistence Theory. Annual Review of Ecology, Evolution, and Systematics 43: 227–248." />
+<meta name="citation_reference" content="Irisarri JGN, Oesterheld M, Verón SR, Paruelo JM. 2009. Grass species differentiation through canopy hyperspectral reflectance. International Journal of Remote Sensing 30: 5959–5975." />
+<meta name="citation_reference" content="Kattge J, DíAz S, Lavorel S, Prentice IC, Leadley P, BöNisch G, Garnier E, Westoby M, Reich PB, Wright IJ, et al. 2011. TRY - a global database of plant traits: TRY - A GLOBAL DATABASE OF PLANT TRAITS. Global Change Biology 17: 2905–2935." />
+<meta name="citation_reference" content="Kellogg EA. 2001. Evolutionary history of the grasses. Plant physiology 125: 1198–1205." />
+<meta name="citation_reference" content="Kneitel JM, Chase JM. 2004. Trade-offs in community ecology: linking spatial scales and species coexistence. Ecology Letters 7: 69–80." />
+<meta name="citation_reference" content="Lehmann CER, Anderson TM, Sankaran M, Higgins SI, Archibald S, Hoffmann WA, Hanan NP, Williams RJ, Fensham RJ, Felfili J, et al. 2014. Savanna Vegetation-Fire-Climate Relationships Differ Among Continents. Science 343: 548–552." />
+<meta name="citation_reference" content="Lehmann CER, Griffith DM, Simpson KJ, Anderson TM, Archibald S, Beerling DJ, Bond WJ, Denton E, Edwards EJ, Forrestel EJ, et al. 2019. Functional diversification enabled grassy biomes to fill global climate space. bioRxiv: 583625." />
+<meta name="citation_reference" content="Linder HP, Lehmann CER, Archibald S, Osborne CP, Richardson DM. 2018. Global grass (Poaceae) success underpinned by traits facilitating colonization, persistence and habitat transformation: Grass success. Biological Reviews 93: 1125–1144." />
+<meta name="citation_reference" content="Liu H, Edwards EJ, Freckleton RP, Osborne CP. 2012. Phylogenetic niche conservatism in C4 grasses. Oecologia 170: 835–845." />
+<meta name="citation_reference" content="Liu H, Osborne CP. 2015. Water relations traits of C4 grasses depend on phylogenetic lineage, photosynthetic pathway, and habitat water availability. Journal of Experimental Botany 66: 761–773." />
+<meta name="citation_reference" content="Lu X, Wang Y-P, Wright IJ, Reich PB, Shi Z, Dai Y. 2017. Incorporation of plant traits in a land surface model helps explain the global biogeographical distribution of major forest functional types: Plant traits explain biogeographical variation in forest types. Global Ecology and Biogeography 26: 304–317." />
+<meta name="citation_reference" content="McKeown M, Schubert M, Marcussen T, Fjellheim S, Preston JC. 2016. Evidence for an Early Origin of Vernalization Responsiveness in Temperate Pooideae Grasses. Plant Physiology 172: 416–426." />
+<meta name="citation_reference" content="Medlyn BE, De Kauwe MG, Duursma RA. 2016. New developments in the effort to model ecosystems under water stress. New Phytologist 212: 5–7." />
+<meta name="citation_reference" content="Oleson K, Lawrence D, Bonan G, Drewniak B, Huang M, Koven C, Levis S, Li F, Riley W, Subin Z, et al. 2013. Technical description of version 4.5 of the Community Land Model (CLM). UCAR/NCAR." />
+<meta name="citation_reference" content="Osborne CP, Charles-Dominique T, Stevens N, Bond WJ, Midgley G, Lehmann CER. 2018. Human impacts in African savannas are mediated by plant functional traits. New Phytologist 220: 10–24." />
+<meta name="citation_reference" content="Osborne CP, Salomaa A, Kluyver TA, Visser V, Kellogg EA, Morrone O, Vorontsova MS, Clayton WD, Simpson DA. 2014. A global database of C 4 photosynthesis in grasses. New Phytologist 204: 441–446." />
+<meta name="citation_reference" content="Osborne CP, Visser V, Chapman S, Barker A, Freckleton RP, Salamin N, Simpson D, Uren V. 2011. GrassPortal – ecological and evolutionary data (www.grassportal.org)." />
+<meta name="citation_reference" content="Pappas C, Fatichi S, Burlando P. 2016. Modeling terrestrial carbon and water dynamics across climatic gradients: does plant trait diversity matter? New Phytologist 209: 137–151." />
+<meta name="citation_reference" content="Pavlick R, Drewry DT, Bohn K, Reu B, Kleidon A. 2013. The Jena Diversity-Dynamic Global Vegetation Model (JeDi-DGVM): a diverse approach to representing terrestrial biogeography and biogeochemistry based on plant functional trade-offs. Biogeosciences 10: 4137–4177." />
+<meta name="citation_reference" content="Poulter B, Frank D, Ciais P, Myneni RB, Andela N, Bi J, Broquet G, Canadell JG, Chevallier F, Liu YY, et al. 2014. Contribution of semi-arid ecosystems to interannual variability of the global carbon cycle. Nature 509: 600." />
+<meta name="citation_reference" content="citation_journal_title=Journal of Ecology;citation_author=PB. Reich;citation_title=The world-wide ‘fast-slow’ plant economics spectrum: a traits manifesto;citation_pages=275-301;citation_volume=102;citation_year=2014;citation_doi=10.1111/1365-2745.12211" />
+<meta name="citation_reference" content="Rogers BM, Soja AJ, Goulden ML, Randerson JT. 2015. Influence of tree species on continental differences in boreal fires and climate feedbacks. Nature Geoscience 8: 228–234." />
+<meta name="citation_reference" content="Sack L, Scoffoni C, John GP, Poorter H, Mason CM, Mendez-Alonzo R, Donovan LA. 2014. Leaf mass per area is independent of vein length per area: avoiding pitfalls when modelling phenotypic integration (reply to Blonder et al. 2014). Journal of Experimental Botany 65: 5115–5123." />
+<meta name="citation_reference" content="Sage RF. 2004. The evolution of C4 photosynthesis. New Phytologist 161: 341–370." />
+<meta name="citation_reference" content="Salguero-Gómez R, Jones OR, Jongejans E, Blomberg SP, Hodgson DJ, Mbeau-Ache C, Zuidema PA, de Kroon H, Buckley YM. 2016. Fast–slow continuum and reproductive strategies structure plant life-history variation worldwide. Proceedings of the National Academy of Sciences 113: 230–235." />
+<meta name="citation_reference" content="Sandve SR, Fjellheim S. 2010. Did gene family expansions during the Eocene–Oligocene boundary climate cooling play a role in Pooideae adaptation to cool climates? Molecular ecology 19: 2075–2088." />
+<meta name="citation_reference" content="Scheiter S, Higgins SI, Osborne CP, Bradshaw C, Lunt D, Ripley BS, Taylor LL, Beerling DJ. 2012. Fire and fire-adapted vegetation promoted C4 expansion in the late Miocene. New Phytologist 195: 653–666." />
+<meta name="citation_reference" content="Scheiter S, Langan L, Higgins SI. 2013. Next-generation dynamic global vegetation models: learning from community ecology. New Phytologist 198: 957–969." />
+<meta name="citation_reference" content="Searchinger TD, Estes L, Thornton PK, Beringer T, Notenbaert A, Rubenstein D, Heimlich R, Licker R, Herrero M. 2015. High carbon and biodiversity costs from converting Africas wet savannahs to cropland. Nature Climate Change 5: 481–486." />
+<meta name="citation_reference" content="Serbin SP, Singh A, McNeil BE, Kingdon CC, Townsend PA. 2014. Spectroscopic determination of leaf morphological and biochemical traits for northern temperate and boreal tree species. Ecological Applications 24: 1651–1669." />
+<meta name="citation_reference" content="Siebke K, Ball MC. 2009. Non-destructive measurement of chlorophyll b ⍰:⍰ ratios and identification of photosynthetic pathways in grasses by reflectance spectroscopy. Functional Plant Biology 36: 857." />
+<meta name="citation_reference" content="citation_journal_title=Journal of Ecology;citation_author=KJ. Simpson;citation_author=BS. Ripley;citation_author=P-A. Christin;citation_author=CM. Belcher;citation_author=CER. Lehmann;citation_author=GH. Thomas;citation_author=CP. Osborne;citation_title=Determinants of flammability in savanna grass species;citation_pages=138-148;citation_volume=104;citation_year=2016" />
+<meta name="citation_reference" content="Sitch S, Huntingford C, Gedney N, Levy PE, Lomas M, Piao SL, Betts R, Ciais P, Cox P, Friedlingstein P, et al. 2008. Evaluation of the terrestrial carbon cycle, future plant geography and climate-carbon cycle feedbacks using five Dynamic Global Vegetation Models (DGVMs). Global Change Biology 14: 2015–2039." />
+<meta name="citation_reference" content="Sitch S, Smith B, Prentice IC, Arneth A, Bondeau A, Cramer W, Kaplan JO, Levis S, Lucht W, Sykes MT, et al. 2003. Evaluation of ecosystem dynamics, plant geography and terrestrial carbon cycling in the LPJ dynamic global vegetation model. Global Change Biology 9: 161–185." />
+<meta name="citation_reference" content="Staver AC, Archibald S, Levin SA. 2011. The Global Extent and Determinants of Savanna and Forest as Alternative Biome States. Science 334: 230–232." />
+<meta name="citation_reference" content="Still CJ, Berry JA, Collatz GJ, DeFries RS. 2003. Global distribution of C3 and C4 vegetation: Carbon cycle implications. Global Biogeochemical Cycles 17: 1006." />
+<meta name="citation_reference" content="Still CJ, Cotton JM, Griffith DM. 2018. Assessing earth system model predictions of C 4 grass cover in North America: From the glacial era to the end of this century. Global Ecology and Biogeography." />
+<meta name="citation_reference" content="Taub DR. 2000. Climate and the US distribution of C4 grass subfamilies and decarboxylation variants of C4 photosynthesis. American Journal of Botany 87: 1211–1215." />
+<meta name="citation_reference" content="Taylor SH, Hulme SP, Rees M, Ripley BS, Ian Woodward F, Osborne CP. 2010. Ecophysiological traits in C3 and C4 grasses: a phylogenetically controlled screening experiment. New Phytologist 185: 780–791." />
+<meta name="citation_reference" content="Tilman D. 1988. Plant Strategies and the Dynamics and Structure of Plant Communities. Princeton University Press." />
+<meta name="citation_reference" content="Tilman D, Cassman KG, Matson PA, Naylor R, Polasky S. 2002. Agricultural sustainability and intensive production practices. Nature 418: 671–677." />
+<meta name="citation_reference" content="Tilman D, Pacala S. 1993. The Maintenance of Species Richness in Plant Communities. In: Species Diversity in Ecological Communities. University of Chicago Press, 13–25." />
+<meta name="citation_reference" content="Ueno O. 2006. Leaf Vascular Systems in C3 and C4 Grasses: A Two-dimensional Analysis. Annals of Botany 97: 611–621." />
+<meta name="citation_reference" content="Ustin SL, Gamon JA. 2010. Remote sensing of plant functional types: Tansley review. New Phytologist 186: 795–816." />
+<meta name="citation_reference" content="Vigeland MD, Spannagl M, Asp T, Paina C, Rudi H, Rognli O-A, Fjellheim S, Sandve SR. 2013. Evidence for adaptive evolution of low-temperature stress response genes in a Pooideae grass ancestor. New Phytologist 199: 1060–1068." />
+<meta name="citation_reference" content="Violle C, Navas M-L, Vile D, Kazakou E, Fortunel C, Hummel I, Garnier E. 2007. Let the concept of trait be functional! Oikos 116: 882–892." />
+<meta name="citation_reference" content="Visser V, Clayton WD, Simpson DA, Freckleton RP, Osborne CP. 2014. Mechanisms driving an unusual latitudinal diversity gradient for grasses: Insights from an unusual latitudinal diversity gradient. Global Ecology and Biogeography 23: 61–75." />
+<meta name="citation_reference" content="Walker AP, Beckerman AP, Gu L, Kattge J, Cernusak LA, Domingues TF, Scales JC, Wohlfahrt G, Wullschleger SD, Woodward FI. 2014. The relationship of leaf photosynthetic traits - V cmax and J max - to leaf nitrogen, leaf phosphorus, and specific leaf area: a meta-analysis and modeling study. Ecology and Evolution 4: 3218–3235." />
+<meta name="citation_reference" content="Wang YP, Lu XJ, Wright IJ, Dai YJ, Rayner PJ, Reich PB. 2012. Correlations among leaf traits provide a significant constraint on the estimate of global gross primary production: CORRELATIONS OF LEAF TRAITS ON GPP. Geophysical Research Letters 39: n/a-n/a." />
+<meta name="citation_reference" content="citation_journal_title=Ecology Letters;citation_author=T. Watcharamongkol;citation_author=P-A. Christin;citation_author=CP. Osborne;citation_title=C 4 photosynthesis evolved in warm climates but promoted migration to cooler ones;citation_pages=376-383;citation_volume=21;citation_year=2018" />
+<meta name="citation_reference" content="Webb CO, Ackerly DD, McPeek MA, Donoghue MJ. 2002. Phylogenies and Community Ecology. Annual Review of Ecology and Systematics 33: 475–505." />
+<meta name="citation_reference" content="Westoby M. 1998. A leaf-height-seed (LHS) plant ecology strategy scheme. Plant and soil 199: 213–227." />
+<meta name="citation_reference" content="Westoby M, Falster DS, Moles AT, Vesk PA, Wright IJ. 2002. Plant ecological strategies: Some Leading Dimensions of Variation Between Species. Annual Review of Ecology and Systematics 33: 125–159." />
+<meta name="citation_reference" content="Williams KJ, Wilsey BJ, McNaughton SJ, Banyikwa FF. 1998. Temporally Variable Rainfall Does Not Limit Yields of Serengeti Grasses. Oikos 81: 463." />
+<meta name="citation_reference" content="Wright IJ, Reich PB, Westoby M, Ackerly DD, Baruch Z, Bongers F, Cavender-Bares J, Chapin T, Cornelissen JHC, Diemer M, et al. 2004. The worldwide leaf economics spectrum. Nature 428: 821–827." />
+<meta name="twitter:title" content="Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models" />
+<meta name="twitter:site" content="@biorxivpreprint" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png" />
+<meta name="twitter:description" content="Process-based vegetation models attempt to represent the wide range of trait variation in biomes by grouping ecologically similar species into plant functional types (PFTs). This approach has been successful in representing many aspects of plant physiology and biophysics, but struggles to capture biogeographic history and ecological dynamics that determine biome boundaries and plant distributions. Grass dominated ecosystems are broadly distributed across all vegetated continents and harbor large functional diversity, yet most Earth System Models (ESMs) summarize grasses into two generic PFTs based primarily on differences between temperate C3 grasses and (sub)tropical C4 grasses. Incorporation of species-level trait variation is an active area of research to enhance the ecological realism of PFTs, which form the basis for vegetation processes and dynamics in ESMs. Using reported measurements, we developed grass functional trait values (physiological, structural, biochemical, anatomical, phenological, and disturbance-related) of dominant lineages to improve ESM representations. Our method is fundamentally different from previous efforts, as it uses phylogenetic relatedness to create lineage-based functional types (LFTs), situated between species-level trait data and PFT-level abstractions, thus providing a realistic representation of functional diversity and opening the door to the development of new vegetation models." />
+<meta name="og-title" property="og:title" content="Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models" />
+<meta name="og-url" property="og:url" content="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1" />
+<meta name="og-site-name" property="og:site_name" content="bioRxiv" />
+<meta name="og-description" property="og:description" content="Process-based vegetation models attempt to represent the wide range of trait variation in biomes by grouping ecologically similar species into plant functional types (PFTs). This approach has been successful in representing many aspects of plant physiology and biophysics, but struggles to capture biogeographic history and ecological dynamics that determine biome boundaries and plant distributions. Grass dominated ecosystems are broadly distributed across all vegetated continents and harbor large functional diversity, yet most Earth System Models (ESMs) summarize grasses into two generic PFTs based primarily on differences between temperate C3 grasses and (sub)tropical C4 grasses. Incorporation of species-level trait variation is an active area of research to enhance the ecological realism of PFTs, which form the basis for vegetation processes and dynamics in ESMs. Using reported measurements, we developed grass functional trait values (physiological, structural, biochemical, anatomical, phenological, and disturbance-related) of dominant lineages to improve ESM representations. Our method is fundamentally different from previous efforts, as it uses phylogenetic relatedness to create lineage-based functional types (LFTs), situated between species-level trait data and PFT-level abstractions, thus providing a realistic representation of functional diversity and opening the door to the development of new vegetation models." />
+<meta name="og-type" property="og:type" content="article" />
+<meta name="og-image" property="og:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png" />
+<meta name="citation_date" content="2020-01-02" />
+<link rel="alternate" type="application/pdf" title="Full Text (PDF)" href="/content/10.1101/2020.01.01.891705v1.full.pdf" />
+<link rel="alternate" type="text/plain" title="Full Text (Plain)" href="/content/10.1101/2020.01.01.891705v1.full.txt" />
+<link rel="alternate" type="application/vnd.ms-powerpoint" title="Powerpoint" href="/content/10.1101/2020.01.01.891705v1.ppt" />
+<meta name="description" content="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1" />
+<link rel="shortlink" href="https://www.biorxiv.org/node/1092127" />
+    <title>Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models | bioRxiv</title>  
+    <link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__jMRAK66KMC1e4TQlwUNn3KiWVDC5AjueUAYEm1xBY_U__KSUjdT4jdcJ4qJz6fKY1K9WkYh1a5EcaWZxt_-zbTis__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/all/modules/highwire/highwire/highwire.style.highwire.css?q5e781" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__qlYh2rDEXmsOlJKnxoaEiN2PoZU7YzDXSSTk6K1VAQE__XkaAZGAgxyDmOmv0mrGL0sA-jzEgAbgA12amvVPlIf0__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__uGxiwDeWBOA2NAqiRKvJS7CKqv2_wE38cKwCd6tvrVo__q-99VeFMO0TjW81QZWAbxukEzR2ASPltrvRTdHYG3vY__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<style type="text/css" media="all">
+/* <![CDATA[ */
+#sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:gray}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#fff !important}.eu-cookie-withdraw-tab{border-color:#fff}.eu-cookie-compliance-more-button{color:#fff !important}
+/* ]]> */
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__ElJr3PIJEvw3qLXc1cnYiLj2G4KgDPSXFOfm6Phf8hw__JdWGm15cDWjsK6KrFlQVXQix9YgNeYysf22XZHj-Y-c__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__B6tGdsQSt1vT8d8j-19-oS4FKJe83RrSNBkjPs9jfos__6VkE5WcQmmQpSVTQx-xS2-zn_nlwFlDm-EN1HLJNjrA__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__2GA36xO4909042UvLkzdUfDlC8goNvX-K-IFzM-zzeA__F3sVKlGyHKCaAPI_WdiHD7l_-05B6b9bLdUwzi1me90__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__XH6bpcI0f2dImc-p674DLCZtWBGb-QwxJK1YexVGtno__vUceGprdo5nIhV6DH93X7fI3r8RcTJbChbas9TQXeW4__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__2WBMox6sOrN42ss5lCnH7WWVRdFdJCxtTKnQJYRwTE4__yqNvNYLvMpjy3ffuJrjjm9uW2i-Me1c23KLYuWHaqio__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<!--<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://www.biorxiv.org/sites/default/files/advagg_css/css__lnFWsMpGZ7GjgbuXw29vPE0f_bgKAMdegQ-1zHT0M2g__cHebPmPNdg2jyPmpyQpZWssJQ4cPrqfaabp5Or9KlkU__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://d33xdlntwy0kbs.cloudfront.net/cshl_custom.css" media="all" />
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+/*!
+ * yepnope1.5.4
+ * (c) WTFPL, GPLv2
+ */
+(function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){"img"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),"object"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),"img"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i("c"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&"[object Opera]"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return"[object Array]"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(".").pop().split("?").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&"css"==i.url.split(".").pop().split("?").shift()?"c":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}})(this,document);
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/all/libraries/modernizr/modernizr.min.js?q5e781"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+yepnope({
+  test: Modernizr.matchmedia,
+  nope: '/sites/all/libraries/media-match/media.match.min.js'
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__yOhrJUBmMpN-jsuQlJYmS8ovkQU6I6KInr295HrSTb0__c--zHhbuOWmkdWkJYXiNWDmkpDRPesmbBjGlQcyqBOY__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _prum=[['id', '52e95df3abe53d2e33000000'], ['mark', 'firstbyte',
+      (new Date()).getTime()]]; (function() {
+      var s=document.getElementsByTagName('script')[0],
+      p=document.createElement('script');
+      p.async='async'; p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js___KyvuEvfmewWxdOLBXTYsSUo8Pfm_DijV6fWtGvSL_k__HSKkTgIr7nDcdvQYewipf6v4ak6ZLUOQkwPj44wKouA__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript" async="async" src="https://scholar.google.com/scholar_js/casa.js"></script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__OGPr3wJNGw2BAY3Tj6TjIBwKmjQh5i-7muOaPrr0MFA__fCWiU_pDm6xztXUSccH7zrf5422-kgOkuLdWyafrH_0__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__hqoKSXYZqkcZkXP--ltzsy0Y3txW5TJBw6HT1khr30Y__6_HqNYoBVMxlkWZwdscqCLCtCxpOhl9_rIOpTDdaI0k__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if(typeof window.MathJax === "undefined") window.MathJax = { menuSettings: { zoom: "Click" } };
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__lrItkPGmrIuH-E_sdUWEK2i9eTqLar16BAHVxNTWqrc__FhtnljBrjuzYWWrT_f4OYV4jtMBituhMpusb3h0m0rY__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-45638026-1", {"cookieDomain":"auto"});ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");ga('create', 'UA-189672-38', 'auto', {'name': 'hwTracker'});
+ga('set', 'anonymizeIp', true);
+ga('hwTracker.send', 'pageview');
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__1PtAOZ8x7l6QAi8D7X6Kj_Y7HcUOFzvWRvvYHUcCT98__U8IB92u_CnnGwJ-X_xaUa9lzsC8OzUfN0WkK2JQfirg__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"jcore_1","theme_token":"wYRkjyNh23GBvHWM-Jat0-9dgksjfIKFBVd6D9vdJZ4","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.tooltip.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_draw\/css\/highwire-draw.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_folders\/highwire_folders.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_responsive\/css\/highwire-responsive.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_saved_searches\/highwire_saved_searches.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/highwire_user.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.highwire.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/nlm-elements.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/default\/modules\/biorxiv\/css\/biorxiv.css":1,"public:\/\/ctools\/css\/263bfdb18936424f0ade19d6bd885f37.css":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.css":1,"sites\/all\/modules\/contrib\/panels_ajax_tab\/css\/panels_ajax_tab.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_corrections.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.markup.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/layouts\/highwire_2col_stacked\/highwire-2col-stacked.css":1,"sites\/all\/modules\/contrib\/forward\/forward.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_share_link.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_copy_permalink.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_collection\/css\/highwire_subject_collection.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/highwire.highwire-list-expand.css":1,"public:\/\/ctools\/css\/bab59090150caf0c64e27afa1b36eef1.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_theme_tools\/css\/font-hwicons.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_theme_tools\/css\/font-hwicons-glyphs.css":1,"0":1,"sites\/all\/themes\/highwire\/jcore_1\/eu_cookie_compliance.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/font-awesome-ie7.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/highwire-forms.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/mobile-reset.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/font-awesome.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/forms.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/global.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/jquery-ui-elements.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/text.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/colors.css.less":1,"ie::normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"ie::normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-normal.css":1,"ie::normal::sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/normal\/jcore-default-normal-30.css":1,"narrow::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"narrow::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-narrow.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/narrow\/jcore-default-narrow-30.css":1,"normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-normal.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/normal\/jcore-default-normal-30.css":1,"wide::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"wide::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-wide.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/wide\/jcore-default-wide-30.css":1,"sites\/default\/modules\/jnl_biorxiv_styles\/css\/biorxiv-styles.css.less":1,"https:\/\/d33xdlntwy0kbs.cloudfront.net\/cshl_custom.css":1},"js":{"sites\/all\/libraries\/enquire.js\/enquire.min.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_panels_ajax_tab.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_openurl.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_google_scholar_sprinkle.js":1,"http:\/\/d33xdlntwy0kbs.cloudfront.net\/cshl_custom.js":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/default\/modules\/jnl_biorxiv_styles\/js\/adv-search-collection-toggle.js":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tooltip.min.js":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.equal-heights.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.panels-ajax-tab.js":1,"sites\/default\/modules\/jnl_biorxiv_styles\/js\/biorxiv-scripts.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"https:\/\/scholar.google.com\/scholar_js\/casa.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_log\/highwire_log.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_nps_survey\/js\/nps_survey.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/js\/highwire_user_meta.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.article-citation-author-tooltip.js":1,"sites\/all\/modules\/contrib\/panels_ajax_tab\/js\/panels_ajax_tab.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_article_reference_popup.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_at_symbol.js":1,"sites\/default\/modules\/contrib\/disqus\/disqus.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_share_dialog.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/clipboard.min.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_clipboard.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_citation\/plugins\/content_types\/js\/highwire_citation_export.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/minipanel_dialog_link.js":1,"sites\/all\/modules\/contrib\/service_links\/js\/twitter_button.js":1,"sites\/all\/modules\/contrib\/service_links\/js\/facebook_like.js":1,"sites\/all\/modules\/contrib\/service_links\/js\/google_plus_one.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.highwire-list-expand.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"sites\/all\/themes\/highwire\/jcore_1\/js\/theme-scripts.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_responsive\/js\/highwire-mediaqueries.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"highwire":{"nid":"1092127","apath":"\/biorxiv\/early\/2020\/01\/02\/2020.01.01.891705.atom","pisa":"biorxiv;2020.01.01.891705v1","ac":{"\/biorxiv\/early\/2020\/01\/02\/2020.01.01.891705.atom":{"access":{"full":true},"pisa_id":"","apath":"\/biorxiv\/early\/2020\/01\/02\/2020.01.01.891705.atom","jcode":"biorxiv"}},"processed":["highwire_math"],"markup":[{"requested":"abstract","variant":"abstract","view":"abstract","pisa":"biorxiv;2020.01.01.891705v1"}],"modal_window_width":"560","share_modal_width":"560","share_modal_title":"Share this Article"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"instances":"{\u0022highwire_abstract_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:20,\u0022height\u0022:20,\u0022border\u0022:1,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-abstract-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-abstract-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022right center\u0022,\u0022my\u0022:\u0022left center\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022shift\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter click \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}},\u0022highwire_author_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:15,\u0022height\u0022:15,\u0022border\u0022:1,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-author-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-author-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022top center\u0022,\u0022my\u0022:\u0022bottom center\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}},\u0022highwire_reflinks_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:15,\u0022height\u0022:15,\u0022border\u0022:1,\u0022mimic\u0022:\u0022top center\u0022,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-ref-link-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-ref-link-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022bottom left\u0022,\u0022my\u0022:\u0022top left\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022flip\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}}}","qtipDebug":"{\u0022leaveElement\u0022:0}","panel_ajax_tab":{"path":"sites\/all\/modules\/contrib\/panels_ajax_tab"},"disqus":{"domain":"biorxivstage","url":"https:\/\/www.biorxiv.org\/content\/10.1101\/2020.01.01.891705v1","title":"Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models","identifier":"node\/1092127"},"panels_ajax_pane":{"new-41":"{\u0022encrypted\u0022:\u0022{\\\u0022encrypted\\\u0022:\\\u0022LASZVKLn7XGxxCr8vO5bu1d8cHA33x1IIySu4HvyQB6Wkngl1jTA0iVpGId66o2NDFS2XVpdIKk\\\\\\\/n6xXhxZwihMwKHNyYGQUd9sFLuj6YNtBxHS\\\\\\\/kUC12G4I2U7jSkgcDbd6WAIdFoySLh3zfm\\\\\\\/E\\\\\\\/cWPWOi+4uLjVPXarRqVDhjng+KLmuSeIkL1qhLl6jFV9Kybv9wTQ4cvxCNUXaqp25lZ5kngAHY8TyvU2FqBuWdxYAVx1mgVBNCUXVFiRSQwPpbPeHxP1yoD\\\\\\\/YjvcPTKfM6S7mEoEPzPQQb3D4GTKm4la3cJknrzAdldYalTvpKGTCvA5E\\\\\\\/K3ceeTCeIcUTee1S1zzelmqjauoD5BryyIxCv7Y9MlRE5eGRTvuSRSyIp2XiS\\\\\\\/x7hgmBST8xow+x9QjTuh1L9QkmFvDooD2M0Os+H7neMNV4BKs5YCCHvHtsjl9LePBW8n0lf85hTtmGV6+WzCLDtmdwqHTngYlAcMQnxdJSul7iShcrsUwBD+sLajkWRqrMETEaVpvNTr5XE6vVXNLCvJm3xJnAyJX1zj8lr06vtr5ibXTLiu27LFxu7csNXQVVPHUamkZlFGa9CEv2lrQluKCyv\\\\\\\/MDtszcVaQ2VaPrIOr2+sbiWCAc22AUj6S4epqNqrlF7UOBbbWr5i0+jekN5kGQIDOF9\\\\\\\/5nX93+s7HwGvQ50IjPmmSHba2QHtgQhOZ7Wau61zyh3gRPEkKFnzoZ+MK\\\\\\\/EI8y\\\\\\\/Z1OSFxd+szTLAsFR6ohmFVyaAxIXNggcdKEkV+2dBkhzU+Br3E2SvQ+Xjha9rEUxC3Dm1gav8pDCySRtw+1KlHiedvvsR3kytAdO0ylWDnBENGr5wxC5En9GcMtNu30GwZLxWrJvMdrE1wueXWTB\\\\\\\/mV+FtSr+f3VLgwO57Op3jcYgV\\\\\\\/WwsNi7GV05QBrbTq+JZ7pmp8boaWGdl0dscwJpcB\\\\\\\/CSUGdetr2kUS3oMYZ77G9s0vzqduYMqAcBiqYgXbVGyno9Qg+YmO1GcVM350Nq02PQcQjZTQHN0dMnA4\\\\\\\/WfroCRItXJ42kwntVjKYmd\\\\\\\/4KoAP2gT6FP70zDoZgcO4yWAVSlTdOyPW8y9dc0DYyO189KoKB0BvKxvaWVOdjO1TVoBBaSTSZ0WU5LUK3cy+\\\\\\\/cxh2tJEiWhvjT0UtkkCaozpT44YhDRGoYt2zjr1dTQM7rVBSjThKXjU7BdCQMJkJJXIBiE8JPpk7qXE3T3bhRymAbitadRnamNzZ2b+pvcjYM0Xr8pRQsqdyf3BOHD17R+x9IFsNb4HdsdSjGrvirv34Uyjg==\\\u0022,\\\u0022iv\\\u0022:\\\u0022MgXeZps3sQx0XP7Fy4IiSg==\\\u0022,\\\u0022salt\\\u0022:\\\u0022f9d8845712f72c9fee5db7d9ff111eab\\\u0022}\u0022,\u0022hmac\u0022:\u002203bb8f8bcb8b86de3c517ca80c098d6bca5a86e608e8087bbc127d0546872700\u0022}"},"urlIsAjaxTrusted":{"\/content\/10.1101\/2020.01.01.891705v1":true},"ws_fl":{"width":100,"height":21},"ws_gpo":{"size":"","annotation":"","lang":"","callback":"","width":300},"color":{"logo":"https:\/\/www.biorxiv.org\/sites\/default\/files\/bioRxiv_article.jpg"},"highwire_list_expand":{"is_collapsed":"1"},"highwireResponsive":{"enquire_enabled":1,"breakpoints_configured":1,"breakpoints":{"zero":"all and (min-width: 0px)","xsmall":"all and (min-width: 380px)","narrow":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":1,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experience. By clicking any link on this page you are giving your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EContinue\u003C\/button\u003E\n                    \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EFind out more\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EContinue\u003C\/button\u003E\n                    \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EFind out more\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/help\/cookie-policy","popup_link_new_window":1,"popup_position":null,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"365","cookie_session":false,"disagree_do_not_show_popup":0,"method":"default","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003E\u0026lt;h2\u0026gt;We use cookies on this site to enhance your user experience\u0026lt;\/h2\u0026gt;\u0026lt;p\u0026gt;You have given your consent for us to set cookies.\u0026lt;\/p\u0026gt;\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackUrlFragments":1},"jnl_biorxiv_styles":{"defaultJCode":"biorxiv"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body class="html not-front not-logged-in page-node page-node- page-node-1092127 node-type-highwire-article context-content hw-default-jcode-biorxiv hw-article-type-article hw-article-category-new-results">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M677548" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M677548');</script>
+<!-- End Google Tag Manager -->
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+        <div class="page clearfix page-box-shadows footer-borders panels-page panels-layout-jcore_2col" id="page">
+      <header id="section-header" class="section section-header">
+    
+  <div id="zone-branding" class="zone zone-branding clearfix print-display-block container-30">
+    <div class="grid-15 prefix-1 region region-branding print-display-block" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" class="" data-icon-position="" data-hide-link-title="0"><img alt="bioRxiv" src="https://www.biorxiv.org/sites/default/files/bioRxiv_article.jpg" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-11 suffix-1 region region-branding-second print-hidden" id="region-branding-second">
+  <div class="region-inner region-branding-second-inner">
+    <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf" role="menuitem"><a href="/" title="" class="" data-icon-position="" data-hide-link-title="0">Home</a></li>
+<li class="leaf" role="menuitem"><a href="/about-biorxiv" class="" data-icon-position="" data-hide-link-title="0">About</a></li>
+<li class="leaf" role="menuitem"><a href="/submit-a-manuscript" class="" data-icon-position="" data-hide-link-title="0">Submit</a></li>
+<li class="last leaf" role="menuitem"><a href="/content/alertsrss" title="" class="" data-icon-position="" data-hide-link-title="0">ALERTS / RSS</a></li>
+</ul></nav>    </div>
+  </div>
+</div><div class="block block-panels-mini block-biorxiv-search-box block-panels-mini-biorxiv-search-box even block-without-title" id="block-panels-mini-biorxiv-search-box">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-biorxiv_search_box">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-seach-quicksearch" >
+  
+      
+  
+  <div class="pane-content">
+    <form class="highwire-quicksearch button-style-mini button-style-mini" action="/content/10.1101/2020.01.01.891705v1" method="post" id="highwire-search-quicksearch-form-0" accept-charset="UTF-8"><div><div class="form-item form-item-label-invisible form-type-textfield form-item-keywords">
+  <label class="element-invisible" for="edit-keywords">Search for this keyword </label>
+ <input placeholder="Search" type="text" id="edit-keywords" name="keywords" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div class="button-wrapper button-mini"><i class="icon-search"></i><input data-icon-only="1" data-font-icon="icon-search" data-icon-position="after" type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-WgaQi5nf98-fjrmDPDrXxEGRZcxCW24MqU9__bQYBhs" />
+<input type="hidden" name="form_id" value="highwire_search_quicksearch_form_0" />
+</div></form>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-2 advanced-search-link" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/search">Advanced Search</a>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+  
+  <div id="zone-header" class="zone zone-header clearfix container-30">
+  	      </div>
+</header>    
+      <section id="section-content" class="section section-content">
+    
+  <div id="zone-content" class="zone zone-content clearfix container-30">    
+        
+    <div class="grid-28 suffix-1 prefix-1 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panels-960-layout jcore-2col-layout" >
+	  
+  <div class="panel-row-wrapper clearfix">
+		
+		<div class="main-content-wrapper grid-17 suffix-1 alpha">
+			<div class="panel-panel panel-region-content">
+			  <div class="inside"><div class="panel-pane pane-highwire-article-citation" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="1092127" id="node1092127" data-pisa="biorxiv;2020.01.01.891705v1" data-pisa-master="biorxiv;2020.01.01.891705" data-apath="/biorxiv/early/2020/01/02/2020.01.01.891705.atom" data-hw-author-tooltip-instance="highwire_author_tooltip"><div  class="highwire-cite highwire-cite-highwire-article highwire-citation-biorxiv-article-top clearfix has-author-tooltip" >
+
+      <span class="biorxiv-article-type">
+        New Results    </span>
+  
+        <h1 class="highwire-cite-title" id="page-title">Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models</h1>  
+      <div  class="highwire-cite-authors" ><span  class="highwire-citation-authors"><span class="highwire-citation-author first hw-author-orcid-logo-wrapper" data-delta="0"><a href="http://orcid.org/0000-0001-7463-4004" target="_blank" class="hw-author-orcid-logo link-icon-only link-icon"><i class="hw-icon-orcid hw-icon-color-orcid"></i> <span class="title element-invisible">View ORCID Profile</span></a><span class="nlm-given-names">Daniel M.</span> <span class="nlm-surname">Griffith</span></span>, <span class="highwire-citation-author" data-delta="1"><span class="nlm-given-names">Colin</span> <span class="nlm-surname">Osborne</span></span>, <span class="highwire-citation-author" data-delta="2"><span class="nlm-given-names">Erika J.</span> <span class="nlm-surname">Edwards</span></span>, <span class="highwire-citation-author" data-delta="3"><span class="nlm-given-names">Seton</span> <span class="nlm-surname">Bachle</span></span>, <span class="highwire-citation-author" data-delta="4"><span class="nlm-given-names">David J.</span> <span class="nlm-surname">Beerling</span></span>, <span class="highwire-citation-author" data-delta="5"><span class="nlm-given-names">William J.</span> <span class="nlm-surname">Bond</span></span>, <span class="highwire-citation-author" data-delta="6"><span class="nlm-given-names">Timothy</span> <span class="nlm-surname">Gallaher</span></span>, <span class="highwire-citation-author" data-delta="7"><span class="nlm-given-names">Brent R.</span> <span class="nlm-surname">Helliker</span></span>, <span class="highwire-citation-author" data-delta="8"><span class="nlm-given-names">Caroline E.R.</span> <span class="nlm-surname">Lehmann</span></span>, <span class="highwire-citation-author" data-delta="9"><span class="nlm-given-names">Lila</span> <span class="nlm-surname">Leatherman</span></span>, <span class="highwire-citation-author" data-delta="10"><span class="nlm-given-names">Jesse B.</span> <span class="nlm-surname">Nippert</span></span>, <span class="highwire-citation-author" data-delta="11"><span class="nlm-given-names">Stephanie</span> <span class="nlm-surname">Pau</span></span>, <span class="highwire-citation-author" data-delta="12"><span class="nlm-given-names">Fan</span> <span class="nlm-surname">Qiu</span></span>, <span class="highwire-citation-author" data-delta="13"><span class="nlm-given-names">William J.</span> <span class="nlm-surname">Riley</span></span>, <span class="highwire-citation-author" data-delta="14"><span class="nlm-given-names">Melinda D.</span> <span class="nlm-surname">Smith</span></span>, <span class="highwire-citation-author" data-delta="15"><span class="nlm-given-names">Caroline</span> <span class="nlm-surname">Strömberg</span></span>, <span class="highwire-citation-author" data-delta="16"><span class="nlm-given-names">Lyla</span> <span class="nlm-surname">Taylor</span></span>, <span class="highwire-citation-author" data-delta="17"><span class="nlm-given-names">Mark</span> <span class="nlm-surname">Ungerer</span></span>, <span class="highwire-citation-author" data-delta="18"><span class="nlm-given-names">Christopher J.</span> <span class="nlm-surname">Still</span></span></span></div>
+  
+      <div  class="highwire-cite-metadata" ><span  class="highwire-cite-metadata-doi highwire-cite-metadata"><span class="label">doi:</span> https://doi.org/10.1101/2020.01.01.891705 </span></div>
+  
+  
+  </div>
+<div id="hw-article-author-popups-node1092127" style="display: none;"><div class="author-tooltip-0"><div class="author-tooltip-name">Daniel M. Griffith </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Forest Ecosystems and Society, Oregon State University</span>, OR, <span class='nlm-country'>U.S.A.</span></div><div class='author-affiliation'><span class='nlm-institution'>US Geological Survey Western Geographic Science Center</span>, Moffett Field, CA, 94035</div><div class='author-affiliation'><span class='nlm-institution'>NASA Ames Research Center</span>, Moffett Field, CA, 94035</div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Daniel%2BM.%2BGriffith%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Griffith%20DM&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link"><a href="/search/author1%3ADaniel%2BM.%2BGriffith%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li><li class="author-orcid-link"><a href="http://orcid.org/0000-0001-7463-4004" target="_blank" class="" data-icon-position="" data-hide-link-title="0">ORCID record for Daniel M. Griffith</a></li><li class="author-corresp-email-link last"><span>For correspondence: 
+<a href="mailto:griffith.dan@gmail.com" class="" data-icon-position="" data-hide-link-title="0">griffith.dan@gmail.com</a></span></li></ul></div><div class="author-tooltip-1"><div class="author-tooltip-name">Colin Osborne </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Animal and Plant Sciences, University of Sheffield</span>, <span class='nlm-country'>U.K.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Colin%2BOsborne%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Osborne%20C&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AColin%2BOsborne%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-2"><div class="author-tooltip-name">Erika J. Edwards </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Ecology and Evolutionary Biology, Brown University</span>, RI, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Erika%2BJ.%2BEdwards%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Edwards%20EJ&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AErika%2BJ.%2BEdwards%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-3"><div class="author-tooltip-name">Seton Bachle </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Division of Biology, Kansas State University</span>, KS, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Seton%2BBachle%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Bachle%20S&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ASeton%2BBachle%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-4"><div class="author-tooltip-name">David J. Beerling </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Animal and Plant Sciences, University of Sheffield</span>, <span class='nlm-country'>U.K.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=David%2BJ.%2BBeerling%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Beerling%20DJ&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ADavid%2BJ.%2BBeerling%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-5"><div class="author-tooltip-name">William J. Bond </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>South African Environmental Observation Network, National Research Foundation</span>, Claremont, <span class='nlm-country'>South Africa</span></div><div class='author-affiliation'><span class='nlm-institution'>Department of Biological Sciences, University of Cape Town</span>, Rondebosch, <span class='nlm-country'>South Africa</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=William%2BJ.%2BBond%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Bond%20WJ&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AWilliam%2BJ.%2BBond%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-6"><div class="author-tooltip-name">Timothy Gallaher </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Biology and the Burke Museum of Natural History and Culture, University of Washington</span>, Seattle, WA, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Timothy%2BGallaher%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Gallaher%20T&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ATimothy%2BGallaher%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-7"><div class="author-tooltip-name">Brent R. Helliker </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Biology, University of Pennsylvania</span>, PA, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Brent%2BR.%2BHelliker%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Helliker%20BR&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ABrent%2BR.%2BHelliker%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-8"><div class="author-tooltip-name">Caroline E.R. Lehmann </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>School of GeoSciences, University of Edinburgh</span>, Edinburgh, <span class='nlm-country'>U.K.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Caroline%2BE.R.%2BLehmann%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Lehmann%20CE&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ACaroline%2BE.R.%2BLehmann%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-9"><div class="author-tooltip-name">Lila Leatherman </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Forest Ecosystems and Society, Oregon State University</span>, OR, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Lila%2BLeatherman%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Leatherman%20L&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ALila%2BLeatherman%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-10"><div class="author-tooltip-name">Jesse B. Nippert </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Division of Biology, Kansas State University</span>, KS, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Jesse%2BB.%2BNippert%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Nippert%20JB&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AJesse%2BB.%2BNippert%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-11"><div class="author-tooltip-name">Stephanie Pau </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Geography, Florida State University</span>, FL, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Stephanie%2BPau%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Pau%20S&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AStephanie%2BPau%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-12"><div class="author-tooltip-name">Fan Qiu </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Division of Biology, Kansas State University</span>, KS, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Fan%2BQiu%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Qiu%20F&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AFan%2BQiu%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-13"><div class="author-tooltip-name">William J. Riley </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Lawrence Berkeley National Laboratory</span>, CA, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=William%2BJ.%2BRiley%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Riley%20WJ&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AWilliam%2BJ.%2BRiley%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-14"><div class="author-tooltip-name">Melinda D. Smith </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Biology, Colorado State University</span>, CO, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Melinda%2BD.%2BSmith%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Smith%20MD&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AMelinda%2BD.%2BSmith%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-15"><div class="author-tooltip-name">Caroline Strömberg </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Biology and the Burke Museum of Natural History and Culture, University of Washington</span>, Seattle, WA, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Caroline%2BStr%C3%B6mberg%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Str%C3%B6mberg%20C&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ACaroline%2BStr%25C3%25B6mberg%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-16"><div class="author-tooltip-name">Lyla Taylor </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Department of Animal and Plant Sciences, University of Sheffield</span>, <span class='nlm-country'>U.K.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Lyla%2BTaylor%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Taylor%20L&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3ALyla%2BTaylor%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-17"><div class="author-tooltip-name">Mark Ungerer </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Division of Biology, Kansas State University</span>, KS, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Mark%2BUngerer%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Ungerer%20M&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AMark%2BUngerer%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div><div class="author-tooltip-18"><div class="author-tooltip-name">Christopher J. Still </div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><div class='author-affiliation'><span class='nlm-institution'>Forest Ecosystems and Society, Oregon State University</span>, OR, <span class='nlm-country'>U.S.A.</span></div></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Christopher%2BJ.%2BStill%2B" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Still%20CJ&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AChristopher%2BJ.%2BStill%2B" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-panel-tabs pane-panels-ajax-tab-tabs" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="item-list"><ul class="tabs inline panels-ajax-tab"><li class="first"><a href="/content/10.1101/2020.01.01.891705v1" class="panels-ajax-tab-tab" data-panel-name="biorxiv_tab_art" data-target-id="highwire_article_tabs" data-entity-context="node:1092127" data-trigger="" data-url-enabled="1">Abstract</a><a href="/panels_ajax_tab/biorxiv_tab_art/node:1092127/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li><a href="/content/10.1101/2020.01.01.891705v1.full-text" class="panels-ajax-tab-tab" data-panel-name="article_tab_full_text" data-target-id="highwire_article_tabs" data-entity-context="node:1092127" data-trigger="full-text" data-url-enabled="1">Full Text</a><a href="/panels_ajax_tab/article_tab_full_text/node:1092127/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li><a href="/content/10.1101/2020.01.01.891705v1.article-info" class="panels-ajax-tab-tab" data-panel-name="biorxiv_tab_info" data-target-id="highwire_article_tabs" data-entity-context="node:1092127" data-trigger="article-info" data-url-enabled="1">Info/History</a><a href="/panels_ajax_tab/biorxiv_tab_info/node:1092127/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li><a href="/content/10.1101/2020.01.01.891705v1.article-metrics" class="panels-ajax-tab-tab" data-panel-name="article_tab_metrics" data-target-id="highwire_article_tabs" data-entity-context="node:1092127" data-trigger="article-metrics" data-url-enabled="1">Metrics</a><a href="/panels_ajax_tab/article_tab_metrics/node:1092127/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li class="last"><a href="/content/10.1101/2020.01.01.891705v1.full.pdf+html" class="panels-ajax-tab-tab" data-panel-name="biorxiv_tab_pdf" data-target-id="highwire_article_tabs" data-entity-context="node:1092127" data-trigger="full.pdf+html" data-url-enabled="1"><i class="icon-file-alt"></i> Preview PDF</a><a href="/panels_ajax_tab/biorxiv_tab_pdf/node:1092127/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li></ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-panel-tabs-container" >
+  
+      
+  
+  <div class="pane-content">
+    <div data-panels-ajax-tab-preloaded="biorxiv_tab_art" id="panels-ajax-tab-container-highwire_article_tabs" class="panels-ajax-tab-container"><div class="panels-ajax-tab-loading" style ="display:none"><img class="loading" src="https://www.biorxiv.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif" alt="Loading" title="Loading" /></div><div class="panels-ajax-tab-wrap-biorxiv_tab_art"><div class="panel-display panel-1col clearfix" >
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-markup" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-markup"><div xmlns="http://www.w3.org/1999/xhtml" id="content-block-markup" data-highwire-cite-ref-tooltip-instance="highwire_reflinks_tooltip" xmlns:xhtml="http://www.w3.org/1999/xhtml"><div class="article abstract-view "><span class="highwire-journal-article-marker-start"></span><div class="section abstract" id="abstract-1"><h2 class="">Summary</h2><p id="p-2">Process-based vegetation models attempt to represent the wide range of trait variation in biomes by grouping ecologically similar species into plant functional types (PFTs). This approach has been successful in representing many aspects of plant physiology and biophysics, but struggles to capture biogeographic history and ecological dynamics that determine biome boundaries and plant distributions. Grass dominated ecosystems are broadly distributed across all vegetated continents and harbor large functional diversity, yet most Earth System Models (ESMs) summarize grasses into two generic PFTs based primarily on differences between temperate C<sub>3</sub> grasses and (sub)tropical C<sub>4</sub> grasses. Incorporation of species-level trait variation is an active area of research to enhance the ecological realism of PFTs, which form the basis for vegetation processes and dynamics in ESMs. Using reported measurements, we developed grass functional trait values (physiological, structural, biochemical, anatomical, phenological, and disturbance-related) of dominant lineages to improve ESM representations. Our method is fundamentally different from previous efforts, as it uses phylogenetic relatedness to create lineage-based functional types (LFTs), situated between species-level trait data and PFT-level abstractions, thus providing a realistic representation of functional diversity and opening the door to the development of new vegetation models.</p></div><span class="highwire-journal-article-marker-end"></span></div><span id="related-urls"></span></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-biorxiv-copyright" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-highwire-copyright field-type-text field-label-inline clearfix"><div class="field-label">Copyright&nbsp;</div><div class="field-items"><div class="field-item even">The copyright holder for this preprint is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.<span class="license-type"> This article is a US Government work. It is not subject to copyright under 17 USC 105 and is also made available for use under a CC0 license.</span></div></div></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-disqus-comment" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="disqus_thread"><noscript><p><a href="http://biorxivstage.disqus.com/?url=https%3A%2F%2Fwww.biorxiv.org%2Fcontent%2F10.1101%2F2020.01.01.891705v1" class="" data-icon-position="" data-hide-link-title="0">View the discussion thread.</a></p></noscript></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-back-to-top" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="#page" class="back-to-top" data-icon-position="" data-hide-link-title="0"><i class="icon-chevron-up"></i> Back to top</a>  </div>
+
+  
+  </div>
+</div>
+			</div>
+		</div>
+		
+		<div class="sidebar-right-wrapper grid-10 omega">
+			<div class="panel-panel panel-region-sidebar-right">
+			  <div class="inside"><div class="panel-pane pane-highwire-node-pager" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pager highwire-pager pager-mini clearfix highwire-node-pager highwire-article-pager"><span class="pager-prev"><a href="/content/10.1101/649780v2" title="TLR4 signaling in neurons enhances calcium-permeable AMPAR currents and drives post-traumatic epileptogenesis" rel="prev" class="pager-link-prev link-icon"><i class="icon-circle-arrow-left"></i> <span class="title">Previous</span></a></span><span class="pager-next"><a href="/content/10.1101/569319v4" title="Neonatal morphometric similarity mapping for predicting brain age and characterizing neuroanatomic variation associated with preterm birth" rel="next" class="pager-link-next link-icon-right link-icon"><span class="title">Next</span> <i class="icon-circle-arrow-right"></i></a></span></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    Posted&nbsp;January 02, 2020.  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-biorxiv-art-tools" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="mini-panel-biorxiv_art_tools" class="highwire-2col-stacked panel-display">
+	  
+  <div class="panel-row-wrapper clearfix">
+		<div class="content-left-wrapper content-column">
+          <div class="panel-panel panel-region-content-left">
+            <div class="inside"><div class="panel-pane pane-highwire-variant-link" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/content/10.1101/2020.01.01.891705v1.full.pdf" target="_self" class="article-dl-pdf-link link-icon"><i class="icon-external-link-sign"></i> <span class="title">Download PDF</span></a>  </div>
+
+  
+  </div>
+</div>
+          </div>
+        </div>
+        
+        <div class="content-right-wrapper content-column">
+          <div class="panel-panel panel-region-content-right">
+            <div class="inside"><div class="panel-pane pane-minipanel-dialog-link pane-biorxiv-art-email" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-dialog-wrapper'><div class='minipanel-dialog-link-link'><a href="/" oncontextmenu="javascript: return false;" class="minipanel-dialog-link-trigger" title="Email this Article" data-icon-position="" data-hide-link-title="0"><i class = 'icon-envelope'></i> Email</a></div><div class='minipanel-dialog-link-mini' style='display:none'><div class="panel-display panel-1col clearfix" id="mini-panel-biorxiv_art_email">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-forward-form pane-forward" >
+  
+      
+  
+  <div class="pane-content">
+    <form action="/content/10.1101/2020.01.01.891705v1" method="post" id="forward-form" accept-charset="UTF-8"><div><div id="edit-instructions" class="form-item form-item-label-before form-type-item">
+ <p>Thank you for your interest in spreading the word about bioRxiv.</p><p>NOTE: Your email address is requested solely to identify you as the sender of this article.</p>
+</div>
+<div class="form-item form-item-label-before form-type-textfield form-item-email">
+  <label for="edit-email">Your Email <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-email" name="email" value="" size="58" maxlength="256" class="form-text required" />
+</div>
+<div class="form-item form-item-label-before form-type-textfield form-item-name">
+  <label for="edit-name">Your Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="58" maxlength="256" class="form-text required" />
+</div>
+<div class="form-item form-item-label-before form-type-textarea form-item-recipients">
+  <label for="edit-recipients">Send To <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea id="edit-recipients" name="recipients" cols="50" rows="5" class="form-textarea required"></textarea></div>
+<div class="description">Enter multiple addresses on separate lines or separate them with commas.</div>
+</div>
+<div id="edit-page" class="form-item form-item-label-before form-type-item">
+  <label for="edit-page">You are going to email the following </label>
+ <a href="/content/10.1101/2020.01.01.891705v1" class="active" data-icon-position="" data-hide-link-title="0">Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models</a>
+</div>
+<div id="edit-subject" class="form-item form-item-label-before form-type-item">
+  <label for="edit-subject">Message Subject </label>
+ (Your Name) has forwarded a page to you from bioRxiv
+</div>
+<div id="edit-body" class="form-item form-item-label-before form-type-item">
+  <label for="edit-body">Message Body </label>
+ (Your Name) thought you would like to see this page from the bioRxiv website.
+</div>
+<div class="form-item form-item-label-before form-type-textarea form-item-message">
+  <label for="edit-message--2">Your Personal Message </label>
+ <div class="form-textarea-wrapper resizable"><textarea id="edit-message--2" name="message" cols="50" rows="10" class="form-textarea"></textarea></div>
+</div>
+<input type="hidden" name="path" value="node/1092127" />
+<input type="hidden" name="path_cid" value="" />
+<input type="hidden" name="forward_footer" value=" " />
+<input type="hidden" name="form_build_id" value="form-Hv3EWpTISxy60NRpdOAudsxR7ol2lcAIgyteIydI24A" />
+<input type="hidden" name="form_id" value="forward_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Send Message" class="form-submit" /></div></div></form>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-share-link highwire_clipboard_link_ajax"  id="shareit">
+  
+      
+  
+  <div class="pane-content">
+    <a href="/" class="link-icon"><i class="icon-share-alt"></i> <span class="title">Share</span></a>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-biorxiv-share highwire_clipboard_form_ajax_shareit" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display omega-12-onecol" id="mini-panel-biorxiv_share">
+
+		  <div class="panel-panel grid-12 panel-region-preface">
+		  <div class="inside"><div class="panel-pane pane-highwire-article-citation" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="1092127" id="node1092127--2" data-pisa="biorxiv;2020.01.01.891705v1" data-pisa-master="biorxiv;2020.01.01.891705" data-seqnum="1092127" data-apath="/biorxiv/early/2020/01/02/2020.01.01.891705.atom"><div  class="highwire-cite highwire-cite-highwire-article highwire-citation-biorxiv-article-pap-list clearfix" >
+
+      <div class="highwire-cite-title" >
+      <div class="highwire-cite-title">Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models</div>    </div>
+  
+      <div  class="highwire-cite-authors" ><span  class="highwire-citation-authors"><span class="highwire-citation-author first" data-delta="0"><span class="nlm-given-names">Daniel M.</span> <span class="nlm-surname">Griffith</span></span>, <span class="highwire-citation-author" data-delta="1"><span class="nlm-given-names">Colin</span> <span class="nlm-surname">Osborne</span></span>, <span class="highwire-citation-author" data-delta="2"><span class="nlm-given-names">Erika J.</span> <span class="nlm-surname">Edwards</span></span>, <span class="highwire-citation-author" data-delta="3"><span class="nlm-given-names">Seton</span> <span class="nlm-surname">Bachle</span></span>, <span class="highwire-citation-author" data-delta="4"><span class="nlm-given-names">David J.</span> <span class="nlm-surname">Beerling</span></span>, <span class="highwire-citation-author" data-delta="5"><span class="nlm-given-names">William J.</span> <span class="nlm-surname">Bond</span></span>, <span class="highwire-citation-author" data-delta="6"><span class="nlm-given-names">Timothy</span> <span class="nlm-surname">Gallaher</span></span>, <span class="highwire-citation-author" data-delta="7"><span class="nlm-given-names">Brent R.</span> <span class="nlm-surname">Helliker</span></span>, <span class="highwire-citation-author" data-delta="8"><span class="nlm-given-names">Caroline E.R.</span> <span class="nlm-surname">Lehmann</span></span>, <span class="highwire-citation-author" data-delta="9"><span class="nlm-given-names">Lila</span> <span class="nlm-surname">Leatherman</span></span>, <span class="highwire-citation-author" data-delta="10"><span class="nlm-given-names">Jesse B.</span> <span class="nlm-surname">Nippert</span></span>, <span class="highwire-citation-author" data-delta="11"><span class="nlm-given-names">Stephanie</span> <span class="nlm-surname">Pau</span></span>, <span class="highwire-citation-author" data-delta="12"><span class="nlm-given-names">Fan</span> <span class="nlm-surname">Qiu</span></span>, <span class="highwire-citation-author" data-delta="13"><span class="nlm-given-names">William J.</span> <span class="nlm-surname">Riley</span></span>, <span class="highwire-citation-author" data-delta="14"><span class="nlm-given-names">Melinda D.</span> <span class="nlm-surname">Smith</span></span>, <span class="highwire-citation-author" data-delta="15"><span class="nlm-given-names">Caroline</span> <span class="nlm-surname">Strömberg</span></span>, <span class="highwire-citation-author" data-delta="16"><span class="nlm-given-names">Lyla</span> <span class="nlm-surname">Taylor</span></span>, <span class="highwire-citation-author" data-delta="17"><span class="nlm-given-names">Mark</span> <span class="nlm-surname">Ungerer</span></span>, <span class="highwire-citation-author" data-delta="18"><span class="nlm-given-names">Christopher J.</span> <span class="nlm-surname">Still</span></span></span></div>
+  
+      <div  class="highwire-cite-metadata" ><span  class="highwire-cite-metadata-journal highwire-cite-metadata">bioRxiv </span><span  class="highwire-cite-metadata-pages highwire-cite-metadata">2020.01.01.891705; </span><span  class="highwire-cite-metadata-doi highwire-cite-metadata"><span class="doi_label">doi:</span> https://doi.org/10.1101/2020.01.01.891705 </span></div>
+  
+  
+  </div>
+</div>  </div>
+
+  
+  </div>
+</div>
+	  </div>
+	
+  <div class="panel-panel grid-12 panel-region-content">
+  	<div class="inside"><div class="panel-pane pane-highwire-article-clipboard-copy" >
+  
+      
+  
+  <div class="pane-content">
+    <div class = "clipboard-copy">
+  <span class="label-url">
+    <label for="dynamic">Share This Article:</label>
+  </span>
+  <span class="input-text-url">
+    <input type="text" id="dynamic" value="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1" size="50"/>
+  </span>
+  <span class="copy-button button">
+    <button id="copy-dynamic" class="clipboardjs-button" data-clipboard-target="#dynamic" data-clipboard-alert-style="tooltip" data-clipboard-alert-text="Copied!">Copy</button>
+  </span>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+	
+		  <div class="panel-panel grid-12 panel-region-postscript">
+	    <div class="inside"><div class="panel-pane pane-service-links" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="service-links"><a href="http://digg.com/submit?phase=2&amp;url=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;title=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="digg" title="Digg this post on digg.com" class="service-links-digg" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/digg.png" alt="Digg logo" /></a> <a href="http://reddit.com/submit?url=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;title=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="reddit" title="Submit this post on reddit.com" class="service-links-reddit" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/reddit.png" alt="Reddit logo" /></a> <a href="http://twitter.com/share?url=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;text=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="twitter" title="Share this on Twitter" class="service-links-twitter" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/twitter.png" alt="Twitter logo" /></a> <a href="http://www.citeulike.org/posturl?url=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;title=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="citeulike" title="Share on CiteULike" class="service-links-citeulike" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/citeyoulike.png" alt="CiteULike logo" /></a> <a href="http://www.facebook.com/sharer.php?u=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;t=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="facebook" title="Share on Facebook" class="service-links-facebook" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/fb-blue.png" alt="Facebook logo" /></a> <a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;title=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="google" title="Bookmark this post on Google" class="service-links-google" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/google-32.png" alt="Google logo" /></a> <a href="http://www.mendeley.com/import/?url=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;title=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models" id="mendeley" title="Share on Mendeley" class="service-links-mendeley" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.biorxiv.org/sites/all/modules/highwire/highwire/images/mendeley.png" alt="Mendeley logo" /></a></div>  </div>
+
+  
+  </div>
+</div>
+	  </div>
+	
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-minipanel-dialog-link pane-biorxiv-cite-tool" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-dialog-wrapper'><div class='minipanel-dialog-link-link'><a href="/" oncontextmenu="javascript: return false;" class="minipanel-dialog-link-trigger link-icon" title="Citation Tools"><i class="icon-globe"></i> <span class="title">Citation Tools</span></a></div><div class='minipanel-dialog-link-mini' style='display:none'><div class="panel-display panel-1col clearfix" id="mini-panel-biorxiv_cite_tool">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-citation-export" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-citation-export">  
+  <div class="highwire-citation-info">
+      <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="1092127" id="node1092127--3" data-pisa="biorxiv;2020.01.01.891705v1" data-pisa-master="biorxiv;2020.01.01.891705" data-seqnum="1092127" data-apath="/biorxiv/early/2020/01/02/2020.01.01.891705.atom"><div  class="highwire-cite highwire-cite-highwire-article highwire-citation-biorxiv-article-pap-list clearfix" >
+
+      <div class="highwire-cite-title" >
+      <div class="highwire-cite-title">Lineage Functional Types (LFTs): Characterizing functional diversity to enhance the representation of ecological behavior in Earth System Models</div>    </div>
+  
+      <div  class="highwire-cite-authors" ><span  class="highwire-citation-authors"><span class="highwire-citation-author first" data-delta="0"><span class="nlm-given-names">Daniel M.</span> <span class="nlm-surname">Griffith</span></span>, <span class="highwire-citation-author" data-delta="1"><span class="nlm-given-names">Colin</span> <span class="nlm-surname">Osborne</span></span>, <span class="highwire-citation-author" data-delta="2"><span class="nlm-given-names">Erika J.</span> <span class="nlm-surname">Edwards</span></span>, <span class="highwire-citation-author" data-delta="3"><span class="nlm-given-names">Seton</span> <span class="nlm-surname">Bachle</span></span>, <span class="highwire-citation-author" data-delta="4"><span class="nlm-given-names">David J.</span> <span class="nlm-surname">Beerling</span></span>, <span class="highwire-citation-author" data-delta="5"><span class="nlm-given-names">William J.</span> <span class="nlm-surname">Bond</span></span>, <span class="highwire-citation-author" data-delta="6"><span class="nlm-given-names">Timothy</span> <span class="nlm-surname">Gallaher</span></span>, <span class="highwire-citation-author" data-delta="7"><span class="nlm-given-names">Brent R.</span> <span class="nlm-surname">Helliker</span></span>, <span class="highwire-citation-author" data-delta="8"><span class="nlm-given-names">Caroline E.R.</span> <span class="nlm-surname">Lehmann</span></span>, <span class="highwire-citation-author" data-delta="9"><span class="nlm-given-names">Lila</span> <span class="nlm-surname">Leatherman</span></span>, <span class="highwire-citation-author" data-delta="10"><span class="nlm-given-names">Jesse B.</span> <span class="nlm-surname">Nippert</span></span>, <span class="highwire-citation-author" data-delta="11"><span class="nlm-given-names">Stephanie</span> <span class="nlm-surname">Pau</span></span>, <span class="highwire-citation-author" data-delta="12"><span class="nlm-given-names">Fan</span> <span class="nlm-surname">Qiu</span></span>, <span class="highwire-citation-author" data-delta="13"><span class="nlm-given-names">William J.</span> <span class="nlm-surname">Riley</span></span>, <span class="highwire-citation-author" data-delta="14"><span class="nlm-given-names">Melinda D.</span> <span class="nlm-surname">Smith</span></span>, <span class="highwire-citation-author" data-delta="15"><span class="nlm-given-names">Caroline</span> <span class="nlm-surname">Strömberg</span></span>, <span class="highwire-citation-author" data-delta="16"><span class="nlm-given-names">Lyla</span> <span class="nlm-surname">Taylor</span></span>, <span class="highwire-citation-author" data-delta="17"><span class="nlm-given-names">Mark</span> <span class="nlm-surname">Ungerer</span></span>, <span class="highwire-citation-author" data-delta="18"><span class="nlm-given-names">Christopher J.</span> <span class="nlm-surname">Still</span></span></span></div>
+  
+      <div  class="highwire-cite-metadata" ><span  class="highwire-cite-metadata-journal highwire-cite-metadata">bioRxiv </span><span  class="highwire-cite-metadata-pages highwire-cite-metadata">2020.01.01.891705; </span><span  class="highwire-cite-metadata-doi highwire-cite-metadata"><span class="doi_label">doi:</span> https://doi.org/10.1101/2020.01.01.891705 </span></div>
+  
+  
+  </div>
+</div>  </div>
+  <div class="highwire-citation-formats">
+  	      <h2>Citation Manager Formats</h2>
+        <div class="highwire-citation-formats-links">
+      <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.spage&amp;rft.epage&amp;rft.atitle=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models&amp;rft.volume&amp;rft.issue&amp;rft.date=2020-01-01%2000%3A00%3A00&amp;rft.stitle&amp;rft.jtitle=bioRxiv&amp;rft.au=Griffith%2C+Daniel+M.&amp;rft.au=Osborne%2C+Colin&amp;rft.au=Edwards%2C+Erika+J.&amp;rft.au=Bachle%2C+Seton&amp;rft.au=Beerling%2C+David+J.&amp;rft.au=Bond%2C+William+J.&amp;rft.au=Gallaher%2C+Timothy&amp;rft.au=Helliker%2C+Brent+R.&amp;rft.au=Lehmann%2C+Caroline+E.R.&amp;rft.au=Leatherman%2C+Lila&amp;rft.au=Nippert%2C+Jesse+B.&amp;rft.au=Pau%2C+Stephanie&amp;rft.au=Qiu%2C+Fan&amp;rft.au=Riley%2C+William+J.&amp;rft.au=Smith%2C+Melinda+D.&amp;rft.au=Str%C3%B6mberg%2C+Caroline&amp;rft.au=Taylor%2C+Lyla&amp;rft.au=Ungerer%2C+Mark&amp;rft.au=Still%2C+Christopher+J."></span><ul class="hw-citation-links inline button button-alt button-grid clearfix"><li class="bibtext first"><a href="/highwire/citation/1092127/bibtext" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">BibTeX</a></li><li class="bookends"><a href="/highwire/citation/1092127/bookends" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Bookends</a></li><li class="easybib"><a href="/highwire/citation/1092127/easybib" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">EasyBib</a></li><li class="endnote-tagged"><a href="/highwire/citation/1092127/endnote-tagged" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">EndNote (tagged)</a></li><li class="endnote-8-xml"><a href="/highwire/citation/1092127/endnote-8-xml" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">EndNote 8 (xml)</a></li><li class="medlars"><a href="/highwire/citation/1092127/medlars" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Medlars</a></li><li class="mendeley"><a href="/highwire/citation/1092127/mendeley" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Mendeley</a></li><li class="papers"><a href="/highwire/citation/1092127/papers" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Papers</a></li><li class="refworks-tagged"><a href="/highwire/citation/1092127/refworks-tagged" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">RefWorks Tagged</a></li><li class="reference-manager"><a href="/highwire/citation/1092127/reference-manager" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Ref Manager</a></li><li class="ris"><a href="/highwire/citation/1092127/ris" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">RIS</a></li><li class="zotero last"><a href="/highwire/citation/1092127/zotero" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Zotero</a></li></ul>    </div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+</div>
+          </div>
+        </div>
+	</div> <!-- /.panel-row-wrapper -->	
+	
+	</div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-service-links" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="service-links"><div class="item-list"><ul><li class="first"><a href="http://twitter.com/share?url=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;count=horizontal&amp;via=&amp;text=Lineage%20Functional%20Types%20%28LFTs%29%3A%20Characterizing%20functional%20diversity%20to%20enhance%20the%20representation%20of%20ecological%20behavior%20in%20Earth%20System%20Models&amp;counturl=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1" class="twitter-share-button service-links-twitter-widget" id="twitter_widget" title="Tweet This" rel="nofollow" data-icon-position="" data-hide-link-title="0"><span class="element-invisible">Tweet Widget</span></a></li><li><a href="http://www.facebook.com/plugins/like.php?href=https%3A//www.biorxiv.org/content/10.1101/2020.01.01.891705v1&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;width=100&amp;height=21&amp;font=&amp;locale=" id="facebook_like" title="I Like it" class="service-links-facebook-like" rel="nofollow" data-icon-position="" data-hide-link-title="0"><span class="element-invisible">Facebook Like</span></a></li><li class="last"><a href="https://www.biorxiv.org/content/10.1101/2020.01.01.891705v1" id="google_plus_one" title="Plus it" class="service-links-google-plus-one" rel="nofollow" data-icon-position="" data-hide-link-title="0"><span class="element-invisible">Google Plus One</span></a></li></ul></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-article-collections" >
+  
+        <h2 class="pane-title">Subject Area</h2>
+    
+  
+  <div class="pane-content">
+    <div class="highwire-list-wrapper highwire-article-collections"><div class="highwire-list"><ul class="highwire-article-collection-term-list"><li class="first last odd"><span class="highwire-article-collection-term"><a href="/collection/ecology" class="highlight" data-icon-position="" data-hide-link-title="0">Ecology<i class="icon-caret-right"></i>
+</a></span></li></ul></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-biorxiv-subject-collections block-style-col2" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-flexible panels-flexible-8 clearfix" id="mini-panel-biorxiv_subject_collections">
+<div class="panel-flexible-inside panels-flexible-8-inside">
+<div class="panels-flexible-region panels-flexible-region-8-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-8-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-snippet" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="snippet biorxiv-subject-areas-table-title" id="biorxiv-subject-areas-table-title">
+  
+      
+  <div class="snippet-content">
+    <b>Subject Areas</b>  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="snippet biorxiv-subject-areas-view-papers" id="biorxiv-subject-areas-view-papers">
+  
+      
+  <div class="snippet-content">
+    <a href="/content/early/recent"><strong>All Articles</strong></a>  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-subject-collections" >
+  
+      
+  
+  <div class="pane-content">
+    <ul id="collection" class="collection highwire-list-expand"><li class="outer collection depth-2  child first"><div class = "data-wrapper"><a href="/collection/animal-behavior-and-cognition" class="" data-icon-position="" data-hide-link-title="0">Animal Behavior and Cognition</a> <span class = "article-count">(1651)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/biochemistry" class="" data-icon-position="" data-hide-link-title="0">Biochemistry</a> <span class = "article-count">(2761)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/bioengineering" class="" data-icon-position="" data-hide-link-title="0">Bioengineering</a> <span class = "article-count">(1919)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/bioinformatics" class="" data-icon-position="" data-hide-link-title="0">Bioinformatics</a> <span class = "article-count">(10321)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/biophysics" class="" data-icon-position="" data-hide-link-title="0">Biophysics</a> <span class = "article-count">(4210)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/cancer-biology" class="" data-icon-position="" data-hide-link-title="0">Cancer Biology</a> <span class = "article-count">(3243)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/cell-biology" class="" data-icon-position="" data-hide-link-title="0">Cell Biology</a> <span class = "article-count">(4583)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/clinical-trials" class="" data-icon-position="" data-hide-link-title="0">Clinical Trials</a> <span class = "article-count">(135)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/developmental-biology" class="" data-icon-position="" data-hide-link-title="0">Developmental Biology</a> <span class = "article-count">(2858)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/ecology" class="" data-icon-position="" data-hide-link-title="0">Ecology</a> <span class = "article-count">(4501)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/epidemiology" class="" data-icon-position="" data-hide-link-title="0">Epidemiology</a> <span class = "article-count">(2041)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/evolutionary-biology" class="" data-icon-position="" data-hide-link-title="0">Evolutionary Biology</a> <span class = "article-count">(7254)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/genetics" class="" data-icon-position="" data-hide-link-title="0">Genetics</a> <span class = "article-count">(5504)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/genomics" class="" data-icon-position="" data-hide-link-title="0">Genomics</a> <span class = "article-count">(6835)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/immunology" class="" data-icon-position="" data-hide-link-title="0">Immunology</a> <span class = "article-count">(2409)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/microbiology" class="" data-icon-position="" data-hide-link-title="0">Microbiology</a> <span class = "article-count">(7535)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/molecular-biology" class="" data-icon-position="" data-hide-link-title="0">Molecular Biology</a> <span class = "article-count">(3014)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/neuroscience" class="" data-icon-position="" data-hide-link-title="0">Neuroscience</a> <span class = "article-count">(18714)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/paleontology" class="" data-icon-position="" data-hide-link-title="0">Paleontology</a> <span class = "article-count">(140)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/pathology" class="" data-icon-position="" data-hide-link-title="0">Pathology</a> <span class = "article-count">(476)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/pharmacology-and-toxicology" class="" data-icon-position="" data-hide-link-title="0">Pharmacology and Toxicology</a> <span class = "article-count">(787)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/physiology" class="" data-icon-position="" data-hide-link-title="0">Physiology</a> <span class = "article-count">(1167)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/plant-biology" class="" data-icon-position="" data-hide-link-title="0">Plant Biology</a> <span class = "article-count">(2735)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/scientific-communication-and-education" class="" data-icon-position="" data-hide-link-title="0">Scientific Communication and Education</a> <span class = "article-count">(684)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/synthetic-biology" class="" data-icon-position="" data-hide-link-title="0">Synthetic Biology</a> <span class = "article-count">(894)</span></div></li>
+<li class="outer collection depth-2  child"><div class = "data-wrapper"><a href="/collection/systems-biology" class="" data-icon-position="" data-hide-link-title="0">Systems Biology</a> <span class = "article-count">(2862)</span></div></li>
+<li class="outer collection depth-2  child last"><div class = "data-wrapper"><a href="/collection/zoology" class="" data-icon-position="" data-hide-link-title="0">Zoology</a> <span class = "article-count">(470)</span></div></li>
+</ul>  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+			</div>
+		</div>
+	
+	</div> <!-- /.panel-row-wrapper -->	
+	
+	</div>
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</section>    
+  
+  </div>    <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__Vh5BcRYb6VtLoN3uam6O4DIKltYUVMjVDWtakoysPq0__zA_9xHyAk-lRGLS85oOPfK7yEWnMzbYSmnTOXQEsvJw__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function euCookieComplianceLoadScripts() {}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var eu_cookie_compliance_cookie_name = "";
+//--><!]]>
+</script>
+<script type="text/javascript" src="//d33xdlntwy0kbs.cloudfront.net/cshl_custom.js"></script>
+<script type="text/javascript" src="https://www.biorxiv.org/sites/default/files/advagg_js/js__BmqjBnkz3MgYCAoc25s1lDRMEjLhC3mEPVonUFIHi08__Unwv5-ZIuHBfFwytsjEx1niBVJ7n1T4lPws7VrkHXM4__QJacVmveFyLIBSPkp21xL0ZvuDW9DMBrD2HB1P4Ry5I.js"></script>
+  </body>
+</html>

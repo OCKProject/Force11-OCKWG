@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_09_896878v2/results/search/country/results.xml">
+  <result pre="extreme wildfire events, including those that occurred in 2016 in" exact="France" post="4 , 2017 in Spain and Portugal 5 and"/>
+  <result pre="that occurred in 2016 in France 4 , 2017 in" exact="Spain" post="and Portugal 5 and 2018 in Greece 6 have"/>
+  <result pre="in 2016 in France 4 , 2017 in Spain and" exact="Portugal" post="5 and 2018 in Greece 6 have highlighted the"/>
+  <result pre=", 2017 in Spain and Portugal 5 and 2018 in" exact="Greece" post="6 have highlighted the limits of fire suppression capabilities"/>
+  <result pre="of wildfires (&amp;gt;; 30 ha) in four countries (France, Greece," exact="Portugal" post="and Tunisia) covering most of the diverse biogeographic and"/>
+  <result pre="the biogeographical conditions found in the Mediterranean Basin (France, Greece," exact="Portugal" post="and Tunisia). &amp;lt;;strong&amp;gt;;a.&amp;lt;;/strong&amp;gt;; Local daily values of the climate"/>
+  <result pre="the biogeographical conditions found in the Mediterranean Basin (France, Greece," exact="Portugal" post="and Tunisia). a. Local daily values of the climate"/>
+  <result pre="remains in the average of observed summer conditions, except in" exact="Tunisia" post="(Supplementary Figs. 5 and 6). Accordingly, Normal− wildfires are"/>
+  <result pre="2a). Wind-driven wildfires occur mainly in coastal areas, notably Southern" exact="France" post="and Greece ( Fig. 2c), where wildfires are often"/>
+  <result pre="wildfires occur mainly in coastal areas, notably Southern France and" exact="Greece" post="( Fig. 2c), where wildfires are often driven by"/>
+  <result pre="by 91% in France, 29 % in Greece, 21% in" exact="Portugal" post="and 30 % in Tunisia by the end of"/>
+  <result pre="% in Greece, 21% in Portugal and 30 % in" exact="Tunisia" post="by the end of the century under the RCP8.5"/>
+  <result pre="of wildfires that occurred in Southern France, Greece, Portugal, and" exact="Tunisia" post="(Supplementary Fig. 1) between 1985 and 2015 from national"/>
+  <result pre="was not a factor in the analysis. Fire statistics for" exact="Portugal" post="were extracted from the Portuguese rural fire database, described"/>
+  <result pre="program, through the A*Midex project (ANR-11-IDEX-0001-02). The fire data for" exact="Tunisia" post="were provided by Direction Générale des Forêts (Tunis) and"/>
+  <result pre="et al. Human-started wildfires expand the fire niche across the" exact="United States." post="Proc. Natl. Acad. Sci. U. S. A. 114, 2946–"/>
+  <result pre="On the relationships between forest fires and weather conditions in" exact="Greece" post="from long-term national observations (1894-2010). Int. J. Wildl. Fire"/>
+  <result pre="C. et al. A revised historical fire regime analysis in" exact="Tunisia" post="(1985-2010) from a critical analysis of the national fire"/>
+ </snippets>
+</snippetsTree>

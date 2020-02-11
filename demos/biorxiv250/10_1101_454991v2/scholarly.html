@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+ <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes"/>
+  <meta name="article_thumbnail" content="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/embed/graphic-2.gif"/>
+  <meta name="type" content="article"/>
+  <meta name="category" content="article"/>
+  <meta name="HW.identifier" content="/biorxiv/early/2019/12/22/454991.atom"/>
+  <meta name="HW.pisa" content="biorxiv;454991v2"/>
+  <meta name="DC.Format" content="text/html"/>
+  <meta name="DC.Language" content="en"/>
+  <meta name="DC.Title" content="Improving the interpretability of species distribution models by using local approximations"/>
+  <meta name="DC.Identifier" content="10.1101/454991"/>
+  <meta name="DC.Date" content="2019-12-22"/>
+  <meta name="DC.Publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="DC.Rights" content="© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/"/>
+  <meta name="DC.AccessRights" content="restricted"/>
+  <meta name="DC.Description" content="Species Distribution Models (SDMs) are used to generate maps of realised and potential ecological niches for a given species. As any other machine learning technique they can be seen as “black boxes”, due to a lack of interpretability. Advances in other areas of applied machine learning can be applied to remedy this problem. In this study we test a new tool relying on Local Interpretable Model-agnostic Explanations (LIME) by comparing its results of other known methods and ecological interpretations from domain experts. The findings confirm that LIME provides consistent and ecologically sound explanations of climate feature importance during the training of SDMs, and that the sdmexplain R package can be used with confidence."/>
+  <meta name="DC.Contributor" content="Boyan Angelov"/>
+  <meta name="article:published_time" content="2019-12-22"/>
+  <meta name="article:section" content="New Results"/>
+  <meta name="citation_title" content="Improving the interpretability of species distribution models by using local approximations"/>
+  <meta name="citation_abstract" lang="en" content="&lt;;h3&gt;;ABSTRACT&lt;;/h3&gt;; &lt;;p&gt;;Species Distribution Models (SDMs) are used to generate maps of realised and potential ecological niches for a given species. As any other machine learning technique they can be seen as “black boxes”, due to a lack of interpretability. Advances in other areas of applied machine learning can be applied to remedy this problem. In this study we test a new tool relying on Local Interpretable Model-agnostic Explanations (LIME) by comparing its results of other known methods and ecological interpretations from domain experts. The findings confirm that LIME provides consistent and ecologically sound explanations of climate feature importance during the training of SDMs, and that the sdmexplain R package can be used with confidence.&lt;;/p&gt;;"/>
+  <meta name="citation_journal_title" content="bioRxiv"/>
+  <meta name="citation_publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="citation_publication_date" content="2019/01/01"/>
+  <meta name="citation_mjid" content="biorxiv;454991v2"/>
+  <meta name="citation_id" content="454991v2"/>
+  <meta name="citation_public_url" content="https://www.biorxiv.org/content/10.1101/454991v2"/>
+  <meta name="citation_abstract_html_url" content="https://www.biorxiv.org/content/10.1101/454991v2.abstract"/>
+  <meta name="citation_full_html_url" content="https://www.biorxiv.org/content/10.1101/454991v2.full"/>
+  <meta name="citation_pdf_url" content="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991.full.pdf"/>
+  <meta name="citation_doi" content="10.1101/454991"/>
+  <meta name="citation_num_pages" content="7"/>
+  <meta name="citation_article_type" content="Article"/>
+  <meta name="citation_section" content="New Results"/>
+  <meta name="citation_firstpage" content="454991"/>
+  <meta name="citation_author" content="Boyan Angelov"/>
+  <meta name="citation_author_institution" content="Association for Computing Machinery"/>
+  <meta name="citation_author_email" content="boyanangelov@acm.org"/>
+  <meta name="citation_author_orcid" content="http://orcid.org/0000-0001-5068-4234"/>
+  <meta name="citation_reference" content="Angelov, B. (2018a). boyanangelov/sdmexplain: sdmexplain: An R Package for Making Species Distribution Models More Explainable."/>
+  <meta name="citation_reference" content="Angelov, B. (2018b). sdmbench: R package for benchmarking species distribution models. Journal of Open Source Software."/>
+  <meta name="citation_reference" content="Austin, M. P. and Van Niel, K. P. (2011). Improving species distribution models for climate change studies: Variable selection and scale. Journal of Biogeography, 38(1):1–8."/>
+  <meta name="citation_reference" content="Barbet-Massin, M., Jiguet, F., Albert, C. H., and Thuiller, W. (2012). Selecting pseudo-absences for species distribution models: how, where and how many? Methods in ecology and evolution, 3(2):327–338."/>
+  <meta name="citation_reference" content="Bischl, B., Lang, M., Kotthoff, L., Schiffner, J., Richter, J., Studerus, E., Casalicchio, G., and Jones, Z. M. (2016). mlr: Machine learning in r. The Journal of Machine Learning Research, 17(1):5938–5942."/>
+  <meta name="citation_reference" content="Breiman, L. (2001). Random forests. Machine learning, 45(1):5–32."/>
+  <meta name="citation_reference" content="Chamberlain, S. (2016). scrubr: Clean Biological Occurrence Records. R package version 0.1.1."/>
+  <meta name="citation_reference" content="Elith, J. and Leathwick, J. R. (2009). Species distribution models: ecological explanation and prediction across space and time. Annual review of ecology, evolution, and systematics, 40:677–697."/>
+  <meta name="citation_reference" content="Fails, J. A. and Olsen Jr, D. R. (2003). Interactive machine learning. In Proceedings of the 8th international conference on Intelligent user interfaces, pages 39–45. ACM."/>
+  <meta name="citation_reference" content="García, S., Fernández, A., Luengo, J., and Herrera, F. (2009). A study of statistical techniques and performance measures for genetics-based machine learning: accuracy and interpretability. Soft Computing, 13(10):959."/>
+  <meta name="citation_reference" content="Guisan, A., Tingley, R., Baumgartner, J. B., Naujokaitis-Lewis, I., Sutcliffe, P. R., Tulloch, A. I., Regan, T. J., Brotons, L., Mcdonald-Madden, E., Mantyka-Pringle, C., Martin, T. G., Rhodes, J. R., Maggini, R., Setterfield, S. A., Elith, J., Schwartz, M. W., Wintle, B. A., Broennimann, O., Austin, M., Ferrier, S., Kearney, M. R., Possingham, H. P., and Buckley, Y. M. (2013). Predicting species distributions for conservation decisions. Ecology Letters, 16(12):1424–1435."/>
+  <meta name="citation_reference" content="Pedersen, T. L. and Benesty, M. (2018). lime: Local Interpretable Model-Agnostic Explanations. R package version 0.4.0."/>
+  <meta name="citation_reference" content="Phillips, S. J., Anderson, R. P., and Schapire, R. E. (2006). Maximum entropy modeling of species geographic distributions. Ecological modelling, 190(3-4):231–259."/>
+  <meta name="citation_reference" content="Ribeiro, M. T., Singh, S., and Guestrin, C. (2016). Why should i trust you?: Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining, pages 1135–1144. ACM."/>
+  <meta name="citation_reference" content="Rödder, D. and Lötters, S. (2010). Explanative power of variables used in species distribution modelling: An issue of general model transferability or niche shift in the invasive Greenhouse frog (Eleutherodactylus planirostris). Naturwissenschaften, 97(9):781–796."/>
+  <meta name="citation_reference" content="Rödder, D., Schmidtlein, S., Veith, M., and Lötters, S. (2009). Alien invasive slider turtle in unpredicted habitat: A matter of niche shift or of predictors studied? PLoS ONE, 4(11)."/>
+  <meta name="twitter:title" content="Improving the interpretability of species distribution models by using local approximations"/>
+  <meta name="twitter:site" content="@biorxivpreprint"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="twitter:description" content="Species Distribution Models (SDMs) are used to generate maps of realised and potential ecological niches for a given species. As any other machine learning technique they can be seen as “black boxes”, due to a lack of interpretability. Advances in other areas of applied machine learning can be applied to remedy this problem. In this study we test a new tool relying on Local Interpretable Model-agnostic Explanations (LIME) by comparing its results of other known methods and ecological interpretations from domain experts. The findings confirm that LIME provides consistent and ecologically sound explanations of climate feature importance during the training of SDMs, and that the sdmexplain R package can be used with confidence."/>
+  <meta name="og-title" property="og:title" content="Improving the interpretability of species distribution models by using local approximations"/>
+  <meta name="og-url" property="og:url" content="https://www.biorxiv.org/content/10.1101/454991v2"/>
+  <meta name="og-site-name" property="og:site_name" content="bioRxiv"/>
+  <meta name="og-description" property="og:description" content="Species Distribution Models (SDMs) are used to generate maps of realised and potential ecological niches for a given species. As any other machine learning technique they can be seen as “black boxes”, due to a lack of interpretability. Advances in other areas of applied machine learning can be applied to remedy this problem. In this study we test a new tool relying on Local Interpretable Model-agnostic Explanations (LIME) by comparing its results of other known methods and ecological interpretations from domain experts. The findings confirm that LIME provides consistent and ecologically sound explanations of climate feature importance during the training of SDMs, and that the sdmexplain R package can be used with confidence."/>
+  <meta name="og-type" property="og:type" content="article"/>
+  <meta name="og-image" property="og:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="citation_date" content="2019-12-22"/> 
+  <meta name="description" content="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution"/>
+  <meta name="generator" content="Drupal 7 (http://drupal.org)"/> 
+  <title>Improving the interpretability of species distribution models by using local approximations | bioRxiv</title> 
+ </head>
+ <body class="html not-front not-logged-in page-node page-node- page-node-1066081 node-type-highwire-article context-content hw-default-jcode-biorxiv hw-article-type-article hw-article-category-new-results"> 
+  <div class="article fulltext-view ">
+   <span class="highwire-journal-article-marker-start"/>
+   <div class="section abstract" id="abstract-1">
+    <h2 class="">ABSTRACT</h2>
+    <p id="p-2">Species Distribution Models (SDMs) are used to generate maps of realised and potential ecological niches for a given species. As any other machine learning technique they can be seen as “black boxes”, due to a lack of interpretability. Advances in other areas of applied machine learning can be applied to remedy this problem. In this study we test a new tool relying on Local Interpretable Model-agnostic Explanations (LIME) by comparing its results of other known methods and ecological interpretations from domain experts. The findings confirm that LIME provides consistent and ecologically sound explanations of climate feature importance during the training of SDMs, and that the 
+     <kbd>sdmexplain</kbd> R package can be used with confidence.
+    </p>
+   </div>
+   <div class="section" id="sec-1">
+    <h2 class="">INTRODUCTION</h2>
+    <p id="p-4">In recent years an increased focus has been placed on making machine learning more interpretable (
+     <a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">Doshi-Velez and Kim, 2017</a>; 
+     <a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">García et al., 2009</a>). The main reason for this is that black-box models are often not trusted by domain experts (
+     <a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">Ribeiro et al., 2016</a>). Moreover, the visualisation of feature importances can often yield valuable insights. Such an analysis might help a scientist decide which data points are not necessary (so that data collection can be improved), or more importantly, uncover new details about what is contributing to the study phenomenon. In the very least, it can act as a sanity check that the model is learning the right things and successfully avoids bias.
+    </p>
+    <p id="p-5">Species Distribution Modeling (SDM) is the application of machine learning on estimating the species habitat based on occurrence data and associated environmental features (temperature, humidity etc.) (
+     <a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">Elith and Leathwick, 2009</a>). Such models can be used to guide conservation efforts, estimate the effects of climate change and answer other environmental hypotheses (
+     <a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">Guisan et al., 2013</a>; 
+     <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">Austin and Van Niel, 2011</a>). A field of such importance for ecology can benefit greatly from becoming more explainable. Domain experts and people in the field rely on the maps produced by those models, and their trust in their accuracy can be increased if they understand more clearly how models make decisions.
+    </p>
+    <p id="p-6">Some of the most important breakthroughs in explainable machine learning include the LIME 
+     <a id="xref-ref-15-2" class="xref-bibr" href="#ref-15">Ribeiro et al. (2016)</a> and IML (
+     <a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">Fails and Olsen Jr, 2003</a>) projects
+     <sup>
+      <a id="xref-fn-2-1" class="xref-fn" href="#fn-2">1</a>
+     </sup>. For this study we chose the former, due to its more accessible API (Application Programming Interface).
+    </p>
+    <p id="p-7">Those are the motivations behind the creation of the 
+     <kbd>sdmexplain</kbd> package (
+     <a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">Angelov, 2018a</a>). This R package has functions that enable a user to train SDMs and understand which features are most important with various visualisations and an interactive map. In order to prove that the LIME explanations used are indeed consistent with ecological observations, an analysis of two species was performed. Additionally, the LIME results were compared to a standard method for computing feature importance in order to determine in the patterns generated are statistically similar.
+    </p>
+   </div>
+   <div class="section" id="sec-2">
+    <h2 class="">METHODS</h2>
+    <div id="sec-3" class="subsection">
+     <h3>Study species</h3>
+     <p id="p-8">In order to ecologically prove the explainability calculations the two species were selected based on their relatively strong dependence on specific climate conditions. The occurence (observation) data points are shown on the map in 
+      <a id="xref-fig-1-1" class="xref-fig" href="#F1">Figure 1</a>.
+     </p>
+     <div id="F1" class="fig pos-float type-figure odd">
+      <div class="highwire-figure">
+       <div class="fig-inline-img-wrapper">
+        <div class="fig-inline-img">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F1.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Occurence map for raw GBIF data (red: Eleutherodactylus planirostris, blue: Trachemys scripta " class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-905771267" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;&lt;;span class=&quot;;caption-title&quot;;&gt;;Occurence map for raw GBIF data (red: &lt;;em&gt;;Eleutherodactylus planirostris&lt;;/em&gt;;, blue: &lt;;em&gt;;Trachemys scripta&lt;;/em&gt;;&lt;;/span&gt;; &lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+          <span class="hw-responsive-img">
+           <img class="highwire-fragment fragment-image lazyload" alt="Figure 1." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F1.medium.gif" width="440" height="198"/>
+           <noscript>
+            <img class="highwire-fragment fragment-image" alt="Figure 1." src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F1.medium.gif" width="440" height="198"/>
+           </noscript>
+          </span>
+         </a>
+        </div>
+       </div>
+       <ul class="highwire-figure-links inline">
+        <li class="download-fig first">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 1." data-icon-position="" data-hide-link-title="0">Download figure</a>
+        </li>
+        <li class="new-tab last">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+        </li>
+       </ul>
+      </div>
+      <div class="fig-caption">
+       <span class="fig-label">Figure 1.</span>
+       <span class="caption-title">Occurence map for raw GBIF data (red: 
+        <em>Eleutherodactylus planirostris</em>, blue: 
+        <em>Trachemys scripta</em>
+       </span>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+    </div>
+    <div id="sec-4" class="subsection">
+     <h3>Eleutherodactylus planirostris</h3>
+     <p id="p-9">
+      <em>Eleutherodactylus planirostris</em>, otherwise known as greenhouse frog, is a mostly terrestrial amphibian. It occurs natively in Bahamas, the Cayman Islands, Cuba, and invasively in Jamaica, Guam, and the southeastern United States. An important characteristic of this species is that for its eggs to hatch, 100% humidity is required (
+      <a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">Rödder and Lötters, 2010</a>).
+     </p>
+    </div>
+    <div id="sec-5" class="subsection">
+     <h3>Trachemys scripta</h3>
+     <p id="p-10">Otherwise known as slider turtle, or common slider, 
+      <em>Trachemys scripta</em> is native to the United States, but invasive in many parts of the world, including Southern Europe, Israel, South Africa and others. Because of the negative effects of its invasive nature, this organism and its response to environmental conditions has been widely studied. The slider turtle is heavily dependent on water availability throughout the year. It’s feeding is strongly temperature-dependent. The hibernation of neonates in nests is very sensitive to low temperatures as well (
+      <a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">Rödder et al., 2009</a>).
+     </p>
+    </div>
+    <div id="sec-6" class="subsection">
+     <h3>Species records</h3>
+     <p id="p-11">Species records have been obtained by using the 
+      <kbd>sdmbench</kbd> package (
+      <a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">Angelov, 2018b</a>). In the background it obtains data from GBIF (
+      <a href="https://www.gbif.org/">https://www.gbif.org/</a>) and performs additional domain-specific preprocessing steps (such as removing occurences with impossible, incomplete or unlikely coordinates (based on the 
+      <kbd>scrubr</kbd> package, 
+      <a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">Chamberlain (2016)</a>).
+     </p>
+    </div>
+    <div id="sec-7" class="subsection">
+     <h3>Climate data</h3>
+     <p id="p-12">Environmental data has been obtained from WorldClim (
+      <a href="http://www.worldclim.org/bioclim">http://www.worldclim.org/bioclim</a>) by using the 
+      <kbd>sdmbench</kbd> package. In order to create variables that are biologically relevant, monthly temperature and rainfall data are processed. Those derived variables are more representative of seasonal and limiting climate characteristics. This preprocessing enables successful downstream species distribution modeling.
+     </p>
+    </div>
+    <div id="sec-8" class="subsection">
+     <h3>Species distribution models</h3>
+     <p id="p-13">Random Forests was chosen as the algorithm to create the main species distribution model for the LIME explanations. It is a popular modeling technique that is known to perform well out-of-the box, with a good balance between efficiency, speed and high tolerance for missing data 
+      <a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">Breiman (2001)</a>. It is also one of the MLR “learners” that allow for the calculation of feature importance. The R package MLR (
+      <a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">Bischl et al., 2016</a>) is used because of its ease of use and accessible API. In order to compare the results from different methods, several other algorithms which support feature importance computation were also run: RF SRC (Random Forests for Survival), GBM (Gradient Boosting) and rpart (Recursive Partitioning And Regression Trees). Additionally, the Maximum Entropy (MaxEnt, 
+      <a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">Phillips et al. (2006)</a>) algorithm was also used in the comparison. It is one of the most popular and widely-used SDM techniques, and the contribution of environmental features to the model performance can be extracted from the model.
+     </p>
+     <p id="p-14">Feature importances were compared between the MLR models, MaxEnt and LIME. For LIME the individual predictions were gathered and the average contribution values per feature computed. For the MLR models the importances are represented by the mean decrease of the Gini impurity index, shown in 
+      <a id="xref-disp-formula-1-1" class="xref-disp-formula" href="#disp-formula-1">Equation 1</a>, where 
+      <em>p</em>(
+      <em>i</em>| 
+      <em>j</em>) is the proportion of samples of class 
+      <em>c</em> for a particular node 
+      <em>t</em> of the decision tree. 
+      <span class="disp-formula" id="disp-formula-1">
+       <span class="highwire-responsive-lazyload">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/22/454991/embed/graphic-2.gif"/>
+        <noscript>
+         <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/22/454991/embed/graphic-2.gif"/>
+        </noscript>
+       </span>
+      </span>
+     </p>
+     <p id="p-15">For LIME, a single explanation is computed in 
+      <a id="xref-disp-formula-2-1" class="xref-disp-formula" href="#disp-formula-2">Equation 2</a>, where 
+      <em>G</em> ∈ 
+      <em>G</em> is the model, 
+      <em>λ</em> (
+      <em>f, g, pi</em>
+      <sub>
+       <em>x</em>
+      </sub>) is the “unfaithfulness” in how the the model approximates the locality 
+      <em>pi</em>
+      <sub>
+       <em>x</em>
+      </sub> and Ω(
+      <em>g</em>) is the complexity measure. 
+      <span class="disp-formula" id="disp-formula-2">
+       <span class="highwire-responsive-lazyload">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/22/454991/embed/graphic-3.gif"/>
+        <noscript>
+         <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/22/454991/embed/graphic-3.gif"/>
+        </noscript>
+       </span>
+      </span>
+     </p>
+     <p id="p-16">For MaxEnt, the feature importance is represented internally by the software as percent contribution. This is the result of algorithm modifying a single MaxEnt feature coefficient and assigning the gain to the environmental variable the MaxEnt feature depends on (
+      <a id="xref-ref-14-2" class="xref-bibr" href="#ref-14">Phillips et al., 2006</a>).
+     </p>
+    </div>
+   </div>
+   <div class="section" id="sec-9">
+    <h2 class="">RESULTS</h2>
+    <div id="sec-10" class="subsection">
+     <h3>Model Training</h3>
+     <p id="p-17">The data consists of the aforementioned WorldClim environmental variables and a label (or target variable). The latter contains the observations (encoded as a “positive” label). A common issue in species distribution modeling is the lack of true absences recorded (“negative” label). In those cases, in order to build a classifier, we need to artificially create those by sampling the background data, thus generating pseudo-absences (
+      <a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">Barbet-Massin et al., 2012</a>).
+     </p>
+     <p id="p-18">Before model training the data was randomly split into train and test sets (70% and 30% of the whole dataset respectively). This is a common method to make sure that we are not training and testing a model on the same data, which can result in overfitting (the model learns the data and its noise too well, and is prone to generealize poorly). For both species the models achieved good accuracy (% of correctly classified occurences) and Area under the curve (AUC 
+      <sup>
+       <a id="xref-fn-3-1" class="xref-fn" href="#fn-3">2</a>
+      </sup>) on the test set.
+     </p>
+    </div>
+    <div id="sec-11" class="subsection">
+     <h3>Feature Importance Analysis</h3>
+     <p id="p-19">The example visualisations of LIME importances (
+      <a id="xref-fig-2-1" class="xref-fig" href="#F2">Figure 2</a>) show that there are two types of contributions a feature can make for a prediction: positive and negative, also with different magnitudes. Additionally, we are provided with feature rules (i.e. 
+      <em>bio</em>5 ≥ 42). Those add a new layer of interpretability to the model. A first look at those visualisations show that often a few key features are often contributing the most to the probability of occurrence at a given location. Those are quantified on 
+      <a id="xref-fig-3-1" class="xref-fig" href="#F3">Figure 3</a>, where the mean feature importances per model are shown.
+     </p>
+     <div id="F2" class="fig pos-float type-figure odd">
+      <div class="highwire-figure">
+       <div class="fig-inline-img-wrapper">
+        <div class="fig-inline-img">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F2.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Example LIME plots " class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-905771267" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;span xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;; class=&quot;;caption-title&quot;;&gt;;Example LIME plots&lt;;/span&gt;; &lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+          <span class="hw-responsive-img">
+           <img class="highwire-fragment fragment-image lazyload" alt="Figure 2." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F2.medium.gif" width="440" height="194"/>
+           <noscript>
+            <img class="highwire-fragment fragment-image" alt="Figure 2." src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F2.medium.gif" width="440" height="194"/>
+           </noscript>
+          </span>
+         </a>
+        </div>
+       </div>
+       <ul class="highwire-figure-links inline">
+        <li class="download-fig first">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F2.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 2." data-icon-position="" data-hide-link-title="0">Download figure</a>
+        </li>
+        <li class="new-tab last">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F2.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+        </li>
+       </ul>
+      </div>
+      <div class="fig-caption">
+       <span class="fig-label">Figure 2.</span>
+       <span class="caption-title">Example LIME plots</span>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+     <div id="F3" class="fig pos-float type-figure odd">
+      <div class="highwire-figure">
+       <div class="fig-inline-img-wrapper">
+        <div class="fig-inline-img">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F3.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Feature importances calculated by different models (represented by shapes) " class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-905771267" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;span xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;; class=&quot;;caption-title&quot;;&gt;;Feature importances calculated by different models (represented by shapes)&lt;;/span&gt;; &lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+          <span class="hw-responsive-img">
+           <img class="highwire-fragment fragment-image lazyload" alt="Figure 3." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F3.medium.gif" width="440" height="273"/>
+           <noscript>
+            <img class="highwire-fragment fragment-image" alt="Figure 3." src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F3.medium.gif" width="440" height="273"/>
+           </noscript>
+          </span>
+         </a>
+        </div>
+       </div>
+       <ul class="highwire-figure-links inline">
+        <li class="download-fig first">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F3.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 3." data-icon-position="" data-hide-link-title="0">Download figure</a>
+        </li>
+        <li class="new-tab last">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F3.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+        </li>
+       </ul>
+      </div>
+      <div class="fig-caption">
+       <span class="fig-label">Figure 3.</span>
+       <span class="caption-title">Feature importances calculated by different models (represented by shapes)</span>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+     <p id="p-20">In order to test that the feature importances between the different methods are in agreement, ANOVA was performed on a multiple linear regression of species feature importance versus model type. The alternative hypothesis (that there is a significant difference between model types) was rejected with 
+      <em>p</em> &gt;; .05 for both species.
+     </p>
+     <p id="p-21">For 
+      <em>Eleutherodactylus planirostris</em> the most important features were 
+      <kbd>bio4</kbd> and 
+      <kbd>bio17</kbd>, while for 
+      <em>Trachemys scripta</em> those were 
+      <kbd>bio19</kbd>, 
+      <kbd>bio17</kbd>, and 
+      <kbd>bio3</kbd>. Those results are summarized in 
+      <a id="xref-table-wrap-1-1" class="xref-table" href="#T1">Table 1</a>.
+     </p>
+     <div id="T1" class="table pos-float">
+      <div class="table-inline table-callout-links">
+       <div class="callout">
+        <span>View this table:</span>
+        <ul class="callout-links">
+         <li class="view-inline first">
+          <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1077095/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+         </li>
+         <li class="view-popup">
+          <a href="/highwire/markup/1077095/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+         </li>
+         <li class="download-ppt last">
+          <a href="/highwire/powerpoint/1077095" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="table-caption">
+       <span class="table-label">Table 1.</span>
+       <p id="p-22" class="first-child">Most important features for both species</p>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="section" id="sec-12">
+    <h2 class="">DISCUSSION</h2>
+    <p id="p-23">We can think of the model interpretability in three stages (
+     <a id="xref-fig-4-1" class="xref-fig" href="#F4">Figure 4</a>). In the first stage we are dealing with the raw data. Depending on how descriptive and intuitive the features are (i.e. the bioclimatic variables from WorldClim might be derived, but still can make sense to a domain expert), a user can already see some patterns in the data. Thus we can label this phase as a having a “medium” level of interpretability. The next step in a normal pipeline consist of the training of a SDM. This is the least understandable part of the pipeline, and most of the traditional model output is focused on various performance metrics. Some specific models, such as the ones in this study, allow for feature importance calculation (those are the various “tree-based” algorithms), but even this might not be enough, since all you get are averages across the whole dataset. Thus we can label this second phase as being the “black-box” and having a “low” interpretability. The final phase is the one that can shed a light on the black box model is the application of LIME (or similar methods) on the model, as used in the current study. Here we can achieve a very fine understanding of feature importance per observation. This can further allow for better understanding of the model mechanism, a simple sanity check that the model is learning the right things, and maybe further ecological hypothesis generation.
+    </p>
+    <div id="F4" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F4.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Levels of interpretability in machine learning" class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-905771267" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Levels of interpretability in machine learning&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 4." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F4.medium.gif" width="440" height="218"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 4." src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F4.medium.gif" width="440" height="218"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F4.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 4." data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F4.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 4.</span>
+      <p id="p-24" class="first-child">Levels of interpretability in machine learning</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-25">In statistical terms, the machine learning algorithms used are operating by using different mechanisms (despite all of them being tree based). Moreover the exact measures of “importance” also differ between the MLR methods, LIME and MaxEnt. Nevertheless, there is no statistically significant difference in results obtained across them, increasing our confidence that LIME is statistically similar.</p>
+    <p id="p-26">In the case of 
+     <em>Eleutherodactylus planirostris</em>, humidity was determined to be the most important factor in limiting the species distribution. Since the hatching of the eggs requires ∼ 100% humidity this is to be expected. For 
+     <em>Trachemys scripta</em> temperature and water availability can have dramatic consequences on the behavior and reproduction of the species, and this is also confirmed by the study.
+    </p>
+    <div id="sec-13" class="subsection">
+     <h3>Conclusions</h3>
+     <p id="p-27">This study provides scientific support for the usage of the 
+      <kbd>sdmexplain</kbd> package by confirming that LIME explanations are statistically sound and ecologically meaningful. The most important functionality of 
+      <kbd>sdmexplain</kbd> is the generation of interactive and explainable SDM maps, as shown on 
+      <a id="xref-fig-5-1" class="xref-fig" href="#F5">Figure 5</a>. Such maps can be very useful for understanding SDMs, and providing guidance for experts in the field. Model explainability is a topic of hot research and there is a variety of new methods appearing in the field. Those can and should be evaluated in the context of species distribution modeling, especially on species of critical interest and importance.
+     </p>
+     <div id="F5" class="fig pos-float type-figure odd">
+      <div class="highwire-figure">
+       <div class="fig-inline-img-wrapper">
+        <div class="fig-inline-img">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F5.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Interactive map with explainable occurences" class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-905771267" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Interactive map with explainable occurences&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+          <span class="hw-responsive-img">
+           <img class="highwire-fragment fragment-image lazyload" alt="Figure 5." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F5.medium.gif" width="440" height="147"/>
+           <noscript>
+            <img class="highwire-fragment fragment-image" alt="Figure 5." src="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F5.medium.gif" width="440" height="147"/>
+           </noscript>
+          </span>
+         </a>
+        </div>
+       </div>
+       <ul class="highwire-figure-links inline">
+        <li class="download-fig first">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F5.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 5." data-icon-position="" data-hide-link-title="0">Download figure</a>
+        </li>
+        <li class="new-tab last">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/22/454991/F5.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+        </li>
+       </ul>
+      </div>
+      <div class="fig-caption">
+       <span class="fig-label">Figure 5.</span>
+       <p id="p-28" class="first-child">Interactive map with explainable occurences</p>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="section ack" id="ack-1">
+    <h2 class="">ACKNOWLEDGEMENTS</h2>
+    <p id="p-29">This research would not be possible without the original LIME package (
+     <a id="xref-ref-15-3" class="xref-bibr" href="#ref-15">Ribeiro et al., 2016</a>), and its R port (
+     <a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">Pedersen and Benesty, 2018</a>).
+    </p>
+   </div>
+   <div class="section fn-group" id="fn-group-1">
+    <h2>Footnotes</h2>
+    <ul>
+     <li class="fn-update fn-group-summary-of-updates" id="fn-1">
+      <p id="p-3">Change main author affiliation.</p>
+     </li>
+     <li class="fn" id="fn-2">
+      <p id="p-30">
+       <a class="rev-xref" href="#xref-fn-2-1">↵</a>
+       <span class="fn-label">
+        <sup>1</sup>
+       </span> From this point onwards “interpretable” and “explainable” will be used interchangeably.
+      </p>
+     </li>
+     <li class="fn" id="fn-3">
+      <p id="p-31">
+       <a class="rev-xref" href="#xref-fn-3-1">↵</a>
+       <span class="fn-label">
+        <sup>2</sup>
+       </span> A standard method of estimating the performance of a binary classifier.
+      </p>
+     </li>
+    </ul>
+   </div>
+   <div class="section ref-list" id="ref-list-1">
+    <h2 class="">REFERENCES</h2>
+    <ol class="cit-list ref-use-labels">
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference in text" id="ref-1">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.1">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Angelov</span>, 
+          <span class="cit-name-given-names">B.</span>
+         </span> (
+         <span class="cit-pub-date">2018a</span>). 
+         <abbr class="cit-jnl-abbrev">boyanangelov/sdmexplain: sdmexplain: An R Package for Making Species Distribution Models More Explainable</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference in text" id="ref-2">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.2">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Angelov</span>, 
+          <span class="cit-name-given-names">B.</span>
+         </span> (
+         <span class="cit-pub-date">2018b</span>). 
+         <span class="cit-article-title">sdmbench: R package for benchmarking species distribution models</span>. 
+         <abbr class="cit-jnl-abbrev">Journal of Open Source Software</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference in text" id="ref-3">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.3" data-doi="10.1111/j.1365-2699.2010.02416.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Austin</span>, 
+          <span class="cit-name-given-names">M. P.</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Van Niel</span>, 
+          <span class="cit-name-given-names">K. P.</span>
+         </span> (
+         <span class="cit-pub-date">2011</span>). 
+         <span class="cit-article-title">Improving species distribution models for climate change studies: Variable selection and scale</span>. 
+         <abbr class="cit-jnl-abbrev">Journal of Biogeography</abbr>, 
+         <span class="cit-vol">38</span>(
+         <span class="cit-issue">1</span>):
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">8</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2BBiogeography%26rft.volume%253D38%26rft.spage%253D1%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1365-2699.2010.02416.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1365-2699.2010.02416.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000285300500001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference in text" id="ref-4">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.4">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Barbet-Massin</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Jiguet</span>, 
+          <span class="cit-name-given-names">F.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Albert</span>, 
+          <span class="cit-name-given-names">C. H.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Thuiller</span>, 
+          <span class="cit-name-given-names">W.</span>
+         </span> (
+         <span class="cit-pub-date">2012</span>). 
+         <span class="cit-article-title">Selecting pseudo-absences for species distribution models: how, where and how many?</span>
+         <abbr class="cit-jnl-abbrev">Methods in ecology and evolution</abbr>, 
+         <span class="cit-vol">3</span>(
+         <span class="cit-issue">2</span>):
+         <span class="cit-fpage">327</span>–
+         <span class="cit-lpage">338</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMethods%2Bin%2Becology%2Band%2Bevolution%26rft.volume%253D3%26rft.spage%253D327%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference in text" id="ref-5">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.5">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bischl</span>, 
+          <span class="cit-name-given-names">B.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lang</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kotthoff</span>, 
+          <span class="cit-name-given-names">L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Schiffner</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Richter</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Studerus</span>, 
+          <span class="cit-name-given-names">E.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Casalicchio</span>, 
+          <span class="cit-name-given-names">G.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Jones</span>, 
+          <span class="cit-name-given-names">Z. M.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>). 
+         <span class="cit-article-title">mlr: Machine learning in r</span>. 
+         <abbr class="cit-jnl-abbrev">The Journal of Machine Learning Research</abbr>, 
+         <span class="cit-vol">17</span>(
+         <span class="cit-issue">1</span>):
+         <span class="cit-fpage">5938</span>–
+         <span class="cit-lpage">5942</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DThe%2BJournal%2Bof%2BMachine%2BLearning%2BResearch%26rft.volume%253D17%26rft.spage%253D5938%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference in text" id="ref-6">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.6" data-doi="10.1017/CBO9781107415324.004">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Breiman</span>, 
+          <span class="cit-name-given-names">L.</span>
+         </span> (
+         <span class="cit-pub-date">2001</span>). 
+         <span class="cit-article-title">Random forests</span>. 
+         <abbr class="cit-jnl-abbrev">Machine learning</abbr>, 
+         <span class="cit-vol">45</span>(
+         <span class="cit-issue">1</span>):
+         <span class="cit-fpage">5</span>–
+         <span class="cit-lpage">32</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMachine%2Blearning%26rft.volume%253D45%26rft.spage%253D5%26rft_id%253Dinfo%253Adoi%252F10.1017%252FCBO9781107415324.004%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1017/CBO9781107415324.004&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference in text" id="ref-7">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.7">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chamberlain</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>). 
+         <abbr class="cit-jnl-abbrev">scrubr: Clean Biological Occurrence Records. R package version 0.1.1</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference in text" id="ref-8">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.8">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Doshi-Velez</span>, 
+          <span class="cit-name-given-names">F.</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kim</span>, 
+          <span class="cit-name-given-names">B.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>). 
+         <span class="cit-article-title">Towards a rigorous science of interpretable machine learning</span>. 
+         <abbr class="cit-jnl-abbrev">arXiv</abbr> preprint
+         <span class="cit-pub-id-sep cit-pub-id-arxiv-sep"> </span>
+         <span class="cit-pub-id cit-pub-id-arxiv">
+          <span class="cit-pub-id-scheme-arxiv">arxiv:</span>1702.08608
+         </span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference in text" id="ref-9">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.9" data-doi="10.1146/annurev.ecolsys.110308.120159">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Leathwick</span>, 
+          <span class="cit-name-given-names">J. R.</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>). 
+         <span class="cit-article-title">Species distribution models: ecological explanation and prediction across space and time</span>. 
+         <abbr class="cit-jnl-abbrev">Annual review of ecology, evolution, and systematics</abbr>, 
+         <span class="cit-vol">40</span>:
+         <span class="cit-fpage">677</span>–
+         <span class="cit-lpage">697</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAnnual%2Breview%2Bof%2Becology%252C%2Bevolution%252C%2Band%2Bsystematics%26rft.volume%253D40%26rft.spage%253D677%26rft_id%253Dinfo%253Adoi%252F10.1146%252Fannurev.ecolsys.110308.120159%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1146/annurev.ecolsys.110308.120159&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000272455700032&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference in text" id="ref-10">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-454991v2.10">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Fails</span>, 
+          <span class="cit-name-given-names">J. A.</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Olsen</span>
+          <span class="cit-name-suffix">Jr</span>, 
+          <span class="cit-name-given-names">D. R.</span>
+         </span> (
+         <span class="cit-pub-date">2003</span>). 
+         <span class="cit-chapter-title">Interactive machine learning</span>. 
+         <span class="cit-source">In Proceedings of the 8th international conference on Intelligent user interfaces</span>, pages 
+         <span class="cit-fpage">39</span>–
+         <span class="cit-lpage">45</span>. 
+         <span class="cit-publ-name">ACM</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference in text" id="ref-11">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.11">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">García</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Fernández</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Luengo</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Herrera</span>, 
+          <span class="cit-name-given-names">F.</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>). 
+         <span class="cit-article-title">A study of statistical techniques and performance measures for genetics-based machine learning: accuracy and interpretability</span>. 
+         <abbr class="cit-jnl-abbrev">Soft Computing</abbr>, 
+         <span class="cit-vol">13</span>(
+         <span class="cit-issue">10</span>):
+         <span class="cit-fpage">959</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DSoft%2BComputing%26rft.volume%253D13%26rft.spage%253D959%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference in text" id="ref-12">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.12" data-doi="10.1111/ele.12189">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Guisan</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tingley</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Baumgartner</span>, 
+          <span class="cit-name-given-names">J. B.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Naujokaitis-Lewis</span>, 
+          <span class="cit-name-given-names">I.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Sutcliffe</span>, 
+          <span class="cit-name-given-names">P. R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tulloch</span>, 
+          <span class="cit-name-given-names">A. I.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Regan</span>, 
+          <span class="cit-name-given-names">T. J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brotons</span>, 
+          <span class="cit-name-given-names">L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mcdonald-Madden</span>, 
+          <span class="cit-name-given-names">E.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mantyka-Pringle</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Martin</span>, 
+          <span class="cit-name-given-names">T. G.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Rhodes</span>, 
+          <span class="cit-name-given-names">J. R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Maggini</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Setterfield</span>, 
+          <span class="cit-name-given-names">S. A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Schwartz</span>, 
+          <span class="cit-name-given-names">M. W.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wintle</span>, 
+          <span class="cit-name-given-names">B. A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Broennimann</span>, 
+          <span class="cit-name-given-names">O.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Austin</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ferrier</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kearney</span>, 
+          <span class="cit-name-given-names">M. R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Possingham</span>, 
+          <span class="cit-name-given-names">H. P.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Buckley</span>, 
+          <span class="cit-name-given-names">Y. M.</span>
+         </span> (
+         <span class="cit-pub-date">2013</span>). 
+         <span class="cit-article-title">Predicting species distributions for conservation decisions</span>. 
+         <abbr class="cit-jnl-abbrev">Ecology Letters</abbr>, 
+         <span class="cit-vol">16</span>(
+         <span class="cit-issue">12</span>):
+         <span class="cit-fpage">1424</span>–
+         <span class="cit-lpage">1435</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcology%2BLetters%26rft.volume%253D16%26rft.spage%253D1424%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fele.12189%26rft_id%253Dinfo%253Apmid%252F24134332%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/ele.12189&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=24134332&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F22%2F454991.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference in text" id="ref-13">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.13">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pedersen</span>, 
+          <span class="cit-name-given-names">T. L.</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Benesty</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>). 
+         <abbr class="cit-jnl-abbrev">lime: Local Interpretable Model-Agnostic Explanations. R package version 0.4.0</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference in text" id="ref-14">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.14" data-doi="10.1016/j.ecolmodel.2005.03.026">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Phillips</span>, 
+          <span class="cit-name-given-names">S. J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Anderson</span>, 
+          <span class="cit-name-given-names">R. P.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Schapire</span>, 
+          <span class="cit-name-given-names">R. E.</span>
+         </span> (
+         <span class="cit-pub-date">2006</span>). 
+         <span class="cit-article-title">Maximum entropy modeling of species geographic distributions</span>. 
+         <abbr class="cit-jnl-abbrev">Ecological modelling</abbr>, 
+         <span class="cit-vol">190</span>(
+         <span class="cit-issue">3-4</span>):
+         <span class="cit-fpage">231</span>–
+         <span class="cit-lpage">259</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcological%2Bmodelling%26rft.volume%253D190%26rft.spage%253D231%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.ecolmodel.2005.03.026%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.ecolmodel.2005.03.026&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000233859600001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference in text" id="ref-15">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-454991v2.15">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ribeiro</span>, 
+          <span class="cit-name-given-names">M. T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Singh</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Guestrin</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>). 
+         <span class="cit-chapter-title">Why should i trust you?: Explaining the predictions of any classifier</span>. 
+         <span class="cit-source">In Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining</span>, pages 
+         <span class="cit-fpage">1135</span>–
+         <span class="cit-lpage">1144</span>. 
+         <span class="cit-publ-name">ACM</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference in text" id="ref-16">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.16" data-doi="10.1007/s00114-010-0694-7">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Rödder</span>, 
+          <span class="cit-name-given-names">D.</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lötters</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span> (
+         <span class="cit-pub-date">2010</span>). 
+         <span class="cit-article-title">Explanative power of variables used in species distribution modelling: An issue of general model transferability or niche shift in the invasive Greenhouse frog (Eleutherodactylus planirostris)</span>. 
+         <abbr class="cit-jnl-abbrev">Naturwissenschaften</abbr>, 
+         <span class="cit-vol">97</span>(
+         <span class="cit-issue">9</span>):
+         <span class="cit-fpage">781</span>–
+         <span class="cit-lpage">796</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DNaturwissenschaften%26rft.stitle%253DNaturwissenschaften%26rft.aulast%253DRodder%26rft.auinit1%253DD.%26rft.volume%253D97%26rft.issue%253D9%26rft.spage%253D781%26rft.epage%253D796%26rft.atitle%253DExplanative%2Bpower%2Bof%2Bvariables%2Bused%2Bin%2Bspecies%2Bdistribution%2Bmodelling%253A%2Ban%2Bissue%2Bof%2Bgeneral%2Bmodel%2Btransferability%2Bor%2Bniche%2Bshift%2Bin%2Bthe%2Binvasive%2BGreenhouse%2Bfrog%2B%2528Eleutherodactylus%2Bplanirostris%2529.%26rft_id%253Dinfo%253Adoi%252F10.1007%252Fs00114-010-0694-7%26rft_id%253Dinfo%253Apmid%252F20617298%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1007/s00114-010-0694-7&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=20617298&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F22%2F454991.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference in text" id="ref-17">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-454991v2.17">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Rödder</span>, 
+          <span class="cit-name-given-names">D.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Schmidtlein</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Veith</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lötters</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>). 
+         <span class="cit-article-title">Alien invasive slider turtle in unpredicted habitat: A matter of niche shift or of predictors studied?</span>
+         <abbr class="cit-jnl-abbrev">PLoS ONE</abbr>, 
+         <span class="cit-vol">4</span>(
+         <span class="cit-issue">11</span>).
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+    </ol>
+   </div>
+   <span class="highwire-journal-article-marker-end"/>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,324 @@
+{
+  "id": [
+    "31909393"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31909393"
+  ],
+  "pmcid": [
+    "PMC6940606"
+  ],
+  "doi": [
+    "10.1016/j.eclinm.2019.12.002"
+  ],
+  "title": [
+    "Preparing individuals with spinal cord injury for extreme storms in the era of climate change."
+  ],
+  "authorString": [
+    "Shapiro LT, Gater DR, Espinel Z, Kossin JP, Galea S, Shultz JM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Shapiro LT"
+          ],
+          "firstName": [
+            "Lauren T"
+          ],
+          "lastName": [
+            "Shapiro"
+          ],
+          "initials": [
+            "LT"
+          ],
+          "affiliation": [
+            "Department of Physical Medicine & Rehabilitation, University of Miami Leonard M. Miller School of Medicine, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gater DR Jr"
+          ],
+          "firstName": [
+            "David R"
+          ],
+          "lastName": [
+            "Gater"
+          ],
+          "initials": [
+            "DR"
+          ],
+          "affiliation": [
+            "Department of Physical Medicine & Rehabilitation, Jackson Memorial Hospital, NIDILRR South Florida Spinal Cord Injury Model System, University of Miami Leonard M. Miller School of Medicine,USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinel Z"
+          ],
+          "firstName": [
+            "Zelde"
+          ],
+          "lastName": [
+            "Espinel"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "affiliation": [
+            "Sylvester Comprehensive Cancer Center, Department of Psychiatry and Behavioral Sciences, University of Miami Miller School of Medicine, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Kossin JP"
+          ],
+          "firstName": [
+            "James P"
+          ],
+          "lastName": [
+            "Kossin"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "National Oceanic and Atmospheric Administration (NOAA), National Centers for Environmental Information (NCEI), Center for Weather and Climate, Madison, WI, 1225 West Dayton St., Madison, WI 53706 USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Galea S"
+          ],
+          "firstName": [
+            "Sandro"
+          ],
+          "lastName": [
+            "Galea"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Robert A Knox Professor, School of Public Health, Boston University, 715 Albany Street - Talbot 301, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Shultz JM"
+          ],
+          "firstName": [
+            "James M"
+          ],
+          "lastName": [
+            "Shultz"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Center for Disaster & Extreme Event Preparedness (DEEP Center), Department of Public Health Sciences, University of Miami Leonard M. Miller School of Medicine, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2899000"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "EClinicalMedicine"
+          ],
+          "ISOAbbreviation": [
+            "EClinicalMedicine"
+          ],
+          "medlineAbbreviation": [
+            "EClinicalMedicine"
+          ],
+          "NLMid": [
+            "101733727"
+          ],
+          "ISSN": [
+            "2589-5370"
+          ],
+          "ESSN": [
+            "2589-5370"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "100232"
+  ],
+  "affiliation": [
+    "Department of Physical Medicine & Rehabilitation, University of Miami Leonard M. Miller School of Medicine, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "discussion",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.eclinm.2019.12.002"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6940606"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6940606?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-08"
+  ],
+  "firstIndexDate": [
+    "2020-01-16"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-08"
+  ],
+  "dateOfRevision": [
+    "2020-01-09"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-02"
+  ],
+  "firstPublicationDate": [
+    "2020-01-02"
+  ]
+}

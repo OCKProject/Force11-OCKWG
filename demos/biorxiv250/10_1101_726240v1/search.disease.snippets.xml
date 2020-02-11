@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_726240v1/results/search/disease/results.xml">
+  <result pre="Other candidates for environmental adaptation are genes active within a" exact="cancer" post="microenvironment which likewise represents aspects of a stressful environment"/>
+  <result pre="climate adaptation, or related to stress (evidence for stress responsiveness," exact="cancer" post="and apoptosis), as well as PTMs. Evidence for human"/>
+  <result pre="SQRDL (Fig. S4a). With regards to cellular pathways active in" exact="cancer" post="as possible EAG candidate function, we found that recurrent"/>
+  <result pre="found that recurrent EAGs have lower expression values in both" exact="cancer" post="and healthy tissues (Fig. S4b), whilst ratios of gene"/>
+  <result pre="healthy tissues (Fig. S4b), whilst ratios of gene expression between" exact="cancer" post="and reference conditions did not differ (Table S10). Five"/>
+  <result pre="the data set were, however, involved in more than 80" exact="cancer" post="types. (Fig. S5, Table S11). To visually align EAGs"/>
+  <result pre="apoptosis, organelle biogenesis, and transport ( 41) and disease including" exact="metabolic syndrome" post="and cancer ( 41). 89% of all EAGs were"/>
+  <result pre="and transport ( 41) and disease including metabolic syndrome and" exact="cancer" post="( 41). 89% of all EAGs were involved in"/>
+  <result pre="least one human cancer, and a subset of them had" exact="cancer" post="involvement as predominant function (e.g., FCGBP and SYT11 adapting"/>
+  <result pre="with ClueGo. To code involvement in cellular pathways active in" exact="cancer" post="as a candidate function for EAGs, gene expression data"/>
+ </snippets>
+</snippetsTree>

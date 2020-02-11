@@ -1,0 +1,1226 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6972804</article-id><article-id pub-id-type="doi">10.1002/ece3.5890</article-id><article-id pub-id-type="publisher-id">ECE35890</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Plant functional traits differ in adaptability and are predicted to be differentially affected by climate change</article-title><alt-title alt-title-type="left-running-head">AHRENS et al.</alt-title></title-group><contrib-group><contrib id="ece35890-cr-0001" contrib-type="author" corresp="yes"><name><surname>Ahrens</surname><given-names>Collin W.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0614-9928</contrib-id><xref ref-type="aff" rid="ece35890-aff-0001">
+<sup>1</sup>
+</xref><address><email>c.ahrens@westernsydney.edu.au</email></address></contrib><contrib id="ece35890-cr-0002" contrib-type="author"><name><surname>Andrew</surname><given-names>Margaret E.</given-names></name><xref ref-type="aff" rid="ece35890-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece35890-cr-0003" contrib-type="author"><name><surname>Mazanec</surname><given-names>Richard A.</given-names></name><xref ref-type="aff" rid="ece35890-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece35890-cr-0004" contrib-type="author"><name><surname>Ruthrof</surname><given-names>Katinka X.</given-names></name><xref ref-type="aff" rid="ece35890-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="ece35890-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece35890-cr-0005" contrib-type="author"><name><surname>Challis</surname><given-names>Anthea</given-names></name><xref ref-type="aff" rid="ece35890-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece35890-cr-0006" contrib-type="author"><name><surname>Hardy</surname><given-names>Giles</given-names></name><xref ref-type="aff" rid="ece35890-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece35890-cr-0007" contrib-type="author"><name><surname>Byrne</surname><given-names>Margaret</given-names></name><xref ref-type="aff" rid="ece35890-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece35890-cr-0008" contrib-type="author"><name><surname>Tissue</surname><given-names>David T.</given-names></name><xref ref-type="aff" rid="ece35890-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece35890-cr-0009" contrib-type="author"><name><surname>Rymer</surname><given-names>Paul D.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0988-4351</contrib-id><xref ref-type="aff" rid="ece35890-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ece35890-aff-0001">
+<label><sup>1</sup></label>
+<institution>Hawkesbury Institute for the Environment</institution>
+<institution>Western Sydney University</institution>
+<city>Penrith</city>
+<named-content content-type="country-part">NSW</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="ece35890-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Environmental &#x00026; Conservation Sciences</named-content>
+<institution>Murdoch University</institution>
+<city>Murdoch</city>
+<named-content content-type="country-part">WA</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="ece35890-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Biodiversity and Conservation Science</named-content>
+<institution>Western Australian Department of Biodiversity, Conservation and Attractions</institution>
+<city>Kensington</city>
+<named-content content-type="country-part">WA</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="ece35890-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Centre for Phytophthora Science and Management</named-content>
+<named-content content-type="organisation-division">Environmental &#x00026; Conservation Sciences</named-content>
+<institution>Murdoch University</institution>
+<city>Murdoch</city>
+<named-content content-type="country-part">WA</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Collin W. Ahrens, Hawkesbury Institute for the Environment, Western Sydney University, Hawkesbury Campus, Locked Bag 1797, Penrith, NSW 2751, Australia.<break/>
+Email: <email>c.ahrens@westernsydney.edu.au</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>11</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2020</year></pub-date><volume>10</volume><issue>1</issue><issue-id pub-id-type="doi">10.1002/ece3.v10.1</issue-id><fpage>232</fpage><lpage>248</lpage><history><date date-type="received"><day>22</day><month>9</month><year>2019</year></date><date date-type="rev-recd"><day>18</day><month>10</month><year>2019</year></date><date date-type="accepted"><day>10</day><month>11</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-10-232.pdf"/><abstract id="ece35890-abs-0001"><title>Abstract</title><p>
+<list list-type="order" id="ece35890-list-0001"><list-item><p>Climate change is testing the resilience of forests worldwide pushing physiological tolerance to climatic extremes. Plant functional traits have been shown to be adapted to climate and have evolved patterns of trait correlations (similar patterns of distribution) and coordinations (mechanistic trade&#x02010;off). We predicted that traits would differentiate between populations associated with climatic gradients, suggestive of adaptive variation, and correlated traits would adapt to future climate scenarios in similar ways.</p></list-item><list-item><p>We measured genetically determined trait variation and described patterns of correlation for seven traits: photochemical reflectance index (PRI), normalized difference vegetation index (NDVI), leaf size (LS), specific leaf area (SLA), &#x003b4;<sup>13</sup>C (integrated water&#x02010;use efficiency, WUE), nitrogen concentration (N<sub>CONC</sub>), and wood density (WD). All measures were conducted in an experimental plantation on 960 trees sourced from 12 populations of a key forest canopy species in southwestern Australia.</p></list-item><list-item><p>Significant differences were found between populations for all traits. Narrow&#x02010;sense heritability was significant for five traits (0.15&#x02013;0.21), indicating that natural selection can drive differentiation; however, SLA (0.08) and PRI (0.11) were not significantly heritable. Generalized additive models predicted trait values across the landscape for current and future climatic conditions (&#x0003e;90% variance). The percent change differed markedly among traits between current and future predictions (differing as little as 1.5% (&#x003b4;<sup>13</sup>C) or as much as 30% (PRI)). Some trait correlations were predicted to break down in the future (SLA:N<sub>CONC</sub>, &#x003b4;<sup>13</sup>C:PRI, and N<sub>CONC</sub>:WD).</p></list-item><list-item><p>Synthesis: Our results suggest that traits have contrasting genotypic patterns and will be subjected to different climate selection pressures, which may lower the working optimum for functional traits. Further, traits are independently associated with different climate factors, indicating that some trait correlations may be disrupted in the future. Genetic constraints and trait correlations may limit the ability for functional traits to adapt to climate change.</p></list-item></list>
+</p></abstract><abstract abstract-type="graphical" id="ece35890-abs-0002"><p>We tested whether functional traits of an important tree species in southwestern Australia were genetically determined and able to undergo selection. Our results suggest that some traits are heritable (Water Use Efficiency) while others are not (SLA), indicating that in the future, under different climates, selection will differentially effect traits. Therefore, it is likely that current trait combinations will change with climate.<boxed-text position="anchor" content-type="graphic" id="ece35890-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-10-232-g007.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece35890-kwd-0001">climate adaptation</kwd><kwd id="ece35890-kwd-0002"><italic>Corymbia calophylla</italic></kwd><kwd id="ece35890-kwd-0003">general additive models</kwd><kwd id="ece35890-kwd-0004">heritability</kwd><kwd id="ece35890-kwd-0005">intraspecific variation</kwd><kwd id="ece35890-kwd-0006">trait coordination</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Australian Research Council </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000923</institution-id></institution-wrap></funding-source><award-id>LP120200581</award-id><award-id>LP150100936</award-id></award-group><award-group id="funding-0002"><funding-source>Western Australia Department of Biodiversity, Conservation, and Attractions</funding-source></award-group><award-group id="funding-0003"><funding-source>Alcoa Australia</funding-source></award-group><award-group id="funding-0004"><funding-source>Cape to Cape Catchment Group</funding-source></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>Murdoch University </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001799</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0006"><funding-source>Hawkesbury Institute for the Environment at Western Sydney University</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="2"/><page-count count="17"/><word-count count="12874"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.5 mode:remove_FC converted:21.01.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece35890-cit-1001">
+<string-name>
+<surname>Ahrens</surname>
+<given-names>CW</given-names>
+</string-name>, <string-name>
+<surname>Andrew</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Mazanec</surname>
+<given-names>RA</given-names>
+</string-name>, et al. <article-title>Plant functional traits differ in adaptability and are predicted to be differentially affected by climate change</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2020</year>;<volume>10</volume>:<fpage>232</fpage>&#x02013;<lpage>248</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.5890</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece35890-body-0001"><sec id="ece35890-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Forests are under pressure from climate change (Bonan, <xref rid="ece35890-bib-0014" ref-type="ref">2008</xref>; Canadell &#x00026; Raupach, <xref rid="ece35890-bib-0017" ref-type="ref">2008</xref>; Chazdon, <xref rid="ece35890-bib-0020" ref-type="ref">2008</xref>; Riitters et al., <xref rid="ece35890-bib-0084" ref-type="ref">2002</xref>), and impacts are expected to reduce long&#x02010;term resilience and function (Chazdon, <xref rid="ece35890-bib-0020" ref-type="ref">2008</xref>). Many organisms have evolved traits suited to their environment through the long&#x02010;term process of natural selection resulting in local adaptation (Kawecki &#x00026; Ebert, <xref rid="ece35890-bib-0054" ref-type="ref">2004</xref>). However, changes to climate might negatively impact those long&#x02010;established patterns of local adaptation (Aitken &#x00026; Whitlock, <xref rid="ece35890-bib-0003" ref-type="ref">2013</xref>; Hoffmann &#x00026; Sgr&#x000f2;, <xref rid="ece35890-bib-0049" ref-type="ref">2011</xref>). While it may be many years until the full effects of global climate change are realized, the effects on local forest populations have already been observed (Harris et al., <xref rid="ece35890-bib-0046" ref-type="ref">2018</xref>; Hoffmann et al., <xref rid="ece35890-bib-0048" ref-type="ref">2019</xref>). For example, climate change impacts include changes in forest distribution (Kelly &#x00026; Goulden, <xref rid="ece35890-bib-0055" ref-type="ref">2008</xref>; Lenoir et al., <xref rid="ece35890-bib-0059" ref-type="ref">2010</xref>) and widespread tree mortality due to increased severity of drought and heat waves (Allen et al., <xref rid="ece35890-bib-0006" ref-type="ref">2010</xref>; Matusick et al., <xref rid="ece35890-bib-0066" ref-type="ref">2018</xref>; Williams &#x00026; Dumroese, <xref rid="ece35890-bib-0099" ref-type="ref">2013</xref>). The range and complexity of impacts of climate change on forests are likely to disrupt current patterns of adaptation, making it critical to understand the adaptive capacity of natural forests, and associated ecological and evolutionary constraints.</p><p>The adaptive capacity of trees may facilitate the long&#x02010;term persistence of natural forests. It is predicted that to account for climate change, many temperate tree species will have to migrate toward the poles or higher elevations (Aitken, Yeaman, Holliday, Wang, &#x00026; Curtis&#x02010;McLane, <xref rid="ece35890-bib-0004" ref-type="ref">2008</xref>), although this pattern is not ubiquitous (see Crimmins, Dobrowski, Greenberg, Abatzoglou, and Mynsberge (<xref rid="ece35890-bib-0026" ref-type="ref">2011</xref>), e.g, of downward shift in species&#x02019; optimum elevation due to changes in water balance). Evidence suggests that species migration is not occurring or has been limited due to hard boundaries such as oceans or human&#x02010;made barriers (Corlett &#x00026; Westcott, <xref rid="ece35890-bib-0022" ref-type="ref">2013</xref>; Parmesan &#x00026; Yohe, <xref rid="ece35890-bib-0074" ref-type="ref">2003</xref>; Zhu, Woodall, &#x00026; Clark, <xref rid="ece35890-bib-0110" ref-type="ref">2012</xref>). However, many tree species show high levels of genetic variation and may have enough standing genetic variation for positive selection to occur to better match phenotype and future climate (Barrett &#x00026; Schluter, <xref rid="ece35890-bib-0011" ref-type="ref">2008</xref>).</p><p>Functional traits of tree species are indicative of patterns of adaptation to their environment (Reich, <xref rid="ece35890-bib-0080" ref-type="ref">2014</xref>), and the relationship between climate and some traits is well established (Wright et al., <xref rid="ece35890-bib-0107" ref-type="ref">2005</xref>). Functional traits can reflect plant performance, stress, and allocation and therefore are shaped by selective pressures as demonstrated by trait variation along climatic gradients indicative of genetic adaptation (Reich et al., <xref rid="ece35890-bib-0083" ref-type="ref">2003</xref>). To date, there has been a focus on species mean trait values; however, for species to be able to adapt to climate change they require, heritable, intraspecific trait variation. Yet, a few studies focus on intraspecific trait variation and if these traits are genetically determined (e.g., Aranda et al., <xref rid="ece35890-bib-0007" ref-type="ref">2014</xref>; Schreiber, Hacke, &#x00026; Hamann, <xref rid="ece35890-bib-0088" ref-type="ref">2015</xref>; Hajek, Kurjak, von W&#x000fc;hlisch, Delzon, &#x00026; Schuldt,<xref rid="ece35890-bib-0045" ref-type="ref">2016</xref>; Madani et al., <xref rid="ece35890-bib-0063" ref-type="ref">2018</xref>). There is growing appreciation of the importance of intraspecific variation in functional and complex traits in providing the capacity to adapt to climate change.</p><p>Functional traits, by definition, are indicative of their relationship to the environment (Shipley et al., <xref rid="ece35890-bib-0090" ref-type="ref">2016</xref>), and population differentiation along climate gradients can be used to quantify the relative contribution of climate variables to patterns of trait differentiation (Madani et al., <xref rid="ece35890-bib-0063" ref-type="ref">2018</xref>). But these outputs would be unable to estimate the relative trait responsiveness to selection pressures. Estimating narrow&#x02010;sense heritability is one way to calculate how much trait variation is due to genetics and estimate relative contribution of natural selection on trait differentiation (Geber &#x00026; Griffen, <xref rid="ece35890-bib-0037" ref-type="ref">2003</xref>), allowing us to predict how traits may respond to new climate pressures through natural selection and genetic constraints. Together, trait heritability and climate gradients can help us predict how traits might individually and collectively evolve (or not) in the future.</p><p>The coordination of functional traits has been well studied (Reich, <xref rid="ece35890-bib-0080" ref-type="ref">2014</xref>; Wright, Falster, Pickup, &#x00026; Westoby, <xref rid="ece35890-bib-0106" ref-type="ref">2006</xref>) and has been shown to be strongly linked to climate (Li et al., <xref rid="ece35890-bib-0060" ref-type="ref">2018</xref>; Mencuccini, Minunno, Salmon, Mart&#x000ed;nez&#x02010;Vilalta, &#x00026; H&#x000f6;ltt&#x000e4;, <xref rid="ece35890-bib-0067" ref-type="ref">2015</xref>; Reich, <xref rid="ece35890-bib-0080" ref-type="ref">2014</xref>). The worldwide leaf economic spectrum (LES) consistently explains the complex relationship between environment and leaf traits and also coordination between leaf structure and function (Donovan, Maherali, Caruso, Huber, &#x00026; de Kroon, <xref rid="ece35890-bib-0029" ref-type="ref">2011</xref>; Reich, Walters, &#x00026; Ellsworth, <xref rid="ece35890-bib-0082" ref-type="ref">1997</xref>; Wright et al., <xref rid="ece35890-bib-0108" ref-type="ref">2004</xref>). Specifically, it is expected that thinner leaves (high specific leaf area values) would be adapted to cooler, wetter conditions and this pattern is coordinated with high nitrogen concentrations (Wright et al., <xref rid="ece35890-bib-0108" ref-type="ref">2004</xref>). In addition, traits can be correlated across a species&#x02019; distribution, even if no mechanistic coordination is present (e.g., Wright et al., <xref rid="ece35890-bib-0104" ref-type="ref">2007</xref>). Relationships among ecologically important plant traits may be an adaptive signature from natural selection (Westoby, Falster, Moles, Vesk, &#x00026; Wright, <xref rid="ece35890-bib-0097" ref-type="ref">2002</xref>). Yet the genetic basis for functional trait variation is largely unknown, including the linkage among correlated or coordinated traits and their adaptive capacity to respond to climate change.</p><p>Genetic variation in plant traits within species is essential for them to adapt to novel climate conditions by influencing establishment, survival, and fitness (Violle et al., <xref rid="ece35890-bib-0094" ref-type="ref">2007</xref>). Importantly, standing genetic variation will be required for traits to keep pace with selection imposed through processes of natural selection, enabling a species to occupy a broad range of climates and adapt to novel climate conditions (Alberto et al., <xref rid="ece35890-bib-0005" ref-type="ref">2013</xref>). Therefore, measuring variation in functional traits, estimating their heritability, and identifying possible agents of selection in a foundation tree can provide critical information in how a species might continue to persist in a changing climate. Here, we use an experimental multipopulation plantation to assess trait variation in the foundational forest canopy species, <italic>Corymbia calophylla</italic> R. Br. K.D. Hill and L.A.S. Johnson (<italic>Eucalyptus</italic> sensu lato; family Myrtaceae)<italic>,</italic> located in southwestern Australia. Measuring traits in an experimental plantation provides a common environment allowing for the isolation of genetic effects associated with phenotypic differences among populations. We expect that trait variation among populations will show unique patterns of adaptation associated with their climate&#x02010;of&#x02010;origin. While some traits will be heritable and show strong shifts along climate gradients (e.g., water&#x02010;use efficiency), other traits will have greater variation within and among populations, resulting in lower levels of heritability (e.g., SLA). We test the hypothesis that traits will be unequally affected by climate change, such that traits with higher levels of heritability will need to adapt to their new climates or migrate with their optimum climates. Finally, we ask if trait correlation and coordination, such as those within the LES paradigm, will maintain similar relationships in the future. We discuss the implications for the capacity to adapt to climate change and the ability to predict the coevolutionary trajectories of functional traits.</p></sec><sec sec-type="materials-and-methods" id="ece35890-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece35890-sec-0003"><label>2.1</label><title>Study species</title><p>
+<italic>Corymbia calophylla</italic> is a foundation forest canopy species located in Western Australia (WA). It is considered a foundation species because its characteristics are critical for forest structure and ecological processes (Ellison et al., <xref rid="ece35890-bib-0030" ref-type="ref">2005</xref>). This species is an ideal candidate in which to study adaptation of functional traits because its distribution traverses strong environmental gradients over short distances, it has recently experienced mortality events attributed to climate change (Matusick, Ruthrof, Brouwers, Dell, &#x00026; Hardy, <xref rid="ece35890-bib-0065" ref-type="ref">2013</xref>; Ruthrof, Matusick, &#x00026; Hardy, <xref rid="ece35890-bib-0086" ref-type="ref">2015</xref>), and evidence of adaptation to climate has been identified in physiological experiments and genome&#x02013;environment investigations (Ahrens, Byrne, &#x00026; Rymer, <xref rid="ece35890-bib-0001" ref-type="ref">2019</xref>; Ahrens, Mazanec, et al., <xref rid="ece35890-bib-0002" ref-type="ref">2019</xref>; Aspinwall et al., <xref rid="ece35890-bib-0009" ref-type="ref">2017</xref>; Blackman, Aspinwall, Tissue, &#x00026; Rymer, <xref rid="ece35890-bib-0013" ref-type="ref">2017</xref>).</p></sec><sec id="ece35890-sec-0004"><label>2.2</label><title>Experimental site and population sampling</title><p>This research was conducted in a plantation near Margaret River, WA (Figure <xref rid="ece35890-fig-0001" ref-type="fig">1</xref>), located in the cool&#x02013;wet region of the distribution of <italic>C.&#x000a0;calophylla</italic>. Seed collection and trial design are described in detail in Ahrens, Mazanec, et al. (<xref rid="ece35890-bib-0002" ref-type="ref">2019</xref>). Briefly, 18 populations represented by 165 families were established at the experimental site for a total of 3,960 individuals in six replicated blocks. Families are defined here as individuals that have a known, common mother but an unknown father (i.e., half&#x02010;sibs). We developed two separate data sets: the first was used to estimate trait heritability, while the second was used to explore correlation and coordination among traits and its association with climate&#x02010;of&#x02010;origin. For the first data set, we focused on four populations representing four contrasting climate combinations covering the full geographic distribution of <italic>C.&#x000a0;calophylla</italic> (BOO, cool&#x02013;wet climate; CRI, cool&#x02013;dry climate; HRI, hot&#x02013;dry climate; SER, hot&#x02013;wet climate; Figure <xref rid="ece35890-fig-0001" ref-type="fig">1</xref>). A total of 40 families (when available) from the four populations were sampled, with 12 replicate trees from each family, to provide estimates of phenotypic variance within and among families (480 trees). For the second data set, we collected data from 12 populations with four replicates from each of 10 families (when available) to estimate variance within and among populations (480 trees; Table <xref rid="ece35890-tbl-0001" ref-type="table">1</xref>; Figure <xref rid="ece35890-fig-0001" ref-type="fig">1</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece35890-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Distribution of <italic>Corymbia calophylla</italic> in southwestern Australia, and location of 12 populations overlaid on maps of (a) precipitation of the driest month (<italic>P</italic>
+<sub>DM</sub>) (mm), and (b) average maximum temperature of the warmest month (T<sub>MAX</sub>) (&#x000b0;C). The experimental planting site is denoted by the white point and labeled MR. The populations used for data set 1 are denoted by four colors for the four populations (BOO&#x000a0;=&#x000a0;Boorara, cool&#x02013;wet climate; CRI&#x000a0;=&#x000a0;Cape Riche, cool&#x02013;dry climate; HRI&#x000a0;=&#x000a0;Hill River, hot&#x02013;dry climate; SER&#x000a0;=&#x000a0;Serpentine, hot&#x02013;wet climate), and all 12 populations (colored and black points) are used for data set 2</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-10-232-g001"/></fig><table-wrap id="ece35890-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>The locations and climate&#x02010;of&#x02010;origin of each population within the study along with the total number of samples for each data set</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Populations</th><th align="left" rowspan="2" valign="bottom" colspan="1">Latitude</th><th align="left" rowspan="2" valign="bottom" colspan="1">Longitude</th><th align="left" rowspan="2" valign="bottom" colspan="1">
+<italic>T</italic>
+<sub>MAX</sub> (&#x000b0;C)</th><th align="left" rowspan="2" valign="bottom" colspan="1">
+<italic>P</italic>
+<sub>MA</sub> (mm)</th><th align="left" rowspan="2" valign="bottom" colspan="1">
+<mml:math id="nlm-math-1"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math>
+</th><th align="left" rowspan="2" valign="bottom" colspan="1">
+<italic>P</italic>
+<sub>DM</sub> (mm)</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Data set 1</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Data set 2</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Families</th><th align="left" valign="bottom" rowspan="1" colspan="1">Total</th><th align="left" valign="bottom" rowspan="1" colspan="1">Families</th><th align="left" valign="bottom" rowspan="1" colspan="1">Total</th></tr></thead><tbody><tr><td align="left" colspan="11" rowspan="1">Warm, dry climate</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">HRI</td><td align="left" rowspan="1" colspan="1">&#x02212;30.3114</td><td align="left" rowspan="1" colspan="1">115.2016</td><td align="left" rowspan="1" colspan="1">31.7</td><td align="char" char="." rowspan="1" colspan="1">563</td><td align="left" rowspan="1" colspan="1">2.56</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">110</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">36</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">MOG</td><td align="left" rowspan="1" colspan="1">&#x02212;31.0986</td><td align="left" rowspan="1" colspan="1">116.0509</td><td align="left" rowspan="1" colspan="1">33.3</td><td align="char" char="." rowspan="1" colspan="1">579</td><td align="left" rowspan="1" colspan="1">2.56</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">LUP</td><td align="left" rowspan="1" colspan="1">&#x02212;32.5207</td><td align="left" rowspan="1" colspan="1">116.4990</td><td align="left" rowspan="1" colspan="1">31.6</td><td align="char" char="." rowspan="1" colspan="1">635</td><td align="left" rowspan="1" colspan="1">2.22</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" colspan="11" rowspan="1">Warm, wet climate</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SER</td><td align="left" rowspan="1" colspan="1">&#x02212;32.3527</td><td align="left" rowspan="1" colspan="1">116.0764</td><td align="left" rowspan="1" colspan="1">30.5</td><td align="char" char="." rowspan="1" colspan="1">1,173</td><td align="left" rowspan="1" colspan="1">1.12</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">11</td><td align="char" char="." rowspan="1" colspan="1">123</td><td align="char" char="." rowspan="1" colspan="1">11</td><td align="char" char="." rowspan="1" colspan="1">44</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">CHID</td><td align="left" rowspan="1" colspan="1">&#x02212;31.8682</td><td align="left" rowspan="1" colspan="1">116.2229</td><td align="left" rowspan="1" colspan="1">32.2</td><td align="char" char="." rowspan="1" colspan="1">900</td><td align="left" rowspan="1" colspan="1">1.54</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">PEE</td><td align="left" rowspan="1" colspan="1">&#x02212;32.6846</td><td align="left" rowspan="1" colspan="1">115.7427</td><td align="left" rowspan="1" colspan="1">30.4</td><td align="char" char="." rowspan="1" colspan="1">885</td><td align="left" rowspan="1" colspan="1">1.49</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" colspan="11" rowspan="1">Cool, dry climate</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">CRI</td><td align="left" rowspan="1" colspan="1">&#x02212;34.6015</td><td align="left" rowspan="1" colspan="1">118.7427</td><td align="left" rowspan="1" colspan="1">26.2</td><td align="char" char="." rowspan="1" colspan="1">579</td><td align="left" rowspan="1" colspan="1">2.08</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">99</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">32</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">KIN</td><td align="left" rowspan="1" colspan="1">&#x02212;34.0812</td><td align="left" rowspan="1" colspan="1">116.3304</td><td align="left" rowspan="1" colspan="1">27.7</td><td align="char" char="." rowspan="1" colspan="1">820</td><td align="left" rowspan="1" colspan="1">1.49</td><td align="left" rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">PLA</td><td align="left" rowspan="1" colspan="1">&#x02212;34.6534</td><td align="left" rowspan="1" colspan="1">117.4991</td><td align="left" rowspan="1" colspan="1">26.7</td><td align="char" char="." rowspan="1" colspan="1">733</td><td align="left" rowspan="1" colspan="1">1.59</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" colspan="11" rowspan="1">Cool, wet climate</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">BOO</td><td align="left" rowspan="1" colspan="1">&#x02212;34.6389</td><td align="left" rowspan="1" colspan="1">116.1238</td><td align="left" rowspan="1" colspan="1">25.6</td><td align="char" char="." rowspan="1" colspan="1">1,159</td><td align="left" rowspan="1" colspan="1">0.95</td><td align="left" rowspan="1" colspan="1">24</td><td align="left" rowspan="1" colspan="1">11</td><td align="char" char="." rowspan="1" colspan="1">136</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">CAR</td><td align="left" rowspan="1" colspan="1">&#x02212;34.4196</td><td align="left" rowspan="1" colspan="1">115.8213</td><td align="left" rowspan="1" colspan="1">25.9</td><td align="char" char="." rowspan="1" colspan="1">1,106</td><td align="left" rowspan="1" colspan="1">1.02</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">BRA</td><td align="left" rowspan="1" colspan="1">&#x02212;33.9164</td><td align="left" rowspan="1" colspan="1">115.0833</td><td align="left" rowspan="1" colspan="1">26.1</td><td align="char" char="." rowspan="1" colspan="1">1,072</td><td align="left" rowspan="1" colspan="1">1.04</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">40</td></tr><tr><td align="left" rowspan="1" colspan="1">Overall</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">468</td><td align="char" char="." rowspan="1" colspan="1">114</td><td align="char" char="." rowspan="1" colspan="1">472</td></tr></tbody></table><table-wrap-foot id="ece35890-ntgp-0001"><title>Note</title><fn id="ece35890-note-0001"><p>The four&#x02010;population data set (data set 1) was used to estimate heritability, and the 12&#x02010;population data set (data set 2) was used to test trait correlations and model trait distributions.</p></fn><fn id="ece35890-note-0002"><p>Abbreviations: <mml:math id="nlm-math-2"><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac><mml:mo>,</mml:mo><mml:mspace width="0.277778em"/><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mtext>aridity</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>index</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:math>; <italic>P</italic>
+<sub>DM</sub>, precipitation of the driest month; <italic>P</italic>
+<sub>MA</sub>, mean annual precipitation; <italic>T</italic>
+<sub>MAX</sub>, maximum temperature of the warmest month.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece35890-sec-0005"><label>2.3</label><title>Trait measurements</title><p>Traits were measured in March 2017 on <italic>C.&#x000a0;calophylla</italic> trees that were 29&#x000a0;months old and 2&#x02013;3&#x000a0;m tall. For each individual tree, we removed a north facing, mid&#x02010;canopy side branch at its intersection with the main stem. The side branch was removed in the morning (between 8&#x000a0;a.m. and 12 noon), stored in a cool box, and measured in the afternoon (between 12 noon and 6&#x000a0;p.m.). For each side branch, we collected data for seven separate traits: leaf&#x02010;level spectrometer readings to calculate two indices (photochemical reflectance index (PRI) and normalized difference vegetation index (NDVI)), leaf size (LS), specific leaf area (SLA), integrated water&#x02010;use efficiency (&#x003b4;<sup>13</sup>C), nitrogen concentration (N<sub>CONC</sub>), and wood density (WD). All seven traits have shown close association to climate in past studies. Photochemical reflectance index (PRI) is a spectral physiological index that is an indicator of vegetation stress based on its sensitivity to radiance&#x02010;use efficiency (RUE) and the xanthophyll cycle (Gamon, Serrano, &#x00026; Surfus, <xref rid="ece35890-bib-0035" ref-type="ref">1997</xref>; Garbulsky, Pe&#x000f1;uelas, Gamon, Inoue, &#x00026; Filella, <xref rid="ece35890-bib-0036" ref-type="ref">2011</xref>). Leaf&#x02010;level normalized difference vegetation index (NDVI), which is generally used to measure chlorophyll content by quantifying leaf greenness, and is closely related to fraction of absorbed photosynthetically active radiation (FPAR) (Myneni et al., <xref rid="ece35890-bib-0071" ref-type="ref">2002</xref>; Peng &#x00026; Gitelson, <xref rid="ece35890-bib-0077" ref-type="ref">2012</xref>). While not technically functional traits (PRI and NDVI), traits based on spectral properties of leaves can be indicative of photosynthetic activity and plant stress, and from hereon, we include these complex traits as functional traits for ease of discussion. High water&#x02010;use efficiency (WUE) is the link between photosynthesis and evaporation (Yang et al., <xref rid="ece35890-bib-0109" ref-type="ref">2016</xref>) that translates to climatic tolerance under water limitation. Leaf size may be beneficial in certain circumstances as it can act as a major determinant of boundary layer thickness, particularly in low&#x02010;wind conditions. Larger leaves generally experience higher temperatures, increasing carboxylation and other catabolic processes such as dark respiration (Jordan &#x00026; Smith, <xref rid="ece35890-bib-0053" ref-type="ref">1995</xref>; Jones, <xref rid="ece35890-bib-0052" ref-type="ref">2013</xref>). Specific leaf area (SLA) varies across global climate gradients (Wright et al., <xref rid="ece35890-bib-0108" ref-type="ref">2004</xref>), and high SLA values increase tree susceptibility to drought&#x02010;induced mortality (Greenwood et al., <xref rid="ece35890-bib-0042" ref-type="ref">2017</xref>). Water&#x02010;use efficiency is correlated with &#x003b4;<sup>13</sup>C (an isotopic signature measuring the ratio of <sup>13</sup>C and <sup>12</sup>C (Farquhar &#x00026; Richards, <xref rid="ece35890-bib-0032" ref-type="ref">1984</xref>)) and relates to leaf gas exchange properties (Cernusak et al., <xref rid="ece35890-bib-0019" ref-type="ref">2013</xref>; Diefendorf, Mueller, Wing, Koch, &#x00026; Freeman, <xref rid="ece35890-bib-0028" ref-type="ref">2010</xref>). Nitrogen concentration (N<sub>CONC</sub>) is indicative of growth. Leaf nitrogen plays an important role in leaf physiological processes such as photosynthesis, respiration, and transpiration (Wang et al., <xref rid="ece35890-bib-0096" ref-type="ref">2016</xref>) and is an indicator of productivity (Ramoelo, Skidmore, Schlerf, Mathieu, &#x00026; Heitk&#x000f6;nig, <xref rid="ece35890-bib-0079" ref-type="ref">2011</xref>). The association between wood density (WD) and drought is more complicated and context dependent, because it is associated with many ecological signals (Brodersen, <xref rid="ece35890-bib-0015" ref-type="ref">2016</xref>; Gleason et al., <xref rid="ece35890-bib-0039" ref-type="ref">2016</xref>). Generally, high WD is associated with lower susceptibility to drought (Greenwood et al., <xref rid="ece35890-bib-0042" ref-type="ref">2017</xref>; Hacke, Sperry, Pockman, Davis, &#x00026; McCulloh, <xref rid="ece35890-bib-0044" ref-type="ref">2001</xref>), resulting in higher fitness in hot&#x02013;dry environments compared to trees with low WD by decreasing embolism rates (Cochard, Casella, &#x00026; Mencuccini, <xref rid="ece35890-bib-0021" ref-type="ref">2007</xref>).</p><p>A field spectroradiometer (ASD standard&#x02010;resolution FieldSpec4, Malvern Panalytical) was used to measure leaf reflectance in the visible and reflected infrared spectral regions with 2,151 narrow bands (10&#x000a0;nm full width at half maximum) and 1&#x000a0;nm spacing between band centers. Measurements were made for three leaves using a leaf&#x02010;clip attachment with its own light source and calibrated to % reflectance using data collected from a Spectralon white reference panel. Means for all bands among the three leaves were calculated for each individual tree. Specific wavelengths were used to estimate the PRI and modified red&#x02010;edge NDVI. The PRI was calculated with the following equation; <italic>R</italic>
+<sub>xxx</sub> is the % reflectance at xxx nm (Gamon, Penuelas, &#x00026; Field, <xref rid="ece35890-bib-0034" ref-type="ref">1992</xref>; Gamon et al., <xref rid="ece35890-bib-0035" ref-type="ref">1997</xref>):<disp-formula id="ece35890-disp-0001"><mml:math id="nlm-math-3"><mml:mrow><mml:mrow><mml:mtext>PRI</mml:mtext><mml:mspace width="0.333333em"/></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>531</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>570</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>531</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>570</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+</p><p>The modified red&#x02010;edge NDVI was calculated using the following equation (Sims &#x00026; Gamon, <xref rid="ece35890-bib-0091" ref-type="ref">2002</xref>):<disp-formula id="ece35890-disp-0002"><mml:math id="nlm-math-4"><mml:mrow><mml:msub><mml:mtext>mND</mml:mtext><mml:mn>705</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>750</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>705</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>750</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>705</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:mn>2</mml:mn><mml:mo>&#x000d7;</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mn>445</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>and was developed as an improvement to the standard NDVI to provide a more robust estimate of chlorophyll content (Tucker, <xref rid="ece35890-bib-0093" ref-type="ref">1979</xref>) across a wide range of species and leaf structures (Sims &#x00026; Gamon, <xref rid="ece35890-bib-0091" ref-type="ref">2002</xref>). Henceforth, this index will be referred to as &#x0201c;NDVI&#x0201d; in the text.</p><p>Specific leaf area (SLA) was measured on three fully matured leaves that were representative of the branch. After removing half of the petiole with a razor, the leaves were scanned into a computer using a Canon flatbed scanner (model # LiDE220) at 50&#x000a0;dpi. The leaves were kept in an airtight box with silica gel until they could be dried in an oven at 70&#x000b0;C for 48&#x000a0;hr. &#x003b4;<sup>13</sup>C and nitrogen concentration (N<sub>CONC</sub>) were measured from leaves dried using a benchtop freeze dryer (Alpha 1&#x02010;4 LDplus Laboratory Freeze Dryer, Martin Christ). The leaves were grounded into a fine powder using a cyclotec mill (Foss Analytics) and sent for isotope analysis (ANU Isotope Laboratory) using a coupled EA&#x02010;MS system (EA 1110 Carlo Erba; Micromass Isochrom). For wood density, a 3&#x02013;4&#x000a0;cm piece of the thickest part of the branch was removed, excluding areas that included knots, the bark was removed, and the volume measured using the water displacement method. The piece of wood was then dried in a 70&#x000b0;C oven for 7&#x000a0;days before measuring for dry weight. Final wood density was calculated by dividing the dry weight by the volume (g/cm<sup>3</sup>).</p></sec><sec id="ece35890-sec-0006"><label>2.4</label><title>Statistical analyses</title><p>Using data set 1 with four populations, mixed&#x02010;effects linear models were applied to estimate differences between populations using the <italic>lme</italic> function in the <italic>nlme</italic> package in R (R Core Team, <xref rid="ece35890-bib-0078" ref-type="ref">2018</xref>). For all linear models, family was considered a random effect and population considered a fixed effect. Post hoc Tukey tests were performed on the mixed&#x02010;effects model results using the <italic>glht</italic> function in the <italic>multcomp</italic> package in R to confirm differences among populations.</p><p>We estimated the family level narrow&#x02010;sense heritability and the relative effect of selection on each of the seven traits. Narrow&#x02010;sense heritability (<mml:math id="nlm-math-5"><mml:msup><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup></mml:math>) captures the proportion of genetic variation attributed to additive genetic variance (Lynch &#x00026; Walsh, <xref rid="ece35890-bib-0062" ref-type="ref">1998</xref>). Here, we used data set 1 with four populations within ASReml version 4.1 (Gilmour &#x00026; Dutkowski, <xref rid="ece35890-bib-0038" ref-type="ref">2004</xref>). Initial assessment of model fit was conducted using the following univariate random model:<disp-formula id="ece35890-disp-0003"><mml:math id="nlm-math-6"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi mathvariant="italic">ijkl</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003bc;</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>.</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x000d7;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>.</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mi mathvariant="italic">ijk</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>where <mml:math id="nlm-math-7"><mml:msub><mml:mi>b</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math> is the random effect of the <mml:math id="nlm-math-8"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math> block, <mml:math id="nlm-math-9"><mml:msub><mml:mi>p</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math> is the random effect of the <mml:math id="nlm-math-10"><mml:mrow><mml:mi>j</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math> population, <mml:math id="nlm-math-11"><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>.</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:math> is the random effect of the <mml:math id="nlm-math-12"><mml:mrow><mml:mi>k</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math> family within the <mml:math id="nlm-math-13"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math> population, <mml:math id="nlm-math-14"><mml:mrow><mml:msub><mml:mi>b</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x000d7;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>.</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> is the block&#x000a0;&#x000d7;&#x000a0;family interaction effect, and <mml:math id="nlm-math-15"><mml:msub><mml:mi>e</mml:mi><mml:mi mathvariant="italic">ijk</mml:mi></mml:msub></mml:math> is the random error. Narrow&#x02010;sense heritability was estimated using the following equation:<disp-formula id="ece35890-disp-0004"><mml:math id="nlm-math-16"><mml:mrow><mml:msup><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2.5</mml:mn><mml:mo>&#x000d7;</mml:mo><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mtext>fam</mml:mtext><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:mrow><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mtext>fam</mml:mtext><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mrow><mml:mtext>fam</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mtext>block</mml:mtext></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mtext>error</mml:mtext><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>where <mml:math id="nlm-math-17"><mml:msup><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup></mml:math> is the narrow&#x02010;sense heritability, <mml:math id="nlm-math-18"><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mtext>fam</mml:mtext><mml:mn>2</mml:mn></mml:msubsup></mml:math> is the family within population variance component, <mml:math id="nlm-math-19"><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mrow><mml:mtext>fam</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mtext>block</mml:mtext></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:math> is the family&#x000a0;&#x000d7;&#x000a0;block interaction, and <mml:math id="nlm-math-20"><mml:msubsup><mml:mi>&#x003c3;</mml:mi><mml:mtext>error</mml:mtext><mml:mn>2</mml:mn></mml:msubsup></mml:math> is the error component of variance. Eucalypts are known to have a mixed mating system; therefore, a coefficient of relationship (<italic>&#x003c1;</italic>&#x000a0;=&#x000a0;1/2.5) was assumed to correct for selfing effects of about 30%, which, if not corrected for, could result in inflated estimates of heritability for growth traits (Bush, Kain, Matheson, &#x00026; Kanowski, <xref rid="ece35890-bib-0016" ref-type="ref">2011</xref>; Costa e Silva, Hardner, &#x00026; Potts, <xref rid="ece35890-bib-0025" ref-type="ref">2010</xref>; Griffin &#x00026; Cotterill, <xref rid="ece35890-bib-0043" ref-type="ref">1988</xref>; Hodge, Volker, Potts, &#x00026; Owen, <xref rid="ece35890-bib-0047" ref-type="ref">1996</xref>). Significance of family variance components was determined using a log&#x02010;likelihood ratio test as described in the ASReml manual by dropping the family component from the model and comparing these log&#x02010;likelihood results to the full model.</p><p>Using data set 1 with four populations, we developed two principal components analyses (PCA) based on family means to understand the relationship between populations, traits, and climate and used to inform the modeling step described below. The first PCA was performed with the seven measured traits (LS, WD, &#x003b4;<sup>13</sup>C, N<sub>CONC</sub>, SLA, PRI, and NDVI) to view relative explanatory power of population differentiation using traits alone and identify possible trait&#x02013;trait relationships. A second PCA explored the relationship between climate and traits. First, climate data were downloaded from WorldClim (Fick &#x00026; Hijmans, <xref rid="ece35890-bib-0033" ref-type="ref">2017</xref>) (precipitation of the driest month (<italic>P</italic>
+<sub>DM</sub>), mean annual precipitation (<italic>P</italic>
+<sub>MA</sub>), precipitation variation (<italic>P</italic>
+<sub>RANGE</sub>), mean annual temperature (<italic>T</italic>
+<sub>MA</sub>), maximum temperature of the warmest month (<italic>T</italic>
+<sub>MAX</sub>), and temperature variation (<italic>T</italic>
+<sub>RANGE</sub>)), and Consortium for Spatial Information (CGIAR&#x02010;CSI) (aridity index (AI); transformed to <mml:math id="nlm-math-21"><mml:mfrac><mml:mn>1</mml:mn><mml:mi mathvariant="italic">AI</mml:mi></mml:mfrac></mml:math>), and the data were extracted for the location of each source population. For this study, AI was defined as <mml:math id="nlm-math-22"><mml:mfrac><mml:mrow><mml:mtext>mean</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>annual</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>precipitation</mml:mtext></mml:mrow><mml:mrow><mml:mtext>mean</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>annual</mml:mtext><mml:mspace width="0.277778em"/><mml:mtext>evapotranspiration</mml:mtext></mml:mrow></mml:mfrac></mml:math> and we used the inverse of this ratio because it is more intuitive to interpret (i.e., the higher the number the more arid the climate). Four environmental variables (<italic>P</italic>
+<sub>DM</sub>, <italic>P</italic>
+<sub>MA</sub>, <italic>T</italic>
+<sub>MAX</sub>, <mml:math id="nlm-math-23"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math>) were included in the second PCA that was performed to characterize underlying patterns of correlation among independent and dependant variables and to understand the correlation between climate and traits. We used the <italic>prcomp</italic> function in R and plotted the PCA using the <italic>ggbiplot</italic> function.</p><p>Using data set 2 with 12 populations, we explored four sets of correlations among seven traits. We deliberately use the term &#x0201c;correlation&#x0201d; to describe the relationship between three of the trait pairs because coordination implies established mechanistic relationship, like those in the LES and have not been explicitly established for three of the correlations explored in detail here. The first correlation was between &#x003b4;<sup>13</sup>C and PRI. PRI has been shown to be a measure of water stress and indirectly photosynthetic radiation&#x02010;use efficiency, while &#x003b4;<sup>13</sup>C is a well&#x02010;known measure of water&#x02010;use efficiency. Together, radiation&#x02010;use efficiency and water&#x02010;use efficiency have been shown to be tightly correlated in wheat and soybean (Caviglia, Sadras, &#x00026; Andrade, <xref rid="ece35890-bib-0018" ref-type="ref">2004</xref>). The second was LS and NDVI, which have similar relationships with fast&#x02010;growth syndrome. Plants that have a fast&#x02010;growth strategy also grow larger leaves (Cornelissen, <xref rid="ece35890-bib-0023" ref-type="ref">1999</xref>; Wright et al., <xref rid="ece35890-bib-0105" ref-type="ref">2017</xref>), as light is by far the most limiting resource for tree growth (Pacala et al. <xref rid="ece35890-bib-0073" ref-type="ref">1996</xref>), and light capture depends on the size of the leaves (Falster &#x00026; Westoby, <xref rid="ece35890-bib-0031" ref-type="ref">2003</xref>; Pearcy, Muraoka, &#x00026; Valladares, <xref rid="ece35890-bib-0075" ref-type="ref">2005</xref>; Pearcy, Valladares, Wright, &#x00026; De Paulis, <xref rid="ece35890-bib-0075" ref-type="ref">2005</xref>). We expect a similar relationship for NDVI and have been shown to be a good predictor of aboveground biomass in trees (Goetz &#x00026; Prince, <xref rid="ece35890-bib-0040" ref-type="ref">1996</xref>; Malstrom et al., <xref rid="ece35890-bib-0064" ref-type="ref">1997</xref>; Wang, Rich, Price, &#x00026; Kettle, <xref rid="ece35890-bib-0095" ref-type="ref">2004</xref>). Therefore, we would expect NDVI and LS to be highly correlated. The third was WD and N<sub>CONC</sub>, where we expect that the plants with lower WD would also have higher N<sub>CONC</sub> (e.g., (Beets, Gilchrist, &#x00026; Jeffreys, <xref rid="ece35890-bib-0012" ref-type="ref">2001</xref>; Lindstrom, <xref rid="ece35890-bib-0061" ref-type="ref">1996</xref>)), where faster wood growth can be attributed to higher N<sub>CONC</sub>. The fourth association tested was between SLA and N<sub>CONC</sub>, which have been well described within the LES paradigm (Reich, <xref rid="ece35890-bib-0080" ref-type="ref">2014</xref>; Reich et al., <xref rid="ece35890-bib-0082" ref-type="ref">1997</xref>). Trait correlations were tested using linear models (function <italic>lm</italic>) on family means between the traits in R. The outputs were plotted using base R commands.</p><p>To estimate and predict trait change through geographic space and time, general additive models (GAM) were used to detect nonlinear relationships between trait and climate. A GAM uses a robust and efficient smoothing parameter (Wood, Pya, &#x00026; S&#x000e4;fken, <xref rid="ece35890-bib-0103" ref-type="ref">2016</xref>), and we were able to fit nonlinear smoothing terms using regression splines without any a priori assumptions. This property makes GAMs very useful for detecting nonlinear responses across a species distribution, and trait variation is generally nonlinearly associated with environment (Moran, Hartig, &#x00026; Bell, <xref rid="ece35890-bib-0070" ref-type="ref">2016</xref>). The GAMs were performed using data set 2 with 12 populations and current bioclim variables downloaded from WorldClim (<italic>P</italic>
+<sub>DM</sub>, <italic>P</italic>
+<sub>MA</sub>, <italic>P</italic>
+<sub>RANGE</sub>, <italic>T</italic>
+<sub>MA</sub>, <italic>T</italic>
+<sub>MAX</sub>, <italic>T</italic>
+<sub>RANGE</sub>) and CGIAR&#x02010;CSI (<mml:math id="nlm-math-24"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math>) at the sampled population sources. Separate GAMs were developed for each trait individually, in order to evaluate how each trait might respond to climate change. We used the <italic>GAM</italic> function in the MGCV v1.8&#x02010;24 package in R (Wood, <xref rid="ece35890-bib-0102" ref-type="ref">2011</xref>) to perform the analyses. To minimize overfitting of the data, we only explored different combinations of up to three environmental variables and bound degree of smoothness to three for each variable (Araujo, Pearson, Thuiller, &#x00026; Erhard, <xref rid="ece35890-bib-0008" ref-type="ref">2005</xref>), using cubic regression splines to control the degree of smoothness (Wood, <xref rid="ece35890-bib-0101" ref-type="ref">2006</xref>). The model that gave the highest <italic>R</italic>
+<sup>2</sup> and deviance explained are reported and discussed. Extrapolation of the GAM model outputs was performed using the <italic>predict</italic> function in R on the climate rasters of the distribution of <italic>C.&#x000a0;calophylla</italic>, providing a predicted trait value for each pixel under current conditions. These outputs were visualized using ggplot2 (Wickham, <xref rid="ece35890-bib-0098" ref-type="ref">2016</xref>).</p><p>To predict the effects of climate change on trait distributions, raster files from 2070 under emissions scenario RCP 8.5 were downloaded from WorldClim under the CCSM4 simulation. A future aridity index raster file was created using the ENVIREM package in R. The outputs of the GAM models were used to predict future trait distributions by substituting the current rasters with the future climate predicted rasters from RCP 8.5 CCSM4 simulation. In order to visualize where trait changes are predicted to occur, the difference between current and future trait distribution was estimated by subtracting the current distribution from the future distribution and dividing by the current trait values. This provides a proportional change value for each pixel in the distribution. These maps indicate the direction (e.g., higher or lower SLA) of trait evolution needed in order to maintain its predicted genotypic relationship with climate into the future. These outputs were standardized (proportional change), so the direction and proportional change among traits can be compared.</p><p>In order to test the hypothesis of possible uncoupling of trait correlation in the future, we compared the relationships between pairs of traits under the GAM&#x02010;derived future trait values and GAM&#x02010;derived current trait values for all pixels within the distribution (<italic>n</italic>&#x000a0;=&#x000a0;106,833). The function <italic>linearHypothesis</italic> in the <italic>car</italic> package was used to test whether the slopes of the trait correlations were different between time frames. The similarity of the slopes between the current spatial patterns of the GAM&#x02010;derived traits and the traits measured on the 12 populations in the plantation was also assessed.</p></sec></sec><sec sec-type="results" id="ece35890-sec-0007"><label>3</label><title>RESULTS</title><sec id="ece35890-sec-0008"><label>3.1</label><title>Trait differentiation and heritability</title><p>All seven traits showed patterns of population differentiation (Figure <xref rid="ece35890-fig-0002" ref-type="fig">2</xref>). The two most extreme populations in relation to precipitation of the driest month (<italic>P</italic>
+<sub>DM</sub>) (populations from HRI and BOO) were significantly different for all traits except for NDVI. Three traits (&#x003b4;<sup>13</sup>C, PRI, and N<sub>CONC</sub>) showed a significant linear response with at least one climate variable (Table <xref rid="ece35890-sup-0001" ref-type="supplementary-material">S1</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece35890-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Trait means for 12 populations distributed along a gradient of <italic>P</italic>
+<sub>DM</sub> from the population's climate&#x02010;of&#x02010;origin. Data set 1 has colored symbols for the four populations (BOO&#x000a0;=&#x000a0;cool&#x02013;wet; CRI&#x000a0;=&#x000a0;cool&#x02013;dry; HRI&#x000a0;=&#x000a0;warm&#x02013;dry; SER&#x000a0;=&#x000a0;warm&#x02013;wet) with SE of the mean based on 10 families with 12 replicates. Data set 2 is shown with gray dots for the means of 12 populations. Letters indicate significant differences between populations from a post hoc Tukey's test (<italic>a</italic>&#x000a0;=&#x000a0;0.05) on a mixed&#x02010;effects linear model with family as the random variable. N<sub>CONC</sub>, concentration of nitrogen (%); NDVI, normalized difference vegetation index; <italic>P</italic>
+<sub>DM</sub>, precipitation of the driest month (mm); PRI, photochemical reflectance index; SLA, specific leaf area; WD, wood density; &#x003b4;<sup>13</sup>C, ratio of <sup>13</sup>C versus <sup>12</sup>C</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-10-232-g002"/></fig><p>Narrow&#x02010;sense heritability ranged between 0.08 and 0.21 for the seven traits. While heritability for SLA (<mml:math id="nlm-math-25"><mml:msup><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup></mml:math>&#x000a0;=&#x000a0;0.08&#x000a0;&#x000b1;&#x000a0;0.08 SE; <italic>p</italic>&#x000a0;=&#x000a0;NA) and PRI (0.11&#x000a0;&#x000b1;&#x000a0;0.08; <italic>p</italic>&#x000a0;=&#x000a0;.07) was not significant under the log&#x02010;likelihood ratio test, the other five traits showed heritable patterns that were significant. The estimates of heritability were on a continuum with N<sub>CONC</sub> (0.22&#x000a0;&#x000b1;&#x000a0;0.09; <italic>p</italic>&#x000a0;=&#x000a0;.001), LS (0.18&#x000a0;&#x000b1;&#x000a0;0.1; <italic>p</italic>&#x000a0;=&#x000a0;.007), and &#x003b4;<sup>13</sup>C (0.17&#x000a0;&#x000b1;&#x000a0;0.08; <italic>p</italic>&#x000a0;=&#x000a0;.003) the greatest, NDVI (0.15&#x000a0;&#x000b1;&#x000a0;0.08; <italic>p</italic>&#x000a0;=&#x000a0;.007) and WD (0.12&#x000a0;&#x000b1;&#x000a0;0.08; <italic>p</italic>&#x000a0;=&#x000a0;.02) intermediate, and SLA and PRI the lowest.</p></sec><sec id="ece35890-sec-0009"><label>3.2</label><title>Trait correlation</title><p>The principal components analysis shows clustering of families within populations and associations between traits. The first two axes of the PCA explained 59.8% of the variation among the seven functional traits (Figure <xref rid="ece35890-fig-0003" ref-type="fig">3</xref>a). The PCA shows partially overlapping population clusters that are separating along the PC2 axis, explaining 22.9% of the variation with the three traits SLA, &#x003b4;<sup>13</sup>C, and N<sub>CONC</sub> being the most likely traits differentiating the populations. The HRI (warm, dry climate) population was clearly differentiated from the cool, dry climate (CRI) population, while BOO and SER were intermediate. Along the PC1 axis, the traits NDVI (axis 1 loadings&#x000a0;=&#x000a0;&#x02212;0.52), N<sub>CONC</sub> (&#x02212;0.46), PRI (&#x02212;0.42), and LS (&#x02212;0.40) displayed a greater loading than the others, indicating that these traits were found to be more indicative of within population differentiation. Along the PC2 axis, the traits SLA (axis 2 loadings&#x000a0;=&#x000a0;&#x02212;0.56), &#x003b4;<sup>13</sup>C (0.53), and PRI (0.43) displayed the greatest loadings, indicative of stronger among populations differentiation. The WD trait has the third lowest loading (0.27) on the PC1 axis and the lowest loading (0.14) on the PC2 axis.</p><fig fig-type="Figure" xml:lang="en" id="ece35890-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Principal components analysis (PCA) of family means for four populations with seven traits (a), and seven traits and four climate variables (b). Each point represents the mean for each family estimated from 10 to 12 individuals. Families are colored by population, and the ellipse encapsulates 95% of the population variation. Population and trait abbreviations are defined in Table <xref rid="ece35890-tbl-0001" ref-type="table">1</xref> and Figure <xref rid="ece35890-fig-0002" ref-type="fig">2</xref>, respectively</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-10-232-g003"/></fig><p>All three trait correlations and the trait coordination were significantly correlated (Figure <xref rid="ece35890-fig-0004" ref-type="fig">4</xref>). There was weak but significant correlation between &#x003b4;<sup>13</sup>C and PRI (Figure <xref rid="ece35890-fig-0004" ref-type="fig">4</xref>a), LS and NDVI (Figure <xref rid="ece35890-fig-0004" ref-type="fig">4</xref>b), WD and N<sub>CONC</sub> (Figure <xref rid="ece35890-fig-0004" ref-type="fig">4</xref>c), and SLA and N<sub>CONC</sub> (Figure <xref rid="ece35890-fig-0004" ref-type="fig">4</xref>d). Three of the correlations showed a positive relationship between the two traits. The only relationship that showed a negative correlation was between the WD and N<sub>CONC</sub> traits.</p><fig fig-type="Figure" xml:lang="en" id="ece35890-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Correlation between traits among 114 families from 12 populations. Each point represents a family mean value from four trees. The line of best fit, <italic>R</italic>
+<sup>2</sup>, and <italic>p</italic>&#x02010;value are calculated from a linear model</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-10-232-g004"/></fig></sec><sec id="ece35890-sec-0010"><label>3.3</label><title>Adaptation to climate</title><p>When the PCA included trait and climate variables, the separation of populations became more apparent (Figure <xref rid="ece35890-fig-0003" ref-type="fig">3</xref>b). The warm, dry climate (HRI) population was the most divergent from the other three populations. The PC1 best differentiates the populations with 32.4% of the variance explained by a combination of trait and climate variables. We find that SLA is correlated with <italic>T</italic>
+<sub>MAX</sub>, &#x003b4;<sup>13</sup>C is correlated with <italic>P</italic>
+<sub>DM</sub>, PRI is correlated with <italic>P</italic>
+<sub>MA</sub>, and no trait is correlated with <mml:math id="nlm-math-26"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math>. <italic>P</italic>
+<sub>DM</sub> had the greatest loading for PC1 closely followed by <italic>T</italic>
+<sub>MAX</sub> and <mml:math id="nlm-math-27"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math> (<italic>P</italic>
+<sub>DM</sub>&#x000a0;=&#x000a0;&#x02212;0.48, <italic>T</italic>
+<sub>MAX</sub>&#x000a0;=&#x000a0;0.43, <mml:math id="nlm-math-28"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math>&#x000a0;=&#x000a0;0.40) then <italic>P</italic>
+<sub>MA</sub> (loading&#x000a0;=&#x000a0;&#x02212;0.31), which had similar loading to &#x003b4;<sup>13</sup>C (loading&#x000a0;=&#x000a0;&#x02212;0.31) and N<sub>CONC</sub> (loading&#x000a0;=&#x000a0;&#x02212;0.29) traits. NDVI was the variable with the greatest loading on the PC2 (loading&#x000a0;=&#x000a0;&#x02212;0.51) followed by PRI (loading&#x000a0;=&#x000a0;&#x02212;0.42), and these variables show more variation within populations than among populations, as exhibited by the long population ellipses that follow the PC2 axis.</p><p>The GAM analysis revealed different patterns of trait change through the landscape among all traits (Figure <xref rid="ece35890-fig-0005" ref-type="fig">5</xref>), and different trait responses to individual climate variables (Figure <xref rid="ece35890-sup-0001" ref-type="supplementary-material">S1</xref>). At least one temperature and one precipitation variable were presented for all traits except for &#x003b4;<sup>13</sup>C (only precipitation variables) and PRI (only temperature variables). The most common climate variable incorporated into the final GAM for each trait was <italic>P</italic>
+<sub>MA</sub>, and the least common was <mml:math id="nlm-math-29"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math> (Table <xref rid="ece35890-tbl-0002" ref-type="table">2</xref>). The deviance explained by the GAM analysis was high (<italic>R</italic>
+<sup>2</sup>&#x000a0;&#x0003e;&#x000a0;0.6) for all traits. The GAM analysis explained greater than ca. 85% of the deviance for SLA, &#x003b4;<sup>13</sup>C, N, NDVI, and LS.</p><fig fig-type="Figure" xml:lang="en" id="ece35890-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Current, future, and predicted % change in 2070 trait values for the seven traits across <italic>Corymbia calophylla</italic>'s distribution using GAM and the relative change of those traits predicted from current to future climate. Gray lines denote climate space that exceeds current species distribution limits. Population and trait abbreviations are defined in Table <xref rid="ece35890-tbl-0001" ref-type="table">1</xref> and Figure <xref rid="ece35890-fig-0002" ref-type="fig">2</xref>, respectively</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-10-232-g005"/></fig><table-wrap id="ece35890-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Variable significance and model performance for each general additive model (GAM) among seven traits</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Trait</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>T</italic>
+<sub>MA</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>T</italic>
+<sub>MAX</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>T</italic>
+<sub>RANGE</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>P</italic>
+<sub>MA</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>P</italic>
+<sub>DM</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>P</italic>
+<sub>RANGE</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<mml:math id="nlm-math-30"><mml:mfrac><mml:mn>1</mml:mn><mml:mtext>AI</mml:mtext></mml:mfrac></mml:math>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>R</italic>
+<sup>2</sup>
+</th><th align="left" valign="top" rowspan="1" colspan="1">dev</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">&#x003b4;<sup>13</sup>C</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">9.542*</td><td align="left" rowspan="1" colspan="1">2.719</td><td align="left" rowspan="1" colspan="1">5.472*</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.929</td><td align="left" rowspan="1" colspan="1">96.5</td></tr><tr><td align="left" rowspan="1" colspan="1">PRI</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">15.466**</td><td align="left" rowspan="1" colspan="1">8.191*</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.604</td><td align="left" rowspan="1" colspan="1">67.6</td></tr><tr><td align="left" rowspan="1" colspan="1">NDVI</td><td align="left" rowspan="1" colspan="1">14.404**</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">7.123*</td><td align="left" rowspan="1" colspan="1">15.346**</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.874</td><td align="left" rowspan="1" colspan="1">94.8</td></tr><tr><td align="left" rowspan="1" colspan="1">LS</td><td align="left" rowspan="1" colspan="1">12.178*</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">7.016*</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">5.234</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.846</td><td align="left" rowspan="1" colspan="1">94.5</td></tr><tr><td align="left" rowspan="1" colspan="1">WD</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">7.2*</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">9.408*</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.682</td><td align="left" rowspan="1" colspan="1">79.5</td></tr><tr><td align="left" rowspan="1" colspan="1">N<sub>CONC</sub>
+</td><td align="left" rowspan="1" colspan="1">17.087**</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">8.138*</td><td align="left" rowspan="1" colspan="1">12.264**</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.896</td><td align="left" rowspan="1" colspan="1">94.6</td></tr><tr><td align="left" rowspan="1" colspan="1">SLA</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">19.64**</td><td align="left" rowspan="1" colspan="1">14.49*</td><td align="left" rowspan="1" colspan="1">16.37**</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">0.951</td><td align="left" rowspan="1" colspan="1">97.9</td></tr></tbody></table><table-wrap-foot id="ece35890-ntgp-0002"><title>Note</title><fn id="ece35890-note-0003"><p>
+<italic>F</italic>&#x02010;values are provided for each climate variable used in the model with their significance level (*&#x0003c;0.05; **&#x0003c;0.01).</p></fn><fn id="ece35890-note-0004"><p>Abbreviations: dev, deviance explained; LS, leaf size; N<sub>CONC</sub>, nitrogen concentration (%); NDVI, normalized difference vegetation index; PRI, photochemical reflectance index; SLA, specific leaf area; WD, wood density; &#x003b4;<sup>13</sup>C, ratio of <sup>13</sup>C versus <sup>12</sup>C.</p></fn><fn id="ece35890-note-0005"><p>The climate factors are as follows: <italic>T</italic>
+<sub>MA</sub>, mean annual temperature; <italic>T</italic>
+<sub>MAX</sub>, maximum temperature of the warmest month; <italic>T</italic>
+<sub>RANGE</sub>, temperature variation; <italic>P</italic>
+<sub>MA</sub>, mean annual precipitation; <italic>P</italic>
+<sub>DM</sub>, precipitation of the driest month; <italic>P</italic>
+<sub>RANGE</sub>, precipitation variation</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>All traits showed altered distributions between current and future climates (Figure <xref rid="ece35890-fig-0005" ref-type="fig">5</xref>). The traits PRI, NDVI, and N<sub>CONC</sub> mostly had a reduction in their trait values throughout the distribution, while SLA was the only trait that consistently increased in the future. The &#x003b4;<sup>13</sup>C, LA, and WD traits had reduced trait values in some geographic regions but increased values in other regions. The magnitude of trait change was greatest for PRI, LS, and N<sub>CONC</sub>, which are predicted to change by 25%&#x02013;30%. In contrast, &#x003b4;<sup>13</sup>C and NDVI had the lowest magnitude of predicted trait change with 1.5% and 10% change, respectively. There are portions of the range that are predicted to be outside of current climate conditions (shown with a gray line in Figure <xref rid="ece35890-fig-0005" ref-type="fig">5</xref>); therefore, our predictions in these regions should be treated with caution.</p><p>All four of the tested trait correlations were highly significant when evaluating the spatial relationships (both current and future) between predicted trait distributions (Figure <xref rid="ece35890-fig-0006" ref-type="fig">6</xref>; <italic>p</italic>&#x000a0;=&#x000a0;2.2e<sup>&#x02212;16</sup>). However, the SLA/N<sub>CONC</sub> slopes explained only 6%&#x02013;7% of the variation, indicating high levels of variability among the data. In contrast, the &#x003b4;<sup>13</sup>C/PRI slopes explained 45%&#x02013;60% of the variation for future and current predictions, respectively (Figure <xref rid="ece35890-fig-0006" ref-type="fig">6</xref>). The spatially predicted slopes of the trait correlations compared to the sampled populations only differed for the &#x003b4;<sup>13</sup>C/PRI correlation (Figure <xref rid="ece35890-fig-0006" ref-type="fig">6</xref>a). Trait correlations are predicted to differ between current and future conditions for all trait pairs except LS/NDVI (Figure <xref rid="ece35890-fig-0006" ref-type="fig">6</xref>b). These differences are not uniform across correlations, as the WD/N<sub>CONC</sub> slope changes from a negative slope to a positive slope, and the &#x003b4;<sup>13</sup>C/PRI slope appears to shift along the PRI axis. The traits associated with the LES also change from a negative to a positive slope, but this might be attributable to the large amount of variation in SLA.</p><fig fig-type="Figure" xml:lang="en" id="ece35890-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Predicted trait values across the spatial distribution of <italic>Corymbia calophylla</italic> using current climate data (blue) and future climate data from 2070 (red) estimated by GAM analysis. Each blue and red dot represents a single pixel from the current and future maps, respectively, in Figure <xref rid="ece35890-fig-0005" ref-type="fig">5</xref>. Black dots are population&#x02010;level trait values. Only significant (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05) lines of best fit are shown for each of the three data sets</p></caption><graphic id="nlm-graphic-13" xlink:href="ECE3-10-232-g006"/></fig></sec></sec><sec sec-type="discussion" id="ece35890-sec-0011"><label>4</label><title>DISCUSSION</title><p>We found evidence to support adaptation of functional traits in <italic>C.&#x000a0;calophylla</italic> across populations in southwest Western Australia. These patterns of adaptation are consistent with previous studies of genetics, growth, and physiology of <italic>C.&#x000a0;calophylla</italic> (Ahrens, Byrne, et al., <xref rid="ece35890-bib-0001" ref-type="ref">2019</xref>; Ahrens, Mazanec, et al., <xref rid="ece35890-bib-0002" ref-type="ref">2019</xref>; Aspinwall et al., <xref rid="ece35890-bib-0009" ref-type="ref">2017</xref>; Blackman et al., <xref rid="ece35890-bib-0013" ref-type="ref">2017</xref>). This study builds upon previous research by focusing on the genetic determination of functional traits, elucidating the relationship between functional traits, determining the relationship between functional traits and climate, and predicting genetically determined trait distributions under current and future climates. By evaluating trait variation in a common experimental site, we were able to evaluate trait heritability and genotypic differences among populations, with minimal interference from environmental factors. Therefore, the trait values measured are accurate for the climate&#x02010;of&#x02010;plantation and are representative of genotypic signatures of local adaptation. There were significant differences among populations for all traits, and all traits exhibited associations with climate&#x02010;of&#x02010;origin but some traits were related to climate&#x02010;of&#x02010;origin in unexpected ways. We found five of the seven traits had significant heritability indicating an ability to respond to selection and adapt to climate. However, traits differed in their heritability and trajectory along climate space. We predict trait coordination and trait correlation decoupling in the future, where traits may change at different rates to adjust to future climates.</p><sec id="ece35890-sec-0012"><label>4.1</label><title>Trait differentiation and heritability</title><p>Three of the traits measured (NDVI, PRI, and LS) exhibit tendencies that follow with previous studies exploring the adaptation of functional traits adapted to hot, dry environments. For example, the lower NDVI from a hot, dry climate compared to a hot, wet climate suggests an adaptive strategy among populations. This finding agrees with Ahrens, Mazanec, et al. (<xref rid="ece35890-bib-0002" ref-type="ref">2019</xref>), which shows a strong pattern of slow&#x02010;growth strategies among northern populations, which is characteristic of hot and arid environments (King, <xref rid="ece35890-bib-0056" ref-type="ref">1990</xref>; Moles, <xref rid="ece35890-bib-0068" ref-type="ref">2018</xref>; Reich, <xref rid="ece35890-bib-0080" ref-type="ref">2014</xref>). The population differences found in PRI are best explained by T<sub>MAX</sub> (see the GAM analysis) and clearly show a lower value in the population from a hot, dry climate (HRI), indicating a lower photosynthetic rate due to reduced radiation&#x02010;use efficiency (Garbulsky et al., <xref rid="ece35890-bib-0036" ref-type="ref">2011</xref>). This is in agreement with Aspinwall et al. (<xref rid="ece35890-bib-0009" ref-type="ref">2017</xref>), who found higher photosynthetic rates in the cool, wet population compared to the hot, dry population. Lastly, LS has received significant attention recently, as worldwide LS patterns show significant relationships with temperature and latitude (Wright et al., <xref rid="ece35890-bib-0105" ref-type="ref">2017</xref>). In <italic>C.&#x000a0;calophylla</italic>, LS is correlated with temperature of origin and is similar to <italic>Eucalyptus loxophleba</italic> where LS decreased with temperature (Steane et al., <xref rid="ece35890-bib-0092" ref-type="ref">2017</xref>). Greater leaf size may confer advantages with greater gas exchange (Zwieniecki, <xref rid="ece35890-bib-0111" ref-type="ref">2004</xref>) and protection against herbivory (Moles &#x00026; Westoby, <xref rid="ece35890-bib-0069" ref-type="ref">2000</xref>), while smaller leaf size could lead to overheating avoidance (Okajima, Taneda, Noguchi, &#x00026; Terashima, <xref rid="ece35890-bib-0072" ref-type="ref">2012</xref>), and leaf size is known to be coordinated with essential plant architecture such as canopy size and plant hydraulics (Jensen &#x00026; Zwieniecki, <xref rid="ece35890-bib-0050" ref-type="ref">2013</xref>; Sack et al., <xref rid="ece35890-bib-0087" ref-type="ref">2012</xref>). However, the contrast with the broad findings in Wright et al. (<xref rid="ece35890-bib-0105" ref-type="ref">2017</xref>) was not surprising because the broader, across species patterns for complex variable traits may not be present within species (Moles, <xref rid="ece35890-bib-0068" ref-type="ref">2018</xref>). In fact, many studies exploring how traits change with environment have been performed on unrelated species (e.g., Atkin et al., <xref rid="ece35890-bib-0010" ref-type="ref">2015</xref>; D&#x000ed;az et al., <xref rid="ece35890-bib-0027" ref-type="ref">2016</xref>; Wright et al., <xref rid="ece35890-bib-0105" ref-type="ref">2017</xref>), while intraspecific trait variation is &#x0201c;largely ignored&#x0201d; in trait&#x02010;based plant ecology (Shipley et al., <xref rid="ece35890-bib-0090" ref-type="ref">2016</xref>), providing limited information on evolutionary responses to climate (Moran et al., <xref rid="ece35890-bib-0070" ref-type="ref">2016</xref>).</p><p>Some functional traits showed a different pattern in relationship to climate&#x02010;of&#x02010;origin than expected. Four traits (&#x003b4;<sup>13</sup>C, SLA, N<sub>CONC</sub>, WD) showed values for the hot, dry climate (HRI) indicative of higher rainfall areas. However, this is likely due to populations of <italic>C.&#x000a0;calophylla</italic> from the hot, dry climate (HRI) having different adaptive mechanisms than anticipated. Carbon isotope composition (&#x003b4;<sup>13</sup>C) is tightly correlated with WUE, particularly in field studies (Rundel &#x00026; Sharifi, <xref rid="ece35890-bib-0085" ref-type="ref">1993</xref>), and our findings suggest that HRI has the lowest WUE, when we expected it to have the highest WUE. Likewise, the LES traits (SLA and N<sub>CONC</sub>) within the HRI population were different than expected; the high values for SLA and N<sub>CONC</sub> measurements are indicative of a population that is more susceptible to drought conditions (Greenwood et al., <xref rid="ece35890-bib-0042" ref-type="ref">2017</xref>). While we do find differentiation between populations for SLA, this differentiation does not seem to be heritable and confirms findings that SLA is highly plastic (Shipley, <xref rid="ece35890-bib-0089" ref-type="ref">2000</xref>). In addition, WD exhibited the opposite pattern than was expected, as the wood was less dense in the population from the hotter, drier climate. We expected northern <italic>C.&#x000a0;calophylla</italic> populations that occur in hotter, drier conditions to exhibit denser wood to increase cavitation resistance (Hacke et al., <xref rid="ece35890-bib-0044" ref-type="ref">2001</xref>) and increase survival in harsh climates (Cornwell &#x00026; Ackerly, <xref rid="ece35890-bib-0024" ref-type="ref">2009</xref>; Hacke et al., <xref rid="ece35890-bib-0044" ref-type="ref">2001</xref>). Even though we found differences between populations for the WD trait with some evidence of heritability, the WD differences (c. 0.40&#x02013;0.65) are small and may result in similar <italic>P</italic>
+<sub>50</sub> estimates (c. &#x02212;2 to &#x02212;2.5; <italic>P</italic>
+<sub>50</sub> is the point at which plants lose 50% of their conductance (Hacke et al., <xref rid="ece35890-bib-0044" ref-type="ref">2001</xref>)), suggesting that the biological difference between the WD measurements may be negligible. Overall, these patterns were unexpected and our finding that the HRI population from the hotter, drier climate was at the end of the trait spectrum where we expected cool, wet populations may be attributed to one or several possible explanations: (a) patterns of isolation might have affected current trait distributions, and genetic drift might overcome selection in some small, isolated populations (Lanfear, Kokko, &#x00026; Eyre&#x02010;Walker, <xref rid="ece35890-bib-0058" ref-type="ref">2014</xref>); (b) other traits may be involved in the adaptation to hotter, drier climates for this species; (c) these traits might be plastic; or (d) a whole&#x02010;plant leaf&#x02010;area process in which the northern populations grow structurally inexpensive (thin) leaves with low leaf longevity provides ways in which populations can adapt to hot, dry climates, as found in other trees (Wolfe, Sperry, &#x00026; Kursar, <xref rid="ece35890-bib-0100" ref-type="ref">2016</xref>).</p><p>All but two traits (SLA and PRI) had a narrow&#x02010;sense heritability greater than zero, indicating that evolutionary change can occur through processes of natural selection. In particular, the heritability of WUE, as indicated by &#x003b4;<sup>13</sup>C, is an important finding that has ramifications for the species as the climate changes, particularly in a Mediterranean&#x02010;type climate, where rainfall is seasonal and climate shifts are predicted (Klausmeyer &#x00026; Shaw, <xref rid="ece35890-bib-0057" ref-type="ref">2009</xref>). However, heritability was not found to be consistent among traits, indicating that our hypothesis of different levels of variability among traits is accepted. In general, these heritabilities are similar to the heritability of height (0.14&#x000a0;&#x000b1;&#x000a0;0.03 SE), diameter (0.12&#x000a0;&#x000b1;&#x000a0;0.03), and blight resistance (0.08&#x000a0;&#x000b1;&#x000a0;0.03) based on a greater sampling effort (24 seedlings per family; 3,960 trees) at the same experimental plantation (Ahrens, Mazanec, et al., <xref rid="ece35890-bib-0002" ref-type="ref">2019</xref>). Overall, the heritability continuum measured here suggests that selection pressure due to climate will affect each trait differently, leading to novel patterns of local adaptation and trait combinations.</p><p>The presence of variation in trait means and heritability describes a system in which the species is able to adapt to a future climate. However, no two traits shared the same explanatory climate variables or modeled associations, resulting in different predicted distributions. We found that some traits would need to evolve at a greater rate than others in order to maintain current trait&#x02013;climate associations under future conditions (see the change factor in Figure <xref rid="ece35890-fig-0005" ref-type="fig">5</xref>). Some traits may lag behind the climate change front, while others may be able to adapt to future climates, depending on the level of individual trait heritability, strength of climate selection pressure on the trait, and the amount of standing genetic variation present within the genes that control the trait. For example, the SLA trait would need to change as much as 12% to keep up with the changing climate, but SLA is effectively not heritable, so the change needed is unlikely to happen via selection pressure. On the other hand, N<sub>CONC</sub> would need to change its trait value by &#x02212;25% and has one of the higher estimates of heritability in the study, indicating that this trait might track with environment if the selection pressure is strong. Overall, our observations are consistent with the concept that some traits will be more limiting than others in relation to a species&#x02019; adaptive capacity to respond to climate change.</p></sec><sec id="ece35890-sec-0013"><label>4.2</label><title>Trait correlation</title><p>Our estimates of trait correlations are consistent with other studies and are in&#x02010;line with our expectations. However, the traits measured differentially respond to climate and our predictions that climate change may affect each trait independently were supported. Our data suggest that traits will need to adapt to new climates at different rates and in different patterns. This is a concern for traits that are known to be dependent on one another, such as those in the LES. However, the other correlations may be able to independently adapt to new conditions. This is particularly concerning for traits that are mechanistically dependent on one another because the coordinated traits will either need to decouple or be limited by one another. We were able to establish the presence of a relationship between PRI (RUE) and &#x003b4;<sup>13</sup>C (WUE). This correlation is indicative of populations having different photosynthetic inhibition under different light conditions (Grace et al., <xref rid="ece35890-bib-0041" ref-type="ref">2007</xref>). In the future, we anticipate that this correlation between PRI and &#x003b4;<sup>13</sup>C will decouple, as a greater shift in PRI is predicted compared to &#x003b4;<sup>13</sup>C, but this correlation may not change under new climate conditions because of the effective nonheritability of PRI and the very small change for &#x003b4;<sup>13</sup>C.</p><p>Current patterns of coordination between SLA and N<sub>CONC</sub> are consistent with the overall patterns within the LES paradigm (Reich, <xref rid="ece35890-bib-0080" ref-type="ref">2014</xref>; Reich et al., <xref rid="ece35890-bib-0082" ref-type="ref">1997</xref>), in that high N is associated with high SLA however the pattern's association with climate is the opposite as expected. The combination of SLA and N<sub>mass</sub> has been shown to be a good predictor of net photosynthesis (A<sub>max</sub>) on a per mass basis (Reich &#x00026; Walters, <xref rid="ece35890-bib-0081" ref-type="ref">1994</xref>; Reich et al., <xref rid="ece35890-bib-0082" ref-type="ref">1997</xref>), and lower SLA is due to many anatomical features (e.g., larger cell sizes, greater major vein allocation, greater numbers of mesophyll cell layers, and higher cell mass densities (John et al., <xref rid="ece35890-bib-0051" ref-type="ref">2017</xref>)), although we found that SLA is not heritable and highly variable. Our findings suggest that the adaptive potential of these two LES traits could be limited by one another, or SLA (not heritable) could dynamically match <italic>N</italic> (heritable) concentrations through plasticity.</p><p>We also expected to find significant correlation between LS and NDVI. As such, we revealed the BOO population (cool&#x02013;wet climate&#x02010;of&#x02010;origin and the fastest growing population; Ahrens, Mazanec, et al., <xref rid="ece35890-bib-0002" ref-type="ref">2019</xref>) as having larger leaves and higher NDVI, which is indicative of higher biomass. This is the only trait correlation that we predict to remain intact in the future.</p><p>The pattern between WD and N<sub>CONC</sub> was also as expected, in that wood density decreased with increasing N<sub>CONC</sub>. However, the predicted correlation between WD and N<sub>CONC</sub> shows a nearly perpendicular change, indicating that the two traits will be required to evolve in opposite directions. This confirms that WD is a difficult trait to predict due to its association with many ecological signals (Brodersen, <xref rid="ece35890-bib-0015" ref-type="ref">2016</xref>; Gleason et al., <xref rid="ece35890-bib-0039" ref-type="ref">2016</xref>) and that other mechanisms, aside from climate, are likely important for selection of the WD trait.</p><p>All of the current trait correlations were highly significant but with low explanatory power, indicating that the variation between correlated traits is high, and that the correlation has some leeway for traits to change without affecting patterns of adaptation. Overall, predicted trait correlations exhibit contrasting prediction scenarios, which could force some traits to change disproportionately compared to their counterparts. These findings suggest that if these trait correlations are dependent on one another that they might be a hindrance to adapting to novel climate conditions. On the other hand, if the correlated traits can evolve independently, the different trait heritability levels suggest that some traits are more genetically determined than others, resulting in different trait combinations within populations than what has been measured.</p></sec></sec><sec sec-type="conclusions" id="ece35890-sec-0014"><label>5</label><title>CONCLUSION</title><p>Understanding mechanistic patterns of plant traits that undergo processes of natural selection can broadly enhance our understanding of species distributional predictions to inform maintenance of forest ecosystem function under future climate scenarios. Our results suggest that functional traits have contrasting genotypic patterns and will be subjected to different climate selection pressures, which may negatively affect current forest structure and function due to lower working optimum for functional traits. Even though we were able to identify significant adaptive variation and differential trait responses correlated with patterns of precipitation and temperature, demonstrating adaptive capacity to climate change, we reveal that traits are independently associated with different climate factors. Therefore, some trait correlations and their idiosyncratic relationships may be disrupted under future climate scenarios, suggesting that genetic constraints, selection pressure, and trait correlation limitations will affect trait evolution and patterns of adaptation in the future.</p></sec><sec sec-type="COI-statement" id="ece35890-sec-0016"><title>CONFLICT OF INTEREST</title><p>None declared.</p></sec><sec id="ece35890-sec-0017"><title>AUTHOR CONTRIBUTIONS</title><p>CA and PR developed the idea. All authors collected the data. CA, RM, and MA analyzed the data. CA wrote the first draft, and all authors edited and intellectually contributed to the final manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece35890-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-10-232-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece35890-sec-0015"><title>ACKNOWLEDGMENTS</title><p>We thank Willa Veber and Sarah Sapsford for field work and data collection, and Paul O'Reilly for providing land for the experimental trial site. Funding and/or in&#x02010;kind support was provided by the Australian Research Council (LP120200581 for support in establishing the provenance trial and LP150100936 for support of the current study), Western Australia Department of Biodiversity, Conservation, and Attractions, Alcoa Australia, Cape to Cape Catchment Group, Murdoch University, and Hawkesbury Institute for the Environment at Western Sydney University.</p></ack><sec sec-type="data-availability" id="ece35890-sec-0019"><title>DATA AVAILABILITY STATEMENT</title><p>Data for this study are available at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.nk98sf7pv" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.nk98sf7pv</ext-link> and include two files, one to calculate heritabilities with four populations and one for the modeling component with twelve populations. Metadata are included for all populations within each file including environmental factors and GPS locales.</p></sec><ref-list content-type="cited-references" id="ece35890-bibl-0001"><title>REFERENCES</title><ref id="ece35890-bib-0001"><mixed-citation publication-type="journal" id="ece35890-cit-0001">
+<string-name>
+<surname>Ahrens</surname>, <given-names>C. W.</given-names>
+</string-name>, <string-name>
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rymer</surname>, <given-names>P. D.</given-names>
+</string-name> (<year>2019</year>). <article-title>Standing genomic variation within coding and regulatory regions contributes to the adaptive capacity to climate in a foundation tree species</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>28</volume>, <fpage>2502</fpage>&#x02013;<lpage>2516</lpage>. <pub-id pub-id-type="doi">10.1111/mec.15092</pub-id>
+<pub-id pub-id-type="pmid">30950536</pub-id></mixed-citation></ref><ref id="ece35890-bib-0002"><mixed-citation publication-type="journal" id="ece35890-cit-0002">
+<string-name>
+<surname>Ahrens</surname>, <given-names>C. W.</given-names>
+</string-name>, <string-name>
+<surname>Mazanec</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Paap</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Ruthrof</surname>, <given-names>K. X.</given-names>
+</string-name>, <string-name>
+<surname>Challis</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Hardy</surname>, <given-names>G.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rymer</surname>, <given-names>P. D.</given-names>
+</string-name> (<year>2019</year>). <article-title>Adaptive variation for growth and resistance to a novel pathogen along climatic gradients in a foundation tree</article-title>. <source xml:lang="en">Evolutionary Applications</source>, <volume>12</volume>, <fpage>1178</fpage>&#x02013;<lpage>1190</lpage>. <pub-id pub-id-type="doi">10.1111/eva.12796</pub-id>
+<pub-id pub-id-type="pmid">31293630</pub-id></mixed-citation></ref><ref id="ece35890-bib-0003"><mixed-citation publication-type="journal" id="ece35890-cit-0003">
+<string-name>
+<surname>Aitken</surname>, <given-names>S. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Whitlock</surname>, <given-names>M. C.</given-names>
+</string-name> (<year>2013</year>). <article-title>Assisted gene flow to facilitate local adaptation to climate change</article-title>. <source xml:lang="en">Annual Review of Ecology, Evolution, and Systematics</source>, <volume>44</volume>(<issue>1</issue>), <fpage>367</fpage>&#x02013;<lpage>388</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-ecolsys-110512-135747</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0004"><mixed-citation publication-type="journal" id="ece35890-cit-0004">
+<string-name>
+<surname>Aitken</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name>
+<surname>Yeaman</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Holliday</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Curtis&#x02010;McLane</surname>, <given-names>S.</given-names>
+</string-name> (<year>2008</year>). <article-title>Adaptation, migration or extirpation: Climate change outcomes for tree populations: Climate change outcomes for tree populations</article-title>. <source xml:lang="en">Evolutionary Applications</source>, <volume>1</volume>(<issue>1</issue>), <fpage>95</fpage>&#x02013;<lpage>111</lpage>. <pub-id pub-id-type="doi">10.1111/j.1752-4571.2007.00013.x</pub-id>
+<pub-id pub-id-type="pmid">25567494</pub-id></mixed-citation></ref><ref id="ece35890-bib-0005"><mixed-citation publication-type="journal" id="ece35890-cit-0005">
+<string-name>
+<surname>Alberto</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name>
+<surname>Derory</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Boury</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Frigerio</surname>, <given-names>J.&#x02010;M.</given-names>
+</string-name>, <string-name>
+<surname>Zimmermann</surname>, <given-names>N. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kremer</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Imprints of natural selection along environmental gradients in phenology&#x02010;related genes of <italic>Quercus petraea</italic>
+</article-title>. <source xml:lang="en">Genetics</source>, <volume>195</volume>(<issue>2</issue>), <fpage>495</fpage>&#x02013;<lpage>512</lpage>.<pub-id pub-id-type="pmid">23934884</pub-id></mixed-citation></ref><ref id="ece35890-bib-0006"><mixed-citation publication-type="journal" id="ece35890-cit-0006">
+<string-name>
+<surname>Allen</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name>
+<surname>Macalady</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Chenchouni</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Bachelet</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>McDowell</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Vennetier</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Cobb</surname>, <given-names>N.</given-names>
+</string-name> (<year>2010</year>). <article-title>A global overview of drought and heat&#x02010;induced tree mortality reveals emerging climate change risks for forests</article-title>. <source xml:lang="en">Forest Ecology and Management</source>, <volume>259</volume>(<issue>4</issue>), <fpage>660</fpage>&#x02013;<lpage>684</lpage>. <pub-id pub-id-type="doi">10.1016/j.foreco.2009.09.001</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0007"><mixed-citation publication-type="journal" id="ece35890-cit-0007">
+<string-name>
+<surname>Aranda</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Cano</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name>
+<surname>Gasc&#x000f3;</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Cochard</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Nardini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Mancha</surname>, <given-names>J. A.</given-names>
+</string-name>, ...&#x00026; <string-name>
+<surname>S&#x000e1;nchez-G&#x000f3;mez</surname>, <given-names>D.</given-names>
+</string-name> (<year>2014</year>). <article-title>Variation in photosynthetic performance and hydraulic architecture across European beech (Fagus sylvatica L.) populations supports the case for local adaptation to water stress</article-title>. <source xml:lang="en">Tree physiology</source>, <volume>35</volume>, <fpage>34</fpage>&#x02013;<lpage>46</lpage>.<pub-id pub-id-type="pmid">25536961</pub-id></mixed-citation></ref><ref id="ece35890-bib-0008"><mixed-citation publication-type="journal" id="ece35890-cit-0008">
+<string-name>
+<surname>Araujo</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name>
+<surname>Pearson</surname>, <given-names>R. G.</given-names>
+</string-name>, <string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Erhard</surname>, <given-names>M.</given-names>
+</string-name> (<year>2005</year>). <article-title>Validation of species&#x02010;climate impact models under climate change</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>11</volume>(<issue>9</issue>), <fpage>1504</fpage>&#x02013;<lpage>1513</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2005.01000.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0009"><mixed-citation publication-type="journal" id="ece35890-cit-0009">
+<string-name>
+<surname>Aspinwall</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>V&#x000e5;rhammar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Blackman</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Tjoelker</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name>
+<surname>Ahrens</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rymer</surname>, <given-names>P. D.</given-names>
+</string-name> (<year>2017</year>). <article-title>Adaptation and acclimation both influence photosynthetic and respiratory temperature responses in <italic>Corymbia calophylla</italic>
+</article-title>. <source xml:lang="en">Tree Physiology</source>, <volume>37</volume>(<issue>8</issue>), <fpage>1095</fpage>&#x02013;<lpage>1112</lpage>. <pub-id pub-id-type="doi">10.1093/treephys/tpx047</pub-id>
+<pub-id pub-id-type="pmid">28460131</pub-id></mixed-citation></ref><ref id="ece35890-bib-0010"><mixed-citation publication-type="journal" id="ece35890-cit-0010">
+<string-name>
+<surname>Atkin</surname>, <given-names>O. K.</given-names>
+</string-name>, <string-name>
+<surname>Bloomfield</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Tjoelker</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name>
+<surname>Asner</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name>
+<surname>Bonal</surname>, <given-names>D.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Zaragoza&#x02010;Castells</surname>, <given-names>J.</given-names>
+</string-name> (<year>2015</year>). <article-title>Global variability in leaf respiration in relation to climate, plant functional types and leaf traits</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>206</volume>(<issue>2</issue>), <fpage>614</fpage>&#x02013;<lpage>636</lpage>. <pub-id pub-id-type="doi">10.1111/nph.13253</pub-id>
+<pub-id pub-id-type="pmid">25581061</pub-id></mixed-citation></ref><ref id="ece35890-bib-0011"><mixed-citation publication-type="journal" id="ece35890-cit-0011">
+<string-name>
+<surname>Barrett</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schluter</surname>, <given-names>D.</given-names>
+</string-name> (<year>2008</year>). <article-title>Adaptation from standing genetic variation</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>23</volume>(<issue>1</issue>), <fpage>38</fpage>&#x02013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2007.09.008</pub-id>
+<pub-id pub-id-type="pmid">18006185</pub-id></mixed-citation></ref><ref id="ece35890-bib-0012"><mixed-citation publication-type="journal" id="ece35890-cit-0012">
+<string-name>
+<surname>Beets</surname>, <given-names>P. N.</given-names>
+</string-name>, <string-name>
+<surname>Gilchrist</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jeffreys</surname>, <given-names>M. P.</given-names>
+</string-name> (<year>2001</year>). <article-title>Wood density of radiata pine: Effect of nitrogen supply</article-title>. <source xml:lang="en">Forest Ecology and Management</source>, <volume>145</volume>(<issue>3</issue>), <fpage>173</fpage>&#x02013;<lpage>180</lpage>. <pub-id pub-id-type="doi">10.1016/S0378-1127(00)00405-9</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0013"><mixed-citation publication-type="journal" id="ece35890-cit-0013">
+<string-name>
+<surname>Blackman</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Aspinwall</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Tissue</surname>, <given-names>D. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rymer</surname>, <given-names>P. D.</given-names>
+</string-name> (<year>2017</year>). <article-title>Genetic adaptation and phenotypic plasticity contribute to greater leaf hydraulic tolerance in response to drought in warmer climates</article-title>. <source xml:lang="en">Tree Physiology</source>, <volume>37</volume>(<issue>5</issue>), <fpage>583</fpage>&#x02013;<lpage>592</lpage>. <pub-id pub-id-type="doi">10.1093/treephys/tpx005</pub-id>
+<pub-id pub-id-type="pmid">28338733</pub-id></mixed-citation></ref><ref id="ece35890-bib-0014"><mixed-citation publication-type="journal" id="ece35890-cit-0014">
+<string-name>
+<surname>Bonan</surname>, <given-names>G. B.</given-names>
+</string-name> (<year>2008</year>). <article-title>Forests and climate change: Forcings, feedbacks, and the climate benefits of forests</article-title>. <source xml:lang="en">Science</source>, <volume>320</volume>(<issue>5882</issue>), <fpage>1444</fpage>&#x02013;<lpage>1449</lpage>.<pub-id pub-id-type="pmid">18556546</pub-id></mixed-citation></ref><ref id="ece35890-bib-0015"><mixed-citation publication-type="journal" id="ece35890-cit-0015">
+<string-name>
+<surname>Brodersen</surname>, <given-names>C. R.</given-names>
+</string-name> (<year>2016</year>). <article-title>Finding support for theoretical tradeoffs in xylem structure and function</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>209</volume>(<issue>1</issue>), <fpage>8</fpage>&#x02013;<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1111/nph.13763</pub-id>
+<pub-id pub-id-type="pmid">26625343</pub-id></mixed-citation></ref><ref id="ece35890-bib-0016"><mixed-citation publication-type="journal" id="ece35890-cit-0016">
+<string-name>
+<surname>Bush</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Kain</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Matheson</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kanowski</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <article-title>Marker&#x02010;based adjustment of the additive relationship matrix for estimation of genetic parameters&#x02014;An example using <italic>Eucalyptus cladocalyx</italic>
+</article-title>. <source xml:lang="en">Tree Genetics &#x00026; Genomes</source>, <volume>7</volume>(<issue>1</issue>), <fpage>23</fpage>&#x02013;<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1007/s11295-010-0312-z</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0017"><mixed-citation publication-type="journal" id="ece35890-cit-0017">
+<string-name>
+<surname>Canadell</surname>, <given-names>J. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Raupach</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2008</year>). <article-title>Managing forests for climate change mitigation</article-title>. <source xml:lang="en">Science</source>, <volume>320</volume>(<issue>5882</issue>), <fpage>1456</fpage>&#x02013;<lpage>1457</lpage>.<pub-id pub-id-type="pmid">18556550</pub-id></mixed-citation></ref><ref id="ece35890-bib-0018"><mixed-citation publication-type="journal" id="ece35890-cit-0018">
+<string-name>
+<surname>Caviglia</surname>, <given-names>O. P.</given-names>
+</string-name>, <string-name>
+<surname>Sadras</surname>, <given-names>V. O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Andrade</surname>, <given-names>F. H.</given-names>
+</string-name> (<year>2004</year>). <article-title>Intensification of agriculture in the south&#x02010;eastern Pampas: I. Capture and efficiency in the use of water and radiation in double&#x02010;cropped wheat&#x02013;soybean</article-title>. <source xml:lang="en">Field Crops Research</source>, <volume>87</volume>, <fpage>117</fpage>&#x02013;<lpage>129</lpage>. <pub-id pub-id-type="doi">10.1016/j.fcr.2003.10.002</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0019"><mixed-citation publication-type="journal" id="ece35890-cit-0019">
+<string-name>
+<surname>Cernusak</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name>
+<surname>Ubierna</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Winter</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Holtum</surname>, <given-names>J. A. M.</given-names>
+</string-name>, <string-name>
+<surname>Marshall</surname>, <given-names>J. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Farquhar</surname>, <given-names>G. D.</given-names>
+</string-name> (<year>2013</year>). <article-title>Environmental and physiological determinants of carbon isotope discrimination in terrestrial plants</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>200</volume>(<issue>4</issue>), <fpage>950</fpage>&#x02013;<lpage>965</lpage>. <pub-id pub-id-type="doi">10.1111/nph.12423</pub-id>
+<pub-id pub-id-type="pmid">23902460</pub-id></mixed-citation></ref><ref id="ece35890-bib-0020"><mixed-citation publication-type="journal" id="ece35890-cit-0020">
+<string-name>
+<surname>Chazdon</surname>, <given-names>R. L.</given-names>
+</string-name> (<year>2008</year>). <article-title>Beyond deforestation: Restoring forests and ecosystem services on degraded lands</article-title>. <source xml:lang="en">Science</source>, <volume>320</volume>(<issue>5882</issue>), <fpage>1458</fpage>&#x02013;<lpage>1460</lpage>.<pub-id pub-id-type="pmid">18556551</pub-id></mixed-citation></ref><ref id="ece35890-bib-0021"><mixed-citation publication-type="journal" id="ece35890-cit-0021">
+<string-name>
+<surname>Cochard</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Casella</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mencuccini</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Xylem vulnerability to cavitation varies among poplar and willow clones and correlates with yield</article-title>. <source xml:lang="en">Tree Physiology</source>, <volume>27</volume>, <fpage>1761</fpage>&#x02013;<lpage>1767</lpage>. <pub-id pub-id-type="doi">10.1093/treephys/27.12.1761</pub-id>
+<pub-id pub-id-type="pmid">17938107</pub-id></mixed-citation></ref><ref id="ece35890-bib-0022"><mixed-citation publication-type="journal" id="ece35890-cit-0022">
+<string-name>
+<surname>Corlett</surname>, <given-names>R. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Westcott</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Will plant movements keep up with climate change?</article-title>
+<source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>28</volume>(<issue>8</issue>), <fpage>482</fpage>&#x02013;<lpage>488</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2013.04.003</pub-id>
+<pub-id pub-id-type="pmid">23721732</pub-id></mixed-citation></ref><ref id="ece35890-bib-0023"><mixed-citation publication-type="journal" id="ece35890-cit-0023">
+<string-name>
+<surname>Cornelissen</surname>, <given-names>J. H. C.</given-names>
+</string-name> (<year>1999</year>). <article-title>A triangular relationship between leaf size and seed size among woody species: Allometry, ontogeny, ecology and taxonomy</article-title>. <source xml:lang="en">Oecologia</source>, <volume>118</volume>(<issue>2</issue>), <fpage>248</fpage>&#x02013;<lpage>255</lpage>. <pub-id pub-id-type="doi">10.1007/s004420050725</pub-id>
+<pub-id pub-id-type="pmid">28307701</pub-id></mixed-citation></ref><ref id="ece35890-bib-0024"><mixed-citation publication-type="journal" id="ece35890-cit-0024">
+<string-name>
+<surname>Cornwell</surname>, <given-names>W. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ackerly</surname>, <given-names>D. D.</given-names>
+</string-name> (<year>2009</year>). <article-title>Community assembly and shifts in plant trait distributions across an environmental gradient in coastal California</article-title>. <source xml:lang="en">Ecological Monographs</source>, <volume>79</volume>(<issue>1</issue>), <fpage>109</fpage>&#x02013;<lpage>126</lpage>. <pub-id pub-id-type="doi">10.1890/07-1134.1</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0025"><mixed-citation publication-type="journal" id="ece35890-cit-0025">
+<string-name>
+<surname>Costa e Silva</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Hardner</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Potts</surname>, <given-names>B. M.</given-names>
+</string-name> (<year>2010</year>). <article-title>Genetic variation and parental performance under inbreeding for growth in <italic>Eucalyptus globulus</italic>
+</article-title>. <source xml:lang="en">Annals of Forest Science</source>, <volume>67</volume>(<issue>6</issue>), <fpage>606</fpage>
+<pub-id pub-id-type="doi">10.1051/forest/2010019</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0026"><mixed-citation publication-type="journal" id="ece35890-cit-0026">
+<string-name>
+<surname>Crimmins</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Dobrowski</surname>, <given-names>S. Z.</given-names>
+</string-name>, <string-name>
+<surname>Greenberg</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Abatzoglou</surname>, <given-names>J. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mynsberge</surname>, <given-names>A. R.</given-names>
+</string-name> (<year>2011</year>). <article-title>Changes in climatic water balance drive downhill shifts in plant species&#x02019; optimum elevations</article-title>. <source xml:lang="en">Science</source>, <volume>331</volume>(<issue>6015</issue>), <fpage>324</fpage>&#x02013;<lpage>327</lpage>.<pub-id pub-id-type="pmid">21252344</pub-id></mixed-citation></ref><ref id="ece35890-bib-0027"><mixed-citation publication-type="journal" id="ece35890-cit-0027">
+<string-name>
+<surname>D&#x000ed;az</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kattge</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Cornelissen</surname>, <given-names>J. H. C.</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Lavorel</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Dray</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Gorn&#x000e9;</surname>, <given-names>L. D.</given-names>
+</string-name> (<year>2016</year>). <article-title>The global spectrum of plant form and function</article-title>. <source xml:lang="en">Nature</source>, <volume>529</volume>(<issue>7585</issue>), <fpage>167</fpage>
+<pub-id pub-id-type="doi">10.1038/nature16489</pub-id>
+<pub-id pub-id-type="pmid">26700811</pub-id></mixed-citation></ref><ref id="ece35890-bib-0028"><mixed-citation publication-type="journal" id="ece35890-cit-0028">
+<string-name>
+<surname>Diefendorf</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name>
+<surname>Mueller</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name>
+<surname>Wing</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Koch</surname>, <given-names>P. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Freeman</surname>, <given-names>K. H.</given-names>
+</string-name> (<year>2010</year>). <article-title>Global patterns in leaf 13C discrimination and implications for studies of past and future climate</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>107</volume>(<issue>13</issue>), <fpage>5738</fpage>&#x02013;<lpage>5743</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0910513107</pub-id>
+<pub-id pub-id-type="pmid">20231481</pub-id></mixed-citation></ref><ref id="ece35890-bib-0029"><mixed-citation publication-type="journal" id="ece35890-cit-0029">
+<string-name>
+<surname>Donovan</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name>
+<surname>Maherali</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Caruso</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>de Kroon</surname>, <given-names>H.</given-names>
+</string-name> (<year>2011</year>). <article-title>The evolution of the worldwide leaf economics spectrum</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>26</volume>(<issue>2</issue>), <fpage>88</fpage>&#x02013;<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2010.11.011</pub-id>
+<pub-id pub-id-type="pmid">21196061</pub-id></mixed-citation></ref><ref id="ece35890-bib-0030"><mixed-citation publication-type="journal" id="ece35890-cit-0030">
+<string-name>
+<surname>Ellison</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Bank</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Clinton</surname>, <given-names>B. D.</given-names>
+</string-name>, <string-name>
+<surname>Colburn</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name>
+<surname>Elliott</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Ford</surname>, <given-names>C. R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Webster</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2005</year>). <article-title>Loss of foundation species: Consequences for the structure and dynamics of forested ecosystems</article-title>. <source xml:lang="en">Frontiers in Ecology and the Environment</source>, <volume>3</volume>(<issue>9</issue>), <fpage>479</fpage>&#x02013;<lpage>486</lpage>. <pub-id pub-id-type="doi">10.1890/1540-9295(2005)003[0479:LOFSCF]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0031"><mixed-citation publication-type="journal" id="ece35890-cit-0031">
+<string-name>
+<surname>Falster</surname>, <given-names>D. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name> (<year>2003</year>). <article-title>Plant height and evolutionary games</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>18</volume>(<issue>7</issue>), <fpage>337</fpage>&#x02013;<lpage>343</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0032"><mixed-citation publication-type="journal" id="ece35890-cit-0032">
+<string-name>
+<surname>Farquhar</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Richards</surname>, <given-names>R.</given-names>
+</string-name> (<year>1984</year>). <article-title>Isotopic composition of plant carbon correlates with water&#x02010;use efficiency of wheat genotypes</article-title>. <source xml:lang="en">Functional Plant Biology</source>, <volume>11</volume>(<issue>6</issue>), <fpage>539</fpage>&#x02013;<lpage>552</lpage>. <pub-id pub-id-type="doi">10.1071/PP9840539</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0033"><mixed-citation publication-type="journal" id="ece35890-cit-0033">
+<string-name>
+<surname>Fick</surname>, <given-names>S. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hijmans</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2017</year>). <article-title>WorldClim 2: New 1&#x02010;km spatial resolution climate surfaces for global land areas</article-title>. <source xml:lang="en">International Journal of Climatology</source>, <volume>37</volume>(<issue>12</issue>), <fpage>4302</fpage>&#x02013;<lpage>4315</lpage>. <pub-id pub-id-type="doi">10.1002/joc.5086</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0034"><mixed-citation publication-type="journal" id="ece35890-cit-0034">
+<string-name>
+<surname>Gamon</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Penuelas</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Field</surname>, <given-names>C. B.</given-names>
+</string-name> (<year>1992</year>). <article-title>A narrow&#x02010;waveband spectral index that tracks diurnal changes in photosynthetic efficiency</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>41</volume>, <fpage>35</fpage>&#x02013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/0034-4257(92)90059-S</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0035"><mixed-citation publication-type="journal" id="ece35890-cit-0035">
+<string-name>
+<surname>Gamon</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Serrano</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Surfus</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>1997</year>). <article-title>The photochemical reflectance index: An optical indicator of photosynthetic radiation use efficiency across species, functional types, and nutrient levels</article-title>. <source xml:lang="en">Oecologia</source>, <volume>112</volume>, <fpage>492</fpage>&#x02013;<lpage>501</lpage>.<pub-id pub-id-type="pmid">28307626</pub-id></mixed-citation></ref><ref id="ece35890-bib-0036"><mixed-citation publication-type="journal" id="ece35890-cit-0036">
+<string-name>
+<surname>Garbulsky</surname>, <given-names>M. F.</given-names>
+</string-name>, <string-name>
+<surname>Pe&#x000f1;uelas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gamon</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Inoue</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Filella</surname>, <given-names>I.</given-names>
+</string-name> (<year>2011</year>). <article-title>The photochemical reflectance index (PRI) and the remote sensing of leaf, canopy and ecosystem radiation use efficiencies. A review and meta&#x02010;analysis</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>115</volume>(<issue>2</issue>), <fpage>281</fpage>&#x02013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.1016/j.rse.2010.08.023</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0037"><mixed-citation publication-type="journal" id="ece35890-cit-0037">
+<string-name>
+<surname>Geber</surname>, <given-names>M. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Griffen</surname>, <given-names>L. R.</given-names>
+</string-name> (<year>2003</year>). <article-title>Inheritance and natural selection on functional traits</article-title>. <source xml:lang="en">International Journal of Plant Sciences</source>, <volume>164</volume>(<issue>S3</issue>), <fpage>S21</fpage>&#x02013;<lpage>S42</lpage>. <pub-id pub-id-type="doi">10.1086/368233</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0038"><mixed-citation publication-type="book" id="ece35890-cit-0038">
+<string-name>
+<surname>Gilmour</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dutkowski</surname>, <given-names>G.</given-names>
+</string-name> (<year>2004</year>). <source xml:lang="en">Pedigree options in ASReml</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://aaa.animalgenome.org/bioinfo/resources/manuals/ASReml3/pedigree.pdf">http://aaa.animalgenome.org/bioinfo/resources/manuals/ASReml3/pedigree.pdf</ext-link>
+</mixed-citation></ref><ref id="ece35890-bib-0039"><mixed-citation publication-type="journal" id="ece35890-cit-0039">
+<string-name>
+<surname>Gleason</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Jansen</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Choat</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Hacke</surname>, <given-names>U. G.</given-names>
+</string-name>, <string-name>
+<surname>Pratt</surname>, <given-names>R. B.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Zanne</surname>, <given-names>A. E.</given-names>
+</string-name> (<year>2016</year>). <article-title>Weak tradeoff between xylem safety and xylem&#x02010;specific hydraulic efficiency across the world's woody plant species</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>209</volume>(<issue>1</issue>), <fpage>123</fpage>&#x02013;<lpage>136</lpage>. <pub-id pub-id-type="doi">10.1111/nph.13646</pub-id>
+<pub-id pub-id-type="pmid">26378984</pub-id></mixed-citation></ref><ref id="ece35890-bib-0040"><mixed-citation publication-type="journal" id="ece35890-cit-0040">
+<string-name>
+<surname>Goetz</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Prince</surname>, <given-names>S. D.</given-names>
+</string-name> (<year>1996</year>). <article-title>Remote sensing of net primary production in boreal forest stands</article-title>. <source xml:lang="en">Agricultural and Forest Meteorology</source>, <volume>78</volume>, <fpage>149</fpage>&#x02013;<lpage>179</lpage>. <pub-id pub-id-type="doi">10.1016/0168-1923(95)02268-6</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0041"><mixed-citation publication-type="journal" id="ece35890-cit-0041">
+<string-name>
+<surname>Grace</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Nichol</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Disney</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lewis</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Quaife</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bowyer</surname>, <given-names>P.</given-names>
+</string-name> (<year>2007</year>). <article-title>Can we measure terrestrial photosynthesis from space directly, using spectral reflectance and fluorescence?</article-title>
+<source xml:lang="en">Global Change Biology</source>, <volume>13</volume>(<issue>7</issue>), <fpage>1484</fpage>&#x02013;<lpage>1497</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2007.01352.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0042"><mixed-citation publication-type="journal" id="ece35890-cit-0042">
+<string-name>
+<surname>Greenwood</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ruiz&#x02010;Benito</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Mart&#x000ed;nez&#x02010;Vilalta</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lloret</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Kitzberger</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>, <given-names>C. D.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Jump</surname>, <given-names>A. S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Tree mortality across biomes is promoted by drought intensity, lower wood density and higher specific leaf area</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>20</volume>(<issue>4</issue>), <fpage>539</fpage>&#x02013;<lpage>553</lpage>. <pub-id pub-id-type="doi">10.1111/ele.12748</pub-id>
+<pub-id pub-id-type="pmid">28220612</pub-id></mixed-citation></ref><ref id="ece35890-bib-0043"><mixed-citation publication-type="journal" id="ece35890-cit-0043">
+<string-name>
+<surname>Griffin</surname>, <given-names>A. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cotterill</surname>, <given-names>P. P.</given-names>
+</string-name> (<year>1988</year>). <article-title>Genetic variation in growth of outcrossed, selfed and open&#x02010;pollinated progenies of <italic>Eucalyptus regnans</italic> and some implications for breeding strategy</article-title>. <source xml:lang="en">Silvae Genetica</source>, <volume>37</volume>(<issue>3&#x02013;4</issue>), <fpage>124</fpage>&#x02013;<lpage>131</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0044"><mixed-citation publication-type="journal" id="ece35890-cit-0044">
+<string-name>
+<surname>Hacke</surname>, <given-names>U. G.</given-names>
+</string-name>, <string-name>
+<surname>Sperry</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Pockman</surname>, <given-names>W. T.</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>, <given-names>S. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>McCulloh</surname>, <given-names>K. A.</given-names>
+</string-name> (<year>2001</year>). <article-title>Trends in wood density and structure are linked to prevention of xylem implosion by negative pressure</article-title>. <source xml:lang="en">Oecologia</source>, <volume>126</volume>(<issue>4</issue>), <fpage>457</fpage>&#x02013;<lpage>461</lpage>. <pub-id pub-id-type="doi">10.1007/s004420100628</pub-id>
+<pub-id pub-id-type="pmid">28547229</pub-id></mixed-citation></ref><ref id="ece35890-bib-0045"><mixed-citation publication-type="journal" id="ece35890-cit-0045">
+<string-name>
+<surname>Hajek</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Kurjak</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>von W&#x000fc;hlisch</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Delzon</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schuldt</surname>, <given-names>B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Intraspecific variation in wood anatomical, hydraulic, and foliar traits in ten European beech provenances differing in growth yield</article-title>. <source xml:lang="en">Frontiers in plant science</source>, <volume>7</volume>, <fpage>791</fpage>.<pub-id pub-id-type="pmid">27379112</pub-id></mixed-citation></ref><ref id="ece35890-bib-0046"><mixed-citation publication-type="journal" id="ece35890-cit-0046">
+<string-name>
+<surname>Harris</surname>, <given-names>R. M. B.</given-names>
+</string-name>, <string-name>
+<surname>Beaumont</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name>
+<surname>Vance</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name>
+<surname>Tozer</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name>
+<surname>Remenyi</surname>, <given-names>T. A.</given-names>
+</string-name>, <string-name>
+<surname>Perkins&#x02010;Kirkpatrick</surname>, <given-names>S. E.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Bowman</surname>, <given-names>D. M. J. S.</given-names>
+</string-name> (<year>2018</year>). <article-title>Biological responses to the press and pulse of climate trends and extreme events</article-title>. <source xml:lang="en">Nature Climate Change</source>, <volume>8</volume>(<issue>7</issue>), <fpage>579</fpage>&#x02013;<lpage>587</lpage>. <pub-id pub-id-type="doi">10.1038/s41558-018-0187-9</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0047"><mixed-citation publication-type="journal" id="ece35890-cit-0047">
+<string-name>
+<surname>Hodge</surname>, <given-names>G. R.</given-names>
+</string-name>, <string-name>
+<surname>Volker</surname>, <given-names>P. W.</given-names>
+</string-name>, <string-name>
+<surname>Potts</surname>, <given-names>B. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Owen</surname>, <given-names>J. V.</given-names>
+</string-name> (<year>1996</year>). <article-title>A comparison of genetic information from open&#x02010;pollinated and control&#x02010;pollinated progeny tests in two eucalypt species</article-title>. <source xml:lang="en">Theoretical and Applied Genetics</source>, <volume>92</volume>(<issue>1</issue>), <fpage>53</fpage>&#x02013;<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1007/BF00222951</pub-id>
+<pub-id pub-id-type="pmid">24166116</pub-id></mixed-citation></ref><ref id="ece35890-bib-0048"><mixed-citation publication-type="journal" id="ece35890-cit-0048">
+<string-name>
+<surname>Hoffmann</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name>
+<surname>Rymer</surname>, <given-names>P. D.</given-names>
+</string-name>, <string-name>
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ruthrof</surname>, <given-names>K. X.</given-names>
+</string-name>, <string-name>
+<surname>Whinam</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>McGeoch</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Williams</surname>, <given-names>S. E.</given-names>
+</string-name> (<year>2019</year>). <article-title>Impacts of recent climate change on terrestrial flora and fauna: Some emerging Australian examples</article-title>. <source xml:lang="en">Austral Ecology</source>, <volume>44</volume>(<issue>1</issue>), <fpage>3</fpage>&#x02013;<lpage>27</lpage>. <pub-id pub-id-type="doi">10.1111/aec.12674</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0049"><mixed-citation publication-type="journal" id="ece35890-cit-0049">
+<string-name>
+<surname>Hoffmann</surname>, <given-names>A. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sgr&#x000f2;</surname>, <given-names>C. M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Climate change and evolutionary adaptation</article-title>. <source xml:lang="en">Nature</source>, <volume>470</volume>(<issue>7335</issue>), <fpage>479</fpage>&#x02013;<lpage>485</lpage>.<pub-id pub-id-type="pmid">21350480</pub-id></mixed-citation></ref><ref id="ece35890-bib-0050"><mixed-citation publication-type="journal" id="ece35890-cit-0050">
+<string-name>
+<surname>Jensen</surname>, <given-names>K. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zwieniecki</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Physical limits to leaf size in tall trees</article-title>. <source xml:lang="en">Physical Review Letters</source>, <volume>110</volume>(<issue>1</issue>), <fpage>018104</fpage>
+<pub-id pub-id-type="doi">10.1103/PhysRevLett.110.018104</pub-id>
+<pub-id pub-id-type="pmid">23383844</pub-id></mixed-citation></ref><ref id="ece35890-bib-0051"><mixed-citation publication-type="journal" id="ece35890-cit-0051">
+<string-name>
+<surname>John</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name>
+<surname>Scoffoni</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Buckley</surname>, <given-names>T. N.</given-names>
+</string-name>, <string-name>
+<surname>Villar</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Poorter</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sack</surname>, <given-names>L.</given-names>
+</string-name> (<year>2017</year>). <article-title>The anatomical and compositional basis of leaf mass per area</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>20</volume>(<issue>4</issue>), <fpage>412</fpage>&#x02013;<lpage>425</lpage>. <pub-id pub-id-type="doi">10.1111/ele.12739</pub-id>
+<pub-id pub-id-type="pmid">28198076</pub-id></mixed-citation></ref><ref id="ece35890-bib-0052"><mixed-citation publication-type="book" id="ece35890-cit-0052">
+<string-name>
+<surname>Jones</surname>, <given-names>H. G.</given-names>
+</string-name> (<year>2013</year>). <source xml:lang="en">Plants and microclimate: A quantitative approach to environmental plant physiology</source>. <publisher-loc>Cambridge, UK</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="ece35890-bib-0053"><mixed-citation publication-type="journal" id="ece35890-cit-0053">
+<string-name>
+<surname>Jordan</surname>, <given-names>D. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smith</surname>, <given-names>W. K.</given-names>
+</string-name> (<year>1995</year>). <article-title>Radiation frost susceptibility and the association between sky exposure and leaf size</article-title>. <source xml:lang="en">Oecologia</source>, <volume>103</volume>(<issue>1</issue>), <fpage>43</fpage>&#x02013;<lpage>48</lpage>.<pub-id pub-id-type="pmid">28306943</pub-id></mixed-citation></ref><ref id="ece35890-bib-0054"><mixed-citation publication-type="journal" id="ece35890-cit-0054">
+<string-name>
+<surname>Kawecki</surname>, <given-names>T. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ebert</surname>, <given-names>D.</given-names>
+</string-name> (<year>2004</year>). <article-title>Conceptual issues in local adaptation</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>7</volume>(<issue>12</issue>), <fpage>1225</fpage>&#x02013;<lpage>1241</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2004.00684.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0055"><mixed-citation publication-type="journal" id="ece35890-cit-0055">
+<string-name>
+<surname>Kelly</surname>, <given-names>A. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goulden</surname>, <given-names>M. L.</given-names>
+</string-name> (<year>2008</year>). <article-title>Rapid shifts in plant distribution with recent climate change</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>105</volume>(<issue>33</issue>), <fpage>11823</fpage>&#x02013;<lpage>11826</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0802891105</pub-id>
+<pub-id pub-id-type="pmid">18697941</pub-id></mixed-citation></ref><ref id="ece35890-bib-0056"><mixed-citation publication-type="journal" id="ece35890-cit-0056">
+<string-name>
+<surname>King</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>1990</year>). <article-title>The adaptive significance of tree height</article-title>. <source xml:lang="en">The American Naturalist</source>, <volume>135</volume>(<issue>6</issue>), <fpage>809</fpage>&#x02013;<lpage>828</lpage>. <pub-id pub-id-type="doi">10.1086/285075</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0057"><mixed-citation publication-type="journal" id="ece35890-cit-0057">
+<string-name>
+<surname>Klausmeyer</surname>, <given-names>K. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shaw</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2009</year>). <article-title>Climate change, habitat loss, protected areas and the climate adaptation potential of species in Mediterranean ecosystems worldwide</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>4</volume>(<issue>7</issue>), <elocation-id>e6392</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0006392</pub-id>
+<pub-id pub-id-type="pmid">19641600</pub-id></mixed-citation></ref><ref id="ece35890-bib-0058"><mixed-citation publication-type="journal" id="ece35890-cit-0058">
+<string-name>
+<surname>Lanfear</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Kokko</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Eyre&#x02010;Walker</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Population size and the rate of evolution</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>29</volume>(<issue>1</issue>), <fpage>33</fpage>&#x02013;<lpage>41</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2013.09.009</pub-id>
+<pub-id pub-id-type="pmid">24148292</pub-id></mixed-citation></ref><ref id="ece35890-bib-0059"><mixed-citation publication-type="journal" id="ece35890-cit-0059">
+<string-name>
+<surname>Lenoir</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>G&#x000e9;gout</surname>, <given-names>J.&#x02010;C.</given-names>
+</string-name>, <string-name>
+<surname>Guisan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Vittoz</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Wohlgemuth</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Zimmermann</surname>, <given-names>N. E.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Svenning</surname>, <given-names>J.&#x02010;C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Going against the flow: Potential mechanisms for unexpected downslope range shifts in a warming climate</article-title>. <source xml:lang="en">Ecography</source>, <volume>33</volume>(<issue>2</issue>), <fpage>295</fpage>&#x02013;<lpage>303</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0587.2010.06279.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0060"><mixed-citation publication-type="journal" id="ece35890-cit-0060">
+<string-name>
+<surname>Li</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Blackman</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Choat</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Duursma</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Rymer</surname>, <given-names>P. D.</given-names>
+</string-name>, <string-name>
+<surname>Medlyn</surname>, <given-names>B. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tissue</surname>, <given-names>D. T.</given-names>
+</string-name> (<year>2018</year>). <article-title>Tree hydraulic traits are coordinated and strongly linked to climate&#x02010;of&#x02010;origin across a rainfall gradient</article-title>. <source xml:lang="en">Plant, Cell &#x00026; Environment</source>, <volume>41</volume>(<issue>3</issue>), <fpage>646</fpage>&#x02013;<lpage>660</lpage>. <pub-id pub-id-type="doi">10.1111/pce.13129</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0061"><mixed-citation publication-type="journal" id="ece35890-cit-0061">
+<string-name>
+<surname>Lindstrom</surname>, <given-names>H.</given-names>
+</string-name> (<year>1996</year>). <article-title>Basic density in Norway spruce. Part I. A literature review</article-title>. <source xml:lang="en">Wood and Fiber Science</source>, <volume>28</volume>, <fpage>15</fpage>&#x02013;<lpage>27</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0062"><mixed-citation publication-type="book" id="ece35890-cit-0062">
+<string-name>
+<surname>Lynch</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Walsh</surname>, <given-names>B.</given-names>
+</string-name> (<year>1998</year>). <source xml:lang="en">Genetics and analysis of quantitative traits</source>. <publisher-loc>Sunderland, MA</publisher-loc>: <publisher-name>Sinauer</publisher-name>.</mixed-citation></ref><ref id="ece35890-bib-0063"><mixed-citation publication-type="journal" id="ece35890-cit-0063">
+<string-name>
+<surname>Madani</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Kimball</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Ballantyne</surname>, <given-names>A. P.</given-names>
+</string-name>, <string-name>
+<surname>Affleck</surname>, <given-names>D. L. R.</given-names>
+</string-name>, <string-name>
+<surname>van Bodegom</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Running</surname>, <given-names>S. W.</given-names>
+</string-name> (<year>2018</year>). <article-title>Future global productivity will be affected by plant trait response to climate</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>8</volume>(<issue>1</issue>), <fpage>2870</fpage>
+<pub-id pub-id-type="doi">10.1038/s41598-018-21172-9</pub-id>
+<pub-id pub-id-type="pmid">29434266</pub-id></mixed-citation></ref><ref id="ece35890-bib-0064"><mixed-citation publication-type="journal" id="ece35890-cit-0064">
+<string-name>
+<surname>Malstrom</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>, <given-names>M. V.</given-names>
+</string-name>, <string-name>
+<surname>Juday</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name>
+<surname>Los</surname>, <given-names>S. O.</given-names>
+</string-name>, <string-name>
+<surname>Randerson</surname>, <given-names>J. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Field</surname>, <given-names>C. B.</given-names>
+</string-name> (<year>1997</year>). <article-title>Interannual variation in global&#x02010;scale net primary production: Testing model estimates</article-title>. <source xml:lang="en">Global Biogeochemical Cycles</source>, <volume>11</volume>, <fpage>367</fpage>&#x02013;<lpage>392</lpage>. <pub-id pub-id-type="doi">10.1029/97GB01419</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0065"><mixed-citation publication-type="journal" id="ece35890-cit-0065">
+<string-name>
+<surname>Matusick</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Ruthrof</surname>, <given-names>K. X.</given-names>
+</string-name>, <string-name>
+<surname>Brouwers</surname>, <given-names>N. C.</given-names>
+</string-name>, <string-name>
+<surname>Dell</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hardy</surname>, <given-names>G. E. S. J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Sudden forest canopy collapse corresponding with extreme drought and heat in a mediterranean&#x02010;type eucalypt forest in southwestern Australia</article-title>. <source xml:lang="en">European Journal of Forest Research</source>, <volume>132</volume>(<issue>3</issue>), <fpage>497</fpage>&#x02013;<lpage>510</lpage>. <pub-id pub-id-type="doi">10.1007/s10342-013-0690-5</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0066"><mixed-citation publication-type="journal" id="ece35890-cit-0066">
+<string-name>
+<surname>Matusick</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Ruthrof</surname>, <given-names>K. X.</given-names>
+</string-name>, <string-name>
+<surname>Kala</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Brouwers</surname>, <given-names>N. C.</given-names>
+</string-name>, <string-name>
+<surname>Breshears</surname>, <given-names>D. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hardy</surname>, <given-names>G. E. S. J.</given-names>
+</string-name> (<year>2018</year>). <article-title>Chronic historical drought legacy exacerbates tree mortality and crown dieback during acute heatwave&#x02010;compounded drought</article-title>. <source xml:lang="en">Environmental Research Letters</source>, <volume>13</volume>(<issue>9</issue>), <fpage>095002</fpage>
+<pub-id pub-id-type="doi">10.1088/1748-9326/aad8cb</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0067"><mixed-citation publication-type="journal" id="ece35890-cit-0067">
+<string-name>
+<surname>Mencuccini</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Minunno</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Salmon</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Mart&#x000ed;nez&#x02010;Vilalta</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>H&#x000f6;ltt&#x000e4;</surname>, <given-names>T.</given-names>
+</string-name> (<year>2015</year>). <article-title>Coordination of physiological traits involved in drought&#x02010;induced mortality of woody plants</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>208</volume>(<issue>2</issue>), <fpage>396</fpage>&#x02013;<lpage>409</lpage>. <pub-id pub-id-type="doi">10.1111/nph.13461</pub-id>
+<pub-id pub-id-type="pmid">25988920</pub-id></mixed-citation></ref><ref id="ece35890-bib-0068"><mixed-citation publication-type="journal" id="ece35890-cit-0068">
+<string-name>
+<surname>Moles</surname>, <given-names>A. T.</given-names>
+</string-name> (<year>2018</year>). <article-title>Being John Harper: Using evolutionary ideas to improve understanding of global patterns in plant traits</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>106</volume>(<issue>1</issue>), <fpage>1</fpage>&#x02013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12887</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0069"><mixed-citation publication-type="journal" id="ece35890-cit-0069">
+<string-name>
+<surname>Moles</surname>, <given-names>A. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name> (<year>2000</year>). <article-title>Do small leaves expand faster than large leaves, and do shorter expansion times reduce herbivore damage?</article-title>
+<source xml:lang="en">Oikos</source>, <volume>90</volume>(<issue>3</issue>), <fpage>517</fpage>&#x02013;<lpage>524</lpage>. <pub-id pub-id-type="doi">10.1034/j.1600-0706.2000.900310.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0070"><mixed-citation publication-type="journal" id="ece35890-cit-0070">
+<string-name>
+<surname>Moran</surname>, <given-names>E. V.</given-names>
+</string-name>, <string-name>
+<surname>Hartig</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bell</surname>, <given-names>D. M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Intraspecific trait variation across scales: Implications for understanding global change responses</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>22</volume>(<issue>1</issue>), <fpage>137</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.13000</pub-id>
+<pub-id pub-id-type="pmid">26061811</pub-id></mixed-citation></ref><ref id="ece35890-bib-0071"><mixed-citation publication-type="journal" id="ece35890-cit-0071">
+<string-name>
+<surname>Myneni</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name>
+<surname>Hoffman</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Knyazikhin</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Privette</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Glassy</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Tian</surname>, <given-names>Y.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Running</surname>, <given-names>S. W.</given-names>
+</string-name> (<year>2002</year>). <article-title>Global products of vegetation leaf area and fraction absorbed PAR from year one of MODIS data</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>83</volume>(<issue>1&#x02013;2</issue>), <fpage>214</fpage>&#x02013;<lpage>231</lpage>. <pub-id pub-id-type="doi">10.1016/S0034-4257(02)00074-3</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0072"><mixed-citation publication-type="journal" id="ece35890-cit-0072">
+<string-name>
+<surname>Okajima</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Taneda</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Noguchi</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Terashima</surname>, <given-names>I.</given-names>
+</string-name> (<year>2012</year>). <article-title>Optimum leaf size predicted by a novel leaf energy balance model incorporating dependencies of photosynthesis on light and temperature</article-title>. <source xml:lang="en">Ecological Research</source>, <volume>27</volume>(<issue>2</issue>), <fpage>333</fpage>&#x02013;<lpage>346</lpage>. <pub-id pub-id-type="doi">10.1007/s11284-011-0905-5</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0073"><mixed-citation publication-type="journal" id="ece35890-cit-0073">
+<string-name>
+<surname>Pacala</surname>, <given-names>S. W.</given-names>
+</string-name>, <string-name>
+<surname>Canham</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name>
+<surname>Saponara</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Silander</surname>, <given-names>J. A.</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Kobe</surname>, <given-names>R. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ribbens</surname>, <given-names>E.</given-names>
+</string-name> (<year>1996</year>). <article-title>Forest models defined by field measurements: estimation, error analysis and dynamics</article-title>. <source xml:lang="en">Ecological monographs</source>, <volume>66</volume>(<issue>1</issue>), <fpage>1</fpage>&#x02013;<lpage>43</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0074"><mixed-citation publication-type="journal" id="ece35890-cit-0074">
+<string-name>
+<surname>Parmesan</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yohe</surname>, <given-names>G.</given-names>
+</string-name> (<year>2003</year>). <article-title>A globally coherent fingerprint of climate change impacts across natural systems</article-title>. <source xml:lang="en">Nature</source>, <volume>421</volume>(<issue>6918</issue>), <fpage>37</fpage>&#x02013;<lpage>42</lpage>.<pub-id pub-id-type="pmid">12511946</pub-id></mixed-citation></ref><ref id="ece35890-bib-0075"><mixed-citation publication-type="journal" id="ece35890-cit-0075">
+<string-name>
+<surname>Pearcy</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name>
+<surname>Muraoka</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Valladares</surname>, <given-names>F.</given-names>
+</string-name> (<year>2005</year>). <article-title>Crown architecture in sun and shade environments: assessing function and trade-offs with a three-dimensional simulation model</article-title>. <source xml:lang="en">New phytologist</source>, <volume>166</volume>(<issue>3</issue>), <fpage>791</fpage>&#x02013;<lpage>800</lpage>.<pub-id pub-id-type="pmid">15869642</pub-id></mixed-citation></ref><ref id="ece35890-bib-0076"><mixed-citation publication-type="journal" id="ece35890-cit-0076">
+<string-name>
+<surname>Pearcy</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name>
+<surname>Valladares</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>De Paulis</surname>, <given-names>E. L.</given-names>
+</string-name> (<year>2004</year>). <article-title>A functional analysis of the crown architecture of tropical forest Psychotria species: do species vary in light capture efficiency and consequently in carbon gain and growth?</article-title>
+<source xml:lang="en">Oecologia</source>, <volume>139</volume>(<issue>2</issue>), <fpage>163</fpage>&#x02013;<lpage>177</lpage>.<pub-id pub-id-type="pmid">14767753</pub-id></mixed-citation></ref><ref id="ece35890-bib-0077"><mixed-citation publication-type="journal" id="ece35890-cit-0077">
+<string-name>
+<surname>Peng</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gitelson</surname>, <given-names>A. A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Remote estimation of gross primary productivity in soybean and maize based on total crop chlorophyll content</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>117</volume>, <fpage>440</fpage>&#x02013;<lpage>448</lpage>. <pub-id pub-id-type="doi">10.1016/j.rse.2011.10.021</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0078"><mixed-citation publication-type="book" id="ece35890-cit-0078">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name> Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>
+</mixed-citation></ref><ref id="ece35890-bib-0079"><mixed-citation publication-type="journal" id="ece35890-cit-0079">
+<string-name>
+<surname>Ramoelo</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Skidmore</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Schlerf</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Mathieu</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Heitk&#x000f6;nig</surname>, <given-names>I. M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Water&#x02010;removed spectra increase the retrieval accuracy when estimating savanna grass N and phosphorus concentrations</article-title>. <source xml:lang="en">Journal of Photogrammetry and Remote Sensing</source>, <volume>66</volume>, <fpage>408</fpage>&#x02013;<lpage>417</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0080"><mixed-citation publication-type="journal" id="ece35890-cit-0080">
+<string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name> (<year>2014</year>). <article-title>The world&#x02010;wide &#x02018;fast&#x02010;slow&#x02019; plant economics spectrum: A traits manifesto</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>102</volume>(<issue>2</issue>), <fpage>275</fpage>&#x02013;<lpage>301</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12211</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0081"><mixed-citation publication-type="journal" id="ece35890-cit-0081">
+<string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Walters</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>1994</year>). <article-title>Photosynthesis&#x02010;nitrogen relations in Amazonian tree species. II. Variation in nitrogen vis&#x02010;a&#x02010;vis specific leaf area influences mass&#x02010; and area&#x02010;based expressions</article-title>. <source xml:lang="en">Oecologia</source>, <volume>97</volume>, <fpage>73</fpage>&#x02013;<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1007/BF00317910</pub-id>
+<pub-id pub-id-type="pmid">28313591</pub-id></mixed-citation></ref><ref id="ece35890-bib-0082"><mixed-citation publication-type="journal" id="ece35890-cit-0082">
+<string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Walters</surname>, <given-names>M. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ellsworth</surname>, <given-names>D. S.</given-names>
+</string-name> (<year>1997</year>). <article-title>From tropics to tundra: Global convergence in plant functioning</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>94</volume>(<issue>25</issue>), <fpage>13730</fpage>&#x02013;<lpage>13734</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.94.25.13730</pub-id>
+<pub-id pub-id-type="pmid">9391094</pub-id></mixed-citation></ref><ref id="ece35890-bib-0083"><mixed-citation publication-type="journal" id="ece35890-cit-0083">
+<string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Cavender&#x02010;Bares</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Craine</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Oleksyn</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Walters</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>2003</year>). <article-title>The evolution of plant functional variation: Traits, spectra, and strategies</article-title>. <source xml:lang="en">International Journal of Plant Sciences</source>, <volume>164</volume>(<issue>S3</issue>), <fpage>S143</fpage>&#x02013;<lpage>S164</lpage>. <pub-id pub-id-type="doi">10.1086/374368</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0084"><mixed-citation publication-type="journal" id="ece35890-cit-0084">
+<string-name>
+<surname>Riitters</surname>, <given-names>K. H.</given-names>
+</string-name>, <string-name>
+<surname>Wickham</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name>
+<surname>O'Neill</surname>, <given-names>R. V.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>K. B.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name>
+<surname>Coulston</surname>, <given-names>J. W.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Smith</surname>, <given-names>J. H.</given-names>
+</string-name> (<year>2002</year>). <article-title>Fragmentation of continental United States forests</article-title>. <source xml:lang="en">Ecosystems</source>, <volume>5</volume>(<issue>8</issue>), <fpage>815</fpage>&#x02013;<lpage>822</lpage>. <pub-id pub-id-type="doi">10.1007/s10021-002-0209-2</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0085"><mixed-citation publication-type="book" id="ece35890-cit-0085">
+<string-name>
+<surname>Rundel</surname>, <given-names>P. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sharifi</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>1993</year>). <chapter-title>Carbon isotope discrimination and resource availability in the desert shrub <italic>Larrea tridentata</italic></chapter-title> In<person-group person-group-type="editor"><name name-style="western"><surname>Ehleringer</surname><given-names>J. R.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Hall</surname><given-names>A. E.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Farquhar</surname><given-names>G. D.</given-names></name></person-group> (Eds.), <source xml:lang="en">Stable isotopes and plant carbon&#x02010;water relations</source> (pp. <fpage>173</fpage>&#x02013;<lpage>185</lpage>). <publisher-loc>San Diego, CA</publisher-loc>: <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="ece35890-bib-0086"><mixed-citation publication-type="journal" id="ece35890-cit-0086">
+<string-name>
+<surname>Ruthrof</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Matusick</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hardy</surname>, <given-names>G.</given-names>
+</string-name> (<year>2015</year>). <article-title>Early differential responses of co&#x02010;dominant canopy species to sudden and severe drought in a Mediterranean&#x02010;climate type forest</article-title>. <source xml:lang="en">Forests</source>, <volume>6</volume>(<issue>12</issue>), <fpage>2082</fpage>&#x02013;<lpage>2091</lpage>. <pub-id pub-id-type="doi">10.3390/f6062082</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0087"><mixed-citation publication-type="journal" id="ece35890-cit-0087">
+<string-name>
+<surname>Sack</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Scoffoni</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>McKown</surname>, <given-names>A. D.</given-names>
+</string-name>, <string-name>
+<surname>Frole</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Rawls</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Havran</surname>, <given-names>J. C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Tran</surname>, <given-names>T.</given-names>
+</string-name> (<year>2012</year>). <article-title>Developmentally based scaling of leaf venation architecture explains global ecological patterns</article-title>. <source xml:lang="en">Nature Communications</source>, <volume>3</volume>, <fpage>837</fpage>
+<pub-id pub-id-type="doi">10.1038/ncomms1835</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0088"><mixed-citation publication-type="journal" id="ece35890-cit-0088">
+<string-name>
+<surname>Schreiber</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name>
+<surname>Hacke</surname>, <given-names>U. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hamann</surname>, <given-names>A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Variation of xylem vessel diameters across a climate gradient: insight from a reciprocal transplant experiment with a widespread boreal tree</article-title>. <source xml:lang="en">Functional Ecology</source>, <volume>29</volume>(<issue>11</issue>), <fpage>1392</fpage>&#x02013;<lpage>1401</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0089"><mixed-citation publication-type="journal" id="ece35890-cit-0089">
+<string-name>
+<surname>Shipley</surname>, <given-names>B.</given-names>
+</string-name> (<year>2000</year>). <article-title>Plasticity in relative growth rate and its components following a change in irradiance</article-title>. <source xml:lang="en">Plant, Cell &#x00026; Environment</source>, <volume>23</volume>(<issue>11</issue>), <fpage>1207</fpage>&#x02013;<lpage>1216</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-3040.2000.00635.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0090"><mixed-citation publication-type="journal" id="ece35890-cit-0090">
+<string-name>
+<surname>Shipley</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>De Bello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Cornelissen</surname>, <given-names>J. H. C.</given-names>
+</string-name>, <string-name>
+<surname>Lalibert&#x000e9;</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Laughlin</surname>, <given-names>D. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Reinforcing loose foundation stones in trait&#x02010;based plant ecology</article-title>. <source xml:lang="en">Oecologia</source>, <volume>180</volume>(<issue>4</issue>), <fpage>923</fpage>&#x02013;<lpage>931</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-016-3549-x</pub-id>
+<pub-id pub-id-type="pmid">26796410</pub-id></mixed-citation></ref><ref id="ece35890-bib-0091"><mixed-citation publication-type="journal" id="ece35890-cit-0091">
+<string-name>
+<surname>Sims</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gamon</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2002</year>). <article-title>Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>81</volume>(<issue>2&#x02013;3</issue>), <fpage>337</fpage>&#x02013;<lpage>354</lpage>. <pub-id pub-id-type="doi">10.1016/S0034-4257(02)00010-X</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0092"><mixed-citation publication-type="journal" id="ece35890-cit-0092">
+<string-name>
+<surname>Steane</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Mclean</surname>, <given-names>E. H.</given-names>
+</string-name>, <string-name>
+<surname>Potts</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name>
+<surname>Prober</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Stock</surname>, <given-names>W. D.</given-names>
+</string-name>, <string-name>
+<surname>Stylianou</surname>, <given-names>V. M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Evidence for adaptation and acclimation in a widespread eucalypt of semi&#x02010;arid Australia</article-title>. <source xml:lang="en">Biological Journal of the Linnean Society</source>, <volume>121</volume>(<issue>3</issue>), <fpage>484</fpage>&#x02013;<lpage>500</lpage>. <pub-id pub-id-type="doi">10.1093/biolinnean/blw051</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0093"><mixed-citation publication-type="journal" id="ece35890-cit-0093">
+<string-name>
+<surname>Tucker</surname>, <given-names>C. J.</given-names>
+</string-name> (<year>1979</year>). <article-title>Red and photographic infrared linear combinations for monitoring vegetation</article-title>. <source xml:lang="en">Remote Sensing of Environment</source>, <volume>8</volume>, <fpage>127</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1016/0034-4257(79)90013-0</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0094"><mixed-citation publication-type="journal" id="ece35890-cit-0094">
+<string-name>
+<surname>Violle</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Navas</surname>, <given-names>M.&#x02010;L.</given-names>
+</string-name>, <string-name>
+<surname>Vile</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Kazakou</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Fortunel</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Hummel</surname>, <given-names>I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garnier</surname>, <given-names>E.</given-names>
+</string-name> (<year>2007</year>). <article-title>Let the concept of trait be functional!</article-title>
+<source xml:lang="en">Oikos</source>, <volume>116</volume>(<issue>5</issue>), <fpage>882</fpage>&#x02013;<lpage>892</lpage>. <pub-id pub-id-type="doi">10.1111/j.2007.0030-1299.15559.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0095"><mixed-citation publication-type="journal" id="ece35890-cit-0095">
+<string-name>
+<surname>Wang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Rich</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Price</surname>, <given-names>K. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kettle</surname>, <given-names>W. D.</given-names>
+</string-name> (<year>2004</year>). <article-title>Relations between NDVI and tree productivity in the central Great Plains</article-title>. <source xml:lang="en">International Journal of Remote Sensing</source>, <volume>25</volume>, <fpage>3127</fpage>&#x02013;<lpage>3138</lpage>. <pub-id pub-id-type="doi">10.1080/0143116032000160499</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0096"><mixed-citation publication-type="journal" id="ece35890-cit-0096">
+<string-name>
+<surname>Wang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Darvishzadeh</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Skidmore</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Suarez</surname>, <given-names>L.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Hearne</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Vegetation indices for mapping canopy foliar nitrogen in a mixed temperate forest</article-title>. <source xml:lang="en">Remote Sensing</source>, <volume>8</volume>(<issue>6</issue>), <fpage>491</fpage>
+<pub-id pub-id-type="doi">10.3390/rs8060491</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0097"><mixed-citation publication-type="journal" id="ece35890-cit-0097">
+<string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Falster</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name>
+<surname>Moles</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name>
+<surname>Vesk</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Plant ecological strategies: some leading dimensions of variation between species</article-title>. <source xml:lang="en">Annual review of ecology and systematics</source>, <volume>33</volume>(<issue>1</issue>), <fpage>125</fpage>&#x02013;<lpage>159</lpage>.</mixed-citation></ref><ref id="ece35890-bib-0098"><mixed-citation publication-type="book" id="ece35890-cit-0098">
+<string-name>
+<surname>Wickham</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>). <source xml:lang="en">ggplot2: Elegant graphics for data analysis</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece35890-bib-0099"><mixed-citation publication-type="journal" id="ece35890-cit-0099">
+<string-name>
+<surname>Williams</surname>, <given-names>M. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dumroese</surname>, <given-names>R. K.</given-names>
+</string-name> (<year>2013</year>). <article-title>Preparing for climate change: Forestry and assisted migration</article-title>. <source xml:lang="en">Journal of Forestry</source>, <volume>111</volume>(<issue>4</issue>), <fpage>287</fpage>&#x02013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.5849/jof.13-016</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0100"><mixed-citation publication-type="journal" id="ece35890-cit-0100">
+<string-name>
+<surname>Wolfe</surname>, <given-names>B. T.</given-names>
+</string-name>, <string-name>
+<surname>Sperry</surname>, <given-names>J. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kursar</surname>, <given-names>T. A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Does leaf shedding protect stems from cavitation during seasonal droughts? A test of the hydraulic fuse hypothesis</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>212</volume>(<issue>4</issue>), <fpage>1007</fpage>&#x02013;<lpage>1018</lpage>. <pub-id pub-id-type="doi">10.1111/nph.14087</pub-id>
+<pub-id pub-id-type="pmid">27373446</pub-id></mixed-citation></ref><ref id="ece35890-bib-0101"><mixed-citation publication-type="book" id="ece35890-cit-0101">
+<string-name>
+<surname>Wood</surname>, <given-names>S. N.</given-names>
+</string-name> (<year>2006</year>). <source xml:lang="en">Generalized additive models: An introduction with R</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Chapman and Hall/CRC</publisher-name>.</mixed-citation></ref><ref id="ece35890-bib-0102"><mixed-citation publication-type="journal" id="ece35890-cit-0102">
+<string-name>
+<surname>Wood</surname>, <given-names>S. N.</given-names>
+</string-name> (<year>2011</year>). <article-title>Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models: Estimation of Semiparametric Generalized Linear Models</article-title>. <source xml:lang="en">Journal of the Royal Statistical Society: Series B (Statistical Methodology)</source>, <volume>73</volume>(<issue>1</issue>), <fpage>3</fpage>&#x02013;<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-9868.2010.00749.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0103"><mixed-citation publication-type="journal" id="ece35890-cit-0103">
+<string-name>
+<surname>Wood</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name>
+<surname>Pya</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>S&#x000e4;fken</surname>, <given-names>B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Smoothing parameter and model selection for general smooth models</article-title>. <source xml:lang="en">Journal of the American Statistical Association</source>, <volume>111</volume>(<issue>516</issue>), <fpage>1548</fpage>&#x02013;<lpage>1563</lpage>. <pub-id pub-id-type="doi">10.1080/01621459.2016.1180986</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0104"><mixed-citation publication-type="journal" id="ece35890-cit-0104">
+<string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Ackerly</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name>
+<surname>Bongers</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Harms</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name>
+<surname>Ibarra&#x02010;Manriquez</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Martinez&#x02010;Ramos</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wright</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2007</year>). <article-title>Relationships among ecologically important dimensions of plant trait variation in seven Neotropical forests</article-title>. <source xml:lang="en">Annals of Botany</source>, <volume>99</volume>, <fpage>1003</fpage>&#x02013;<lpage>1015</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcl066</pub-id>
+<pub-id pub-id-type="pmid">16595553</pub-id></mixed-citation></ref><ref id="ece35890-bib-0105"><mixed-citation publication-type="journal" id="ece35890-cit-0105">
+<string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Dong</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Maire</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Prentice</surname>, <given-names>I. C.</given-names>
+</string-name>, <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>D&#x000ed;az</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wilf</surname>, <given-names>P.</given-names>
+</string-name> (<year>2017</year>). <article-title>Global climatic drivers of leaf size</article-title>. <source xml:lang="en">Science</source>, <volume>357</volume>(<issue>6354</issue>), <fpage>917</fpage>&#x02013;<lpage>921</lpage>.<pub-id pub-id-type="pmid">28860384</pub-id></mixed-citation></ref><ref id="ece35890-bib-0106"><mixed-citation publication-type="journal" id="ece35890-cit-0106">
+<string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Falster</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name>
+<surname>Pickup</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name> (<year>2006</year>). <article-title>Cross&#x02010;species patterns in the coordination between leaf and stem traits, and their implications for plant hydraulics</article-title>. <source xml:lang="en">Physiologia Plantarum</source>, <volume>127</volume>(<issue>3</issue>), <fpage>445</fpage>&#x02013;<lpage>456</lpage>. <pub-id pub-id-type="doi">10.1111/j.1399-3054.2006.00699.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0107"><mixed-citation publication-type="journal" id="ece35890-cit-0107">
+<string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Cornelissen</surname>, <given-names>J. H. C.</given-names>
+</string-name>, <string-name>
+<surname>Falster</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name>
+<surname>Groom</surname>, <given-names>P. K.</given-names>
+</string-name>, <string-name>
+<surname>Hikosaka</surname>, <given-names>K.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name> (<year>2005</year>). <article-title>Modulation of leaf economic traits and trait relationships by climate</article-title>. <source xml:lang="en">Global Ecology and Biogeography</source>, <volume>14</volume>(<issue>5</issue>), <fpage>411</fpage>&#x02013;<lpage>421</lpage>. <pub-id pub-id-type="doi">10.1111/j.1466-822x.2005.00172.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0108"><mixed-citation publication-type="journal" id="ece35890-cit-0108">
+<string-name>
+<surname>Wright</surname>, <given-names>I. J.</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Westoby</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ackerly</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name>
+<surname>Baruch</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Bongers</surname>, <given-names>F.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Villar</surname>, <given-names>R.</given-names>
+</string-name> (<year>2004</year>). <article-title>The worldwide leaf economics spectrum</article-title>. <source xml:lang="en">Nature</source>, <volume>428</volume>(<issue>6985</issue>), <fpage>821</fpage>&#x02013;<lpage>827</lpage>.<pub-id pub-id-type="pmid">15103368</pub-id></mixed-citation></ref><ref id="ece35890-bib-0109"><mixed-citation publication-type="journal" id="ece35890-cit-0109">
+<string-name>
+<surname>Yang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Guan</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Batelaan</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>McVicar</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name>
+<surname>Long</surname>, <given-names>D. I.</given-names>
+</string-name>, <string-name>
+<surname>Piao</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Simmons</surname>, <given-names>C. T.</given-names>
+</string-name> (<year>2016</year>). <article-title>Contrasting responses of water use efficiency to drought across global terrestrial ecosystems</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>6</volume>(<issue>1</issue>), <fpage>23284</fpage>
+<pub-id pub-id-type="doi">10.1038/srep23284</pub-id>
+<pub-id pub-id-type="pmid">26983909</pub-id></mixed-citation></ref><ref id="ece35890-bib-0110"><mixed-citation publication-type="journal" id="ece35890-cit-0110">
+<string-name>
+<surname>Zhu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Woodall</surname>, <given-names>C. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clark</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Failure to migrate: Lack of tree range expansion in response to climate change</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>18</volume>(<issue>3</issue>), <fpage>1042</fpage>&#x02013;<lpage>1052</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2011.02571.x</pub-id>
+</mixed-citation></ref><ref id="ece35890-bib-0111"><mixed-citation publication-type="journal" id="ece35890-cit-0111">
+<string-name>
+<surname>Zwieniecki</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2004</year>). <article-title>Functional design space of single&#x02010;veined leaves: Role of tissue hydraulic properties in constraining leaf size and shape</article-title>. <source xml:lang="en">Annals of Botany</source>, <volume>94</volume>(<issue>4</issue>), <fpage>507</fpage>&#x02013;<lpage>513</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mch173</pub-id>
+<pub-id pub-id-type="pmid">15319225</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6945998/results/word/frequencies/results.xml">
+  <result title="frequency" word="crop" count="32"/>
+  <result title="frequency" word="Botany" count="26"/>
+  <result title="frequency" word="Experimental" count="26"/>
+  <result title="frequency" word="rice" count="25"/>
+  <result title="frequency" word="stress" count="25"/>
+  <result title="frequency" word="climate" count="23"/>
+  <result title="frequency" word="plant" count="23"/>
+ </snippets>
+</snippetsTree>

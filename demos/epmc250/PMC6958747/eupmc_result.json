@@ -1,0 +1,340 @@
+{
+  "id": [
+    "31931734"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31931734"
+  ],
+  "pmcid": [
+    "PMC6958747"
+  ],
+  "doi": [
+    "10.1186/s12879-019-4734-4"
+  ],
+  "title": [
+    "The potential impact of climate change on the transmission risk of tick-borne encephalitis in Hungary."
+  ],
+  "authorString": [
+    "Nah K, Bede-Fazekas Á, Trájer AJ, Wu J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Nah K"
+          ],
+          "firstName": [
+            "Kyeongah"
+          ],
+          "lastName": [
+            "Nah"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, 4700 Keele St., Toronto, M3J 1P3, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Bede-Fazekas Á"
+          ],
+          "firstName": [
+            "Ákos"
+          ],
+          "lastName": [
+            "Bede-Fazekas"
+          ],
+          "initials": [
+            "Á"
+          ],
+          "affiliation": [
+            "MTA Centre for Ecological Research, Institute of Ecology and Botany, Alkomány u. 2-4., Vácrátót, H-2163, Hungary."
+          ]
+        },
+        {
+          "fullName": [
+            "Trájer AJ"
+          ],
+          "firstName": [
+            "Attila János"
+          ],
+          "lastName": [
+            "Trájer"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "Institute of Environmental Engineering, University of Pannonia, Egyetem u. 10., Veszprém, H-8200, Hungary."
+          ]
+        },
+        {
+          "fullName": [
+            "Wu J"
+          ],
+          "firstName": [
+            "Jianhong"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0052-5336",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, 4700 Keele St., Toronto, M3J 1P3, Canada. wujh@mathstat.yorku.ca."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0052-5336",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "2897090"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC infectious diseases"
+          ],
+          "ISOAbbreviation": [
+            "BMC Infect. Dis."
+          ],
+          "medlineAbbreviation": [
+            "BMC Infect Dis"
+          ],
+          "NLMid": [
+            "100968551"
+          ],
+          "ISSN": [
+            "1471-2334"
+          ],
+          "ESSN": [
+            "1471-2334"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "34"
+  ],
+  "abstractText": [
+    "BACKGROUND:Impact of climate change on tick-borne encephalitis (TBE) prevalence in the tick-host enzootic cycle in a given region depends on how the region-specific climate change patterns influence tick population development processes and tick-borne encephalitis virus (TBEV) transmission dynamics involving both systemic and co-feeding transmission routes. Predicting the transmission risk of TBEV in the enzootic cycle with projected climate conditions is essential for planning public health interventions including vaccination programs to mitigate the TBE incidence in the inhabitants and travelers. We have previously developed and validated a mathematical model for retroactive analysis of weather fluctuation on TBE prevalence in Hungary, and we aim to show in this research that this model provides an effective tool for projecting TBEV transmission risk in the enzootic cycle. METHODS:Using the established model of TBEV transmission and the climate predictions of the Vas county in western Hungary in 2021-2050 and 2071-2100, we quantify the risk of TBEV transmission using a series of summative indices - the basic reproduction number, the duration of infestation, the stage-specific tick densities, and the accumulated (tick) infections due to co-feeding transmission. We also measure the significance of co-feeding transmission by observing the cumulative number of new transmissions through the non-systemic transmission route. RESULTS:The transmission potential and the risk in the study site are expected to increase along with the increase of the temperature in 2021-2050 and 2071-2100. This increase will be facilitated by the expected extension of the tick questing season and the increase of the numbers of susceptible ticks (larval and nymphal) and the number of infected nymphal ticks co-feeding on the same hosts, leading to compounded increase of infections through the non-systemic transmission. CONCLUSIONS:The developed mathematical model provides an effective tool for predicting TBE prevalence in the tick-host enzootic cycle, by integrating climate projection with emerging knowledge about the region-specific tick ecological and pathogen enzootic processes (through model parametrization fitting to historical data). Model projects increasing co-feeding transmission and prevalence of TBEV in a recognized TBE endemic region, so human risk of TBEV infection is likely increasing unless public health interventions are enhanced."
+  ],
+  "affiliation": [
+    "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, 4700 Keele St., Toronto, M3J 1P3, Canada."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Climate change",
+        "Tick-borne encephalitis",
+        "Non-systemic Transmission",
+        "Summative Indices"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12879-019-4734-4"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6958747"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6958747?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-15"
+  ],
+  "firstIndexDate": [
+    "2020-01-17"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-20"
+  ],
+  "dateOfRevision": [
+    "2020-01-19"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-13"
+  ],
+  "firstPublicationDate": [
+    "2020-01-13"
+  ]
+}

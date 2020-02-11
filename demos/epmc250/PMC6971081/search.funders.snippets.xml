@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6971081/results/search/funders/results.xml">
+  <result pre="2.6 4.5 6.0 8.5 BCC-CSM1.1 91– 93 Beijing Climate Center," exact="China Meteorological Administration" post="O O O O BCC-CSM1.1(m) 91– 93 O O"/>
+  <result pre="O BCC-CSM1.1(m) 91– 93 O O O O BNU-ESM 94" exact="Beijing Normal University" post="O O X O CCCMA-CanESM2 95, 96 Canadian Centre"/>
+  <result pre="Modelling and Analysis O O X O CESM1-BGC 97, 98" exact="National Science Foundation," post="Department of Energy, National Center for Atmospheric Research X"/>
+  <result pre="O CESM1-BGC 97, 98 National Science Foundation, Department of Energy," exact="National Center for Atmospheric Research" post="X O X O CESM1-CAM5 97 O O O"/>
+  <result pre="X X O FIO-ESM 104 The First Institute of Oceanography," exact="State Oceanic Administration," post="China O O O O GFDL-CM3 105, 106 NOAA"/>
+  <result pre="X X INM-CM4 110 Institute of Numerical Mathematics of the" exact="Russian Academy of Sciences" post="X O X O IPSL-CM5A-LR 111 Institut Pierre Simon"/>
+  <result pre="X O LASG-FGOALS-G2 112 Institute of Atmospheric Physics (LASG) and" exact="Tsinghua University" post="(CESS) O O X O MIROC-ESM 113 University of"/>
+  <result pre="and Tsinghua University (CESS) O O X O MIROC-ESM 113" exact="University of Tokyo," post="National Institute for Environmental Studies and Japan Agency for"/>
+  <result pre="(CESS) O O X O MIROC-ESM 113 University of Tokyo," exact="National Institute for Environmental Studies" post="and Japan Agency for Marine-Earth Science and Technology O"/>
+  <result pre="113 University of Tokyo, National Institute for Environmental Studies and" exact="Japan Agency for Marine-Earth Science and Technology" post="O O O O MIROC-ESM-CHEM 113 O O O"/>
+  <result pre="MIROC-MIROC5 114 O O O O MOHC-HadGEM2-CC 115, 116 UK" exact="Met Office" post="Hadley Centre X O X O MOHC-HadGEM2-ES 115, 116"/>
+  <result pre="O NIMR-HADGEM2-AO 115, 116 National Institute of Meteorological Research and" exact="Korea Meteorological Administration" post="O O O O Total 26 31 19 33"/>
+  <result pre="WorldClim). The definition of areas of the world follows the" exact="United Nations" post="Statistics Division (UNSD) 122 . The DC approach changes"/>
+  <result pre="needs. The definition of areas of the world follows the" exact="United Nations" post="Statistics Division (UNSD) 122 . In addition to the"/>
+  <result pre="94. Ji D et al. Description and basic evaluation of" exact="Beijing Normal University" post="Earth System Model (BNU-ESM) version 1 Geosci. Model Dev."/>
+  <result pre="10.5194/gmd-4-1051-2011 116. Martin G et al. The HadGEM2 family of" exact="Met Office" post="Unified Model climate configurations Geosci. Model Dev. 2011 4"/>
+  <result pre="projections Geosci. Model Dev. 2013 6 389 415 10.5194/gmd-6-389-2013 122." exact="United Nations" post="Statistics Division. Standard Country or Area Codes for Statistical"/>
+ </snippets>
+</snippetsTree>

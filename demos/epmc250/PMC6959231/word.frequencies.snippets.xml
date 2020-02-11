@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6959231/results/word/frequencies/results.xml">
+  <result title="frequency" word="lake" count="96"/>
+  <result title="frequency" word="water" count="91"/>
+  <result title="frequency" word="Lake" count="59"/>
+  <result title="frequency" word="Urmia" count="52"/>
+  <result title="frequency" word="volume" count="44"/>
+  <result title="frequency" word="(Fig." count="29"/>
+  <result title="frequency" word="period" count="26"/>
+  <result title="frequency" word="evaporation" count="25"/>
+  <result title="frequency" word="inflow" count="22"/>
+  <result title="frequency" word="level" count="21"/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,308 @@
+{
+  "id": [
+    "32002323"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32002323"
+  ],
+  "pmcid": [
+    "PMC6983299"
+  ],
+  "doi": [
+    "10.7717/peerj.8282"
+  ],
+  "title": [
+    "Analysis and prediction of vegetation dynamics under the background of climate change in Xinjiang, China."
+  ],
+  "authorString": [
+    "Zhuang Q, Wu S, Feng X, Niu Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhuang Q"
+          ],
+          "firstName": [
+            "Qingwei"
+          ],
+          "lastName": [
+            "Zhuang"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "affiliation": [
+            "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Wu S"
+          ],
+          "firstName": [
+            "Shixin"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Feng X"
+          ],
+          "firstName": [
+            "Xiaoyu"
+          ],
+          "lastName": [
+            "Feng"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Niu Y"
+          ],
+          "firstName": [
+            "Yaxuan"
+          ],
+          "lastName": [
+            "Niu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2899974"
+      ],
+      "dateOfPublication": [
+        "2020 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "e8282"
+  ],
+  "abstractText": [
+    "Background:Vegetation dynamics is defined as a significant indictor in regulating terrestrial carbon balance and climate change, and this issue is important for the evaluation of climate change. Though much work has been done concerning the correlations among vegetation dynamics, precipitation and temperature, the related questions about relationships between vegetation dynamics and other climatic factors (e.g., specific humidity, net radiation, soil moisture) have not been thoroughly considered. Understanding these questions is of primary importance in developing policies to address climate change. Methods:In this study, the least squares regression analysis method was used to simulate the trend of vegetation dynamics based on the normalized difference vegetation index (NDVI) from 1981 to 2018. A partial correlation analysis method was used to explore the relationship between vegetation dynamics and climate change; and further,the revised greyscale model was applied to predict the future growth trend of natural vegetation. Results:The Mann-Kendall test results showed that th e air temperature rose sharply in 1997 and had been in a state of high fluctuations since then. Strong changes in hydrothermal conditions had major impact on vegetation dynamics in the area. Specifically, the NDVI value of natural vegetation showed an increasing trend from 1981 to 2018, and the same changes occurred in the precipitation. From 1981 to 1997, the values of natural vegetation increased at a rate of 0.0016 per year. From 1999 to 2009, the NDVI value decreased by an average rate of 0.0025 per year. From 2010 to 2018, the values began an increasing trend and reached a peak in 2017, with an average annual rate of 0.0033. The high vegetation dynamics areas were mainly concentrated in the north and south slopes of the Tianshan Mountains, the Ili River Valley and the Altay area. The greyscale prediction results showed that the annual average NDVI values of natural vegetation may present a fluctuating increasing trend. The NDVI value in 2030 is 0.0196 higher than that in 2018, with an increase of 6.18%. Conclusions:Our results indicate that: (i) the variations of climatic factors have caused a huge change in the hydrothermal conditions in Xinjiang; (ii) the vegetation dynamics in Xinjiang showed obvious volatility, and then in the end stage of the study were higher than the initial stage the vegetation dynamics in Xinjiang showed a staged increasing trend; (iii) the vegetation dynamics were affected by many factors,of which precipitation was the main reason; (iv) in the next decade, the vegetation dynamics in Xinjiang will show an increasing trend."
+  ],
+  "affiliation": [
+    "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Xinjiang",
+        "Prediction",
+        "Temperature",
+        "Hydrology",
+        "Precipitation",
+        "Climate change",
+        "Vegetation dynamics",
+        "Partial Correlation",
+        "Greyscale Model"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.8282"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6983299"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6983299?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-02-01"
+  ],
+  "firstIndexDate": [
+    "2020-02-07"
+  ],
+  "fullTextReceivedDate": [
+    "2020-02-05"
+  ],
+  "dateOfRevision": [
+    "2020-02-02"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-23"
+  ],
+  "firstPublicationDate": [
+    "2020-01-23"
+  ]
+}

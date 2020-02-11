@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_855072v2/results/word/frequencies/results.xml">
+  <result title="frequency" word="temperature" count="108"/>
+  <result title="frequency" word="disease" count="66"/>
+  <result title="frequency" word="human" count="64"/>
+  <result title="frequency" word="mosquito" count="62"/>
+  <result title="frequency" word="[]." count="53"/>
+  <result title="frequency" word="OpenUrl" count="44"/>
+  <result title="frequency" word="parameters" count="42"/>
+  <result title="frequency" word="transmission" count="42"/>
+  <result title="frequency" word="burden" count="38"/>
+  <result title="frequency" word="control" count="35"/>
+  <result title="frequency" word="vector" count="35"/>
+  <result title="frequency" word="model" count="33"/>
+  <result title="frequency" word="Zika" count="32"/>
+  <result title="frequency" word="virus" count="31"/>
+  <result title="frequency" word="infectious" count="30"/>
+  <result title="frequency" word="rate," count="30"/>
+  <result title="frequency" word="effects" count="26"/>
+  <result title="frequency" word="probability" count="26"/>
+  <result title="frequency" word="variation" count="26"/>
+  <result title="frequency" word="number" count="25"/>
+  <result title="frequency" word="rate" count="23"/>
+  <result title="frequency" word="seasonal" count="23"/>
+  <result title="frequency" word="CrossRef" count="21"/>
+ </snippets>
+</snippetsTree>

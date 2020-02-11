@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <text x="0.0" y="118.0" style="font-family:Helvetica;font-size:22px;stroke:red;">edgemammals</text>
+  <text x="0.0" y="140.0" style="font-family:Helvetica;font-size:22px;stroke:red;">funders</text>
+  <text x="10.0" y="162.0" title="United Nations" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">United Nations</text>
+  <text x="151.0" y="129.0" transform="matrix(6.123233995736766E-17,-1.0,1.0,6.123233995736766E-17,22.0,280.0)" title="Balaenoptera physalus" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Balaenoptera ph</text>
+  <g>
+   <rect x="140.0" y="140.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="162.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="173.0" y="129.0" transform="matrix(6.123233995736766E-17,-1.0,1.0,6.123233995736766E-17,44.0,302.0)" title="Balaenoptera physalus." style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Balaenoptera ph</text>
+  <g>
+   <rect x="162.0" y="140.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="162.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="195.0" y="129.0" transform="matrix(6.123233995736766E-17,-1.0,1.0,6.123233995736766E-17,66.0,324.0)" title="Balaenoptera musculus" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Balaenoptera mu</text>
+  <g>
+   <rect x="184.0" y="140.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="162.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="184.0" title="Royal Society" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Royal Society</text>
+  <g>
+   <rect x="140.0" y="162.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="140.0" y="184.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="162.0" y="162.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="162.0" y="184.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="184.0" y="162.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="184.0" y="184.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <text x="10.0" y="206.0" title="National Academy of Sciences" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">National Academ</text>
+  <g>
+   <rect x="140.0" y="184.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="140.0" y="206.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="162.0" y="184.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="162.0" y="206.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="184.0" y="184.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="184.0" y="206.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <text x="10.0" y="228.0" title="National Science Foundation" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">National Scienc</text>
+  <g>
+   <rect x="140.0" y="206.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="228.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="206.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="228.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="206.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="228.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="250.0" title="World Health Organization" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">World Health Or</text>
+  <g>
+   <rect x="140.0" y="228.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="250.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="228.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="250.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="228.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="250.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="272.0" title="National Academy of Sciences," style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">National Academ</text>
+  <g>
+   <rect x="140.0" y="250.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="140.0" y="272.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="162.0" y="250.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="162.0" y="272.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="184.0" y="250.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="184.0" y="272.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <text x="10.0" y="294.0" title="National Natural Science Foundation of China" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">National Natura</text>
+  <g>
+   <rect x="140.0" y="272.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="294.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="272.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="294.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="272.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="294.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="316.0" title="National Oceanic and Atmospheric Administration" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">National Oceani</text>
+  <g>
+   <rect x="140.0" y="294.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="316.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="294.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="316.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="294.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="316.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="338.0" title="Research and Development" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Research and De</text>
+  <g>
+   <rect x="140.0" y="316.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="338.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="316.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="338.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="316.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="338.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="360.0" title="University of California," style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">University of C</text>
+  <g>
+   <rect x="140.0" y="338.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="360.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="338.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="360.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="338.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="360.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="382.0" title="European Research Council" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">European Resear</text>
+  <g>
+   <rect x="140.0" y="360.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="382.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="360.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="382.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="360.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="382.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="404.0" title="Australian Research Council" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Australian Rese</text>
+  <g>
+   <rect x="140.0" y="382.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="140.0" y="404.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="162.0" y="382.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="162.0" y="404.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <g>
+   <rect x="184.0" y="382.0" width="22.0" height="22.0" style="fill:#000;"/>
+   <text x="184.0" y="404.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">1</text>
+  </g>
+  <text x="10.0" y="426.0" title="Met Office" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Met Office</text>
+  <g>
+   <rect x="140.0" y="404.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="426.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="404.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="426.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="404.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="426.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="448.0" title="Princeton University" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Princeton Unive</text>
+  <g>
+   <rect x="140.0" y="426.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="448.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="426.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="448.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="426.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="448.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="470.0" title="Chinese Academy of Sciences" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Chinese Academy</text>
+  <g>
+   <rect x="140.0" y="448.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="470.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="448.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="470.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="448.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="470.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="492.0" title="University of California" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">University of C</text>
+  <g>
+   <rect x="140.0" y="470.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="492.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="470.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="492.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="470.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="492.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="514.0" title="Government of Canada" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Government of C</text>
+  <g>
+   <rect x="140.0" y="492.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="514.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="492.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="514.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="492.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="514.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="536.0" title="U.S. Geological Survey" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">U.S. Geological</text>
+  <g>
+   <rect x="140.0" y="514.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="536.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="514.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="536.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="514.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="536.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="558.0" title="American Meteorological Society" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">American Meteor</text>
+  <g>
+   <rect x="140.0" y="536.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="558.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="536.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="558.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="536.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="558.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="580.0" title="Ministry of Health" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Ministry of Hea</text>
+  <g>
+   <rect x="140.0" y="558.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="580.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="558.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="580.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="558.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="580.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="602.0" title="Environmental Protection Agency" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Environmental P</text>
+  <g>
+   <rect x="140.0" y="580.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="602.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="580.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="602.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="580.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="602.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="624.0" title="UNICEF" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">UNICEF</text>
+  <g>
+   <rect x="140.0" y="602.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="624.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="602.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="624.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="602.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="624.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="646.0" title="Centers for Disease Control and Prevention" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Centers for Dis</text>
+  <g>
+   <rect x="140.0" y="624.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="646.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="624.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="646.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="624.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="646.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="668.0" title="Department of Health" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Department of H</text>
+  <g>
+   <rect x="140.0" y="646.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="668.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="646.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="668.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="646.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="668.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <text x="10.0" y="690.0" title="Sears" style="fill:black;font-family:Helvetica;font-size:13.2px;font-weight:bold;">Sears</text>
+  <g>
+   <rect x="140.0" y="668.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="140.0" y="690.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="162.0" y="668.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="162.0" y="690.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+  <g>
+   <rect x="184.0" y="668.0" width="22.0" height="22.0" style="fill:#ffffff;"/>
+   <text x="184.0" y="690.0" style="fill:orange;font-family:Helvetica;font-size:13.2px;stroke:orange;stroke-width:0.8;">0</text>
+  </g>
+ </g>
+</svg>

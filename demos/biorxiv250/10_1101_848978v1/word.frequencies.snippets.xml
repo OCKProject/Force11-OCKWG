@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_848978v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="accessions" count="118"/>
+  <result title="frequency" word="core" count="87"/>
+  <result title="frequency" word="OpenUrl" count="74"/>
+  <result title="frequency" word="soybean" count="64"/>
+  <result title="frequency" word="genetic" count="60"/>
+  <result title="frequency" word="environmental" count="55"/>
+  <result title="frequency" word="adaptation" count="49"/>
+  <result title="frequency" word="precore" count="43"/>
+  <result title="frequency" word="maturity" count="41"/>
+  <result title="frequency" word="collection" count="38"/>
+  <result title="frequency" word="data" count="37"/>
+  <result title="frequency" word="germplasm" count="32"/>
+  <result title="frequency" word="based" count="31"/>
+  <result title="frequency" word="CrossRef" count="29"/>
+  <result title="frequency" word="Fig." count="29"/>
+  <result title="frequency" word="collections" count="28"/>
+  <result title="frequency" word="sampling" count="26"/>
+  <result title="frequency" word="Core" count="25"/>
+  <result title="frequency" word="Plant" count="25"/>
+  <result title="frequency" word="distance" count="25"/>
+  <result title="frequency" word="cultivation" count="24"/>
+  <result title="frequency" word="selection" count="23"/>
+  <result title="frequency" word="Soybean" count="22"/>
+  <result title="frequency" word="breeding" count="22"/>
+  <result title="frequency" word="regions" count="22"/>
+  <result title="frequency" word="used" count="22"/>
+  <result title="frequency" word="abiotic" count="21"/>
+ </snippets>
+</snippetsTree>

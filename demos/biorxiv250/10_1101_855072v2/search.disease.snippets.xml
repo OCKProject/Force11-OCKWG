@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_855072v2/results/search/disease/results.xml">
+  <result pre="global expansion of dengue virus (DENV), West Nile virus (WNV)," exact="chikungunya" post="(CHIKV) and most recently Zika virus (ZIKV) are prominent"/>
+  <result pre="as CHIKV and ZIKV. Even in well-researched disease systems (e.g." exact="malaria" post="and DENV), key transmission parameters are only estimated from"/>
+  <result pre="been applied to define the thermal optimum and limits for" exact="malaria" post="[ 5, 6, 38], DENV, CHIKV [ 4, 39,"/>
+  <result pre="the impact of temperature on transmission of zika, dengue, and" exact="chikungunya" post="using mechanistic models,&quot; PLoS neglected tropical diseases 11, e0005568"/>
+  <result pre="T. C. Smith , et al., &quot; Optimal temperature for" exact="malaria" post="transmission is dramatically lower than previously predicted,&quot; Ecology letters"/>
+  <result pre="Carrascal , and M. Pascual , &quot; Altitudinal changes in" exact="malaria" post="incidence in highlands of ethiopia and colombia,&quot; Science 343,"/>
+  <result pre="longevity, fecundity, and gonotrophic cycles of aedes albopictus, vector of" exact="chikungunya" post="and dengue in the indian ocean,&quot; Journal of medical"/>
+  <result pre="&quot; Modeling the effects of weather and climate change on" exact="malaria" post="transmission,&quot; Environmental health perspectives 118, 620– 626 ( 2009)."/>
+  <result pre="K. D. Lafferty , &quot; Mapping physiological suitability limits for" exact="malaria" post="in africa under climate change,&quot; VectorBorne and Zoonotic Diseases"/>
+  <result pre="and J. E. Staples , &quot; Nowcasting the spread of" exact="chikungunya" post="virus in the americas,&quot; PloS one 9, e104915 ("/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_659169v2/results/search/invasive/results.xml">
+  <result pre="" exact="Community" post="turnover by composition and climatic affinity across scales in"/>
+  <result pre="biotic responses to climate change ( Pepin et al., 2015)." exact="Species" post="have responded by generally moving upslope in response to"/>
+  <result pre="climatic and non-climatic processes are shaping the community across scales." exact="Community" post="climatic niche affinities are metrics of the community (similar"/>
+  <result pre="scales of analysis: mountain range, summit, and within elevation contours." exact="Species" post="identity is represented by differing plant morphology and climatic"/>
+  <result pre="scales of analysis: mountain range, summit, and within elevation contours." exact="Species" post="identity is represented by differing plant morphology and climatic"/>
+  <result pre="is the number of unique species found on each peak." exact="Community" post="Metrics To investigate how communities varied across spatial gradients,"/>
+  <result pre="sf ( Pebesma, 2018), and ggplot2 ( Wickham, 2016). RESULTS" exact="Community" post="Composition We observed a total of 123 species in"/>
+  <result pre="for predicting the effects of climate change on mountain communities." exact="Community" post="Composition and Turnover Across Scales Elevation was a strong"/>
+  <result pre="stochastic differences likely reduce the community variation explainable by elevation." exact="Community" post="dissimilarity has a strong, but unique relationship with elevation"/>
+  <result pre="climate is predicted to vary across elevation gradients (Appendix S4)." exact="Species" post="associated with cooler and wetter conditions were found more"/>
+  <result pre="peak relative to across the entire mountain range. Drivers of" exact="Community" post="Variation Within Elevation Contours The maximum range in CCNMs"/>
+  <result pre="there will likely be suitable microclimate within the same elevation." exact="Species" post="movement may be lateral or even downslope in order"/>
+  <result pre="species’ responses to climate change ( Kulonen et al., 2018)." exact="Species" post="interactions directly, or in conjunction with habitat type and"/>
+  <result pre=", N. Morueta-Holme , and B. D. Mishler . 2017." exact="Species" post="richness and endemism in the native flora of California."/>
+  <result pre="Mortimer , and W. H. van der Putten . 2005." exact="Species" post="divergence and trait convergence in experimental plant community assembly."/>
+  <result pre=", W. Lämmler , M. Nobis , et al. 2010." exact="Flora" post="Indicativa: Ecological Indicator Values and Biological Attributes of the"/>
+  <result pre="Flora Indicativa: Ecological Indicator Values and Biological Attributes of the" exact="Flora" post="of Switzerland and the Alps / Ökologische Zeigerwerte und"/>
+  <result pre="and the Alps / Ökologische Zeigerwerte und Biologische Kennzeichen zur" exact="Flora" post="der Schweiz und der Alpen. Haupt Verlag, Stuttgart, Vienna."/>
+  <result pre="H. Brisse . 2008. A Significant Upward Shift in Plant" exact="Species" post="Optimum Elevation During the 20th Century. Science 320: 1768–"/>
+  <result pre="in press. Increases in Thermophilus Plants in an Arid Alpine" exact="Community" post="in Response to Experimental Warming. Arctic, Antarctic, and Alpine"/>
+  <result pre="Gibson , and M. R. Sharifi . 2008. The Alpine" exact="Flora" post="of the White Mountains, California. Madroño 55: 202– 215."/>
+  <result pre="B. Weiss , and W. G. Ernst . 2007. Plant" exact="Species" post="Distributions under Present Conditions and Forecasted for Warmer Climates"/>
+ </snippets>
+</snippetsTree>

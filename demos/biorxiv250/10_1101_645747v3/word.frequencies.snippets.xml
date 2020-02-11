@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_645747v3/results/word/frequencies/results.xml">
+  <result title="frequency" word="mortality" count="125"/>
+  <result title="frequency" word="OpenUrl" count="81"/>
+  <result title="frequency" word="trees" count="54"/>
+  <result title="frequency" word="tree" count="43"/>
+  <result title="frequency" word="variables" count="41"/>
+  <result title="frequency" word="CrossRef" count="37"/>
+  <result title="frequency" word="Science" count="35"/>
+  <result title="frequency" word="individual" count="33"/>
+  <result title="frequency" word="observed" count="33"/>
+  <result title="frequency" word="statistical" count="33"/>
+  <result title="frequency" word="Forest" count="32"/>
+  <result title="frequency" word="model" count="30"/>
+  <result title="frequency" word="Tree" count="28"/>
+  <result title="frequency" word="CASTANEA" count="27"/>
+  <result title="frequency" word="Web" count="27"/>
+  <result title="frequency" word="budburst" count="27"/>
+  <result title="frequency" word="defoliation" count="26"/>
+  <result title="frequency" word="simulated" count="26"/>
+  <result title="frequency" word="beech" count="23"/>
+  <result title="frequency" word="effects" count="23"/>
+  <result title="frequency" word="population" count="23"/>
+  <result title="frequency" word="European" count="22"/>
+  <result title="frequency" word="Mortality" count="22"/>
+  <result title="frequency" word="vulnerability" count="22"/>
+  <result title="frequency" word="carbon" count="21"/>
+  <result title="frequency" word="drought" count="21"/>
+  <result title="frequency" word="rate" count="21"/>
+ </snippets>
+</snippetsTree>

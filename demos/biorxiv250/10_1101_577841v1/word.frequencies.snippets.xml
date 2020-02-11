@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_577841v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="richness" count="100"/>
+  <result title="frequency" word="specialization" count="98"/>
+  <result title="frequency" word="&amp;amp;;" count="70"/>
+  <result title="frequency" word="climate" count="68"/>
+  <result title="frequency" word="relationship" count="67"/>
+  <result title="frequency" word="land" count="62"/>
+  <result title="frequency" word="changes" count="59"/>
+  <result title="frequency" word="species" count="59"/>
+  <result title="frequency" word="richness-specialization" count="53"/>
+  <result title="frequency" word="Figure" count="50"/>
+  <result title="frequency" word="environmental" count="48"/>
+  <result title="frequency" word="spatial" count="45"/>
+  <result title="frequency" word="variables" count="43"/>
+  <result title="frequency" word="OpenUrl" count="41"/>
+  <result title="frequency" word="change" count="41"/>
+  <result title="frequency" word="use" count="32"/>
+  <result title="frequency" word="temporal" count="31"/>
+  <result title="frequency" word="used" count="31"/>
+  <result title="frequency" word="data" count="30"/>
+  <result title="frequency" word="communities" count="27"/>
+  <result title="frequency" word="count" count="25"/>
+  <result title="frequency" word="STATICO" count="24"/>
+  <result title="frequency" word="analysis" count="24"/>
+  <result title="frequency" word="covariation" count="23"/>
+  <result title="frequency" word="habitat" count="23"/>
+  <result title="frequency" word="time" count="21"/>
+ </snippets>
+</snippetsTree>

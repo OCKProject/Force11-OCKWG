@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6946268/results/word/frequencies/results.xml">
+  <result title="frequency" word="Talchir" count="70"/>
+  <result title="frequency" word="Barakar" count="68"/>
+  <result title="frequency" word="clay" count="48"/>
+  <result title="frequency" word="climate" count="40"/>
+  <result title="frequency" word="mudstones" count="37"/>
+  <result title="frequency" word="samples" count="34"/>
+  <result title="frequency" word="Figure" count="33"/>
+  <result title="frequency" word="weathering" count="33"/>
+  <result title="frequency" word="Gondwana" count="29"/>
+  <result title="frequency" word="Formation" count="28"/>
+  <result title="frequency" word="minerals" count="27"/>
+  <result title="frequency" word="mineral" count="26"/>
+  <result title="frequency" word="values" count="25"/>
+  <result title="frequency" word="kaolinite" count="21"/>
+  <result title="frequency" word="rock" count="21"/>
+ </snippets>
+</snippetsTree>

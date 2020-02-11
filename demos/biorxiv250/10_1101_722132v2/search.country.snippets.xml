@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_722132v2/results/search/country/results.xml">
+  <result pre="persists in very fragmented and highly managed populations in the" exact="United States" post="and Canada. The areas within the northernmost part of"/>
+  <result pre="The climatically suitable area is also predicted to expand in" exact="Canada" post="and Alaska under future climate change, and land in"/>
+  <result pre="not expected to increase (e.g. protected areas in India, Bhutan," exact="China" post="and southeast Asia and in the Russian Far East)."/>
+  <result pre="the Russian Far East). Threat levels in northeast China, Russia," exact="Mongolia" post="and Kazakhstan are low and the climate suitability is"/>
+  <result pre="Far East). Threat levels in northeast China, Russia, Mongolia and" exact="Kazakhstan" post="are low and the climate suitability is predicted to"/>
+ </snippets>
+</snippetsTree>

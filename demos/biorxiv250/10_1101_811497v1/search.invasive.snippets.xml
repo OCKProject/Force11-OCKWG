@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_811497v1/results/search/invasive/results.xml">
+  <result pre="assembled, after 100 time steps have passed with no extinctions." exact="Population" post="dynamics Each species i has a local population size"/>
+  <result pre="potential establishment failures ( Fig. 4). Choosing species for AM" exact="Species" post="are vulnerable to climate change for a variety of"/>
+  <result pre="change and reversal is necessary ( Haight et al. 2000)." exact="Community" post="ecology of AM Our model builds on past research"/>
+  <result pre="Boiffin J , Badeau V , Bréda N . 2017." exact="Species" post="distribution models may misdirect assisted migration: Insights from the"/>
+  <result pre="Extinction risk, coloured noise and the scaling of variance. Theoretical" exact="Population" post="Biology 88: 29– 40. OpenUrl ↵ Wolf CM ,"/>
+ </snippets>
+</snippetsTree>

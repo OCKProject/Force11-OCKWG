@@ -1,0 +1,327 @@
+{
+  "id": [
+    "31941955"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31941955"
+  ],
+  "pmcid": [
+    "PMC6962452"
+  ],
+  "doi": [
+    "10.1038/s41598-019-57256-3"
+  ],
+  "title": [
+    "Impacts of climate change and mitigation policies on malt barley supplies and associated virtual water flows in the UK."
+  ],
+  "authorString": [
+    "Yawson DO, Adu MO, Armah FA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Yawson DO"
+          ],
+          "firstName": [
+            "D O"
+          ],
+          "lastName": [
+            "Yawson"
+          ],
+          "initials": [
+            "DO"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5771-4042",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Resource Management and Environmental Studies (CERMES), The University of the West Indies, Cave Hill Campus, P.O. Box 64, Bridgetown, BB11000, Barbados. david.yawson@cavehill.uwi.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Adu MO"
+          ],
+          "firstName": [
+            "M O"
+          ],
+          "lastName": [
+            "Adu"
+          ],
+          "initials": [
+            "MO"
+          ],
+          "affiliation": [
+            "Department of Crop Science, University of Cape Coast, Cape Coast, Ghana."
+          ]
+        },
+        {
+          "fullName": [
+            "Armah FA"
+          ],
+          "firstName": [
+            "F A"
+          ],
+          "lastName": [
+            "Armah"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9371-5683",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Environmental Science, University of Cape Coast, Cape Coast, Ghana."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9371-5683",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5771-4042",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2899419"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "376"
+  ],
+  "abstractText": [
+    "Barley is a major ingredient for the malting industry which is highly sensitive and vulnerable to malt barley supply. The United Kingdom (UK) has the second highest malting capacity in the EU and the third largest malting industry in the world, supplying malt to major global breweries. Premium whisky, which has both economic and cultural significance for the UK, also makes sustainable malt barley supply critical for the UK. There is paucity of information on the sustainability of future supplies of malt barley in the UK, as much as it is in the world. This study applied a food balance approach to assess the combined effects of climate change and mitigation policies on UK malt barley balances for the 2030s, 2040 s, and 2050 s. Future yields of spring barley were simulated under the low, medium and high emissions scenarios (or LES, MES, and HES, respectively) for the three time slices. Future areas of land for barley production were obtained via land use change simulation in response to climate mitigation policies and aspirations of the UK. Future yields and land areas were combined to obtain total barley production, which served as a basis of supply. Per capita malt barley consumption was combined with future population to obtain demand. The gaps between demand and supply were then assessed. The results show large deficits in malt barley supplies for all combinations of climate change, land use and population, with adverse implications for the malting industry. Total malt barley supplies under current land area for barley and using the 90th percentile yield, ranged from 1899 (LES, 2030s) to 2,437 thousand tonnes (HES, 2050s). The largest supply under climate mitigation land use scenarios ranged from 1,592 (LES, 2030s) to 2,120 thousand tonnes (HES, 2050s). Deficits in supply were observed for all climate mitigation land use scenarios and time slices, ranging from 128 to 585 thousand tonnes at 90th percentile yield. However, surpluses were observed from the 2040s if current land area for barley remains unchanged. Imports to balance the observed deficits would result in large inflows of blue water to the UK, with adverse implications for global freshwater supply and environmental sustainability. It is concluded that even though spring barley yields in the UK could increase under projected climate change, reductions in croplands (due mainly to climate mitigation policies and aspirations) could combine with population growth to undermine the sustainability of malt barley supplies, both nationally and internationally."
+  ],
+  "affiliation": [
+    "Centre for Resource Management and Environmental Studies (CERMES), The University of the West Indies, Cave Hill Campus, P.O. Box 64, Bridgetown, BB11000, Barbados. david.yawson@cavehill.uwi.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-019-57256-3"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6962452"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6962452?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-17"
+  ],
+  "firstIndexDate": [
+    "2020-01-17"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-26"
+  ],
+  "dateOfRevision": [
+    "2020-01-24"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-15"
+  ],
+  "firstPublicationDate": [
+    "2020-01-15"
+  ]
+}

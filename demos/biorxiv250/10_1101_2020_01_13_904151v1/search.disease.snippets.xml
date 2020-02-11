@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_13_904151v1/results/search/disease/results.xml">
+  <result pre="15]. Many human pathogens originate through host-switching, including HIV and" exact="malaria" post="[ 76], and host-shifts are also the predominant cause"/>
+  <result pre="are also the predominant cause of new host-parasite associations for" exact="rabies" post="viruses in bats [ 70], malaria in birds ["/>
+  <result pre="new host-parasite associations for rabies viruses in bats [ 70]," exact="malaria" post="in birds [ 28], and among other associated diseases"/>
+  <result pre="be generalists: resolving the &quot;parasite paradox&quot; and implications for emerging" exact="infectious disease." post="Zoologia. 2010; 27( 2): 151– 162. OpenUrl CrossRef Web"/>
+  <result pre="ES and Kardish MR. Prevalence and beta diversity in avian" exact="malaria" post="communities: Host species is a better predictor than geography."/>
+  <result pre="Rupprecht CE. Host phylogeny constrains cross-species emergence and establishment of" exact="rabies" post="virus in bats. Science. 2010; 329( 5992): 676– 679."/>
+ </snippets>
+</snippetsTree>

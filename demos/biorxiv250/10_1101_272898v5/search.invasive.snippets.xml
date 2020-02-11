@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_272898v5/results/search/invasive/results.xml">
+  <result pre="which species- and population-level attributes explain variation in population change." exact="Population" post="change is the underlying process leading to community reassembly"/>
+  <result pre="vulnerability can also influence population abundance over time 16 ." exact="Species" post="traits can moderate population responses to natural and anthropogenic"/>
+  <result pre="to decline and fluctuate than the populations of common species." exact="Species" post="with a smaller geographic range might have more concentrated"/>
+  <result pre="which is useful for the proposed IUCN Green List of" exact="Species" post="35 . Here, we asked how the trends and"/>
+  <result pre="relationships and across species’ rarity metrics and IUCN conservation and" exact="threat" post="categories. We quantified differences in population trends and fluctuations"/>
+  <result pre="analysis, we categorized each population based on the global IUCN" exact="threat" post="categories to determine how the number and type of"/>
+  <result pre="biome, taxa, rarity metrics, phylogenetic relatedness, species’ conservation status and" exact="threat" post="type using a Bayesian modelling framework (Figure S2). We"/>
+  <result pre="biomes experienced no net changes ( Figure 1h, Table S2)." exact="Population" post="fluctuations were less pronounced in the terrestrial realm (slope"/>
+  <result pre="data-icon-position=&quot;&quot; data-hide-link-title=&quot;0&quot;&amp;gt; Download figure Open in new tab Figure 1." exact="Population" post="declines, increases and fluctuations over time occur across all"/>
+  <result pre="data-icon-position=&quot;&quot; data-hide-link-title=&quot;0&quot;&amp;gt; Download figure Open in new tab Figure 2." exact="Population" post="trends and fluctuations varied more among, rather than within,"/>
+  <result pre="credible intervals. See Tables S2 and S4 for model outputs." exact="Population" post="trends and fluctuations across rarity metrics, conservation status and"/>
+  <result pre="threats on a global scale based on the species’ IUCN" exact="threat" post="categorizations did not experience greater declines when compared to"/>
+  <result pre="and there were increasing, decreasing and stable trends across all" exact="threat" post="types. ;&amp;lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&amp;gt;;&amp;lt;;span class=&quot;;caption-title&quot;;&amp;gt;;Rarity metrics do not explain heterogeneity"/>
+  <result pre="consistent trend of increasing declines in population abundance with increasing" exact="threat" post="level ( Figures 1 and 4). Similar lack of"/>
+  <result pre="Coarsely represented biogeographic regions and global-scale species’ IUCN status and" exact="threat" post="categories might not capture the drivers acting in the"/>
+  <result pre="of our workflow, see Figures S1 and S2. Data sources" exact="Population" post="data To quantify vertebrate population change (trends and fluctuations),"/>
+  <result pre="high confidence 70, 71 . Rarity metrics, conservation status and" exact="threat" post="data We defined rarity following a simplified version of"/>
+  <result pre="were not monitored using population counts (i.e., we excluded indexes)." exact="Habitat" post="specificity To create an index of habitat specificity, we"/>
+  <result pre="presented in Table S4). We obtained global conservation status and" exact="threat" post="data for all study species through the IUCN Red"/>
+  <result pre="biome, taxa, rarity metrics, phylogenetic relatedness, species’ conservation status and" exact="threat" post="type using a Bayesian modelling framework through the package"/>
+  <result pre="the variances and a normal prior for the fixed effects):" exact="Population" post="trends and fluctuations across latitude, biomes, realms and taxa"/>
+  <result pre="population time-series from the jth species from the kth taxa." exact="Population" post="trends and fluctuations across amphibian, bird and reptile phylogenies"/>
+  <result pre="report the mean estimates and their range for each class." exact="Population" post="trends and fluctuations across rarity metrics To test the"/>
+  <result pre="time-series from the jth species with the nth geographic range." exact="Population" post="trends across species’ IUCN conservation status To investigate the"/>
+  <result pre="we conducted a post-hoc analysis of trends and fluctuations across" exact="threat" post="type (categorical effect, determined by species IUCN threat categorization)"/>
+  <result pre="fluctuations across threat type (categorical effect, determined by species IUCN" exact="threat" post="categorization) and number of threats that each species is"/>
+  <result pre="Central Asia of the Intergovernmental Science-Policy Platform on Biodiversity and" exact="Ecosystem" post="Services. M. Fischer , M. Rounsevell , A. Torre-Marin"/>
+  <result pre="A . Fully-sampled phylogenies of squamates reveal evolutionary patterns in" exact="threat" post="status. Biol. Conserv. 204, 23– 31 ( 2016). OpenUrl"/>
+  <result pre="↵ Oliver, T. H. et al. Biodiversity and Resilience of" exact="Ecosystem" post="Functions. Trends Ecol. Evol. 30, 673– 684 ( 2015)."/>
+  <result pre="↵ Morrison, L. , Estrada, A. &amp;amp;; Early, R ." exact="Species" post="traits suggest European mammals facing the greatest climate change"/>
+  <result pre="24. ↵ Kilpatrick, A. M. &amp;amp;; Ives, A. R ." exact="Species" post="interactions can explain Taylor’s power law for ecological time"/>
+  <result pre="( 2003). OpenUrl CrossRef PubMed 25. ↵ Kareiva, P ." exact="Population" post="dynamics in spatially complex environments: theory and data. Phil"/>
+  <result pre="conservation success to develop an IUCN Green List of Species:" exact="Species" post="Recovery and Conservation Success. Conserv. Biol. 32, 1128– 1138"/>
+  <result pre="Web of Science 44. ↵ Cardillo, M. et al. Human" exact="Population" post="Density and Extinction Risk in the World’s Carnivores. PLoS"/>
+ </snippets>
+</snippetsTree>

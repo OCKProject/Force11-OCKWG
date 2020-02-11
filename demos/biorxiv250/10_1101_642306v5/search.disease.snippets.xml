@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_642306v5/results/search/disease/results.xml">
+  <result pre="orthologs between Arabidopsis thaliana and outgroups Arabidopsis lyrata and Capsella" exact="rubella" post="from the Phytozome database ( Goodstein, et al. 2012)"/>
+  <result pre="H , Coupland G , Mizoguchi T . 2004. Antisense" exact="suppression" post="of the Arabidopsis PIF3 gene does not affect circadian"/>
+ </snippets>
+</snippetsTree>

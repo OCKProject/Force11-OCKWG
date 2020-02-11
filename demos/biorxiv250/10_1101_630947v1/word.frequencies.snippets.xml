@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_630947v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="&amp;amp;;" count="88"/>
+  <result title="frequency" word="species" count="88"/>
+  <result title="frequency" word="butterfly" count="81"/>
+  <result title="frequency" word="OpenUrl" count="67"/>
+  <result title="frequency" word="abundance" count="64"/>
+  <result title="frequency" word="wet" count="52"/>
+  <result title="frequency" word="forest" count="51"/>
+  <result title="frequency" word="dry" count="45"/>
+  <result title="frequency" word="CrossRef" count="34"/>
+  <result title="frequency" word="butterflies" count="30"/>
+  <result title="frequency" word="climatic" count="30"/>
+  <result title="frequency" word="seasonal" count="28"/>
+  <result title="frequency" word="seasonality" count="28"/>
+  <result title="frequency" word="Science" count="26"/>
+  <result title="frequency" word="Web" count="26"/>
+  <result title="frequency" word="study" count="26"/>
+  <result title="frequency" word="climate" count="25"/>
+  <result title="frequency" word="forests" count="25"/>
+  <result title="frequency" word="population" count="24"/>
+  <result title="frequency" word="rainfall" count="23"/>
+  <result title="frequency" word="patterns" count="22"/>
+  <result title="frequency" word="temporal" count="22"/>
+  <result title="frequency" word="tropical" count="22"/>
+  <result title="frequency" word="year" count="21"/>
+ </snippets>
+</snippetsTree>

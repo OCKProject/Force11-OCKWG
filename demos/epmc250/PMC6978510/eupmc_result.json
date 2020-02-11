@@ -1,0 +1,313 @@
+{
+  "id": [
+    "31974347"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31974347"
+  ],
+  "pmcid": [
+    "PMC6978510"
+  ],
+  "doi": [
+    "10.1038/s41467-019-14048-7"
+  ],
+  "title": [
+    "The systemic and governmental agendas in presidential attention to climate change in Mexico 1994-2018."
+  ],
+  "authorString": [
+    "Balderas Torres A, Lazaro Vargas P, Paavola J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Balderas Torres A"
+          ],
+          "firstName": [
+            "Arturo"
+          ],
+          "lastName": [
+            "Balderas Torres"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centre for Climate Change Economics and Policy (CCCEP), School of Earth and Environment, University of Leeds, Leeds, LS2 9JT, UK. arturo@cipad.mx."
+          ]
+        },
+        {
+          "fullName": [
+            "Lazaro Vargas P"
+          ],
+          "firstName": [
+            "Priscila"
+          ],
+          "lastName": [
+            "Lazaro Vargas"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Centro de Investigación y Proyectos en Ambiente y Desarrollo (CIPAD), CP 45050, Zapopan, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Paavola J"
+          ],
+          "firstName": [
+            "Jouni"
+          ],
+          "lastName": [
+            "Paavola"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5720-466X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Climate Change Economics and Policy (CCCEP), School of Earth and Environment, University of Leeds, Leeds, LS2 9JT, UK."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5720-466X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2896774"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "455"
+  ],
+  "abstractText": [
+    "Ambitious climate action requires sustained long-term attention from political leaders. To understand how climate change entered the political agenda in a developing country, we examine from an agenda-setting perspective the attention paid by Mexican presidents to this issue from 1994 to 2018. We perform a longitudinal analysis of 968 documents referring to climate change published by four presidencies to describe changes in attention levels over time and to determine how changes in international agreements and public policies (i.e. systemic agenda) and National Development Plans (NDPs)(i.e. governmental agenda) influence them. Our results indicate international agreements and national legislation establish a baseline for inclusion of climate change into governmental actions. Agenda changes driven by international agreements result in reactive changes in attention, while ambitious approaches are aligned with proactive NDPs. Our results also indicate public awareness and electoral periods can open windows of opportunity for reframing agendas and promoting ambitious climate action."
+  ],
+  "affiliation": [
+    "Centre for Climate Change Economics and Policy (CCCEP), School of Earth and Environment, University of Leeds, Leeds, LS2 9JT, UK. arturo@cipad.mx."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-019-14048-7"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6978510"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6978510?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-25"
+  ],
+  "firstIndexDate": [
+    "2020-01-28"
+  ],
+  "fullTextReceivedDate": [
+    "2020-02-05"
+  ],
+  "dateOfRevision": [
+    "2020-01-28"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-23"
+  ],
+  "firstPublicationDate": [
+    "2020-01-23"
+  ]
+}

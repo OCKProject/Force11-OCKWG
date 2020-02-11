@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6563998/results/search/invasive/results.xml">
+  <result pre="species, islands are of disproportionate conservation importance [ 19– 21]." exact="Species" post="inhabiting small islands are particularly vulnerable to extinction owing"/>
+  <result pre="a small proportion of protected pristine forests ( S1 Table)." exact="Species" post="data We analyzed bryophytes (Divisions Bryophyta and Marchantiophyta), vascular"/>
+  <result pre="later resampled to 500m x 500m to match species data." exact="Species" post="distribution modelling A set of species distribution models (SDMs)"/>
+  <result pre="R [ 35] and with the Java-based Maxent [ 36]." exact="Species" post="distribution models were generated for each modelling technique, and"/>
+  <result pre="Distributions In: Levin SA and Horn HS (eds). Monographs in" exact="Population" post="Biology -49. Princeton University Press (Princeton and Oxford) UK"/>
+  <result pre=", Aranda SC , Borges PAV , et al. Climate" exact="threat" post="on the Macaronesian endemic bryophyte flora. Scientific Report UK."/>
+ </snippets>
+</snippetsTree>

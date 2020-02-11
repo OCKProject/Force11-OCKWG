@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_14_906990v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="sponges" count="69"/>
+  <result title="frequency" word="sponge" count="65"/>
+  <result title="frequency" word="reef" count="37"/>
+  <result title="frequency" word="OpenUrl" count="27"/>
+  <result title="frequency" word="abundance" count="25"/>
+  <result title="frequency" word="Lamellodysidea" count="24"/>
+  <result title="frequency" word="water" count="23"/>
+  <result title="frequency" word="distribution" count="21"/>
+  <result title="frequency" word="filtration" count="21"/>
+  <result title="frequency" word="habitat" count="21"/>
+  <result title="frequency" word="temperature" count="21"/>
+ </snippets>
+</snippetsTree>

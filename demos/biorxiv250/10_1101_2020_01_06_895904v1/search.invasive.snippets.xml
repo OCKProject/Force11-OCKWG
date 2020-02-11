@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_06_895904v1/results/search/invasive/results.xml">
+  <result pre="NEWICK files using Newick Utilities ( Junier &amp;amp;; Zdobnov, 2010)." exact="Species" post="trees were inferred applying the coalescent-based algorithm implemented in"/>
+  <result pre="given in Table S2. 3.3 Phylogenetic analyses and species trees" exact="Species" post="trees obtained from the concatML and coalescent-based analyses of"/>
+  <result pre=", Bierne, N. , … Zinner D . ( 2013)" exact="Hybridization" post="and speciation. Journal of Evolutionary Biology, 26, 229– 246."/>
+  <result pre=", &amp;amp;; Mirarab, S . ( 2018) ASTRAL-III: Polynomial Time" exact="Species" post="Tree Reconstruction from Partially Resolved Gene Trees. BMC Bioinformatics,"/>
+ </snippets>
+</snippetsTree>

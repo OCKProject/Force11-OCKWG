@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_216580v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="zeta" count="188"/>
+  <result title="frequency" word="species" count="105"/>
+  <result title="frequency" word="diversity" count="79"/>
+  <result title="frequency" word="Fig." count="74"/>
+  <result title="frequency" word="data" count="60"/>
+  <result title="frequency" word="decline" count="59"/>
+  <result title="frequency" word="sites" count="49"/>
+  <result title="frequency" word="OTUs" count="46"/>
+  <result title="frequency" word="OpenUrl" count="46"/>
+  <result title="frequency" word="using" count="44"/>
+  <result title="frequency" word="shared" count="43"/>
+  <result title="frequency" word="turnover" count="43"/>
+  <result title="frequency" word="common" count="41"/>
+  <result title="frequency" word="decay" count="41"/>
+  <result title="frequency" word="rate" count="37"/>
+  <result title="frequency" word="compositional" count="36"/>
+  <result title="frequency" word="number" count="35"/>
+  <result title="frequency" word="retention" count="35"/>
+  <result title="frequency" word="change" count="33"/>
+  <result title="frequency" word="orders" count="33"/>
+  <result title="frequency" word="distance" count="31"/>
+  <result title="frequency" word="cases" count="29"/>
+  <result title="frequency" word="order" count="25"/>
+  <result title="frequency" word="used" count="24"/>
+  <result title="frequency" word="rare" count="23"/>
+  <result title="frequency" word="datasets" count="21"/>
+ </snippets>
+</snippetsTree>

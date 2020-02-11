@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_838581v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="OpenUrl" count="82"/>
+  <result title="frequency" word="bacterial" count="81"/>
+  <result title="frequency" word="warming" count="61"/>
+  <result title="frequency" word="moss" count="50"/>
+  <result title="frequency" word="CrossRef" count="48"/>
+  <result title="frequency" word="communities" count="48"/>
+  <result title="frequency" word="abundance" count="45"/>
+  <result title="frequency" word="control" count="44"/>
+  <result title="frequency" word="fixation" count="40"/>
+  <result title="frequency" word="relative" count="40"/>
+  <result title="frequency" word="community" count="38"/>
+  <result title="frequency" word="DNA" count="37"/>
+  <result title="frequency" word="warmed" count="35"/>
+  <result title="frequency" word="samples" count="34"/>
+  <result title="frequency" word="based" count="33"/>
+  <result title="frequency" word="ASVs" count="32"/>
+  <result title="frequency" word="gene" count="28"/>
+  <result title="frequency" word="species" count="28"/>
+  <result title="frequency" word="Figure" count="24"/>
+  <result title="frequency" word="Microbiol" count="24"/>
+  <result title="frequency" word="nifH" count="24"/>
+  <result title="frequency" word="nitrogen" count="24"/>
+  <result title="frequency" word="associated" count="23"/>
+  <result title="frequency" word="soil" count="22"/>
+  <result title="frequency" word="taxa" count="22"/>
+  <result title="frequency" word="Science" count="21"/>
+  <result title="frequency" word="Web" count="21"/>
+  <result title="frequency" word="cDNA" count="21"/>
+  <result title="frequency" word="diversity" count="21"/>
+ </snippets>
+</snippetsTree>

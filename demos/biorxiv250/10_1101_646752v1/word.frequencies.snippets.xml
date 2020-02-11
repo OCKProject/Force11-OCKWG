@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_646752v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="temperature" count="95"/>
+  <result title="frequency" word="plant" count="90"/>
+  <result title="frequency" word="&amp;amp;;" count="81"/>
+  <result title="frequency" word="soil" count="61"/>
+  <result title="frequency" word="species" count="55"/>
+  <result title="frequency" word="OpenUrl" count="53"/>
+  <result title="frequency" word="plots" count="49"/>
+  <result title="frequency" word="mean" count="43"/>
+  <result title="frequency" word="seasonal" count="43"/>
+  <result title="frequency" word="alpine" count="41"/>
+  <result title="frequency" word="heterogeneity" count="32"/>
+  <result title="frequency" word="richness" count="32"/>
+  <result title="frequency" word="microclimatic" count="30"/>
+  <result title="frequency" word="climate" count="28"/>
+  <result title="frequency" word="study" count="27"/>
+  <result title="frequency" word="interactions" count="25"/>
+  <result title="frequency" word="number" count="25"/>
+  <result title="frequency" word="flowering" count="24"/>
+  <result title="frequency" word="CrossRef" count="23"/>
+  <result title="frequency" word="flower" count="23"/>
+  <result title="frequency" word="higher" count="23"/>
+  <result title="frequency" word="insect" count="21"/>
+  <result title="frequency" word="plants" count="21"/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,307 @@
+{
+  "id": [
+    "31976075"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31976075"
+  ],
+  "pmcid": [
+    "PMC6956782"
+  ],
+  "doi": [
+    "10.1093/conphys/coz102"
+  ],
+  "title": [
+    "The impacts of climate change on the biomechanics of animals: Themed Issue Article: Biomechanics and Climate Change."
+  ],
+  "authorString": [
+    "Domenici P, Seebacher F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Domenici P"
+          ],
+          "firstName": [
+            "Paolo"
+          ],
+          "lastName": [
+            "Domenici"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3182-2579",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "IAS-CNR, Località Sa Mardini, Torregrande, Oristano, 09170 Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Seebacher F"
+          ],
+          "firstName": [
+            "Frank"
+          ],
+          "lastName": [
+            "Seebacher"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2281-9311",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Life and Environmental Sciences A08, University of Sydney, Sydney, NSW 2006, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2281-9311",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3182-2579",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2902241"
+      ],
+      "dateOfPublication": [
+        "2020 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Conservation physiology"
+          ],
+          "ISOAbbreviation": [
+            "Conserv Physiol"
+          ],
+          "medlineAbbreviation": [
+            "Conserv Physiol"
+          ],
+          "NLMid": [
+            "101656116"
+          ],
+          "ISSN": [
+            "2051-1434"
+          ],
+          "ESSN": [
+            "2051-1434"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "coz102"
+  ],
+  "abstractText": [
+    "Anthropogenic climate change induces unprecedented variability in a broad range of environmental parameters. These changes will impact material properties and animal biomechanics, thereby affecting animal performance and persistence of populations. Climate change implies warming at the global level, and it may be accompanied by altered wind speeds, wave action, ocean circulation, acidification as well as increased frequency of hypoxic events. Together, these environmental drivers affect muscle function and neural control and thereby movement of animals such as bird migration and schooling behaviour of fish. Altered environmental conditions will also modify material properties of animals. For example, ocean acidification, particularly when coupled with increased temperatures, compromises calcified shells and skeletons of marine invertebrates and byssal threads of mussels. These biomechanical consequences can lead to population declines and disintegration of habitats. Integrating biomechanical research with ecology is instrumental in predicting the future responses of natural systems to climate change and the consequences for ecosystem services such as fisheries and ecotourism."
+  ],
+  "affiliation": [
+    "IAS-CNR, Località Sa Mardini, Torregrande, Oristano, 09170 Italy."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Animals",
+        "Biomechanics",
+        "Climate change",
+        "Locomotion"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/conphys/coz102"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6956782"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6956782?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-25"
+  ],
+  "firstIndexDate": [
+    "2020-01-28"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-26"
+  ],
+  "dateOfRevision": [
+    "2020-01-27"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-13"
+  ],
+  "firstPublicationDate": [
+    "2020-01-13"
+  ]
+}

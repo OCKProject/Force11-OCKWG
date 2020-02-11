@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2019_12_20_884403v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="species" count="81"/>
+  <result title="frequency" word="PSMC" count="71"/>
+  <result title="frequency" word="change" count="55"/>
+  <result title="frequency" word="population" count="55"/>
+  <result title="frequency" word="OpenUrl" count="53"/>
+  <result title="frequency" word="Iberian" count="37"/>
+  <result title="frequency" word="demographic" count="35"/>
+  <result title="frequency" word="step" count="35"/>
+  <result title="frequency" word="blockwise" count="33"/>
+  <result title="frequency" word="trajectories" count="33"/>
+  <result title="frequency" word="Bunnefeld" count="30"/>
+  <result title="frequency" word="data" count="30"/>
+  <result title="frequency" word="CrossRef" count="29"/>
+  <result title="frequency" word="model" count="29"/>
+  <result title="frequency" word="estimates" count="28"/>
+  <result title="frequency" word="inferred" count="28"/>
+  <result title="frequency" word="Table" count="26"/>
+  <result title="frequency" word="populations" count="26"/>
+  <result title="frequency" word="changes" count="24"/>
+  <result title="frequency" word="Figure" count="22"/>
+  <result title="frequency" word="divergence" count="22"/>
+  <result title="frequency" word="size" count="22"/>
+ </snippets>
+</snippetsTree>

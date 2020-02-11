@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_691592v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="quinoa" count="68"/>
+  <result title="frequency" word="crop" count="65"/>
+  <result title="frequency" word="Quinoa" count="31"/>
+  <result title="frequency" word="agriculture" count="29"/>
+  <result title="frequency" word="different" count="29"/>
+  <result title="frequency" word="Bhutan" count="27"/>
+  <result title="frequency" word="varieties" count="25"/>
+  <result title="frequency" word="Table" count="23"/>
+  <result title="frequency" word="Agriculture" count="21"/>
+  <result title="frequency" word="View" count="21"/>
+  <result title="frequency" word="area" count="21"/>
+ </snippets>
+</snippetsTree>

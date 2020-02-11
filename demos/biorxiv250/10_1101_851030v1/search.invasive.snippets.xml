@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_851030v1/results/search/invasive/results.xml">
+  <result pre="mammals and amphibians from The IUCN Red List of Threatened" exact="Species" post="[ 21], of birds from Bird species distribution maps"/>
+  <result pre="2019). [21]. ↵ IUCN, The IUCN Red List of Threatened" exact="Species" post="( 2015). [22]. ↵ BirdLife, Bird species distribution maps"/>
+ </snippets>
+</snippetsTree>

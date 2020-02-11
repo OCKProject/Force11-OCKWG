@@ -1,0 +1,310 @@
+{
+  "id": [
+    "31993084"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31993084"
+  ],
+  "pmcid": [
+    "PMC6976953"
+  ],
+  "doi": [
+    "10.1111/eva.12876"
+  ],
+  "title": [
+    "The genetics of phenotypic plasticity. XVII. Response to climate change."
+  ],
+  "authorString": [
+    "Scheiner SM, Barfield M, Holt RD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Scheiner SM"
+          ],
+          "firstName": [
+            "Samuel M"
+          ],
+          "lastName": [
+            "Scheiner"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1677-9752",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Environmental Biology National Science Foundation Alexandria VA USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Barfield M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Barfield"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Biology University of Florida Gainesville FL USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Holt RD"
+          ],
+          "firstName": [
+            "Robert D"
+          ],
+          "lastName": [
+            "Holt"
+          ],
+          "initials": [
+            "RD"
+          ],
+          "affiliation": [
+            "Department of Biology University of Florida Gainesville FL USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1677-9752",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2905770"
+      ],
+      "dateOfPublication": [
+        "2020 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Evolutionary Applications"
+          ],
+          "ISOAbbreviation": [
+            "Evol Appl"
+          ],
+          "medlineAbbreviation": [
+            "Evol Appl"
+          ],
+          "NLMid": [
+            "101461828"
+          ],
+          "ISSN": [
+            "1752-4571"
+          ],
+          "ESSN": [
+            "1752-4571"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "388-399"
+  ],
+  "abstractText": [
+    "The world is changing at a rapid rate, threatening extinction for a large part of the world's biota. One potential response to those altered conditions is to evolve so as to be able to persist in place. Such evolution includes not just traits themselves, but also the phenotypic plasticity of those traits. We used individual-based simulations to explore the potential of an evolving phenotypic plasticity to increase the probability of persistence in the response to either a step change or continual, directional change in the environment accompanied by within-generation random environmental fluctuations. Populations could evolve by altering both their nonplastic and plastic genetic components. We found that phenotypic plasticity enhanced survival and adaptation if that plasticity was not costly. If plasticity was costly, for it to be beneficial the phenotypic magnitude of plasticity had to be great enough in the initial generations to overcome those costs. These results were not sensitive to either the magnitude of the within-generation correlation between the environment of development and the environment of selection or the magnitude of the environmental fluctuations, except for very small phenotypic magnitudes of plasticity. So, phenotypic plasticity has the potential to enhance survival; however, more data are needed on the ubiquity of trait plasticity, the extent of costs of plasticity, and the rate of mutational input of genetic variation for plasticity."
+  ],
+  "affiliation": [
+    "Division of Environmental Biology National Science Foundation Alexandria VA USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Model",
+        "Phenotypic plasticity",
+        "Climate change",
+        "genetic assimilation",
+        "Evolutionary Rescue"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1111/eva.12876"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6976953"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6976953?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-30"
+  ],
+  "firstIndexDate": [
+    "2020-01-30"
+  ],
+  "fullTextReceivedDate": [
+    "2020-02-05"
+  ],
+  "dateOfRevision": [
+    "2020-01-31"
+  ],
+  "electronicPublicationDate": [
+    "2019-10-31"
+  ],
+  "firstPublicationDate": [
+    "2019-10-31"
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="invasive">
+ <result pre="species distribution models by using local approximations | bioRxiv ABSTRACT" exact="Species" post="Distribution Models (SDMs) are used to generate maps of"/>
+ <result pre="model is learning the right things and successfully avoids bias." exact="Species" post="Distribution Modeling (SDM) is the application of machine learning"/>
+ <result pre="to low temperatures as well ( Rödder et al., 2009)." exact="Species" post="records Species records have been obtained by using the"/>
+ <result pre="temperatures as well ( Rödder et al., 2009). Species records" exact="Species" post="records have been obtained by using the sdmbench package"/>
+ <result pre="climate characteristics. This preprocessing enables successful downstream species distribution modeling." exact="Species" post="distribution models Random Forests was chosen as the algorithm"/>
+ <result pre="B. ( 2018a). boyanangelov/sdmexplain: sdmexplain: An R Package for Making" exact="Species" post="Distribution Models More Explainable. ↵ Angelov, B. ( 2018b)."/>
+ <result pre=". ↵ Elith, J. and Leathwick, J. R. ( 2009)." exact="Species" post="distribution models: ecological explanation and prediction across space and"/>
+</results>

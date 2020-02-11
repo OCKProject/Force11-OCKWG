@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_847186v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="River" count="75"/>
+  <result title="frequency" word="land" count="72"/>
+  <result title="frequency" word="scenarios" count="53"/>
+  <result title="frequency" word="use" count="52"/>
+  <result title="frequency" word="effects" count="42"/>
+  <result title="frequency" word="land-use" count="42"/>
+  <result title="frequency" word="Charles" count="41"/>
+  <result title="frequency" word="Cocheco" count="38"/>
+  <result title="frequency" word="OpenUrl" count="37"/>
+  <result title="frequency" word="climate" count="34"/>
+  <result title="frequency" word="future" count="34"/>
+  <result title="frequency" word="watershed" count="31"/>
+  <result title="frequency" word="New" count="30"/>
+  <result title="frequency" word="water" count="29"/>
+  <result title="frequency" word="Table" count="28"/>
+  <result title="frequency" word="streamflow" count="28"/>
+  <result title="frequency" word="CrossRef" count="25"/>
+  <result title="frequency" word="runoff" count="25"/>
+  <result title="frequency" word="storm" count="25"/>
+  <result title="frequency" word="View" count="24"/>
+  <result title="frequency" word="annual" count="24"/>
+  <result title="frequency" word="historic" count="24"/>
+  <result title="frequency" word="SWAT" count="23"/>
+  <result title="frequency" word="effect" count="23"/>
+  <result title="frequency" word="Connected" count="22"/>
+  <result title="frequency" word="flows" count="22"/>
+  <result title="frequency" word="high" count="22"/>
+  <result title="frequency" word="daily" count="21"/>
+ </snippets>
+</snippetsTree>

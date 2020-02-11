@@ -1,0 +1,2180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+ <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes"/>
+  <meta name="type" content="article"/>
+  <meta name="category" content="article"/>
+  <meta name="HW.identifier" content="/biorxiv/early/2019/04/05/402537.atom"/>
+  <meta name="HW.pisa" content="biorxiv;402537v2"/>
+  <meta name="DC.Format" content="text/html"/>
+  <meta name="DC.Language" content="en"/>
+  <meta name="DC.Title" content="Climatic stability and resource availability explains dung beetles (Scarabaeinae) richness patternon the Americas"/>
+  <meta name="DC.Identifier" content="10.1101/402537"/>
+  <meta name="DC.Date" content="2019-04-05"/>
+  <meta name="DC.Publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="DC.Rights" content="© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+  <meta name="DC.AccessRights" content="restricted"/>
+  <meta name="DC.Description" content="Climatic conditions are the main driver of species richness. Specifically, the increase in climatic instability may reduce species richness directly and indirectly by reducing resources available. This hypothesis is evaluated here using a producer-consumer interaction to explain dung beetle richness on a continental scale (America) using mammal richness as resource proxy and temperature and precipitation seasonality as a proxy for climatic instability. A spatial path analysis was built in order to evaluate this hypothesis while controlling for spatial autocorrelation and differences in the sampling effort and abundance of each study (n=115) gathered from the literature. Dung beetle richness was directly explained by temperature seasonality, precipitation seasonality, and mammal richness, whereas only precipitation seasonality had an effect modulated by mammal richness. This result reinforces the notion that species richness can be explained by climatic conditions, but also reveals the importance of biotic interactions in order to understand the mechanisms behind such patterns."/>
+  <meta name="DC.Contributor" content="Anderson Matos Medina"/>
+  <meta name="article:published_time" content="2019-04-05"/>
+  <meta name="article:section" content="New Results"/>
+  <meta name="citation_title" content="Climatic stability and resource availability explains dung beetles (Scarabaeinae) richness patternon the Americas"/>
+  <meta name="citation_abstract" lang="en" content="&lt;;h3&gt;;Abstract&lt;;/h3&gt;; &lt;;p&gt;;Climatic conditions are the main driver of species richness. Specifically, the increase in climatic instability may reduce species richness directly and indirectly by reducing resources available. This hypothesis is evaluated here using a producer-consumer interaction to explain dung beetle richness on a continental scale (America) using mammal richness as resource proxy and temperature and precipitation seasonality as a proxy for climatic instability. A spatial path analysis was built in order to evaluate this hypothesis while controlling for spatial autocorrelation and differences in the sampling effort and abundance of each study (n=115) gathered from the literature. Dung beetle richness was directly explained by temperature seasonality, precipitation seasonality, and mammal richness, whereas only precipitation seasonality had an effect modulated by mammal richness. This result reinforces the notion that species richness can be explained by climatic conditions, but also reveals the importance of biotic interactions in order to understand the mechanisms behind such patterns.&lt;;/p&gt;;"/>
+  <meta name="citation_journal_title" content="bioRxiv"/>
+  <meta name="citation_publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="citation_publication_date" content="2019/01/01"/>
+  <meta name="citation_mjid" content="biorxiv;402537v2"/>
+  <meta name="citation_id" content="402537v2"/>
+  <meta name="citation_public_url" content="https://www.biorxiv.org/content/10.1101/402537v2"/>
+  <meta name="citation_abstract_html_url" content="https://www.biorxiv.org/content/10.1101/402537v2.abstract"/>
+  <meta name="citation_full_html_url" content="https://www.biorxiv.org/content/10.1101/402537v2.full"/>
+  <meta name="citation_pdf_url" content="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537.full.pdf"/>
+  <meta name="citation_doi" content="10.1101/402537"/>
+  <meta name="citation_num_pages" content="20"/>
+  <meta name="citation_article_type" content="Article"/>
+  <meta name="citation_section" content="New Results"/>
+  <meta name="citation_firstpage" content="402537"/>
+  <meta name="citation_author" content="Anderson Matos Medina"/>
+  <meta name="citation_author_institution" content="Programa de Pós□Graduação em Ecologia e Evolução, Instituto de Ciências Biológicas, Universidade Federal de Goiás"/>
+  <meta name="citation_author_email" content="bojaum@gmail.com"/>
+  <meta name="citation_author_orcid" content="http://orcid.org/0000-0002-8800-6444"/>
+  <meta name="citation_reference" content="Andresen E (2005) Effects of Season and Vegetation Type on Community Organization of Dung Beetles in a Tropical Dry Forest. Biotropica 37:291–300. doi:10.1111/j.1744-7429.2005.00039.x"/>
+  <meta name="citation_reference" content="Andrews P, O’Brien EM (2000) Climate, vegetation, and predictable gradients in mammal species richness in southern Africa. J Zool 251:205–231. doi:10.1111/j.1469-7998.2000.tb00605.x"/>
+  <meta name="citation_reference" content="Bivand R, Lewin-Koh N (2017) maptools: Tools for Reading and Handling Spatial Objects. R package version 0.9-2. https://cran.r-project.org/package=maptools"/>
+  <meta name="citation_reference" content="Bogoni J a., Hernandez MIM (2014) Attractiveness of Native Mammal’s Feces of Different Trophic Guilds to Dung Beetles (Coleoptera: Scarabaeinae). J Insect Sci 14:299–299. doi:10.1093/jisesa/ieu161"/>
+  <meta name="citation_reference" content="Bogoni JA, Graipel ME, de Castilho PV, et al (2016) Contributions of the mammal community, habitat structure, and spatial distance to dung beetle community structure. Biodivers Conserv 25:1661–1675. doi:10.1007/s10531-016-1147-1"/>
+  <meta name="citation_reference" content="Culot L, Bovy E, Zagury Vaz-de-Mello F, et al (2013) Selective defaunation affects dung beetle communities in continuous Atlantic rainforest. Biol Conserv 163:79–89. doi:10.1016/j.biocon.2013.04.004"/>
+  <meta name="citation_reference" content="da Silva PG, Hernández MIM (2015) Spatial Patterns of Movement of Dung Beetle Species in a Tropical Forest Suggest a New Trap Spacing for Dung Beetle Biodiversity Studies. PloS One 10:e0126112. doi:10.1371/journal.pone.0126112"/>
+  <meta name="citation_reference" content="Davies TJ, Buckley LB (2011) Phylogenetic diversity as a window into the evolutionary and biogeographic histories of present-day richness gradients for mammals. Philos Trans R Soc B Biol Sci 366:2414–2425. doi:10.1098/rstb.2011.0058"/>
+  <meta name="citation_reference" content="Dobzhansky T (1950) Evolution in the Tropics. Am Sci 38:209–221"/>
+  <meta name="citation_reference" content="Field R, Hawkins B a., Cornell H V., et al (2009) Spatial species-richness gradients across scales: A meta-analysis. J Biogeogr 36:132–147. doi:10.1111/j.1365-2699.2008.01963.x"/>
+  <meta name="citation_reference" content="Filgueiras BKC, Liberal CN, Aguiar CDM, et al (2009) Attractivity of omnivore, carnivore and herbivore mammalian dung to Scarabaeinae (Coleoptera, Scarabaeidae) in a tropical Atlantic rainforest remnant. Rev Bras Entomol 53:422–427. doi:10.1590/S0085-56262009000300017"/>
+  <meta name="citation_reference" content="Finke DL, Snyder WE (2008) Niche Increases Resource Partitioning by Diverse Communities Exploitation. Science (80-) 321:1488–1490. doi:10.1126/science.1160854"/>
+  <meta name="citation_reference" content="Frank K, Krell F-T, Slade EM, et al (2018) Global dung webs: high trophic generalism of dung beetles along the latitudinal diversity gradient. Ecol Lett 21:1229–1236. doi:10.1111/ele.13095"/>
+  <meta name="citation_reference" content="Gaston KJ (2000) Global patterns in biodiversity. Nature 405:220–227. doi:10.1038/35012228"/>
+  <meta name="citation_reference" content="Gotelli NJ, Colwell RK (2001) Quantifying biodiversity: procedures and pitfalls in the measurement and comparison of species richness. Ecol Lett 4:379–391. doi:10.1046/j.1461-0248.2001.00230.x"/>
+  <meta name="citation_reference" content="Halffter G (1991) Historical and Ecological Factors Determining the Geographical Distribution of Beetles (Coleoptera Scarabaeidae: Scarabaeinae). Folia Entomológica Mex 82:194–238"/>
+  <meta name="citation_reference" content="Halffter G, Matthews E (1966) The Natural History of Dung Beetles of the Subfamily Scarabaeinae (Coleoptera, Scarabaeidae). Folia Entomol Mex 12–14:1–312"/>
+  <meta name="citation_reference" content="Hawkins BA, Diniz-Filho JAF (2004) “Latitude” and Geographic Patterns in Species Richness. Ecography (Cop) 27:268–272. doi:10.1111/j.0906-7590.2004.03883.x"/>
+  <meta name="citation_reference" content="Hawkins BA, Pausas JG (2004) Does plant richness influence animal richness?: The mammals of Catalonia (NE Spain). Divers Distrib 10:247–252. doi:10.1111/j.1366-9516.2004.00085.x"/>
+  <meta name="citation_reference" content="Hernández MIM, Vaz-de-Mello FZ (2009) Seasonal and spatial species richness variation of dung beetle (Coleoptera, Scarabaeidae s. str.) in the Atlantic Forest of southeastern Brazil. Rev Bras Entomol 53:607–613. doi:10.1590/S0085-56262009000400010"/>
+  <meta name="citation_reference" content="Hijmans RJ (2016) raster: Geographic Data Analysis and Modeling. R package version 2.5-8. https://CRAN.R-project.org/package=raster"/>
+  <meta name="citation_reference" content="Hijmans RJ, Cameron SE, Parra JL, et al (2005) Very high resolution interpolated climate surfaces for global land areas. Int J Climatol 25:1965–1978. doi:10.1002/joc.1276"/>
+  <meta name="citation_reference" content="Hillebrand H (2004) On the Generality of the Latitudinal Diversity Gradient. Am Nat 163:192–211. doi:10.2307/2678832"/>
+  <meta name="citation_reference" content="IUCN (2016) The IUCN Red List of Threatened Species. Version 2016-1. http://www.iucnredlist.org"/>
+  <meta name="citation_reference" content="Jacobs J, Nole I, Palminteri S, Ratcliffe B (2008) First come, first serve: “sit and wait” behavior in dung beetles at the source of primate dung. Neotrop Entomol 37:641–5"/>
+  <meta name="citation_reference" content="Kissling WD, Rahbek C, Bohning-Gaese K (2007) Food plant diversity as broad-scale determinant of avian frugivore richness. Proc R Soc B Biol Sci 274:799–808. doi:10.1098/rspb.2006.0311"/>
+  <meta name="citation_reference" content="Larsen TH, Forsyth A (2005) Trap Spacing and Transect Design for Dung Beetle Biodiversity Studies. Biotropica 37:322–325"/>
+  <meta name="citation_reference" content="Larsen TH, Lopera A, Forsyth A (2006) Extreme trophic and habitat specialization by Peruvian dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Coleopt Bull 60:315–324"/>
+  <meta name="citation_reference" content="Lefcheck JS (2016) piecewiseSEM⟭: Piecewise structural equation modelling in r for ecology, evolution, and systematics. Methods Ecol Evol 7:573–579. doi:10.1111/2041-210X.12512"/>
+  <meta name="citation_reference" content="Liberal CN, Isidro de Farias Â., Meiado MV, et al (2011) How habitat change and rainfall affect dung beetle diversity in Caatinga, a Brazilian semi-arid ecosystem. J Insect Sci 11:1–11"/>
+  <meta name="citation_reference" content="Lopes J, Korasaki V, Catelli LL, et al (2011) A comparison of dung beetle assemblage structure (Coleoptera: Scarabaeidae: Scarabaeinae) between an Atlantic forest fragment and adjacent abandoned pasture in Paraná, Brazil. Zool (Curitiba, Impresso) 28:72–79. doi:10.1590/S1984-46702011000100011"/>
+  <meta name="citation_reference" content="Mittelbach GG, Schemske DW, Cornell H V., et al (2007) Evolution and the latitudinal diversity gradient: Speciation, extinction and biogeography. Ecol Lett 10:315–331. doi:10.1111/j.1461-0248.2007.01020.x"/>
+  <meta name="citation_reference" content="Moles AT, Ollerton J (2016) Is the notion that species interactions are stronger and more specialized in the tropics a zombie idea? Biotropica 48:141–145. doi:10.1111/btp.12281"/>
+  <meta name="citation_reference" content="Moura MR, Villalobos F, Costa GC, Garcia PCA (2016) Disentangling the Role of Climate, Topography and Vegetation in Species Richness Gradients. PloS One 11:e0152468. doi:10.1371/journal.pone.0152468"/>
+  <meta name="citation_reference" content="Nichols E, Gardner T a., Peres C a., Spector S (2009) Co-declining mammals and dung beetles: an impending ecological cascade. Oikos 118:481–487. doi:10.1111/j.1600-0706.2008.17268.x"/>
+  <meta name="citation_reference" content="Nichols E, Peres CA, Hawes JE, Naeem S (2016) Multitrophic diversity effects of network degradation. Ecol Evol 6:4936–4946. doi:10.1002/ece3.2253"/>
+  <meta name="citation_reference" content="Nichols E, Uriarte M, Peres C a, et al (2013) Human-Induced Trophic Cascades along the Fecal Detritus Pathway. PloS One 8:e75819. doi:10.1371/journal.pone.0075819"/>
+  <meta name="citation_reference" content="Pianka ER (1966) Latitudinal Gradients in Species Diversity: A Review of Concepts. Am Nat 100:33. doi:10.1086/282398"/>
+  <meta name="citation_reference" content="Pinheiro J, Bates D, DebRoy S, et al (2014) nlme: Linear and Nonlinear Mixed Effects Models_. R package versione 3.1-117, URL: http://CRAN.R-project.org/package=nlme"/>
+  <meta name="citation_reference" content="R Core Team (2017) R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/."/>
+  <meta name="citation_reference" content="Ribeiro BR, Sales LP, De Marco P, Loyola R (2016) Assessing Mammal Exposure to Climate Change in the Brazilian Amazon. PloS One 11:e0165073. doi:10.1371/journal.pone.0165073"/>
+  <meta name="citation_reference" content="Safi K, Cianciaruso M V., Loyola RD, et al (2011) Understanding global patterns of mammalian functional and phylogenetic diversity. Philos Trans R Soc B Biol Sci 366:2536–2544. doi:10.1098/rstb.2011.0024"/>
+  <meta name="citation_reference" content="Schleuning M, Fründ J, Klein AM, et al (2012) Specialization of mutualistic interaction networks decreases toward tropical latitudes. Curr Biol 22:1925–1931. doi:10.1016/j.cub.2012.08.015"/>
+  <meta name="citation_reference" content="Shipley B (2009) Confirmatory path analysis in a generalized multilevel context. Ecology 90:363–368. doi:10.1890/08-1034.1"/>
+  <meta name="citation_reference" content="Stevens GC (1989) The latitudinal gradient in geographic range: how so many species coexist in the tropics. Am Nat 133:240–256"/>
+  <meta name="citation_reference" content="Vasconcelos HL, Maravalhas JB, Neves KC, et al (2019) Congruent spatial patterns of ant and tree diversity in Neotropical savannas. Biodivers Conserv 28:1075–1089. doi:10.1007/s10531-019-01708-9"/>
+  <meta name="citation_reference" content="Verdú JR, Arellano L, Numa C (2006) Thermoregulation in endothermic dung beetles (Coleoptera: Scarabaeidae): effect of body size and ecophysiological constraints in flight. J Insect Physiol 52:854–60. doi:10.1016/j.jinsphys.2006.05.005"/>
+  <meta name="citation_reference" content="Williams SE, Middleton J (2008) Climatic seasonality, resource bottlenecks, and abundance of rainforest birds: Implications for global climate change. Divers Distrib 14:69–77. doi:10.1111/j.1472-4642.2007.00418.x"/>
+  <meta name="citation_reference" content="Willig MR, Kaufman DM, Stevens RD (2003) Latitudinal Gradients of Biodiversity: Pattern, Process, Scale, and Synthesis. Annu Rev Ecol Evol Syst 34:273–309. doi:10.1146/annurev.ecolsys.34.012103.144032"/>
+  <meta name="citation_reference" content="Wolda H (1988) Insect seasonality: why? Annu Rev Ecol Syst 19:1–18"/>
+  <meta name="twitter:title" content="Climatic stability and resource availability explains dung beetles (Scarabaeinae) richness patternon the Americas"/>
+  <meta name="twitter:site" content="@biorxivpreprint"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="twitter:description" content="Climatic conditions are the main driver of species richness. Specifically, the increase in climatic instability may reduce species richness directly and indirectly by reducing resources available. This hypothesis is evaluated here using a producer-consumer interaction to explain dung beetle richness on a continental scale (America) using mammal richness as resource proxy and temperature and precipitation seasonality as a proxy for climatic instability. A spatial path analysis was built in order to evaluate this hypothesis while controlling for spatial autocorrelation and differences in the sampling effort and abundance of each study (n=115) gathered from the literature. Dung beetle richness was directly explained by temperature seasonality, precipitation seasonality, and mammal richness, whereas only precipitation seasonality had an effect modulated by mammal richness. This result reinforces the notion that species richness can be explained by climatic conditions, but also reveals the importance of biotic interactions in order to understand the mechanisms behind such patterns."/>
+  <meta name="og-title" property="og:title" content="Climatic stability and resource availability explains dung beetles (Scarabaeinae) richness patternon the Americas"/>
+  <meta name="og-url" property="og:url" content="https://www.biorxiv.org/content/10.1101/402537v2"/>
+  <meta name="og-site-name" property="og:site_name" content="bioRxiv"/>
+  <meta name="og-description" property="og:description" content="Climatic conditions are the main driver of species richness. Specifically, the increase in climatic instability may reduce species richness directly and indirectly by reducing resources available. This hypothesis is evaluated here using a producer-consumer interaction to explain dung beetle richness on a continental scale (America) using mammal richness as resource proxy and temperature and precipitation seasonality as a proxy for climatic instability. A spatial path analysis was built in order to evaluate this hypothesis while controlling for spatial autocorrelation and differences in the sampling effort and abundance of each study (n=115) gathered from the literature. Dung beetle richness was directly explained by temperature seasonality, precipitation seasonality, and mammal richness, whereas only precipitation seasonality had an effect modulated by mammal richness. This result reinforces the notion that species richness can be explained by climatic conditions, but also reveals the importance of biotic interactions in order to understand the mechanisms behind such patterns."/>
+  <meta name="og-type" property="og:type" content="article"/>
+  <meta name="og-image" property="og:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="citation_date" content="2019-04-05"/> 
+  <meta name="description" content="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution"/>
+  <meta name="generator" content="Drupal 7 (http://drupal.org)"/> 
+  <title>Climatic stability and resource availability explains dung beetles (Scarabaeinae) richness patternon the Americas | bioRxiv</title> 
+ </head>
+ <body class="html not-front not-logged-in page-node page-node- page-node-503458 node-type-highwire-article context-content hw-default-jcode-biorxiv hw-article-type-article hw-article-category-new-results"> 
+  <div class="article fulltext-view ">
+   <span class="highwire-journal-article-marker-start"/>
+   <div class="section abstract" id="abstract-1">
+    <h2 class="">Abstract</h2>
+    <p id="p-2">Climatic conditions are the main driver of species richness. Specifically, the increase in climatic instability may reduce species richness directly and indirectly by reducing resources available. This hypothesis is evaluated here using a producer-consumer interaction to explain dung beetle richness on a continental scale (America) using mammal richness as resource proxy and temperature and precipitation seasonality as a proxy for climatic instability. A spatial path analysis was built in order to evaluate this hypothesis while controlling for spatial autocorrelation and differences in the sampling effort and abundance of each study (n=115) gathered from the literature. Dung beetle richness was directly explained by temperature seasonality, precipitation seasonality, and mammal richness, whereas only precipitation seasonality had an effect modulated by mammal richness. This result reinforces the notion that species richness can be explained by climatic conditions, but also reveals the importance of biotic interactions in order to understand the mechanisms behind such patterns.</p>
+   </div>
+   <div class="section" id="sec-1">
+    <h2 class="">Introduction</h2>
+    <p id="p-3">Latitudinal diversity gradients are a widespread pattern in ecology (
+     <a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">Gaston 2000</a>; 
+     <a id="xref-ref-49-1" class="xref-bibr" href="#ref-49">Willig et al. 2003</a>; 
+     <a id="xref-ref-23-1" class="xref-bibr" href="#ref-23">Hillebrand 2004</a>). To understand latitudinal gradient one must go beyond the pattern and therefore evaluate causal hypotheses, which encompass three types of explanations: ecological, historical and evolutionary (
+     <a id="xref-ref-14-2" class="xref-bibr" href="#ref-14">Gaston 2000</a>; 
+     <a id="xref-ref-18-1" class="xref-bibr" href="#ref-18">Hawkins and Diniz-Filho 2004</a>; 
+     <a id="xref-ref-32-1" class="xref-bibr" href="#ref-32">Mittelbach et al. 2007</a>). Examples of hypotheses proposed for this geographic pattern are productivity, environmental heterogeneity, area, historical factors and biotic interactions (
+     <a id="xref-ref-49-2" class="xref-bibr" href="#ref-49">Willig et al. 2003</a>; 
+     <a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">Field et al. 2009</a>). Among the above mentioned, climatic hypotheses are between the most used explanations behind the pattern of latitudinal diversity gradients (
+     <a id="xref-ref-10-2" class="xref-bibr" href="#ref-10">Field et al. 2009</a>). However, climatic stability can have different weights in determining the latitudinal gradient. One rationale is climatic stability is more important to determine the latitudinal gradient in temperate regions (e.g.: temperate species have higher climatic tolerance than their tropical counterparts (
+     <a id="xref-ref-45-1" class="xref-bibr" href="#ref-45">Stevens 1989</a>)), whereas biotic interactions play a major role in tropical regions (
+     <a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">Dobzhansky 1950</a>). Albeit this is not a new idea, our understanding of how species richness changes along latitudinal gradients can be improved by weighting the relative contributions of climatic stability and biotic interactions.
+    </p>
+    <p id="p-4">The aggregate effects of climatic stability and biotic interactions can be noticed, for example, when variations on temperature and rainfall can reduce the time window when resources are available for species which may generate resource bottlenecks that can limit the number of species coexisting (
+     <a id="xref-ref-48-1" class="xref-bibr" href="#ref-48">Williams and Middleton 2008</a>). In fact, the climatic stability hypothesis predicts that sites with higher stability possesses higher richness than sites with lesser stability (
+     <a id="xref-ref-38-1" class="xref-bibr" href="#ref-38">Pianka 1966</a>), and one of the explanations for such phenomena invokes the role of biotic interactions because climatic stability would allow species to be more specialized on stable environments (
+     <a id="xref-ref-33-1" class="xref-bibr" href="#ref-33">Moles and Ollerton 2016</a>; but see 
+     <a id="xref-ref-43-1" class="xref-bibr" href="#ref-43">Schleuning et al. 2012</a>). Direct effects of resource availability on species can also play a role in explaining the causes of the latitudinal richness pattern. For example, the number of species of woody plants has been used to explain the richness of arboreal or frugivorous mammals, and figs richness has been demonstrated to determine frugivorous birds richness (
+     <a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">Andrews and O’Brien 2000</a>, 
+     <a id="xref-ref-26-1" class="xref-bibr" href="#ref-26">Kissling et al. 2007</a>; but see 
+     <a id="xref-ref-19-1" class="xref-bibr" href="#ref-19">Hawkins and Pausas 2004</a>). The rationale behind this hypothesis is that an increase in species richness at basal trophic levels should increase the number of species at higher trophic levels.
+    </p>
+    <p id="p-5">Here, I focus on how dung beetle diversity pattern can be shaped by biotic interactions between fecal detritus producers (mammals) and consumers (dung beetles) (
+     <a id="xref-ref-36-1" class="xref-bibr" href="#ref-36">Nichols et al. 2016</a>) along with climatic stability. Dung beetles (Scarabaeinae) is a rich group of detritivores beetles that probably diversified after the transition from saprophagy to coprophagy (
+     <a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">Halffter 1991</a>). In this study, two hypotheses will be evaluated. First, if resource availability is important for richness patterns of dung beetles then it is expected that dung beetles diversity should be driven by mammals’ diversity since mammals dungs are the primordial source of food resource for dung beetles (
+     <a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">Halffter and Matthews 1966</a>; 
+     <a id="xref-ref-35-1" class="xref-bibr" href="#ref-35">Nichols et al. 2009</a>). Examples of how dung beetle diversity is related to mammal diversity are that hunting-related reductions on mammals richness lead to a reduction in dung beetles richness (
+     <a id="xref-ref-35-2" class="xref-bibr" href="#ref-35">Nichols et al. 2009</a>; 
+     <a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">Culot et al. 2013</a>) and that changes on mammals species composition may explain changes on dung beetle composition (
+     <a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">Bogoni et al. 2016</a>). Second, if variations on climatic stability should affect dung beetles then I expect to find that an increase in climatic stability should have positive effects on dung beetle richness. In general, many insects display seasonality patterns of diversity (
+     <a id="xref-ref-50-1" class="xref-bibr" href="#ref-50">Wolda 1988</a>), and dung beetle communities, in particular, have increased richness with increased temperature and reduction of rainfall seasonality (
+     <a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">Andresen 2005</a>; 
+     <a id="xref-ref-20-1" class="xref-bibr" href="#ref-20">Hernández and Vaz-de-Mello 2009</a>; 
+     <a id="xref-ref-30-1" class="xref-bibr" href="#ref-30">Liberal et al. 2011</a>). Climatic stability should also allow dung beetles species to be more specialized in feeding resources, therefore an increase in niche partitioning between co-occurring dung beetle species caused by trophic specialization could increase dung beetle species richness (
+     <a id="xref-ref-28-1" class="xref-bibr" href="#ref-28">Larsen et al. 2006</a>), especially in tropical areas where higher mammal richness are also expected (
+     <a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">Davies and Buckley 2011</a>; 
+     <a id="xref-ref-42-1" class="xref-bibr" href="#ref-42">Safi et al. 2011</a>). Even though most dung beetles are generalists and only a few species can be sorted in guilds that use different dung types (
+     <a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">Filgueiras et al. 2009</a>; 
+     <a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">Bogoni and Hernandez 2014</a>).
+    </p>
+    <p id="p-6">In this study, I test the hypothesis that dung beetle latitudinal richness is explained by 1) increase in feeding resources availability because of biotic interactions with mammals that produce dung beetle feeding resources, and 2) an increase on climatic stability and 3) both resource availability and climatic stability. To evaluate these hypotheses, I used a spatialized path analysis which allows dissociating the direct and indirect effects of the climatic stability. First, I predict that dung beetle richness should increase due increases in climatic stability, in other words, decreases in precipitation seasonality and temperature seasonality. Second, increases on mammals’ richness, here used as a proxy for resource availability, should result in increases of dung beetle richness. Since mammals richness can also respond to precipitation seasonality and temperature seasonality, therefore climatic stability indirect effects can change dung beetle richness through mediated effects in mammals richness (See 
+     <a id="xref-fig-1-1" class="xref-fig" href="#F1">Figure 1</a> for more details on proposed path analysis).
+    </p>
+    <div id="F1" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F1.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Path analysis representing the theoretical relationships between predictors of dung beetle richness. Black arrows are negative effects while gray arrows are positive relationships." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-1817082218" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Path analysis representing the theoretical relationships between predictors of dung beetle richness. Black arrows are negative effects while gray arrows are positive relationships.&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 1." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F1.medium.gif" width="440" height="385"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 1." src="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F1.medium.gif" width="440" height="385"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 1." data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 1.</span>
+      <p id="p-7" class="first-child">Path analysis representing the theoretical relationships between predictors of dung beetle richness. Black arrows are negative effects while gray arrows are positive relationships.</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+   </div>
+   <div class="section" id="sec-2">
+    <h2 class="">Materials and Methods</h2>
+    <div id="sec-3" class="subsection">
+     <h3>Dung beetle database</h3>
+     <p id="p-8">I performed a search on the Scopus database for dung beetles inventories using the following keywords: “
+      <em>dung beetle”</em> or “
+      <em>Scarabaeinae”</em>. I only included the period between 1980 and 2016. This search retrieved a total of 1443 articles and after applying the following criteria, the database comprised 115 studies and 213 sites (
+      <a id="xref-fig-2-1" class="xref-fig" href="#F2">Figure 2</a>): 1) sampled dung beetles should belong to the subfamily Scarabaeinae (in other words, studies with only Aphodinae, Geotrupinae and Troginae were excluded); 2) the study employed a standardized sampling protocol and clearly stated the number of pitfalls, sites and temporal replication used while sampling the dung beetles. Sampling protocol information was used to the measure sampling effort using in each study. The sampling effort was the total number of pitfalls measured as pitfalls multiplied per area multiplied per temporal replications. Differences on use of different baits (types of dung, decomposing meat or rotten fruits) were ignored 3) provided a list of sampled species and their respective abundances 4) sampled in the American continent and presented geographic coordinates or specified the municipality where the sampled occurred. If one study sampled more than one site and provided a geographic coordinate for each site thus each site was included on the database. However, species lists were combined in cases where there was only one geographic coordinate for multiples sites. Studies included in the analysis are available on the Supplementary File 1.
+     </p>
+     <div id="F2" class="fig pos-float type-figure odd">
+      <div class="highwire-figure">
+       <div class="fig-inline-img-wrapper">
+        <div class="fig-inline-img">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F2.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Localities of the 115 dung beetle inventories performed on the America continent and used on the analysis." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-1817082218" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Localities of the 115 dung beetle inventories performed on the America continent and used on the analysis.&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+          <span class="hw-responsive-img">
+           <img class="highwire-fragment fragment-image lazyload" alt="Figure 2." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F2.medium.gif" width="440" height="385"/>
+           <noscript>
+            <img class="highwire-fragment fragment-image" alt="Figure 2." src="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F2.medium.gif" width="440" height="385"/>
+           </noscript>
+          </span>
+         </a>
+        </div>
+       </div>
+       <ul class="highwire-figure-links inline">
+        <li class="download-fig first">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F2.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 2." data-icon-position="" data-hide-link-title="0">Download figure</a>
+        </li>
+        <li class="new-tab last">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F2.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+        </li>
+       </ul>
+      </div>
+      <div class="fig-caption">
+       <span class="fig-label">Figure 2.</span>
+       <p id="p-9" class="first-child">Localities of the 115 dung beetle inventories performed on the America continent and used on the analysis.</p>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+    </div>
+    <div id="sec-4" class="subsection">
+     <h3>Explanatory variables</h3>
+     <p id="p-10">I used mammal richness as a proxy for resource availability because of biotic interactions between dung beetles and mammals (
+      <a id="xref-ref-35-3" class="xref-bibr" href="#ref-35">Nichols et al. 2009</a>, 
+      <a id="xref-ref-37-1" class="xref-bibr" href="#ref-37">2013</a>). In order to measure mammal richness, I downloaded the terrestrial mammals’ red list range shapefile (
+      <a id="xref-ref-24-1" class="xref-bibr" href="#ref-24">IUCN 2016</a>) to estimate the number of mammals richness in the locations where dung beetles were sampled. For each dung beetle locality, I counted the number of mammal species’ range shapefiles that overlap their coordinates using package 
+      <em>maptools</em> (
+      <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">Bivand and Lewin-Koh 2017</a>).
+     </p>
+     <p id="p-11">Climatic stability was measured as precipitation seasonality and temperature seasonality obtained from the worldclim with 5 arc-minutes resolution (approximately 10 km at equator line) (
+      <a id="xref-ref-22-1" class="xref-bibr" href="#ref-22">Hijmans et al. 2005</a>). I opted for a coarser resolution because many localities had their geographic coordinates manually assigned. These variables are important drivers of mammals distribution and are commonly used on studies with species distribution of mammals (e.g.: 
+      <a id="xref-ref-34-1" class="xref-bibr" href="#ref-34">Moura et al. 2016</a>, 
+      <a id="xref-ref-41-1" class="xref-bibr" href="#ref-41">Ribeiro et al. 2016</a>). Values of precipitation seasonality and temperature seasonality were extracted for each locality using package raster (
+      <a id="xref-ref-21-1" class="xref-bibr" href="#ref-21">Hijmans 2016</a>).
+     </p>
+     <p id="p-12">Both sampling effort and dung beetle abundance were used to control the effects of different sampling protocols and sampling efforts on dung beetle richness because measures of species richness disregarding differences in sampling effort may lead to biases estimations (
+      <a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">Gotelli and Colwell 2001</a>). Additionally, dung beetle abundance may change positively to increased climatic stability and resource stability because of other hypotheses (e.g.: more individuals hypothesis), therefore these confounding effects are minimized by incorporating this path in the structural model equations. Furthermore, there are cases in which dung beetle abundance may increase with a decrease in mammals’ richness (
+      <a id="xref-ref-6-2" class="xref-bibr" href="#ref-6">Culot et al. 2013</a>). However, this is an effect of selective defaunation of large mammals and if this effect is noticeable it should be accounted in the path analysis.
+     </p>
+    </div>
+    <div id="sec-5" class="subsection">
+     <h3>Data Analysis</h3>
+     <p id="p-13">A path analysis was built using the piecewise structural equation modeling approach that allows the incorporation of different models by building each model separately (
+      <a id="xref-ref-44-1" class="xref-bibr" href="#ref-44">Shipley 2009</a>; 
+      <a id="xref-ref-29-1" class="xref-bibr" href="#ref-29">Lefcheck 2016</a>). Additionally, path analysis helps to disentangle direct and indirect effects of climatic and resources on the richness patterns (
+      <a id="xref-ref-26-2" class="xref-bibr" href="#ref-26">Kissling et al. 2007</a>; 
+      <a id="xref-ref-34-2" class="xref-bibr" href="#ref-34">Moura et al. 2016</a>). First, I built three generalized least squares models (GLS) in order to account spatial autocorrelation using the package 
+      <em>nlme</em> (
+      <a id="xref-ref-39-1" class="xref-bibr" href="#ref-39">Pinheiro et al. 2014</a>). Spatial correlation structure present on the three models was reduced by selecting the best among four spatial correlations: Spheric, Exponential, Gaussian and Rational quadratic. The first model was built using mammal richness as the response variable, precipitation seasonality and temperature seasonality as explanatory variables, and using a rational quadratic spatial correlation structure. The second model was built using dung beetle abundance as the response variable, precipitation seasonality, temperature seasonality, mammal richness and sampling effort as explanatory variables, and using an exponential spatial correlation structure. The third model was built using dung beetle richness as the response variable and precipitation seasonality, temperature seasonality, mammal richness and dung beetle abundance as explanatory variables. These three models were assembled in a path analysis using the package 
+      <em>piecewiseSEM</em> (
+      <a id="xref-ref-29-2" class="xref-bibr" href="#ref-29">Lefcheck 2016</a>). The significance of the piecewise SEM was evaluated using Fisher’s C statistic in which a p-value above 0.05 is an indication that the model fits well to the data.
+     </p>
+     <p id="p-14">In all models, dung beetle abundance and dung beetle richness were log10 transformed in order to achieve residuals with a normal distribution. All analyses were carried out on the R environment (
+      <a id="xref-ref-40-1" class="xref-bibr" href="#ref-40">R Core Team 2017</a>). More details in model selection and models assumptions are found in the Supplementary file 2.
+     </p>
+    </div>
+   </div>
+   <div class="section" id="sec-6">
+    <h2 class="">Results</h2>
+    <p id="p-15">Dung beetle richness ranged from one to 101 species (mean ± SD = 21.5 ± 17.2), whereas mammals richness ranged from three to 193 species (113.9 ± 39.5). Dung beetle abundance ranged from seven to 93,274 individuals (5,226.8 ± 11,606.66).</p>
+    <p id="p-16">I found that the proposed path analysis had a good fit to the observed data (Fisher’s C = 5.05; d.f. =4; P=0.282; 
+     <a id="xref-fig-3-1" class="xref-fig" href="#F3">Figure 3</a>). Mammal richness was negatively affected both by temperature seasonality and precipitation seasonality (R
+     <sup>2</sup>=71.31%) whereas dung beetle abundance variation was explained only by sampling effort (R
+     <sup>2</sup>=9.03%).
+    </p>
+    <div id="F3" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F3.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Observed path analysis used to predict dung beetle richness. Dashed arrows are non-significant relationships between variables (p&gt;;0.05) while continuous arrows are significant relationships (p" class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-1817082218" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Observed path analysis used to predict dung beetle richness. Dashed arrows are non-significant relationships between variables (p&gt;;0.05) while continuous arrows are significant relationships (p&lt;;0.05). Black arrows are negative effects while dark gray arrows are positive effects. Double arrow represents correlations between exogenous variables. Note that both dung beetle richness and dung beetle abundance was log transformed.&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 3." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F3.medium.gif" width="440" height="383"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 3." src="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F3.medium.gif" width="440" height="383"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F3.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 3." data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/04/05/402537/F3.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 3.</span>
+      <p id="p-17" class="first-child">Observed path analysis used to predict dung beetle richness. Dashed arrows are non-significant relationships between variables (p&gt;;0.05) while continuous arrows are significant relationships (p&lt;;0.05). Black arrows are negative effects while dark gray arrows are positive effects. Double arrow represents correlations between exogenous variables. Note that both dung beetle richness and dung beetle abundance was log transformed.</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-18">In the model, 56.32% of the variation on dung beetle richness was explained. An increase on four units of dung beetle abundance resulted on an increase of one unit on dung beetle richness (b = 0.2472), and an increase of mammal richness resulted on an increase of dung beetle richness (b
+     <sub>log10</sub>=0.0023; b
+     <sub>antilog</sub>= 1.01). As expected, negative effects on dung beetle richness included a direct and an indirect effect, modulated through mammal richness, of temperature seasonality (b
+     <sub>direct</sub>=-0.0001and b
+     <sub>indirect</sub>= - 0.00003), but only indirect effects of precipitation seasonality dung beetle richness (b
+     <sub>indirect</sub>= −0.0005).
+    </p>
+   </div>
+   <div class="section" id="sec-7">
+    <h2 class="">Discussion</h2>
+    <p id="p-19">Here I have corroborated my hypothesis that dung beetle richness was higher in areas with higher climatic stability and higher resource availability. Despite this, dung beetle abundance was poorly explained on the model and that could be a consequence of lack of standardization between sampling protocols of studies (
+     <a id="xref-ref-27-1" class="xref-bibr" href="#ref-27">Larsen and Forsyth 2005</a>; 
+     <a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">da Silva and Hernández 2015</a>). As far as I have know, this is among the firsts empirical assessments of dung beetle richness pattern (see: 
+     <a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">Frank et al. 2018</a>), since only anecdotal evidence and local scale assessments were previously made (
+     <a id="xref-ref-17-2" class="xref-bibr" href="#ref-17">Halffter and Matthews 1966</a>; 
+     <a id="xref-ref-20-2" class="xref-bibr" href="#ref-20">Hernández and Vaz-de-Mello 2009</a>; 
+     <a id="xref-ref-30-2" class="xref-bibr" href="#ref-30">Liberal et al. 2011</a>).
+    </p>
+    <p id="p-20">Two non-exclusive explanations help to understand why there are more dung beetle species on areas with more resources available (i.e. higher mammals’ richness). First, an increase on resource availability should allow dung beetles to specialize on certain types of dung (e.g.: 
+     <a id="xref-ref-28-2" class="xref-bibr" href="#ref-28">Larsen et al. 2006</a>, 
+     <a id="xref-ref-25-1" class="xref-bibr" href="#ref-25">Jacobs et al. 2008</a>) and reduce interspecific competition between dung beetles. However, a recent study has shown an opposite trend – dung beetles have low specificity on resource use even on communities with high richness (
+     <a id="xref-ref-13-2" class="xref-bibr" href="#ref-13">Frank et al. 2018</a>). Second, an increase in mammal richness could result in an increase of different traits and lineages of mammals (
+     <a id="xref-ref-42-2" class="xref-bibr" href="#ref-42">Safi et al. 2011</a>). That, in turn, can increase the number of mammals with different activity times (e.g.: diurnal or nocturnal) and with different feeding and digestive systems (e.g.: herbivores or carnivores). Indeed, dung beetle community structure changes between night and day (
+     <a id="xref-ref-31-1" class="xref-bibr" href="#ref-31">Lopes et al. 2011</a>) or depending on dung type used as bait (
+     <a id="xref-ref-11-2" class="xref-bibr" href="#ref-11">Filgueiras et al. 2009</a>).
+    </p>
+    <p id="p-21">Climatic instability affects directly the time of activity when dung beetles can be active due to physiological constraints, mostly of small dung beetles (&lt;;2g) that are thermoconformers (
+     <a id="xref-ref-47-1" class="xref-bibr" href="#ref-47">Verdú et al. 2006</a>). Considering that areas with more climatic instability should have a higher variation on temperature during the day and during the year, this could in turn limit the number of dung beetles species active. Additionally, climatic instability should also increase the number of generalist dung beetle species in order to deal with a decrease on resource availability, climatic instability also reduces the number of mammals’ species, which reduces dung beetle species due to interspecific competition (
+     <a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">Finke and Snyder 2008</a>). Surprisingly, dung beetle richness was not directly affected by precipitation seasonality. This once again points towards climatic instability having an indirect effect through resource availability.
+    </p>
+    <p id="p-22">Here I had shown the importance of incorporating biotic interactions, here as trophic relationships between dung beetles and mammals, in order to decouple direct and indirect effects of climatic on species richness patterns, particularly because patterns of trophic groups can arise from random effects (
+     <a id="xref-ref-14-3" class="xref-bibr" href="#ref-14">Gaston 2000</a>). For example, a study revealed that congruent pattern of richness found with ants and trees are mostly explained by similar responses to environmental gradients (
+     <a id="xref-ref-46-1" class="xref-bibr" href="#ref-46">Vasconcelos et al. 2019</a>). Furthermore, I show analytical evidence that dung beetle richness is largely affected by mammals’ richness and that mammal’s richness can mediate climatic instability effects on dung beetles. My finding increases the understanding of the intrinsic relationship between detritivore (dung beetle) and producers (mammals) which have an important role in ecosystem services (e.g.: nutrient cycling and seed dispersal) (
+     <a id="xref-ref-35-4" class="xref-bibr" href="#ref-35">Nichols et al. 2009</a>) and since dung beetle are widely dependent of mammals conservation actions must take in consideration the need to preserve the actors involved in the detritus food web in order to conserve these ecosystem services.
+    </p>
+   </div>
+   <div class="section" id="sec-9">
+    <h2 class="">Declarations of interest</h2>
+    <p id="p-24">none.</p>
+   </div>
+   <div class="section ack" id="ack-1">
+    <h2 class="">Acknowledgments</h2>
+    <p id="p-23">I received a scholarship from Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). I am also grateful for the effort of all authors that sampled dung beetle communities used as source data for this study.</p>
+   </div>
+   <div class="section ref-list" id="ref-list-1">
+    <h2 class="">References</h2>
+    <ol class="cit-list ref-use-labels">
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference in text" id="ref-1">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.1" data-doi="10.1111/j.1744-7429.2005.00039.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Andresen</span>
+          <span class="cit-name-given-names">E</span>
+         </span> (
+         <span class="cit-pub-date">2005</span>) 
+         <span class="cit-article-title">Effects of Season and Vegetation Type on Community Organization of Dung Beetles in a Tropical Dry Forest</span>. 
+         <abbr class="cit-jnl-abbrev">Biotropica</abbr>
+         <span class="cit-vol">37</span>:
+         <span class="cit-fpage">291</span>–
+         <span class="cit-lpage">300</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1744-7429.2005.00039.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiotropica%26rft.volume%253D37%26rft.spage%253D291%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1744-7429.2005.00039.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1744-7429.2005.00039.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000229355500018&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference in text" id="ref-2">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.2" data-doi="10.1111/j.1469-7998.2000.tb00605.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Andrews</span>
+          <span class="cit-name-given-names">P</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">O’Brien</span>
+          <span class="cit-name-given-names">EM</span>
+         </span> (
+         <span class="cit-pub-date">2000</span>) 
+         <span class="cit-article-title">Climate, vegetation, and predictable gradients in mammal species richness in southern Africa</span>. 
+         <abbr class="cit-jnl-abbrev">J Zool</abbr>
+         <span class="cit-vol">251</span>:
+         <span class="cit-fpage">205</span>–
+         <span class="cit-lpage">231</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1469-7998.2000.tb00605.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ%2BZool%26rft.volume%253D251%26rft.spage%253D205%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1469-7998.2000.tb00605.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1469-7998.2000.tb00605.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference in text" id="ref-3">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.3">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bivand</span>
+          <span class="cit-name-given-names">R</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lewin-Koh</span>
+          <span class="cit-name-given-names">N</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">maptools: Tools for Reading and Handling Spatial Objects</span>. 
+         <abbr class="cit-jnl-abbrev">R package version 0.9-2</abbr>. 
+         <a href="https://cran.r-project.org/package=maptools">https://cran.r-project.org/package=maptools</a>
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference in text" id="ref-4">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.4" data-doi="10.1093/jisesa/ieu161">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bogoni</span>
+          <span class="cit-name-given-names">J a.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hernandez</span>
+          <span class="cit-name-given-names">MIM</span>
+         </span> (
+         <span class="cit-pub-date">2014</span>) 
+         <span class="cit-article-title">Attractiveness of Native Mammal’s Feces of Different Trophic Guilds to Dung Beetles (Coleoptera: Scarabaeinae</span>). 
+         <abbr class="cit-jnl-abbrev">J Insect Sci</abbr>
+         <span class="cit-vol">14</span>:
+         <span class="cit-fpage">299</span>–
+         <span class="cit-lpage">299</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1093/jisesa/ieu161</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ%2BInsect%2BSci%26rft_id%253Dinfo%253Adoi%252F10.1093%252Fjisesa%252Fieu161%26rft_id%253Dinfo%253Apmid%252F25528749%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1093/jisesa/ieu161&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=25528749&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference in text" id="ref-5">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.5" data-doi="10.1007/s10531-016-1147-1">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bogoni</span>
+          <span class="cit-name-given-names">JA</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Graipel</span>
+          <span class="cit-name-given-names">ME</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">de Castilho</span>
+          <span class="cit-name-given-names">PV</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Contributions of the mammal community, habitat structure, and spatial distance to dung beetle community structure</span>. 
+         <abbr class="cit-jnl-abbrev">Biodivers Conserv</abbr>
+         <span class="cit-vol">25</span>:
+         <span class="cit-fpage">1661</span>–
+         <span class="cit-lpage">1675</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1007/s10531-016-1147-1</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiodivers%2BConserv%26rft.volume%253D25%26rft.spage%253D1661%26rft_id%253Dinfo%253Adoi%252F10.1007%252Fs10531-016-1147-1%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1007/s10531-016-1147-1&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference in text" id="ref-6">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.6" data-doi="10.1016/j.biocon.2013.04.004">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Culot</span>
+          <span class="cit-name-given-names">L</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bovy</span>
+          <span class="cit-name-given-names">E</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">Zagury</span>
+          <span class="cit-name-surname">Vaz-de-Mello</span>
+         </span> F, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">Selective defaunation affects dung beetle communities in continuous Atlantic rainforest</span>. 
+         <abbr class="cit-jnl-abbrev">Biol Conserv</abbr>
+         <span class="cit-vol">163</span>:
+         <span class="cit-fpage">79</span>–
+         <span class="cit-lpage">89</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1016/j.biocon.2013.04.004</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiol%2BConserv%26rft.volume%253D163%26rft.spage%253D79%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.biocon.2013.04.004%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.biocon.2013.04.004&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference in text" id="ref-7">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.7" data-doi="10.1371/journal.pone.0126112">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">da Silva</span>
+          <span class="cit-name-given-names">PG</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hernández</span>
+          <span class="cit-name-given-names">MIM</span>
+         </span> (
+         <span class="cit-pub-date">2015</span>) 
+         <span class="cit-article-title">Spatial Patterns of Movement of Dung Beetle Species in a Tropical Forest Suggest a New Trap Spacing for Dung Beetle Biodiversity Studies</span>. 
+         <abbr class="cit-jnl-abbrev">PloS One</abbr>
+         <span class="cit-vol">10</span>:
+         <span class="cit-fpage">e0126112</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1371/journal.pone.0126112</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPloS%2BOne%26rft.volume%253D10%26rft.spage%253De0126112%26rft_id%253Dinfo%253Adoi%252F10.1371%252Fjournal.pone.0126112%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1371/journal.pone.0126112&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference in text" id="ref-8">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.8" data-doi="10.1098/rstb.2011.0058">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Davies</span>
+          <span class="cit-name-given-names">TJ</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Buckley</span>
+          <span class="cit-name-given-names">LB</span>
+         </span> (
+         <span class="cit-pub-date">2011</span>) 
+         <span class="cit-article-title">Phylogenetic diversity as a window into the evolutionary and biogeographic histories of present-day richness gradients for mammals</span>. 
+         <abbr class="cit-jnl-abbrev">Philos Trans R Soc B Biol Sci</abbr>
+         <span class="cit-vol">366</span>:
+         <span class="cit-fpage">2414</span>–
+         <span class="cit-lpage">2425</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1098/rstb.2011.0058</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPhilosophical%2BTransactions%2Bof%2Bthe%2BRoyal%2BSociety%2BB%253A%2BBiological%2BSciences%26rft.stitle%253DPhil%2BTrans%2BR%2BSoc%2BB%26rft.aulast%253DDavies%26rft.auinit1%253DT.%2BJ.%26rft.volume%253D366%26rft.issue%253D1576%26rft.spage%253D2414%26rft.epage%253D2425%26rft.atitle%253DPhylogenetic%2Bdiversity%2Bas%2Ba%2Bwindow%2Binto%2Bthe%2Bevolutionary%2Band%2Bbiogeographic%2Bhistories%2Bof%2Bpresent-day%2Brichness%2Bgradients%2Bfor%2Bmammals%26rft_id%253Dinfo%253Adoi%252F10.1098%252Frstb.2011.0058%26rft_id%253Dinfo%253Apmid%252F21768156%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1098/rstb.2011.0058&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=2014021940&amp;;link_type=GEOREF" class="cit-ref-sprinkles cit-ref-sprinkles-georef">
+         <span>GeoRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=21768156&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference in text" id="ref-9">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.9">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dobzhansky</span>
+          <span class="cit-name-given-names">T</span>
+         </span> (
+         <span class="cit-pub-date">1950</span>) 
+         <span class="cit-article-title">Evolution in the Tropics</span>. 
+         <abbr class="cit-jnl-abbrev">Am Sci</abbr>
+         <span class="cit-vol">38</span>:
+         <span class="cit-fpage">209</span>–
+         <span class="cit-lpage">221</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAm%2BSci%26rft.volume%253D38%26rft.spage%253D209%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference in text" id="ref-10">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.10" data-doi="10.1111/j.1365-2699.2008.01963.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Field</span>
+          <span class="cit-name-given-names">R</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hawkins</span>
+          <span class="cit-name-given-names">B a.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cornell</span>
+          <span class="cit-name-given-names">H V.</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2009</span>) 
+         <span class="cit-article-title">Spatial species-richness gradients across scales: A meta-analysis</span>. 
+         <abbr class="cit-jnl-abbrev">J Biogeogr</abbr>
+         <span class="cit-vol">36</span>:
+         <span class="cit-fpage">132</span>–
+         <span class="cit-lpage">147</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1365-2699.2008.01963.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ%2BBiogeogr%26rft.volume%253D36%26rft.spage%253D132%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1365-2699.2008.01963.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1365-2699.2008.01963.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000261620400013&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference in text" id="ref-11">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.11" data-doi="10.1590/S0085-56262009000300017">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Filgueiras</span>
+          <span class="cit-name-given-names">BKC</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Liberal</span>
+          <span class="cit-name-given-names">CN</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Aguiar</span>
+          <span class="cit-name-given-names">CDM</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2009</span>) 
+         <span class="cit-article-title">Attractivity of omnivore, carnivore and herbivore mammalian dung to Scarabaeinae (Coleoptera, Scarabaeidae) in a tropical Atlantic rainforest remnant</span>. 
+         <abbr class="cit-jnl-abbrev">Rev Bras Entomol</abbr>
+         <span class="cit-vol">53</span>:
+         <span class="cit-fpage">422</span>–
+         <span class="cit-lpage">427</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1590/S0085-56262009000300017</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DRev%2BBras%2BEntomol%26rft.volume%253D53%26rft.spage%253D422%26rft_id%253Dinfo%253Adoi%252F10.1590%252FS0085-56262009000300017%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1590/S0085-56262009000300017&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference in text" id="ref-12">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.12" data-doi="10.1126/science.1160854">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Finke</span>
+          <span class="cit-name-given-names">DL</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Snyder</span>
+          <span class="cit-name-given-names">WE</span>
+         </span> (
+         <span class="cit-pub-date">2008</span>) 
+         <span class="cit-article-title">Niche Increases Resource Partitioning by Diverse Communities Exploitation</span>. 
+         <abbr class="cit-jnl-abbrev">Science (80-)</abbr>
+         <span class="cit-vol">321</span>:
+         <span class="cit-fpage">1488</span>–
+         <span class="cit-lpage">1490</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1126/science.1160854</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DScience%26rft.stitle%253DScience%26rft.aulast%253DFinke%26rft.auinit1%253DD.%2BL.%26rft.volume%253D321%26rft.issue%253D5895%26rft.spage%253D1488%26rft.epage%253D1490%26rft.atitle%253DNiche%2BPartitioning%2BIncreases%2BResource%2BExploitation%2Bby%2BDiverse%2BCommunities%26rft_id%253Dinfo%253Adoi%252F10.1126%252Fscience.1160854%26rft_id%253Dinfo%253Apmid%252F18787167%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEzOiIzMjEvNTg5NS8xNDg4IjtzOjQ6ImF0b20iO3M6Mzc6Ii9iaW9yeGl2L2Vhcmx5LzIwMTkvMDQvMDUvNDAyNTM3LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ==" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink">
+         <span>
+          <span class="cit-reflinks-abstract">Abstract</span>
+          <span class="cit-sep cit-reflinks-variant-name-sep">/</span>
+          <span class="cit-reflinks-full-text">
+           <span class="free-full-text">FREE </span>Full Text
+          </span>
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference in text" id="ref-13">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.13" data-doi="10.1111/ele.13095">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Frank</span>
+          <span class="cit-name-given-names">K</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Krell</span>
+          <span class="cit-name-given-names">F-T</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Slade</span>
+          <span class="cit-name-given-names">EM</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">Global dung webs: high trophic generalism of dung beetles along the latitudinal diversity gradient</span>. 
+         <abbr class="cit-jnl-abbrev">Ecol Lett</abbr>
+         <span class="cit-vol">21</span>:
+         <span class="cit-fpage">1229</span>–
+         <span class="cit-lpage">1236</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/ele.13095</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcol%2BLett%26rft.volume%253D21%26rft.spage%253D1229%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fele.13095%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/ele.13095&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference in text" id="ref-14">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.14" data-doi="10.1038/35012228">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gaston</span>
+          <span class="cit-name-given-names">KJ</span>
+         </span> (
+         <span class="cit-pub-date">2000</span>) 
+         <span class="cit-article-title">Global patterns in biodiversity</span>. 
+         <abbr class="cit-jnl-abbrev">Nature</abbr>
+         <span class="cit-vol">405</span>:
+         <span class="cit-fpage">220</span>–
+         <span class="cit-lpage">227</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1038/35012228</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DNature%26rft.stitle%253DNature%26rft.aulast%253DGaston%26rft.auinit1%253DK.%2BJ.%26rft.volume%253D405%26rft.issue%253D6783%26rft.spage%253D220%26rft.epage%253D227%26rft.atitle%253DGlobal%2Bpatterns%2Bin%2Bbiodiversity.%26rft_id%253Dinfo%253Adoi%252F10.1038%252F35012228%26rft_id%253Dinfo%253Apmid%252F10821282%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1038/35012228&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10821282&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000087080100059&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference in text" id="ref-15">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.15" data-doi="10.1046/j.1461-0248.2001.00230.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gotelli</span>
+          <span class="cit-name-given-names">NJ</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Colwell</span>
+          <span class="cit-name-given-names">RK</span>
+         </span> (
+         <span class="cit-pub-date">2001</span>) 
+         <span class="cit-article-title">Quantifying biodiversity: procedures and pitfalls in the measurement and comparison of species richness</span>. 
+         <abbr class="cit-jnl-abbrev">Ecol Lett</abbr>
+         <span class="cit-vol">4</span>:
+         <span class="cit-fpage">379</span>–
+         <span class="cit-lpage">391</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1046/j.1461-0248.2001.00230.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcol%2BLett%26rft.volume%253D4%26rft.spage%253D379%26rft_id%253Dinfo%253Adoi%252F10.1046%252Fj.1461-0248.2001.00230.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1046/j.1461-0248.2001.00230.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000170417800015&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference in text" id="ref-16">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.16">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Halffter</span>
+          <span class="cit-name-given-names">G</span>
+         </span> (
+         <span class="cit-pub-date">1991</span>) 
+         <span class="cit-article-title">Historical and Ecological Factors Determining the Geographical Distribution of Beetles (Coleoptera Scarabaeidae: Scarabaeinae</span>). 
+         <abbr class="cit-jnl-abbrev">Folia Entomológica Mex</abbr>
+         <span class="cit-vol">82</span>:
+         <span class="cit-fpage">194</span>–
+         <span class="cit-lpage">238</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DFolia%2BEntomol%25F3gica%2BMex%26rft.volume%253D82%26rft.spage%253D194%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference in text" id="ref-17">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.17">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Halffter</span>
+          <span class="cit-name-given-names">G</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Matthews</span>
+          <span class="cit-name-given-names">E</span>
+         </span> (
+         <span class="cit-pub-date">1966</span>) 
+         <span class="cit-article-title">The Natural History of Dung Beetles of the Subfamily Scarabaeinae (Coleoptera, Scarabaeidae</span>). 
+         <abbr class="cit-jnl-abbrev">Folia Entomol Mex</abbr>
+         <span class="cit-vol">12–14</span>:
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">312</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DFolia%2BEntomol%2BMex%26rft.volume%253D1214%26rft.spage%253D1%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-18-1" title="View reference in text" id="ref-18">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.18" data-doi="10.1111/j.0906-7590.2004.03883.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hawkins</span>
+          <span class="cit-name-given-names">BA</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Diniz-Filho</span>
+          <span class="cit-name-given-names">JAF</span>
+         </span> (
+         <span class="cit-pub-date">2004</span>) 
+         <span class="cit-article-title">“Latitude” and Geographic Patterns in Species Richness</span>. 
+         <abbr class="cit-jnl-abbrev">Ecography (Cop)</abbr>
+         <span class="cit-vol">27</span>:
+         <span class="cit-fpage">268</span>–
+         <span class="cit-lpage">272</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.0906-7590.2004.03883.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcography%2B%2528Cop%2529%26rft.volume%253D27%26rft.spage%253D268%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.0906-7590.2004.03883.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.0906-7590.2004.03883.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000220549600014&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-19-1" title="View reference in text" id="ref-19">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.19" data-doi="10.1111/j.1366-9516.2004.00085.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hawkins</span>
+          <span class="cit-name-given-names">BA</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pausas</span>
+          <span class="cit-name-given-names">JG</span>
+         </span> (
+         <span class="cit-pub-date">2004</span>) 
+         <span class="cit-article-title">Does plant richness influence animal richness?: The mammals of Catalonia (NE Spain)</span>. 
+         <abbr class="cit-jnl-abbrev">Divers Distrib</abbr>
+         <span class="cit-vol">10</span>:
+         <span class="cit-fpage">247</span>–
+         <span class="cit-lpage">252</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1366-9516.2004.00085.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DDivers%2BDistrib%26rft.volume%253D10%26rft.spage%253D247%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1366-9516.2004.00085.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1366-9516.2004.00085.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-20-1" title="View reference in text" id="ref-20">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.20" data-doi="10.1590/S0085-56262009000400010">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hernández</span>
+          <span class="cit-name-given-names">MIM</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Vaz-de-Mello</span>
+          <span class="cit-name-given-names">FZ</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>) 
+         <span class="cit-article-title">Seasonal and spatial species richness variation of dung beetle (Coleoptera, Scarabaeidae s. str.) in the Atlantic Forest of southeastern Brazil</span>. 
+         <abbr class="cit-jnl-abbrev">Rev Bras Entomol</abbr>
+         <span class="cit-vol">53</span>:
+         <span class="cit-fpage">607</span>–
+         <span class="cit-lpage">613</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1590/S0085-56262009000400010</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DRev%2BBras%2BEntomol%26rft.volume%253D53%26rft.spage%253D607%26rft_id%253Dinfo%253Adoi%252F10.1590%252FS0085-56262009000400010%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1590/S0085-56262009000400010&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000273410000010&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-21-1" title="View reference in text" id="ref-21">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.21">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hijmans</span>
+          <span class="cit-name-given-names">RJ</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">raster: Geographic Data Analysis and Modeling</span>. 
+         <abbr class="cit-jnl-abbrev">R package version 2.5-8</abbr>. 
+         <a href="https://CRAN.R-project.org/package=raster">https://CRAN.R-project.org/package=raster</a>
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-22-1" title="View reference in text" id="ref-22">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.22" data-doi="10.1002/joc.1276">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hijmans</span>
+          <span class="cit-name-given-names">RJ</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cameron</span>
+          <span class="cit-name-given-names">SE</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Parra</span>
+          <span class="cit-name-given-names">JL</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2005</span>) 
+         <span class="cit-article-title">Very high resolution interpolated climate surfaces for global land areas</span>. 
+         <abbr class="cit-jnl-abbrev">Int J Climatol</abbr>
+         <span class="cit-vol">25</span>:
+         <span class="cit-fpage">1965</span>–
+         <span class="cit-lpage">1978</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1002/joc.1276</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DInt%2BJ%2BClimatol%26rft.volume%253D25%26rft.spage%253D1965%26rft_id%253Dinfo%253Adoi%252F10.1002%252Fjoc.1276%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1002/joc.1276&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000234519700002&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-23-1" title="View reference in text" id="ref-23">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.23" data-doi="10.1086/381004">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hillebrand</span>
+          <span class="cit-name-given-names">H</span>
+         </span> (
+         <span class="cit-pub-date">2004</span>) 
+         <span class="cit-article-title">On the Generality of the Latitudinal Diversity Gradient</span>. 
+         <abbr class="cit-jnl-abbrev">Am Nat</abbr>
+         <span class="cit-vol">163</span>:
+         <span class="cit-fpage">192</span>–
+         <span class="cit-lpage">211</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.2307/2678832</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAm%2BNat%26rft.volume%253D163%26rft.spage%253D192%26rft_id%253Dinfo%253Adoi%252F10.1086%252F381004%26rft_id%253Dinfo%253Apmid%252F14970922%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1086/381004&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=14970922&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000220378700003&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-24-1" title="View reference in text" id="ref-24">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.24">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth cit-collab">IUCN</span> (
+         <span class="cit-pub-date">2016</span>) 
+         <abbr class="cit-jnl-abbrev">The IUCN Red List of Threatened Species. Version 2016-1</abbr>. 
+         <a href="http://www.iucnredlist.org">http://www.iucnredlist.org</a>
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-25-1" title="View reference in text" id="ref-25">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.25" data-doi="10.1590/S1519-566X2008000600003">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Jacobs</span>
+          <span class="cit-name-given-names">J</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Nole</span>
+          <span class="cit-name-given-names">I</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Palminteri</span>
+          <span class="cit-name-given-names">S</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ratcliffe</span>
+          <span class="cit-name-given-names">B</span>
+         </span> (
+         <span class="cit-pub-date">2008</span>) 
+         <span class="cit-article-title">First come, first serve: “sit and wait” behavior in dung beetles at the source of primate dung</span>. 
+         <abbr class="cit-jnl-abbrev">Neotrop Entomol</abbr>
+         <span class="cit-vol">37</span>:
+         <span class="cit-fpage">641</span>–
+         <span class="cit-lpage">5</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.stitle%253DNeotrop%2BEntomol%26rft.aulast%253DJacobs%26rft.auinit1%253DJ.%26rft.volume%253D37%26rft.issue%253D6%26rft.spage%253D641%26rft.epage%253D645%26rft.atitle%253DFirst%2Bcome%252C%2Bfirst%2Bserve%253A%2B%2522sit%2Band%2Bwait%2522%2Bbehavior%2Bin%2Bdung%2Bbeetles%2Bat%2Bthe%2Bsource%2Bof%2Bprimate%2Bdung.%26rft_id%253Dinfo%253Adoi%252F10.1590%252FS1519-566X2008000600003%26rft_id%253Dinfo%253Apmid%252F19169550%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1590/S1519-566X2008000600003&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=19169550&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-26-1" title="View reference in text" id="ref-26">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.26" data-doi="10.1098/rspb.2006.0311">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kissling</span>
+          <span class="cit-name-given-names">WD</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Rahbek</span>
+          <span class="cit-name-given-names">C</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bohning-Gaese</span>
+          <span class="cit-name-given-names">K</span>
+         </span> (
+         <span class="cit-pub-date">2007</span>) 
+         <span class="cit-article-title">Food plant diversity as broad-scale determinant of avian frugivore richness</span>. 
+         <abbr class="cit-jnl-abbrev">Proc R Soc B Biol Sci</abbr>
+         <span class="cit-vol">274</span>:
+         <span class="cit-fpage">799</span>–
+         <span class="cit-lpage">808</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1098/rspb.2006.0311</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DProceedings%2Bof%2Bthe%2BRoyal%2BSociety%2BB%253A%2BBiological%2BSciences%26rft.stitle%253DProc%2BR%2BSoc%2BB%26rft.aulast%253DKissling%26rft.auinit1%253DW.%2BD.%26rft.volume%253D274%26rft.issue%253D1611%26rft.spage%253D799%26rft.epage%253D808%26rft.atitle%253DFood%2Bplant%2Bdiversity%2Bas%2Bbroad-scale%2Bdeterminant%2Bof%2Bavian%2Bfrugivore%2Brichness%26rft_id%253Dinfo%253Adoi%252F10.1098%252Frspb.2006.0311%26rft_id%253Dinfo%253Apmid%252F17251107%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1098/rspb.2006.0311&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=17251107&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000243842100006&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-27-1" title="View reference in text" id="ref-27">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.27" data-doi="10.1111/j.1744-7429.2005.00042.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Larsen</span>
+          <span class="cit-name-given-names">TH</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Forsyth</span>
+          <span class="cit-name-given-names">A</span>
+         </span> (
+         <span class="cit-pub-date">2005</span>) 
+         <span class="cit-article-title">Trap Spacing and Transect Design for Dung Beetle Biodiversity Studies</span>. 
+         <abbr class="cit-jnl-abbrev">Biotropica</abbr>
+         <span class="cit-vol">37</span>:
+         <span class="cit-fpage">322</span>–
+         <span class="cit-lpage">325</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiotropica%26rft.volume%253D37%26rft.spage%253D322%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1744-7429.2005.00042.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1744-7429.2005.00042.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000229355500022&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-28-1" title="View reference in text" id="ref-28">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.28" data-doi="10.1649/0010-065X(2006)60[315:ETAHSB]2.0.CO;2">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Larsen</span>
+          <span class="cit-name-given-names">TH</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lopera</span>
+          <span class="cit-name-given-names">A</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Forsyth</span>
+          <span class="cit-name-given-names">A</span>
+         </span> (
+         <span class="cit-pub-date">2006</span>) 
+         <span class="cit-article-title">Extreme trophic and habitat specialization by Peruvian dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae</span>). 
+         <abbr class="cit-jnl-abbrev">Coleopt Bull</abbr>
+         <span class="cit-vol">60</span>:
+         <span class="cit-fpage">315</span>–
+         <span class="cit-lpage">324</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DColeopt%2BBull%26rft.volume%253D60%26rft.spage%253D315%26rft_id%253Dinfo%253Adoi%252F10.1649%252F0010-065X%25282006%252960%255B315%253AETAHSB%255D2.0.CO%253B2%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1649/0010-065X(2006)60[315:ETAHSB]2.0.CO;2&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-29-1" title="View reference in text" id="ref-29">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.29" data-doi="10.1111/2041-210X.12512">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lefcheck</span>
+          <span class="cit-name-given-names">JS</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">piecewiseSEM⟭: Piecewise structural equation modelling in r for ecology, evolution, and systematics</span>. 
+         <abbr class="cit-jnl-abbrev">Methods Ecol Evol</abbr>
+         <span class="cit-vol">7</span>:
+         <span class="cit-fpage">573</span>–
+         <span class="cit-lpage">579</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/2041-210X.12512</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMethods%2BEcol%2BEvol%26rft_id%253Dinfo%253Adoi%252F10.1111%252F2041-210X.12512%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/2041-210X.12512&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-30-1" title="View reference in text" id="ref-30">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.30" data-doi="10.1673/031.011.13501">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Liberal</span>
+          <span class="cit-name-given-names">CN</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">Isidro</span>
+          <span class="cit-name-surname">de Farias</span>
+         </span> Â., 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Meiado</span>
+          <span class="cit-name-given-names">MV</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2011</span>) 
+         <span class="cit-article-title">How habitat change and rainfall affect dung beetle diversity in Caatinga, a Brazilian semi-arid ecosystem</span>. 
+         <abbr class="cit-jnl-abbrev">J Insect Sci</abbr>
+         <span class="cit-vol">11</span>:
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">11</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2BInsect%2BScience%26rft.stitle%253DJ%2BInsect%2BSci%26rft.aulast%253DSanchez-Pena%26rft.auinit1%253DS.%2BR.%26rft.volume%253D11%26rft.spage%253D1%26rft.epage%253D1%26rft.atitle%253DOccurrence%2Bof%2Bentomopathogenic%2Bfungi%2Bfrom%2Bagricultural%2Band%2Bnatural%2Becosystems%2Bin%2BSaltillo%252C%2BMexico%252C%2Band%2Btheir%2Bvirulence%2Btowards%2Bthrips%2Band%2Bwhiteflies.%26rft_id%253Dinfo%253Adoi%252F10.1673%252F031.011.13501%26rft_id%253Dinfo%253Apmid%252F21521145%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1673/031.011.13501&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=21521145&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-31-1" title="View reference in text" id="ref-31">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-402537v2.31" data-doi="10.1590/S1984-46702011000100011">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lopes</span>
+          <span class="cit-name-given-names">J</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Korasaki</span>
+          <span class="cit-name-given-names">V</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Catelli</span>
+          <span class="cit-name-given-names">LL</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2011</span>) 
+         <span class="cit-chapter-title">A comparison of dung beetle assemblage structure (Coleoptera: Scarabaeidae: Scarabaeinae) between an Atlantic forest fragment and adjacent</span>
+         <span class="cit-source">abandoned pasture in Paraná</span>, 
+         <span class="cit-publ-loc">Brazil. Zool</span> (
+         <span class="cit-publ-name">Curitiba, Impresso</span>) 
+         <span class="cit-vol">28</span>:
+         <span class="cit-fpage">72</span>–
+         <span class="cit-lpage">79</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1590/S1984-46702011000100011</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253Dabandoned%2Bpasture%2Bin%2BParan%25E1%26rft.volume%253D28%26rft.spage%253D72%26rft_id%253Dinfo%253Adoi%252F10.1590%252FS1984-46702011000100011%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1590/S1984-46702011000100011&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000288360400011&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-32-1" title="View reference in text" id="ref-32">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.32" data-doi="10.1111/j.1461-0248.2007.01020.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mittelbach</span>
+          <span class="cit-name-given-names">GG</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Schemske</span>
+          <span class="cit-name-given-names">DW</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cornell</span>
+          <span class="cit-name-given-names">H V.</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2007</span>) 
+         <span class="cit-article-title">Evolution and the latitudinal diversity gradient: Speciation, extinction and biogeography</span>. 
+         <abbr class="cit-jnl-abbrev">Ecol Lett</abbr>
+         <span class="cit-vol">10</span>:
+         <span class="cit-fpage">315</span>–
+         <span class="cit-lpage">331</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1461-0248.2007.01020.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.stitle%253DEcol%2BLett%26rft.aulast%253DMittelbach%26rft.auinit1%253DG.%2BG.%26rft.volume%253D10%26rft.issue%253D4%26rft.spage%253D315%26rft.epage%253D331%26rft.atitle%253DEvolution%2Band%2Bthe%2Blatitudinal%2Bdiversity%2Bgradient%253A%2Bspeciation%252C%2Bextinction%2Band%2Bbiogeography.%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1461-0248.2007.01020.x%26rft_id%253Dinfo%253Apmid%252F17355570%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1461-0248.2007.01020.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=17355570&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000244883700007&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-33-1" title="View reference in text" id="ref-33">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.33" data-doi="10.1111/btp.12281">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Moles</span>
+          <span class="cit-name-given-names">AT</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ollerton</span>
+          <span class="cit-name-given-names">J</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Is the notion that species interactions are stronger and more specialized in the tropics a zombie idea?</span>
+         <abbr class="cit-jnl-abbrev">Biotropica</abbr>
+         <span class="cit-vol">48</span>:
+         <span class="cit-fpage">141</span>–
+         <span class="cit-lpage">145</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/btp.12281</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiotropica%26rft.volume%253D48%26rft.spage%253D141%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fbtp.12281%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/btp.12281&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-34-1" title="View reference in text" id="ref-34">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.34" data-doi="10.1371/journal.pone.0152468">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Moura</span>
+          <span class="cit-name-given-names">MR</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Villalobos</span>
+          <span class="cit-name-given-names">F</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Costa</span>
+          <span class="cit-name-given-names">GC</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Garcia</span>
+          <span class="cit-name-given-names">PCA</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Disentangling the Role of Climate, Topography and Vegetation in Species Richness Gradients</span>. 
+         <abbr class="cit-jnl-abbrev">PloS One</abbr>
+         <span class="cit-vol">11</span>:
+         <span class="cit-fpage">e0152468</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1371/journal.pone.0152468</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPloS%2BOne%26rft.volume%253D11%26rft.spage%253De0152468%26rft_id%253Dinfo%253Adoi%252F10.1371%252Fjournal.pone.0152468%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1371/journal.pone.0152468&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-35-1" title="View reference in text" id="ref-35">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.35" data-doi="10.1111/j.1600-0706.2009.17268.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Nichols</span>
+          <span class="cit-name-given-names">E</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gardner</span>
+          <span class="cit-name-given-names">T a.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Peres</span>
+          <span class="cit-name-given-names">C a.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Spector</span>
+          <span class="cit-name-given-names">S</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>) 
+         <span class="cit-article-title">Co-declining mammals and dung beetles: an impending ecological cascade</span>. 
+         <abbr class="cit-jnl-abbrev">Oikos</abbr>
+         <span class="cit-vol">118</span>:
+         <span class="cit-fpage">481</span>–
+         <span class="cit-lpage">487</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1600-0706.2008.17268.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOikos%26rft.volume%253D118%26rft.spage%253D481%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1600-0706.2009.17268.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1600-0706.2009.17268.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000264785400001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-36-1" title="View reference in text" id="ref-36">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.36" data-doi="10.1002/ece3.2253">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Nichols</span>
+          <span class="cit-name-given-names">E</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Peres</span>
+          <span class="cit-name-given-names">CA</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hawes</span>
+          <span class="cit-name-given-names">JE</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Naeem</span>
+          <span class="cit-name-given-names">S</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Multitrophic diversity effects of network degradation</span>. 
+         <abbr class="cit-jnl-abbrev">Ecol Evol</abbr>
+         <span class="cit-vol">6</span>:
+         <span class="cit-fpage">4936</span>–
+         <span class="cit-lpage">4946</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1002/ece3.2253</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcol%2BEvol%26rft.volume%253D6%26rft.spage%253D4936%26rft_id%253Dinfo%253Adoi%252F10.1002%252Fece3.2253%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1002/ece3.2253&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-37-1" title="View reference in text" id="ref-37">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.37" data-doi="10.1371/journal.pone.0075819">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Nichols</span>
+          <span class="cit-name-given-names">E</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Uriarte</span>
+          <span class="cit-name-given-names">M</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Peres</span>
+          <span class="cit-name-given-names">C a</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">Human-Induced Trophic Cascades along the Fecal Detritus Pathway</span>. 
+         <abbr class="cit-jnl-abbrev">PloS One</abbr>
+         <span class="cit-vol">8</span>:
+         <span class="cit-fpage">e75819</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1371/journal.pone.0075819</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPloS%2BOne%26rft.volume%253D8%26rft.spage%253De75819%26rft_id%253Dinfo%253Adoi%252F10.1371%252Fjournal.pone.0075819%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1371/journal.pone.0075819&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-38-1" title="View reference in text" id="ref-38">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.38" data-doi="10.1086/282398">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pianka</span>
+          <span class="cit-name-given-names">ER</span>
+         </span> (
+         <span class="cit-pub-date">1966</span>) 
+         <span class="cit-article-title">Latitudinal Gradients in Species Diversity: A Review of Concepts</span>. 
+         <abbr class="cit-jnl-abbrev">Am Nat</abbr>
+         <span class="cit-vol">100</span>:
+         <span class="cit-fpage">33</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1086/282398</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAm%2BNat%26rft.volume%253D100%26rft.spage%253D33%26rft_id%253Dinfo%253Adoi%252F10.1086%252F282398%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1086/282398&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A19667337600003&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-39-1" title="View reference in text" id="ref-39">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.39">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pinheiro</span>
+          <span class="cit-name-given-names">J</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bates</span>
+          <span class="cit-name-given-names">D</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">DebRoy</span>
+          <span class="cit-name-given-names">S</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2014</span>) 
+         <span class="cit-article-title">nlme: Linear and Nonlinear Mixed Effects Models_</span>. 
+         <abbr class="cit-jnl-abbrev">R package versione 3</abbr>.
+         <span class="cit-fpage">1</span>-
+         <span class="cit-lpage">117</span>, URL: 
+         <a href="http://CRAN.R-project.org/package=nlme">http://CRAN.R-project.org/package=nlme</a>
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-40-1" title="View reference in text" id="ref-40">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.40">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth cit-collab">R Core Team</span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">R: A language and environment for statistical computing</span>. 
+         <abbr class="cit-jnl-abbrev">R Foundation for Statistical Computing, Vienna, Austria</abbr>. URL 
+         <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-41-1" title="View reference in text" id="ref-41">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.41" data-doi="10.1371/journal.pone.0165073">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ribeiro</span>
+          <span class="cit-name-given-names">BR</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Sales</span>
+          <span class="cit-name-given-names">LP</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">De Marco</span>
+          <span class="cit-name-given-names">P</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Loyola</span>
+          <span class="cit-name-given-names">R</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Assessing Mammal Exposure to Climate Change in the Brazilian Amazon</span>. 
+         <abbr class="cit-jnl-abbrev">PloS One</abbr>
+         <span class="cit-vol">11</span>:
+         <span class="cit-fpage">e0165073</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1371/journal.pone.0165073</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPloS%2BOne%26rft.volume%253D11%26rft.spage%253De0165073%26rft_id%253Dinfo%253Adoi%252F10.1371%252Fjournal.pone.0165073%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1371/journal.pone.0165073&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-42-1" title="View reference in text" id="ref-42">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.42" data-doi="10.1098/rstb.2011.0024">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Safi</span>
+          <span class="cit-name-given-names">K</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cianciaruso</span>
+          <span class="cit-name-given-names">M V.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Loyola</span>
+          <span class="cit-name-given-names">RD</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2011</span>) 
+         <span class="cit-article-title">Understanding global patterns of mammalian functional and phylogenetic diversity</span>. 
+         <abbr class="cit-jnl-abbrev">Philos Trans R Soc B Biol Sci</abbr>
+         <span class="cit-vol">366</span>:
+         <span class="cit-fpage">2536</span>–
+         <span class="cit-lpage">2544</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1098/rstb.2011.0024</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPhilosophical%2BTransactions%2Bof%2Bthe%2BRoyal%2BSociety%2BB%253A%2BBiological%2BSciences%26rft.stitle%253DPhil%2BTrans%2BR%2BSoc%2BB%26rft.aulast%253DSafi%26rft.auinit1%253DK.%26rft.volume%253D366%26rft.issue%253D1577%26rft.spage%253D2536%26rft.epage%253D2544%26rft.atitle%253DUnderstanding%2Bglobal%2Bpatterns%2Bof%2Bmammalian%2Bfunctional%2Band%2Bphylogenetic%2Bdiversity%26rft_id%253Dinfo%253Adoi%252F10.1098%252Frstb.2011.0024%26rft_id%253Dinfo%253Apmid%252F21807734%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1098/rstb.2011.0024&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=21807734&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-43-1" title="View reference in text" id="ref-43">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.43" data-doi="10.1016/j.cub.2012.08.015">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Schleuning</span>
+          <span class="cit-name-given-names">M</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Fründ</span>
+          <span class="cit-name-given-names">J</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Klein</span>
+          <span class="cit-name-given-names">AM</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2012</span>) 
+         <span class="cit-article-title">Specialization of mutualistic interaction networks decreases toward tropical latitudes</span>. 
+         <abbr class="cit-jnl-abbrev">Curr Biol</abbr>
+         <span class="cit-vol">22</span>:
+         <span class="cit-fpage">1925</span>–
+         <span class="cit-lpage">1931</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1016/j.cub.2012.08.015</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DCurrent%2Bbiology%2B%253A%2B%2BCB%26rft.stitle%253DCurr%2BBiol%26rft.aulast%253DSchleuning%26rft.auinit1%253DM.%26rft.volume%253D22%26rft.issue%253D20%26rft.spage%253D1925%26rft.epage%253D1931%26rft.atitle%253DSpecialization%2Bof%2BMutualistic%2BInteraction%2BNetworks%2BDecreases%2Btoward%2BTropical%2BLatitudes.%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.cub.2012.08.015%26rft_id%253Dinfo%253Apmid%252F22981771%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.cub.2012.08.015&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=22981771&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-44-1" title="View reference in text" id="ref-44">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.44" data-doi="10.1890/08-1034.1">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Shipley</span>
+          <span class="cit-name-given-names">B</span>
+         </span> (
+         <span class="cit-pub-date">2009</span>) 
+         <span class="cit-article-title">Confirmatory path analysis in a generalized multilevel context</span>. 
+         <abbr class="cit-jnl-abbrev">Ecology</abbr>
+         <span class="cit-vol">90</span>:
+         <span class="cit-fpage">363</span>–
+         <span class="cit-lpage">368</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1890/08-1034.1</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcology%26rft.stitle%253DEcology%26rft.aulast%253DShipley%26rft.auinit1%253DB.%26rft.volume%253D90%26rft.issue%253D2%26rft.spage%253D363%26rft.epage%253D368%26rft.atitle%253DConfirmatory%2Bpath%2Banalysis%2Bin%2Ba%2Bgeneralized%2Bmultilevel%2Bcontext.%26rft_id%253Dinfo%253Adoi%252F10.1890%252F08-1034.1%26rft_id%253Dinfo%253Apmid%252F19323220%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1890/08-1034.1&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=19323220&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000263570800011&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-45-1" title="View reference in text" id="ref-45">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.45" data-doi="10.1086/284913">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Stevens</span>
+          <span class="cit-name-given-names">GC</span>
+         </span> (
+         <span class="cit-pub-date">1989</span>) 
+         <span class="cit-article-title">The latitudinal gradient in geographic range: how so many species coexist in the tropics</span>. 
+         <abbr class="cit-jnl-abbrev">Am Nat</abbr>
+         <span class="cit-vol">133</span>:
+         <span class="cit-fpage">240</span>–
+         <span class="cit-lpage">256</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAm%2BNat%26rft.volume%253D133%26rft.spage%253D240%26rft_id%253Dinfo%253Adoi%252F10.1086%252F284913%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1086/284913&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1989T251800007&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-46-1" title="View reference in text" id="ref-46">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.46" data-doi="10.1007/s10531-019-01708-9">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Vasconcelos</span>
+          <span class="cit-name-given-names">HL</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Maravalhas</span>
+          <span class="cit-name-given-names">JB</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Neves</span>
+          <span class="cit-name-given-names">KC</span>
+         </span>, 
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">Congruent spatial patterns of ant and tree diversity in Neotropical savannas</span>. 
+         <abbr class="cit-jnl-abbrev">Biodivers Conserv</abbr>
+         <span class="cit-vol">28</span>:
+         <span class="cit-fpage">1075</span>–
+         <span class="cit-lpage">1089</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1007/s10531-019-01708-9</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiodivers%2BConserv%26rft.volume%253D28%26rft.spage%253D1075%26rft_id%253Dinfo%253Adoi%252F10.1007%252Fs10531-019-01708-9%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1007/s10531-019-01708-9&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-47-1" title="View reference in text" id="ref-47">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.47" data-doi="10.1016/j.jinsphys.2006.05.005">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Verdú</span>
+          <span class="cit-name-given-names">JR</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Arellano</span>
+          <span class="cit-name-given-names">L</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Numa</span>
+          <span class="cit-name-given-names">C</span>
+         </span> (
+         <span class="cit-pub-date">2006</span>) 
+         <span class="cit-article-title">Thermoregulation in endothermic dung beetles (Coleoptera: Scarabaeidae): effect of body size and ecophysiological constraints in flight</span>. 
+         <abbr class="cit-jnl-abbrev">J Insect Physiol</abbr>
+         <span class="cit-vol">52</span>:
+         <span class="cit-fpage">854</span>–
+         <span class="cit-lpage">60</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1016/j.jinsphys.2006.05.005</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2BInsect%2BPhysiology%26rft.stitle%253DJournal%2Bof%2BInsect%2BPhysiology%26rft.aulast%253DKidokoro%26rft.auinit1%253DK.%26rft.volume%253D52%26rft.issue%253D8%26rft.spage%253D854%26rft.epage%253D860%26rft.atitle%253DThermoregulation%2Bin%2Bendothermic%2Bdung%2Bbeetles%2B%2528Coleoptera%253A%2BScarabaeidae%2529%253A%2Beffect%2Bof%2Bbody%2Bsize%2Band%2Becophysiological%2Bconstraints%2Bin%2Bflight.%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.jinsphys.2006.05.005%26rft_id%253Dinfo%253Apmid%252F16854429%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.jinsphys.2006.05.005&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=16854429&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F04%2F05%2F402537.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000240167700009&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-48-1" title="View reference in text" id="ref-48">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.48" data-doi="10.1111/j.1472-4642.2007.00418.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Williams</span>
+          <span class="cit-name-given-names">SE</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Middleton</span>
+          <span class="cit-name-given-names">J</span>
+         </span> (
+         <span class="cit-pub-date">2008</span>) 
+         <span class="cit-article-title">Climatic seasonality, resource bottlenecks, and abundance of rainforest birds: Implications for global climate change</span>. 
+         <abbr class="cit-jnl-abbrev">Divers Distrib</abbr>
+         <span class="cit-vol">14</span>:
+         <span class="cit-fpage">69</span>–
+         <span class="cit-lpage">77</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1111/j.1472-4642.2007.00418.x</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DDivers%2BDistrib%26rft.volume%253D14%26rft.spage%253D69%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1472-4642.2007.00418.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1472-4642.2007.00418.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000251584500008&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-49-1" title="View reference in text" id="ref-49">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.49" data-doi="10.1146/annurev.ecolsys.34.012103.144032">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Willig</span>
+          <span class="cit-name-given-names">MR</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kaufman</span>
+          <span class="cit-name-given-names">DM</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Stevens</span>
+          <span class="cit-name-given-names">RD</span>
+         </span> (
+         <span class="cit-pub-date">2003</span>) 
+         <span class="cit-article-title">Latitudinal Gradients of Biodiversity: Pattern, Process, Scale, and Synthesis</span>. 
+         <abbr class="cit-jnl-abbrev">Annu Rev Ecol Evol Syst</abbr>
+         <span class="cit-vol">34</span>:
+         <span class="cit-fpage">273</span>–
+         <span class="cit-lpage">309</span>.
+         <span class="cit-pub-id-sep cit-pub-id-doi-sep"> </span>
+         <span class="cit-pub-id-scheme">doi:</span>
+         <span class="cit-pub-id cit-pub-id-doi">10.1146/annurev.ecolsys.34.012103.144032</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAnnual%2BReview%2Bof%2BEcology%2Band%2BSystematics%26rft.stitle%253DAnnu.%2BRev.%2BEcol.%2BSyst.%26rft.volume%253D34%26rft.spage%253D273%26rft_id%253Dinfo%253Adoi%252F10.1146%252Fannurev.ecolsys.34.012103.144032%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1146/annurev.ecolsys.34.012103.144032&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000220102000011&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-50-1" title="View reference in text" id="ref-50">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-402537v2.50" data-doi="10.1146/annurev.es.19.110188.000245">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wolda</span>
+          <span class="cit-name-given-names">H</span>
+         </span> (
+         <span class="cit-pub-date">1988</span>) 
+         <span class="cit-article-title">Insect seasonality: why?</span>
+         <abbr class="cit-jnl-abbrev">Annu Rev Ecol Syst</abbr>
+         <span class="cit-vol">19</span>:
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">18</span>
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAnnual%2BReview%2Bof%2BEcology%2Band%2BSystematics%26rft.stitle%253DAnnu.%2BRev.%2BEcol.%2BSyst.%26rft.aulast%253DWolda%26rft.auinit1%253DH%26rft.volume%253D19%26rft.issue%253D1%26rft.spage%253D1%26rft.epage%253D18%26rft.atitle%253DInsect%2BSeasonality%253A%2BWhy%26rft_id%253Dinfo%253Adoi%252F10.1146%252Fannurev.es.19.110188.000245%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1146/annurev.es.19.110188.000245&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1988R137700001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+    </ol>
+   </div>
+   <span class="highwire-journal-article-marker-end"/>
+  </div>
+ </body>
+</html>

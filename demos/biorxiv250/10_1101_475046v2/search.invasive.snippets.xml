@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_475046v2/results/search/invasive/results.xml">
+  <result pre="in the same community ( García-Camacho et al., 2017 )." exact="Species" post="realized climatic niche values were derived as in Bilton"/>
+  <result pre="conversely CNG4 gathered species distributed in areas with high rainfall." exact="Species" post="from all four CNGs were present in both communities"/>
+  <result pre="p-value. Probability values for significant terms are reported in bold." exact="Species" post="composition The RDA indicated four distinct communities emerging from"/>
+  <result pre="Wu J , Chen Z , Li L . 2004." exact="Ecosystem" post="stability and compensatory effects in the Inner Mongolia grassland."/>
+  <result pre="Slowik F , Yang X , Bilton MC . 2018." exact="Species" post="selection under long-term experimental warming and drought explained by"/>
+  <result pre="Henry M , Stevens H , et al. 2015. vegan:" exact="Community" post="ecology package. ↵ Pake CE , Venable DL ."/>
+ </snippets>
+</snippetsTree>

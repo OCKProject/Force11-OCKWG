@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6126862/results/search/invasive/results.xml">
+  <result pre="PONE-D-17-41424 : Research Article : Biology and Life Sciences :" exact="Population" post="Biology : Population Metrics: Fecundity : Biology and Life"/>
+  <result pre="Article : Biology and Life Sciences : Population Biology :" exact="Population" post="Metrics: Fecundity : Biology and Life Sciences : Population"/>
+  <result pre=": Population Metrics: Fecundity : Biology and Life Sciences :" exact="Population" post="Biology : Population Metrics: Death Rates : Earth Sciences"/>
+  <result pre="Fecundity : Biology and Life Sciences : Population Biology :" exact="Population" post="Metrics: Death Rates : Earth Sciences : Atmospheric Science"/>
+  <result pre=": Climatology: Climate Change : Biology and Life Sciences :" exact="Population" post="Biology: Population Dynamics : Biology and Life Sciences: Conservation"/>
+  <result pre="Climate Change : Biology and Life Sciences : Population Biology:" exact="Population" post="Dynamics : Biology and Life Sciences: Conservation Biology :"/>
+  <result pre="species protected through statutory processes, such as the U.S. Endangered" exact="Species" post="Act, to promote their long-term persistence [ 6, 7]."/>
+  <result pre="are &quot;juveniles&quot;. Larger sensitivities shown are in bold for emphasis." exact="Species" post="are DE = Diomedea exulans (albatross), OO = Orchinus"/>
+  <result pre="to shift. However, the universality and dynamic nature of the" exact="threat" post="of climate change will require a rethinking of paradigms."/>
+  <result pre="al. Incorporating climate science in applications of the US Endangered" exact="Species" post="Act for aquatic species . Conserv Biol. 2013; 27("/>
+  <result pre=", Armitage KB , et al. How Life History Influences" exact="Population" post="Dynamics in Fluctuating Environments. Am Nat. 2013; 182( 6):"/>
+  <result pre="Halley JM , Iwasa Y . Extinction Rate of a" exact="Population" post="under both Demographic and Environmental Stochasticity. Theoretical Population Biology."/>
+  <result pre="of a Population under both Demographic and Environmental Stochasticity. Theoretical" exact="Population" post="Biology. 1998; 53( 1): 1– 15. 10.1006/tpbi.1997.1336 9500907 37"/>
+  <result pre="1996; 53( 7): 1618– 25. 44 Sadovy Y . The" exact="threat" post="of fishing to highly fecund fishes. J Fish Biol."/>
+  <result pre="Manage. 2007; 71( 2): 518– 25. 55 Hughes TP ." exact="Population" post="Dynamics Based on Individual Size Rather than Age: A"/>
+  <result pre="DT , Crowder LB , Caswell H . A Stage-Based" exact="Population" post="Model for Loggerhead Sea Turtles and Implications for Conservation."/>
+ </snippets>
+</snippetsTree>

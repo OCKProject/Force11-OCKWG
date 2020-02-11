@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_572925v2/results/word/frequencies/results.xml">
+  <result title="frequency" word="lake" count="148"/>
+  <result title="frequency" word="depth" count="82"/>
+  <result title="frequency" word="biomass" count="49"/>
+  <result title="frequency" word="proportion" count="46"/>
+  <result title="frequency" word="use" count="46"/>
+  <result title="frequency" word="species" count="44"/>
+  <result title="frequency" word="area" count="43"/>
+  <result title="frequency" word="littoral" count="43"/>
+  <result title="frequency" word="habitat" count="41"/>
+  <result title="frequency" word="lakes" count="41"/>
+  <result title="frequency" word="fish" count="40"/>
+  <result title="frequency" word="smallmouth" count="35"/>
+  <result title="frequency" word="trout" count="33"/>
+  <result title="frequency" word="food" count="31"/>
+  <result title="frequency" word="OpenUrl" count="30"/>
+  <result title="frequency" word="prey" count="29"/>
+  <result title="frequency" word="surface" count="29"/>
+  <result title="frequency" word="mean" count="27"/>
+  <result title="frequency" word="index" count="26"/>
+  <result title="frequency" word="bass" count="25"/>
+  <result title="frequency" word="thermal" count="25"/>
+  <result title="frequency" word="offshore" count="24"/>
+  <result title="frequency" word="Table" count="23"/>
+  <result title="frequency" word="maximum" count="21"/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_706739v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="[]." count="88"/>
+  <result title="frequency" word="OpenUrl" count="63"/>
+  <result title="frequency" word="&amp;amp;;" count="49"/>
+  <result title="frequency" word="environmental" count="48"/>
+  <result title="frequency" word="drought" count="47"/>
+  <result title="frequency" word="maize" count="47"/>
+  <result title="frequency" word="association" count="31"/>
+  <result title="frequency" word="trials" count="30"/>
+  <result title="frequency" word="plant" count="28"/>
+  <result title="frequency" word="alleles" count="27"/>
+  <result title="frequency" word="associated" count="26"/>
+  <result title="frequency" word="genetic" count="26"/>
+  <result title="frequency" word="GWAS" count="25"/>
+  <result title="frequency" word="loci" count="25"/>
+  <result title="frequency" word="variation" count="25"/>
+  <result title="frequency" word="CrossRef" count="24"/>
+  <result title="frequency" word="Figure" count="24"/>
+  <result title="frequency" word="effects" count="24"/>
+  <result title="frequency" word="phenotypes" count="24"/>
+  <result title="frequency" word="candidate" count="23"/>
+  <result title="frequency" word="data" count="22"/>
+  <result title="frequency" word="yield" count="22"/>
+  <result title="frequency" word="adaptation" count="21"/>
+  <result title="frequency" word="adaptive" count="21"/>
+  <result title="frequency" word="climate" count="21"/>
+  <result title="frequency" word="gene" count="21"/>
+ </snippets>
+</snippetsTree>

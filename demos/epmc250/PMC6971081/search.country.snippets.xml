@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6971081/results/search/country/results.xml">
+  <result pre="2.6 4.5 6.0 8.5 BCC-CSM1.1 91– 93 Beijing Climate Center," exact="China" post="Meteorological Administration O O O O BCC-CSM1.1(m) 91– 93"/>
+  <result pre="and Industrial Research Organization (CSIRO) and Bureau of Meteorology (BOM)," exact="Australia" post="X O X O CSIRO-ACCESS1.3 100, 101 X O"/>
+  <result pre="FIO-ESM 104 The First Institute of Oceanography, State Oceanic Administration," exact="China" post="O O O O GFDL-CM3 105, 106 NOAA Geophysical"/>
+  <result pre="113 University of Tokyo, National Institute for Environmental Studies and" exact="Japan" post="Agency for Marine-Earth Science and Technology O O O"/>
+  <result pre="majority of the world zones studied. In areas such as" exact="Australia" post="and New Zealand, South America and Southeast Asia, the"/>
+  <result pre="the world zones studied. In areas such as Australia and" exact="New Zealand," post="South America and Southeast Asia, the DC approach makes"/>
+  <result pre="have been testing new seed varieties in seven districts of" exact="India" post="as a component of improved local seed systems, by"/>
+  <result pre="analogue analysis to identify adaptation options and investment strategies in" exact="Chad" post="and South Sudan 77 . Many studies have used"/>
+  <result pre="to identify adaptation options and investment strategies in Chad and" exact="South Sudan" post="77 . Many studies have used the CCAFS-Climate portal"/>
+  <result pre="identify adaptation options and investment strategies in Chad and South" exact="Sudan" post="77 . Many studies have used the CCAFS-Climate portal"/>
+  <result pre="analysis of the impacts of climate change on cocoa in" exact="Ghana" post="and Cote d’Ivoire 81 , the climate change impacts"/>
+  <result pre="change on water use and yield of irrigated sugarcane in" exact="South Africa" post="83 , potential benefits of drought and heat tolerance"/>
+  <result pre="climate change risk and vulnerability in Central Rift Valley of" exact="Ethiopia" post="85 , study of matching seeds to needs-female farmers"/>
+  <result pre="seeds to needs-female farmers adapt to a changing climate in" exact="Ethiopia" post="86 , among others. A recent outcome assessment based"/>
+  <result pre="GCM climate change projections with empirical downscaling: precipitation downscaling over" exact="South Africa" post="Int. J. Climatol. 2006 26 1315 1337 10.1002/joc.1314 10."/>
+  <result pre="and downscaled GCM scenarios for three mountainous basins in the" exact="United States" post="JAWRA J. Am. Water Resour. Assoc. 2000 36 387"/>
+  <result pre="Climate Change [Stocker, T. F. et al.] Cambridge Univ. Press" exact="United Kingdom" post="New York, NY, USA 1535 pp (2013). 51. Franke"/>
+  <result pre="analysis of Australian elapid snakes. Atlas of Elapid Snakes of" exact="Australia" post="(Australian Government Publishing Service: Canberra, 1986). 56. Busby JR"/>
+  <result pre="H. Climate change favors rice production at higher elevations in" exact="Colombia" post="Mitigation and Adaptation Strategies for Global Change 2019 24"/>
+  <result pre="JL Midgley GF Foden WB Conservation of Quiver Trees in" exact="Namibia" post="and South Africa under a Changing Climate J. Geosci."/>
+  <result pre="GF Foden WB Conservation of Quiver Trees in Namibia and" exact="South Africa" post="under a Changing Climate J. Geosci. Environ. Prot. 2016"/>
+  <result pre="Samson J Humphries MM Declining availability of outdoor skating in" exact="Canada" post="Nat. Clim. Chang. 2015 5 2 4 10.1038/nclimate2465 81."/>
+  <result pre="change on water use and yield of irrigated sugarcane in" exact="South Africa" post="Agric. Syst. 2015 139 260 270 10.1016/j.agsy.2015.07.007 84. Singh"/>
+  <result pre="heat tolerance in groundnut for adaptation to climate change in" exact="India" post="and West Africa. Mitig. Adapt. Strateg. Glob. Chang. 2014"/>
+  <result pre="climate change risk and vulnerability in Central Rift Valley of" exact="Ethiopia" post="African Crop Sci. J. 2014 22 807 818 86."/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_424242v3/results/word/frequencies/results.xml">
+  <result title="frequency" word="&amp;amp;;" count="120"/>
+  <result title="frequency" word="climate" count="75"/>
+  <result title="frequency" word="collection" count="64"/>
+  <result title="frequency" word="Arabidopsis" count="57"/>
+  <result title="frequency" word="OpenUrl" count="53"/>
+  <result title="frequency" word="variation" count="50"/>
+  <result title="frequency" word="life" count="40"/>
+  <result title="frequency" word="environmental" count="38"/>
+  <result title="frequency" word="date" count="35"/>
+  <result title="frequency" word="leaf" count="33"/>
+  <result title="frequency" word="CrossRef" count="32"/>
+  <result title="frequency" word="C:N" count="31"/>
+  <result title="frequency" word="response" count="30"/>
+  <result title="frequency" word="time" count="30"/>
+  <result title="frequency" word="responses" count="29"/>
+  <result title="frequency" word="Science" count="28"/>
+  <result title="frequency" word="flowering" count="28"/>
+  <result title="frequency" word="significantly" count="28"/>
+  <result title="frequency" word="year" count="28"/>
+  <result title="frequency" word="genetic" count="27"/>
+  <result title="frequency" word="phenotypes" count="27"/>
+  <result title="frequency" word="plants" count="26"/>
+  <result title="frequency" word="Web" count="25"/>
+  <result title="frequency" word="models" count="25"/>
+  <result title="frequency" word="plant" count="24"/>
+  <result title="frequency" word="collections" count="23"/>
+  <result title="frequency" word="history" count="23"/>
+  <result title="frequency" word="later" count="23"/>
+  <result title="frequency" word="phenology" count="23"/>
+  <result title="frequency" word="spatial" count="23"/>
+  <result title="frequency" word="change" count="22"/>
+  <result title="frequency" word="temperature" count="22"/>
+  <result title="frequency" word="thaliana" count="22"/>
+  <result title="frequency" word="traits" count="22"/>
+  <result title="frequency" word="years" count="22"/>
+ </snippets>
+</snippetsTree>

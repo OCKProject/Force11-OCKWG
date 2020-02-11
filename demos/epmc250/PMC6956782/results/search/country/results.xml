@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="country">
+ <result pre="1 http://orcid.org/0000-0002-2281-9311 Seebacher Frank 2 Cooke Steven Editor [1], IAS-CNR" exact="Italy" post="[2], School of Life and Environmental Sciences A08 Australia"/>
+ <result pre="IAS-CNR Italy [2], School of Life and Environmental Sciences A08" exact="Australia" post="Corresponding author: IAS-CNR, 09170 Oristano, Italy and School of"/>
+ <result pre="and Environmental Sciences A08 Australia Corresponding author: IAS-CNR, 09170 Oristano," exact="Italy" post="and School of Life and Environmental Sciences A08, University"/>
+</results>

@@ -1,0 +1,368 @@
+{
+  "id": [
+    "31889158"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31889158"
+  ],
+  "pmcid": [
+    "PMC6937272"
+  ],
+  "doi": [
+    "10.1038/s41598-019-56931-9"
+  ],
+  "title": [
+    "Farmer typology to understand differentiated climate change adaptation in Himalaya."
+  ],
+  "authorString": [
+    "Shukla R, Agarwal A, Gornott C, Sachdeva K, Joshi PK."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Shukla R"
+          ],
+          "firstName": [
+            "Roopam"
+          ],
+          "lastName": [
+            "Shukla"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Natural Resources, TERI University, New Delhi, 110070, India. shukla@pik-potsdam.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Agarwal A"
+          ],
+          "firstName": [
+            "Ankit"
+          ],
+          "lastName": [
+            "Agarwal"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8572-7046",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Telegrafenberg, Potsdam, 14476, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Gornott C"
+          ],
+          "firstName": [
+            "Christoph"
+          ],
+          "lastName": [
+            "Gornott"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3933-3358",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Telegrafenberg, Potsdam, 14476, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Sachdeva K"
+          ],
+          "firstName": [
+            "Kamna"
+          ],
+          "lastName": [
+            "Sachdeva"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Natural Resources, TERI University, New Delhi, 110070, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Joshi PK"
+          ],
+          "firstName": [
+            "P K"
+          ],
+          "lastName": [
+            "Joshi"
+          ],
+          "initials": [
+            "PK"
+          ],
+          "affiliation": [
+            "Spatial Analysis and Informatics Lab (SAIL), School of Environmental Sciences, Jawaharlal Nehru University, New Delhi, 110067, India."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8572-7046",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3933-3358",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2887502"
+      ],
+      "dateOfPublication": [
+        "2019 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "20375"
+  ],
+  "abstractText": [
+    "Smallholder farmers' responses to the climate-induced agricultural changes are not uniform but rather diverse, as response adaptation strategies are embedded in the heterogonous agronomic, social, economic, and institutional conditions. There is an urgent need to understand the diversity within the farming households, identify the main drivers and understand its relationship with household adaptation strategies. Typology construction provides an efficient method to understand farmer diversity by delineating groups with common characteristics. In the present study, based in the Uttarakhand state of Indian Western Himalayas, five farmer types were identified on the basis of resource endowment and agriculture orientation characteristics. Factor analysis followed by sequential agglomerative hierarchial and K-means clustering was use to delineate farmer types. Examination of adaptation strategies across the identified farmer types revealed that mostly contrasting and type-specific bundle of strategies are adopted by farmers to ensure livelihood security. Our findings show that strategies that incurred high investment, such as infrastructural development, are limited to high resource-endowed farmers. In contrast, the low resourced farmers reported being progressively disengaging with farming as a livelihood option. Our results suggest that the proponents of effective adaptation policies in the Himalayan region need to be cognizant of the nuances within the farming communities to capture the diverse and multiple adaptation needs and constraints of the farming households."
+  ],
+  "affiliation": [
+    "Department of Natural Resources, TERI University, New Delhi, 110070, India. shukla@pik-potsdam.de."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-019-56931-9"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6937272"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6937272?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2020-01-01"
+  ],
+  "firstIndexDate": [
+    "2020-01-03"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-08"
+  ],
+  "dateOfRevision": [
+    "2020-01-07"
+  ],
+  "electronicPublicationDate": [
+    "2019-12-30"
+  ],
+  "firstPublicationDate": [
+    "2019-12-30"
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "id": [
+    "31974387"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31974387"
+  ],
+  "pmcid": [
+    "PMC6978393"
+  ],
+  "doi": [
+    "10.1038/s41467-020-14507-6"
+  ],
+  "title": [
+    "Addendum: Discrepancy in scientific authority and media visibility of climate change scientists and contrarians."
+  ],
+  "authorString": [
+    "Petersen AM, Vincent EM, Westerling AL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Petersen AM"
+          ],
+          "firstName": [
+            "Alexander Michael"
+          ],
+          "lastName": [
+            "Petersen"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0955-3483",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Management of Complex Systems Department, Ernest and Julio Gallo Management Program, School of Engineering, University of California, Merced, CA, 95343, USA. apetersen3@ucmerced.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Vincent EM"
+          ],
+          "firstName": [
+            "Emmanuel M"
+          ],
+          "lastName": [
+            "Vincent"
+          ],
+          "initials": [
+            "EM"
+          ],
+          "affiliation": [
+            "Medialab, Sciences Po, 75007, Paris, France. mel.manux@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Westerling AL"
+          ],
+          "firstName": [
+            "Anthony LeRoy"
+          ],
+          "lastName": [
+            "Westerling"
+          ],
+          "initials": [
+            "AL"
+          ],
+          "affiliation": [
+            "Management of Complex Systems Department, Ernest and Julio Gallo Management Program, School of Engineering, University of California, Merced, CA, 95343, USA. awesterling@ucmerced.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0955-3483",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2896774"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "553"
+  ],
+  "affiliation": [
+    "Management of Complex Systems Department, Ernest and Julio Gallo Management Program, School of Engineering, University of California, Merced, CA, 95343, USA. apetersen3@ucmerced.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "addendum",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-020-14507-6"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6978393"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6978393?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-25"
+  ],
+  "firstIndexDate": [
+    "2020-01-28"
+  ],
+  "fullTextReceivedDate": [
+    "2020-02-05"
+  ],
+  "dateOfRevision": [
+    "2020-01-28"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-23"
+  ],
+  "firstPublicationDate": [
+    "2020-01-23"
+  ]
+}

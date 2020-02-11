@@ -1,0 +1,347 @@
+{
+  "id": [
+    "31923278"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31923278"
+  ],
+  "pmcid": [
+    "PMC6953801"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0226544"
+  ],
+  "title": [
+    "Potential socioeconomic impacts from ocean acidification and climate change effects on Atlantic Canadian fisheries."
+  ],
+  "authorString": [
+    "Wilson TJB, Cooley SR, Tai TC, Cheung WWL, Tyedmers PH."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wilson TJB"
+          ],
+          "firstName": [
+            "Tyler J B"
+          ],
+          "lastName": [
+            "Wilson"
+          ],
+          "initials": [
+            "TJB"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8616-9429",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School for Resource and Environmental Studies, Dalhousie University, Halifax, NS, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Cooley SR"
+          ],
+          "firstName": [
+            "Sarah R"
+          ],
+          "lastName": [
+            "Cooley"
+          ],
+          "initials": [
+            "SR"
+          ],
+          "affiliation": [
+            "Ocean Conservancy, Washington, DC, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Tai TC"
+          ],
+          "firstName": [
+            "Travis C"
+          ],
+          "lastName": [
+            "Tai"
+          ],
+          "initials": [
+            "TC"
+          ],
+          "affiliation": [
+            "Changing Ocean Research Unit, Institute for the Oceans and Fisheries, The University of British Columbia, Vancouver, B.C., Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Cheung WWL"
+          ],
+          "firstName": [
+            "William W L"
+          ],
+          "lastName": [
+            "Cheung"
+          ],
+          "initials": [
+            "WWL"
+          ],
+          "affiliation": [
+            "Changing Ocean Research Unit, Institute for the Oceans and Fisheries, The University of British Columbia, Vancouver, B.C., Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Tyedmers PH"
+          ],
+          "firstName": [
+            "Peter H"
+          ],
+          "lastName": [
+            "Tyedmers"
+          ],
+          "initials": [
+            "PH"
+          ],
+          "affiliation": [
+            "School for Resource and Environmental Studies, Dalhousie University, Halifax, NS, Canada."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8616-9429",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2896459"
+      ],
+      "dateOfPublication": [
+        "2020 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "e0226544"
+  ],
+  "abstractText": [
+    "Ocean acidification is an emerging consequence of anthropogenic carbon dioxide emissions. The full extent of the biological impacts are currently not entirely defined. However, it is expected that invertebrate species that rely on the mineral calcium carbonate will be directly affected. Despite the limited understanding of the full extent of potential impacts and responses there is a need to identify potential pathways for human societies to be affected by ocean acidification. Research on these social implications is a small but developing field. This research contributes to this field by using an impact assessment framework, informed by a biophysical model of future species distributions, to investigate potential impacts facing Atlantic Canadian society from potential changes in shellfish fisheries driven by ocean acidification and climate change. New Brunswick and Nova Scotia are expected to see declines in resource accessibility but are relatively socially insulated from these changes. Conversely, Prince Edward Island, along with Newfoundland and Labrador are more socially vulnerable to potential losses in fisheries, but are expected to experience relatively minor net changes in access."
+  ],
+  "affiliation": [
+    "School for Resource and Environmental Studies, Dalhousie University, Halifax, NS, Canada."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0226544"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6953801"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6953801?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-11"
+  ],
+  "firstIndexDate": [
+    "2020-01-17"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-24"
+  ],
+  "dateOfRevision": [
+    "2020-01-22"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-10"
+  ],
+  "firstPublicationDate": [
+    "2020-01-10"
+  ]
+}

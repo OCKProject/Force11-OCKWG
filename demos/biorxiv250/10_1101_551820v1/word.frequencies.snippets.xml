@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_551820v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="mortality" count="153"/>
+  <result title="frequency" word="basal" count="77"/>
+  <result title="frequency" word="area" count="71"/>
+  <result title="frequency" word="drought" count="71"/>
+  <result title="frequency" word="tree" count="71"/>
+  <result title="frequency" word="&amp;amp;;" count="62"/>
+  <result title="frequency" word="Scots" count="56"/>
+  <result title="frequency" word="beech" count="52"/>
+  <result title="frequency" word="(i.e." count="49"/>
+  <result title="frequency" word="pine" count="47"/>
+  <result title="frequency" word="OpenUrl" count="45"/>
+  <result title="frequency" word="species" count="41"/>
+  <result title="frequency" word="Fig." count="34"/>
+  <result title="frequency" word="importance" count="34"/>
+  <result title="frequency" word="probability" count="33"/>
+  <result title="frequency" word="climatic" count="31"/>
+  <result title="frequency" word="rates" count="31"/>
+  <result title="frequency" word="Mediterranean" count="30"/>
+  <result title="frequency" word="intensity" count="28"/>
+  <result title="frequency" word="European" count="27"/>
+  <result title="frequency" word="conspecific" count="27"/>
+  <result title="frequency" word="heterospecific" count="27"/>
+  <result title="frequency" word="high" count="27"/>
+  <result title="frequency" word="predicted" count="27"/>
+  <result title="frequency" word="biome" count="22"/>
+  <result title="frequency" word="competition" count="22"/>
+  <result title="frequency" word="relative" count="22"/>
+  <result title="frequency" word="variables" count="22"/>
+  <result title="frequency" word="study" count="21"/>
+  <result title="frequency" word="trees" count="21"/>
+ </snippets>
+</snippetsTree>

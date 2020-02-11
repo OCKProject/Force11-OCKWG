@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_136085v2/results/word/frequencies/results.xml">
+  <result title="frequency" word="MIG" count="121"/>
+  <result title="frequency" word="genome" count="115"/>
+  <result title="frequency" word="species" count="94"/>
+  <result title="frequency" word="gene" count="92"/>
+  <result title="frequency" word="genomes" count="63"/>
+  <result title="frequency" word="Figure" count="58"/>
+  <result title="frequency" word="OpenUrl" count="57"/>
+  <result title="frequency" word="copies" count="49"/>
+  <result title="frequency" word="divergent" count="47"/>
+  <result title="frequency" word="Meloidogyne" count="39"/>
+  <result title="frequency" word="sequence" count="38"/>
+  <result title="frequency" word="floridensis" count="36"/>
+  <result title="frequency" word="mitochondrial" count="35"/>
+  <result title="frequency" word="phylogenetic" count="33"/>
+  <result title="frequency" word="species," count="29"/>
+  <result title="frequency" word="CrossRef" count="27"/>
+  <result title="frequency" word="data" count="27"/>
+  <result title="frequency" word="genomic" count="27"/>
+  <result title="frequency" word="pairs" count="27"/>
+  <result title="frequency" word="assembly" count="26"/>
+  <result title="frequency" word="alpha" count="24"/>
+  <result title="frequency" word="different" count="24"/>
+  <result title="frequency" word="genes" count="24"/>
+  <result title="frequency" word="species." count="24"/>
+  <result title="frequency" word="present" count="23"/>
+  <result title="frequency" word="incognita" count="21"/>
+  <result title="frequency" word="isolates" count="21"/>
+  <result title="frequency" word="number" count="21"/>
+  <result title="frequency" word="reference" count="21"/>
+ </snippets>
+</snippetsTree>

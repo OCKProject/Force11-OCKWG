@@ -1,0 +1,308 @@
+{
+  "id": [
+    "31921733"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31921733"
+  ],
+  "pmcid": [
+    "PMC6920209"
+  ],
+  "doi": [
+    "10.3389/fpubh.2019.00357"
+  ],
+  "title": [
+    "Energy, Poverty, and Health in Climate Change: A Comprehensive Review of an Emerging Literature."
+  ],
+  "authorString": [
+    "Jessel S, Sawyer S, Hernández D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Jessel S"
+          ],
+          "firstName": [
+            "Sonal"
+          ],
+          "lastName": [
+            "Jessel"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Helibrunn Department of Population and Family Health, Columbia University Mailman School of Public Health, New York, NY, United States."
+          ]
+        },
+        {
+          "fullName": [
+            "Sawyer S"
+          ],
+          "firstName": [
+            "Samantha"
+          ],
+          "lastName": [
+            "Sawyer"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Sociomedical Sciences, Columbia University Mailman School of Public Health, New York, NY, United States."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández D"
+          ],
+          "firstName": [
+            "Diana"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Sociomedical Sciences, Columbia University Mailman School of Public Health, New York, NY, United States."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2779331"
+      ],
+      "dateOfPublication": [
+        "2019 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in public health"
+          ],
+          "ISOAbbreviation": [
+            "Front Public Health"
+          ],
+          "medlineAbbreviation": [
+            "Front Public Health"
+          ],
+          "NLMid": [
+            "101616579"
+          ],
+          "ISSN": [
+            "2296-2565"
+          ],
+          "ESSN": [
+            "2296-2565"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "357"
+  ],
+  "abstractText": [
+    "Household energy is increasingly vital for maintaining good health. Unaffordable and inadequate household energy presents adverse consequences that are amplified by poverty and a changing climate. To date, the connections between energy, socioeconomic disadvantage, and well-being are generally underappreciated, and household energy connection with climate change is under-researched. Building on the energy insecurity framework, this review explores literature related to household energy, poverty, and health in order to highlight the disproportionate burdens borne by vulnerable populations in adequately meeting household energy needs. This paper is based on a comprehensive review of books, peer-reviewed articles, and reports published between 1990 and 2019, identified via databases including JSTOR and PubMed. A total of 406 publications were selected as having potential for full review, 203 received full review, and 162 were included in this paper on the basis of set inclusion criteria. From the literature review, we created an original heuristic model that describes energy insecurity as either acute or chronic, and we further explore the mediators and pathways that link energy insecurity to health. In the discussion, we posit that the extant literature does not sufficiently consider that vulnerable communities often experience energy insecurity bundled with other hardships. We also discuss energy, poverty, and health through the lens of climate change, making the criticism that most research on household energy does not consider climate change. This evidence is important for enhancing research in this field and developing programmatic and policy interventions as they pertain to energy access, affordability, and health, with special emphasis on vulnerable populations, climate change, and social inequality."
+  ],
+  "affiliation": [
+    "Helibrunn Department of Population and Family Health, Columbia University Mailman School of Public Health, New York, NY, United States."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P30 ES009089"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Climate change",
+        "Health",
+        "Housing",
+        "Vulnerable Populations",
+        "Energy Insecurity"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fpubh.2019.00357"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6920209"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6920209?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-11"
+  ],
+  "firstIndexDate": [
+    "2020-01-16"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-12"
+  ],
+  "dateOfRevision": [
+    "2020-01-28"
+  ],
+  "electronicPublicationDate": [
+    "2019-12-12"
+  ],
+  "firstPublicationDate": [
+    "2019-12-12"
+  ]
+}

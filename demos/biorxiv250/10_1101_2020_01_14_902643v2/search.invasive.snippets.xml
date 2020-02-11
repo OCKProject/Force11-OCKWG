@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_14_902643v2/results/search/invasive/results.xml">
+  <result pre="using Weir and Cockerham’s method ( Weir &amp;amp;; Cockerham, 1984)." exact="Population" post="genetic structure was estimated using two methods, Bayesian clustering"/>
+  <result pre="with significance tests of variance components based on 10,000 permutations." exact="Population" post="divergence history We adopted a two-step strategy for investigating"/>
+  <result pre="data-icon-position=&quot;&quot; data-hide-link-title=&quot;0&quot;&amp;gt; Download figure Open in new tab Fig. 2" exact="Population" post="genetic structure in Circaeaster agrestis based on 6,120 SNPs"/>
+  <result pre="and 6 (representing the divergence within east and west clades)." exact="Population" post="divergence history The 47-taxa 79-CDS matrix of Ranunculales used"/>
+  <result pre="ZY , Raven, P. H. &amp;amp;; Hong, D. Y. ed." exact="Flora" post="of China. Beijing &amp;amp;; St. Louis: Science Press &amp;amp;;"/>
+  <result pre="Simpson GL , Solymos P , et al. 2018. Vegan:" exact="Community" post="Ecology Package. https://CRAN.R-project.org/package=vegan. ↵ Peakall R , Smouse PE"/>
+  <result pre="Smouse PE . 2012. GenAlEx 6.5: genetic analysis in Excel." exact="Population" post="genetic software for teaching and research--an update. Bioinformatics 28"/>
+  <result pre="Full Text ↵ Weigel D , Nordborg M . 2015." exact="Population" post="Genomics for Understanding Adaptation in Wild Plant Species. Annual"/>
+ </snippets>
+</snippetsTree>

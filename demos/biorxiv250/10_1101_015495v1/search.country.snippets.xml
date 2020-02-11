@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_015495v1/results/search/country/results.xml">
+  <result pre="show Brachypodium is now present on all six continents except" exact="Antarctica" post="( Garvin et al. 2008). This wide geographic range"/>
+  <result pre="from temperate regions that also get summer rainfall, such as" exact="France" post="and South-Eastern Australia. A few accessions come from regions"/>
+  <result pre="from regions with colder climates, such as mountainous regions in" exact="Turkey" post="and on the Spanish/French border. Lastly, several accessions come"/>
+  <result pre="species as food in Paleolithic societies in the region of" exact="Italy" post="as long as 30 000 years ago ( Revedin"/>
+  <result pre="with the majority of accessions found in North America and" exact="Australia" post="being B. hybridum while B. stacei has been found"/>
+  <result pre="climate input&amp;lt;;/span&amp;gt;; a) MaxEnt produced probable distribution of Brachypodium in" exact="Australia" post="using 80 geographic locations as presence only data correlated"/>
+  <result pre="climate input a) MaxEnt produced probable distribution of Brachypodium in" exact="Australia" post="using 80 geographic locations as presence only data correlated"/>
+  <result pre="variables. The climate data is provided via Atlas of Living" exact="Australia" post="(ALA) for points at sample locations. In this heatmap"/>
+  <result pre="University at Aberystwyth Wales, Dave Garvin from University of Minnesota/USDA" exact="United States" post="and John Vogel from JGI/UC Berkeley. Footnotes More details"/>
+  <result pre="↵ Elshire RJ , Glaubitz JC , Sun Q ," exact="Poland" post="JA , Kawamoto K , Buckler ES , et"/>
+ </snippets>
+</snippetsTree>

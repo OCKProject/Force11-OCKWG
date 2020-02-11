@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_529560v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="populations" count="85"/>
+  <result title="frequency" word="OpenUrl" count="83"/>
+  <result title="frequency" word="range" count="63"/>
+  <result title="frequency" word="performance" count="62"/>
+  <result title="frequency" word="effect" count="59"/>
+  <result title="frequency" word="central" count="49"/>
+  <result title="frequency" word="population" count="43"/>
+  <result title="frequency" word="marginal" count="42"/>
+  <result title="frequency" word="climate" count="39"/>
+  <result title="frequency" word="CrossRef" count="34"/>
+  <result title="frequency" word="sizes" count="34"/>
+  <result title="frequency" word="species" count="33"/>
+  <result title="frequency" word="studies" count="29"/>
+  <result title="frequency" word="HLM" count="28"/>
+  <result title="frequency" word="papers" count="27"/>
+  <result title="frequency" word="models" count="26"/>
+  <result title="frequency" word="LLM" count="25"/>
+  <result title="frequency" word="Science" count="25"/>
+  <result title="frequency" word="model" count="25"/>
+  <result title="frequency" word="Fig." count="23"/>
+  <result title="frequency" word="case" count="22"/>
+  <result title="frequency" word="mean" count="22"/>
+  <result title="frequency" word="Ecol." count="21"/>
+  <result title="frequency" word="S)." count="21"/>
+  <result title="frequency" word="Web" count="21"/>
+  <result title="frequency" word="primary" count="21"/>
+ </snippets>
+</snippetsTree>

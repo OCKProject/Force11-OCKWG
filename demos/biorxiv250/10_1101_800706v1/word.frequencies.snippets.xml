@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_800706v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="species" count="126"/>
+  <result title="frequency" word="differences" count="117"/>
+  <result title="frequency" word="effects" count="98"/>
+  <result title="frequency" word="niche" count="74"/>
+  <result title="frequency" word="fitness" count="66"/>
+  <result title="frequency" word="selection" count="63"/>
+  <result title="frequency" word="complementarity" count="60"/>
+  <result title="frequency" word="coexistence" count="57"/>
+  <result title="frequency" word="soil" count="55"/>
+  <result title="frequency" word="conditions" count="44"/>
+  <result title="frequency" word="OpenUrl" count="43"/>
+  <result title="frequency" word="litter" count="40"/>
+  <result title="frequency" word="diversity" count="37"/>
+  <result title="frequency" word="functions" count="32"/>
+  <result title="frequency" word="Fig." count="31"/>
+  <result title="frequency" word="functioning" count="31"/>
+  <result title="frequency" word="biodiversity" count="30"/>
+  <result title="frequency" word="communities" count="30"/>
+  <result title="frequency" word="ecosystem" count="30"/>
+  <result title="frequency" word="biomass" count="29"/>
+  <result title="frequency" word="competitive" count="29"/>
+  <result title="frequency" word="pairs" count="26"/>
+  <result title="frequency" word="stable" count="25"/>
+  <result title="frequency" word="nutrient" count="24"/>
+  <result title="frequency" word="drought" count="23"/>
+  <result title="frequency" word="CrossRef" count="22"/>
+  <result title="frequency" word="mechanisms" count="22"/>
+  <result title="frequency" word="plant" count="22"/>
+ </snippets>
+</snippetsTree>

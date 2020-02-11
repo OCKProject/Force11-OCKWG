@@ -1,0 +1,2605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+ <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes"/>
+  <meta name="article_thumbnail" content="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/embed/graphic-4.gif"/>
+  <meta name="type" content="article"/>
+  <meta name="category" content="article"/>
+  <meta name="HW.identifier" content="/biorxiv/early/2020/01/18/840264.atom"/>
+  <meta name="HW.pisa" content="biorxiv;840264v2"/>
+  <meta name="DC.Format" content="text/html"/>
+  <meta name="DC.Language" content="en"/>
+  <meta name="DC.Title" content="Optimal reproductive phenology under size-dependent cannibalism"/>
+  <meta name="DC.Identifier" content="10.1101/840264"/>
+  <meta name="DC.Date" content="2020-01-18"/>
+  <meta name="DC.Publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="DC.Rights" content="© 2020, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial 4.0 International), CC BY-NC 4.0, as described at http://creativecommons.org/licenses/by-nc/4.0/"/>
+  <meta name="DC.AccessRights" content="restricted"/>
+  <meta name="DC.Description" content="Intra-cohort cannibalism is an example of a size-mediated priority effect. If early life stages cannibalize slightly smaller individuals, then parents face a trade-off between breeding at the best time for larval growth or development and predation risk from offspring born earlier. This game-theoretic situation among parents may drive adaptive reproductive phenology towards earlier breeding. However, it is not straightforward to quantify how cannibalism affects seasonal egg fitness or to distinguish emergent breeding phenology from alternative adaptive drivers. Here, we devise an age-structured game-theoretic mathematical model to find evolutionary stable breeding phenologies. We predict how size-dependent cannibalism acting on eggs, larvae, or both change emergent breeding phenology, and find that breeding under inter-cohort cannibalism occurs earlier than the optimal match to environmental conditions. We show that emergent breeding phenology patterns at the level of the population are sensitive to the ontogeny of cannibalism, i.e. which life stage is subject to cannibalism. This suggests that the nature of cannibalism among early life stages is a potential driver of the diversity of reproductive phenologies seen across taxa, and may be a contributing factor in situations where breeding occurs earlier than expected from environmental conditions."/>
+  <meta name="DC.Contributor" content="Nao Takashina"/>
+  <meta name="DC.Contributor" content="Øyvind Fiksen"/>
+  <meta name="article:published_time" content="2020-01-18"/>
+  <meta name="article:section" content="New Results"/>
+  <meta name="citation_title" content="Optimal reproductive phenology under size-dependent cannibalism"/>
+  <meta name="citation_abstract" lang="en" content="&lt;;p&gt;;Intra-cohort cannibalism is an example of a size-mediated priority effect. If early life stages cannibalize slightly smaller individuals, then parents face a trade-off between breeding at the best time for larval growth or development and predation risk from offspring born earlier. This game-theoretic situation among parents may drive adaptive reproductive phenology towards earlier breeding. However, it is not straightforward to quantify how cannibalism affects seasonal egg fitness or to distinguish emergent breeding phenology from alternative adaptive drivers. Here, we devise an age-structured game-theoretic mathematical model to find evolutionary stable breeding phenologies. We predict how size-dependent cannibalism acting on eggs, larvae, or both change emergent breeding phenology, and find that breeding under inter-cohort cannibalism occurs earlier than the optimal match to environmental conditions. We show that emergent breeding phenology patterns at the level of the population are sensitive to the ontogeny of cannibalism, i.e. which life stage is subject to cannibalism. This suggests that the nature of cannibalism among early life stages is a potential driver of the diversity of reproductive phenologies seen across taxa, and may be a contributing factor in situations where breeding occurs earlier than expected from environmental conditions.&lt;;/p&gt;;"/>
+  <meta name="citation_journal_title" content="bioRxiv"/>
+  <meta name="citation_publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="citation_publication_date" content="2020/01/01"/>
+  <meta name="citation_mjid" content="biorxiv;840264v2"/>
+  <meta name="citation_id" content="840264v2"/>
+  <meta name="citation_public_url" content="https://www.biorxiv.org/content/10.1101/840264v2"/>
+  <meta name="citation_abstract_html_url" content="https://www.biorxiv.org/content/10.1101/840264v2.abstract"/>
+  <meta name="citation_full_html_url" content="https://www.biorxiv.org/content/10.1101/840264v2.full"/>
+  <meta name="citation_pdf_url" content="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264.full.pdf"/>
+  <meta name="citation_doi" content="10.1101/840264"/>
+  <meta name="citation_num_pages" content="20"/>
+  <meta name="citation_article_type" content="Article"/>
+  <meta name="citation_section" content="New Results"/>
+  <meta name="citation_firstpage" content="840264"/>
+  <meta name="citation_author" content="Nao Takashina"/>
+  <meta name="citation_author_institution" content="Biodiversity and Biocomplexity Unit, Okinawa Institute of Science and Technology Graduate University"/>
+  <meta name="citation_author_institution" content="Department of Biological Sciences, University of Bergen"/>
+  <meta name="citation_author_email" content="nao.takashina@gmail.com"/>
+  <meta name="citation_author_orcid" content="http://orcid.org/0000-0002-9594-9264"/>
+  <meta name="citation_author" content="Øyvind Fiksen"/>
+  <meta name="citation_author_institution" content="Department of Biological Sciences, University of Bergen"/>
+  <meta name="citation_author_orcid" content="http://orcid.org/0000-0002-9687-5842"/>
+  <meta name="citation_reference" content="I. A. McLaren, “Adaptive Significance of Large Size and Long Life of the Chaetognath Sagitta Elegans in the Arctic,” Ecology, vol. 47, pp. 852–855, 1966."/>
+  <meta name="citation_reference" content="M. E. Visser, A. J. Van Noordwijk, J. M. Tinbergen, and C. M. Lessells, “Warmer springs lead to mistimed reproduction in great tits (Parus major),” Proc. R. Soc. B Biol. Sci., vol. 265, pp. 1867–1870, 1998."/>
+  <meta name="citation_reference" content="P. Reglero, A. Ortega, R. Balbín, F. J. Abascal, A. Medina, E. Blanco, F. de la Gándara, D. Alvarez-Berastegui, M. Hidalgo, L. Rasmuson, F. Alemany, and Fiksen, “Atlantic bluefin tuna spawn at suboptimal temperatures for their offspring,” Proc. R. Soc. B Biol. Sci., vol. 285, p. 20171405, 2018."/>
+  <meta name="citation_reference" content="L. H. Yang and V. H. W. Rudolf, “Phenology, ontogeny and the effects of climate change on the timing of species interactions,” Ecol. Lett., vol. 13, pp. 1–10, 2010."/>
+  <meta name="citation_reference" content="A. J. Hobday, J. W. Young, O. Abe, D. P. Costa, R. K. Cowen, K. Evans, M. A. Gasalla, R. Kloser, O. Maury, and K. C. Weng, “Climate impacts and oceanic top predators: Moving from impacts to adaptation in oceanic systems,” Rev. Fish Biol. Fish., vol. 23, pp. 537–546, 2013."/>
+  <meta name="citation_reference" content="V. H. Rudolf, “The role of seasonal timing and phenological shifts for species coexistence,” Ecol. Lett., vol. 22, pp. 1324–1338, 2019."/>
+  <meta name="citation_reference" content="M. J. Shulman, J. C. Ogden, J. P. Ebersole, W. N. McFarland, S. L. Miller, and N. G. Wolf, “Priority effects in the recruitment of juvenile coral reef fishes.,” Ecology, vol. 64, pp. 1508–1513, 1983."/>
+  <meta name="citation_reference" content="M. Salamolard, A. Butet, A. Leroux, and V. Bretagnolle, “Responses of an avian predator to variations in prey density at a temperate latitude,” Ecology, vol. 81, pp. 2428–2441, 2000."/>
+  <meta name="citation_reference" content="N. L. Rasmussen, B. G. Van Allen, and V. H. W. Rudolf, “Linking phenological shifts to species interactions through size-mediated priority effects,” J. Anim. Ecol., vol. 83, pp. 1206–1215, 2014."/>
+  <meta name="citation_reference" content="L. De Meester, J. Vanoverbeke, L. J. Kilsdonk, and M. C. Urban, “Evolving Perspectives on Monopolization and Priority Effects,” Trends Ecol. Evol., vol. 31, pp. 136–146, 2016."/>
+  <meta name="citation_reference" content="T. L. Anderson, F. E. Rowland, and R. D. Semlitsch, “Variation in phenology and density differentially affects predatorprey interactions between salamanders,” Oecologia, vol. 185, pp. 475–486, 2017."/>
+  <meta name="citation_reference" content="S. Sniegula, M. J. Golab, and F. Johansson, “Size-mediated priority and temperature effects on intra-cohort competition and cannibalism in a damselfly,” J. Anim. Ecol., vol. 88, pp. 637–648, 2019."/>
+  <meta name="citation_reference" content="M. Nosaka, N. Katayama, and O. Kishida, “Feedback between size balance and consumption strongly affects the consequences of hatching phenology in size-dependent predator-prey interactions,” Oikos, vol. 124, pp. 225–234, 2015."/>
+  <meta name="citation_reference" content="J. M. Durant, D. Hjermann, G. Ottersen, and N. C. Stenseth, “Climate and the match or mismatch between predator requirements and resource availability,” Clim. Res., vol. 33, pp. 271–283, 2007."/>
+  <meta name="citation_reference" content="L. R. Fox, “Cannibalism in Natural Populations,” Annu. Rev. Ecol. Syst., vol. 6, pp. 87–106, 1975."/>
+  <meta name="citation_reference" content="G. A. Polis, “The Evolution and Dynamics of Intraspecific Predation,” Annu. Rev. Ecol. Syst., vol. 12, pp. 225–251, 1981."/>
+  <meta name="citation_reference" content="Y. Hironori and S. Katsuhiro, “Cannibalism and interspecific predation in two predatory ladybirds in relation to prey abundance in the field,” Entomophaga, vol. 42, pp. 153–163, 1997."/>
+  <meta name="citation_reference" content="B. R. Anholt, “Cannibalism and early instar survival in a larval damselfly,” Oecologia, vol. 99, pp. 60–65, 1994."/>
+  <meta name="citation_reference" content="O. Diekmann, R. Nisbet, W. Gurney, and F. van den Bosch, “Simple mathematical models for cannibalism: A critique and a new approach,” Math. Biosci., vol. 78, pp. 21–46, 1986."/>
+  <meta name="citation_reference" content="A. Hastings and R. F. Costantino, “Cannibalistic Egg-Larva Interactions in Tribolium: An Explanation for the Oscillations in Population Numbers,” Am. Nat., vol. 130, pp. 36–52, 1987."/>
+  <meta name="citation_reference" content="A. Hastings, “Cycles in cannibalistic egg-larval interactions,” J. Math. Biol., vol. 24, pp. 651–666, 1987."/>
+  <meta name="citation_reference" content="D. Claessen, A. M. De Roos, and L. Persson, “Population dynamic theory of size-dependent cannibalism,” Proc. R. Soc. B Biol. Sci., vol. 271, pp. 333–340, 2004."/>
+  <meta name="citation_reference" content="K. H. Olsson and K. H. Andersen, “Cannibalism as a selective force on offspring size in fish,” Oikos, vol. 127, pp. 1264–1271, 2018."/>
+  <meta name="citation_reference" content="M. Huss, T. Van Kooten, and L. Persson, “Intra-cohort cannibalism and size bimodality: A balance between hatching synchrony and resource feedbacks,” Oikos, vol. 119, pp. 2000–2011, 2010."/>
+  <meta name="citation_reference" content="M. De Block, R. Stoks, and L. De Bruyn, “Egg hatching patterns within and among populations of a damselfly occupying permanent and temporary ponds,” Arch. für Hydrobiol., vol. 163, pp. 195–209, 2005."/>
+  <meta name="citation_reference" content="P. Reglero, A. Urtizberea, A. P. Torres, F. Alemany, and O. Fiksen, “Cannibalism among size classes of larvae may be a substantial mortality component in tuna,” Mar. Ecol. Prog. Ser., vol. 433, pp. 205–219, 2011."/>
+  <meta name="citation_reference" content="O. Segev, M. Mangel, N. Wolf, A. Sadeh, A. Kershenbaum, and L. Blaustein, “Spatiotemporal reproductive strategies in the fire salamander: A model and empirical test,” Behav. Ecol., vol. 22, pp. 670–678, 2011."/>
+  <meta name="citation_reference" content="Y. Iwasa, F. J. Odendaal, D. D. Murphy, P. R. Ehrlich, and A. E. Launer, “Emergence patterns in male butterflies: A hypothesis and a test,” Theor. Popul. Biol., vol. 23, pp. 363–379, 1983."/>
+  <meta name="citation_reference" content="V. Kivan, R. Cressman, and C. Schneider, “The ideal free distribution: A review and synthesis of the game-theoretic perspective,” Theor. Popul. Biol., vol. 73, pp. 403–425, 2008."/>
+  <meta name="citation_reference" content="D. H. Cushing, “Plankton production and year-class strength in fish populations: An update of the match/mismatch hypothesis,” Adv. Mar. Biol., vol. 26, pp. 249–293, 1990."/>
+  <meta name="citation_reference" content="M. L. Crump, “Opportunistic Cannibalism by Amphibian Larvae in Temporary Aquatic Environments,” Am. Nat., vol. 121, pp. 281–289, 1983."/>
+  <meta name="citation_reference" content="C. Brownell, “Laboratory Analysis of Cannibalism by Larvae of the Cape Anchovy Engraulis capensis,” Trans. Am. Fish. Soc., vol. 114, pp. 512–518, 1985."/>
+  <meta name="citation_reference" content="L. S. Pereira, A. A. Agostinho, and K. O. Winemiller, “Revisiting cannibalism in fishes,” Rev. Fish Biol. Fish., vol. 27, pp. 499–513, 2017."/>
+  <meta name="citation_reference" content="A. M. Simons and M. O. Johnston, “Suboptimal timing of reproduction in Lobelia inflata may be a conservative bet-hedging strategy,” J. Evol. Biol., vol. 16, pp. 233–243, 2003."/>
+  <meta name="citation_reference" content="D. E. Schindler, J. B. Armstrong, and T. E. Reed, “The portfolio concept in ecology and evolution,” Front. Ecol. Environ., vol. 13, pp. 257–263, 2015."/>
+  <meta name="citation_reference" content="J. Starrfelt and H. Kokko, “Bet-hedging-a triple trade-off between means, variances and correlations,” Biol. Rev., vol. 87, pp. 742–755, 2012."/>
+  <meta name="citation_reference" content="M. Takata, S. Koyama, T. Satoh, and H. Fugo, “Asynchronous hatching and brood reduction by filial cannibalism in the burying beetle Nicrophorus quadripunctatus,” J. Ethol., vol. 31, pp. 249–254, 2013."/>
+  <meta name="citation_reference" content="M. Hartvig, K. H. Andersen, and J. E. Beyer, “Food web framework for size-structured populations,” J. Theor. Biol., vol. 272, pp. 113–122, 2011."/>
+  <meta name="citation_reference" content="Ø. Varpe, C. Jørgensen, G. A. Tarling, and Ø. Fiksen, “The adaptive value of energy storage and capital breeding in seasonal environments,” Oikos, vol. 118, pp. 363–370, 2009."/>
+  <meta name="citation_reference" content="T. Fukami, “Historical Contingency in Community Assembly: Integrating Niches, Species Pools, and Priority Effects,” Annu. Rev. Ecol. Evol. Syst., vol. 46, pp. 1–23, 2015."/>
+  <meta name="citation_reference" content="M. Edwards and A. J. Richardson, “Impact of climate change on marine pelagic phenology and trophic mismatch,” Nature, vol. 430, p. 881, 2004."/>
+  <meta name="citation_reference" content="C. Both, M. Van Asch, R. G. Bijlsma, A. B. Van Den Burg, and M. E. Visser, “Climate change and unequal phenological changes across four trophic levels: Constraints or adaptations?,” J. Anim. Ecol., vol. 78, pp. 73–83, 2009."/>
+  <meta name="twitter:title" content="Optimal reproductive phenology under size-dependent cannibalism"/>
+  <meta name="twitter:site" content="@biorxivpreprint"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="twitter:description" content="Intra-cohort cannibalism is an example of a size-mediated priority effect. If early life stages cannibalize slightly smaller individuals, then parents face a trade-off between breeding at the best time for larval growth or development and predation risk from offspring born earlier. This game-theoretic situation among parents may drive adaptive reproductive phenology towards earlier breeding. However, it is not straightforward to quantify how cannibalism affects seasonal egg fitness or to distinguish emergent breeding phenology from alternative adaptive drivers. Here, we devise an age-structured game-theoretic mathematical model to find evolutionary stable breeding phenologies. We predict how size-dependent cannibalism acting on eggs, larvae, or both change emergent breeding phenology, and find that breeding under inter-cohort cannibalism occurs earlier than the optimal match to environmental conditions. We show that emergent breeding phenology patterns at the level of the population are sensitive to the ontogeny of cannibalism, i.e. which life stage is subject to cannibalism. This suggests that the nature of cannibalism among early life stages is a potential driver of the diversity of reproductive phenologies seen across taxa, and may be a contributing factor in situations where breeding occurs earlier than expected from environmental conditions."/>
+  <meta name="og-title" property="og:title" content="Optimal reproductive phenology under size-dependent cannibalism"/>
+  <meta name="og-url" property="og:url" content="https://www.biorxiv.org/content/10.1101/840264v2"/>
+  <meta name="og-site-name" property="og:site_name" content="bioRxiv"/>
+  <meta name="og-description" property="og:description" content="Intra-cohort cannibalism is an example of a size-mediated priority effect. If early life stages cannibalize slightly smaller individuals, then parents face a trade-off between breeding at the best time for larval growth or development and predation risk from offspring born earlier. This game-theoretic situation among parents may drive adaptive reproductive phenology towards earlier breeding. However, it is not straightforward to quantify how cannibalism affects seasonal egg fitness or to distinguish emergent breeding phenology from alternative adaptive drivers. Here, we devise an age-structured game-theoretic mathematical model to find evolutionary stable breeding phenologies. We predict how size-dependent cannibalism acting on eggs, larvae, or both change emergent breeding phenology, and find that breeding under inter-cohort cannibalism occurs earlier than the optimal match to environmental conditions. We show that emergent breeding phenology patterns at the level of the population are sensitive to the ontogeny of cannibalism, i.e. which life stage is subject to cannibalism. This suggests that the nature of cannibalism among early life stages is a potential driver of the diversity of reproductive phenologies seen across taxa, and may be a contributing factor in situations where breeding occurs earlier than expected from environmental conditions."/>
+  <meta name="og-type" property="og:type" content="article"/>
+  <meta name="og-image" property="og:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="citation_date" content="2020-01-18"/> 
+  <meta name="description" content="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution"/>
+  <meta name="generator" content="Drupal 7 (http://drupal.org)"/> 
+  <title>Optimal reproductive phenology under size-dependent cannibalism | bioRxiv</title> 
+ </head>
+ <body class="html not-front not-logged-in page-node page-node- page-node-1111128 node-type-highwire-article context-content hw-default-jcode-biorxiv hw-article-type-article hw-article-category-new-results"> 
+  <div class="article fulltext-view ">
+   <span class="highwire-journal-article-marker-start"/>
+   <div class="section abstract" id="abstract-1">
+    <h2 class="">Abstract</h2>
+    <p id="p-2">Intra-cohort cannibalism is an example of a size-mediated priority effect. If early life stages cannibalize slightly smaller individuals, then parents face a trade-off between breeding at the best time for larval growth or development and predation risk from offspring born earlier. This game-theoretic situation among parents may drive adaptive reproductive phenology towards earlier breeding. However, it is not straightforward to quantify how cannibalism affects seasonal egg fitness or to distinguish emergent breeding phenology from alternative adaptive drivers. Here, we devise an age-structured game-theoretic mathematical model to find evolutionary stable breeding phenologies. We predict how size-dependent cannibalism acting on eggs, larvae, or both change emergent breeding phenology, and find that breeding under inter-cohort cannibalism occurs earlier than the optimal match to environmental conditions. We show that emergent breeding phenology patterns at the level of the population are sensitive to the ontogeny of cannibalism, i.e. which life stage is subject to cannibalism. This suggests that the nature of cannibalism among early life stages is a potential driver of the diversity of reproductive phenologies seen across taxa, and may be a contributing factor in situations where breeding occurs earlier than expected from environmental conditions.</p>
+   </div>
+   <div class="section" id="sec-1">
+    <h2 class="">Introduction</h2>
+    <p id="p-3">The reproductive schedule of species has a tight connection to fitness and ontogenetic development [
+     <a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">1</a>, 
+     <a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">2</a>, 
+     <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">3</a>], and we need to understand how size-dependent interactions and breeding phenology interacts to predict how organisms adapt to a changing climate [
+     <a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">4</a>]. Improving our ability to predict phenologies and seasonal structure of species interactions illuminates evolutionary traits and provides a tool for ecosystem management, conservation, and estimations of the impact of climatic change on species [
+     <a id="xref-ref-4-2" class="xref-bibr" href="#ref-4">4</a>, 
+     <a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">5</a>, 
+     <a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">6</a>].
+    </p>
+    <p id="p-4">The colonization of habitats and arrival times of species or offspring in a seasonal environment is important in predator-prey interactions and in forming the structure of communities [
+     <a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">7</a>, 
+     <a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">8</a>, 
+     <a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">9</a>, 
+     <a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">10</a>, 
+     <a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">11</a>, 
+     <a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">12</a>]. For instance, a large difference in arrival times of nymphs of two dragonfly species causes the exclusion of a late arrival species [
+     <a id="xref-ref-9-2" class="xref-bibr" href="#ref-9">9</a>]. This is known as priority effects, which emphasize how the sequence of breeding or other phenologies determine interaction strength. Priority effects are often size-mediated [
+     <a id="xref-ref-9-3" class="xref-bibr" href="#ref-9">9</a>, 
+     <a id="xref-ref-12-2" class="xref-bibr" href="#ref-12">12</a>], as organisms emerge small and grow larger while their role as predators and prey shift [
+     <a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">13</a>]. An early start can be a large advantage both in competitive and in predator-prey interactions, but are traded against the match with key resources during ontogeny [
+     <a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">14</a>].
+    </p>
+    <p id="p-5">Cannibalism is a size-mediated priority effect that occurs within species. It is ubiquitous in many groups of animals, including insects, fish, amphibians, birds, and mammals [
+     <a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">15</a>, 
+     <a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">16</a>], and can account for a major part of early-life mortality [
+     <a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">17</a>,
+     <a id="xref-ref-18-1" class="xref-bibr" href="#ref-18">18</a>]. Intraspecific oophagy is rather common in many egg-lying animals, and eggs and newly hatched individuals are similarly vulnerable to cannibalism due to their limited ability to avoid predation and nutrient rich composition [
+     <a id="xref-ref-16-2" class="xref-bibr" href="#ref-16">16</a>]. It also drives population dynamics [
+     <a id="xref-ref-19-1" class="xref-bibr" href="#ref-19">19</a>, 
+     <a id="xref-ref-20-1" class="xref-bibr" href="#ref-20">20</a>, 
+     <a id="xref-ref-21-1" class="xref-bibr" href="#ref-21">21</a>, 
+     <a id="xref-ref-22-1" class="xref-bibr" href="#ref-22">22</a>], offspring size selection [
+     <a id="xref-ref-23-1" class="xref-bibr" href="#ref-23">23</a>], size distribution within the population [
+     <a id="xref-ref-24-1" class="xref-bibr" href="#ref-24">24</a>], and reproductive behavior [
+     <a id="xref-ref-15-2" class="xref-bibr" href="#ref-15">15</a>, 
+     <a id="xref-ref-16-3" class="xref-bibr" href="#ref-16">16</a>, 
+     <a id="xref-ref-25-1" class="xref-bibr" href="#ref-25">25</a>].
+    </p>
+    <p id="p-6">If there is a seasonal peak in the environmental growth or survival conditions for eggs and larvae, cannibalism during early life stages introduces a trade-off for parents between breeding at a favorable time in the season and the added predation risk caused by larger individuals born earlier. Similarly, those parents breeding earlier in the seasonal cycle may benefit by increased survival in their progeny, since they can feed on the younger and smaller offspring arriving later in the season, while availability to other resources in the environment select against earlier breeding. This mechanism may induce seemingly mal-adaptive breeding phenologies, because the cannibalistic mortality is less evident to us than the environmental drivers. As an example, a recent study pointed out that the Atlantic bluefin tuna spawn surprisingly early in the Mediterranean Sea [
+     <a id="xref-ref-3-2" class="xref-bibr" href="#ref-3">3</a>] (
+     <a id="xref-fig-1-1" class="xref-fig" href="#F1">Fig. 1</a>). The tuna spawn at times when temperatures are lower than the optimum for growth and development for eggs and larvae. This may of course be due to other constraints, such as a food limitation, but the highly cannibalistic nature of the larvae of these tuna [
+     <a id="xref-ref-26-1" class="xref-bibr" href="#ref-26">26</a>] may also contribute to this phenology. Other examples of observations where cannibalism may be shaping breeding phenology are the spatiotemporal split of larval load in the fire salamander [
+     <a id="xref-ref-27-1" class="xref-bibr" href="#ref-27">27</a>], or the early hatching of damselfly [
+     <a id="xref-ref-25-2" class="xref-bibr" href="#ref-25">25</a>]. Such observations suggest that cannibalism can play a major role for the optimal phenology of a wide variety of species. The frequency-dependent nature of the problem requires a non-cooperative game-theoretic approach to find the evolutionary stable strategy (ESS) [
+     <a id="xref-ref-28-1" class="xref-bibr" href="#ref-28">28</a>, 
+     <a id="xref-ref-29-1" class="xref-bibr" href="#ref-29">29</a>] under size-dependent cannibalism.
+    </p>
+    <div id="F1" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F1.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="A real world example of potential cannibalistic drive towards early spawning in the highly cannibalistic Atlantic bluefin tuna larvae in the Mediterranean Sea. This shows the observed spawning phenology (larvae found in the field, bars) and the theoretical fitness of an egg (blue dashed line, scaled to the maximum value) calculated by temperature-dependent egg development time, larvae growth rate, and mortality born at any given day of the year. The red line shows the seasonal temperature cycle, which is an important driver egg and larval development rate and fitness. The figure is modified from [3]." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-2109925372" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;A real world example of potential cannibalistic drive towards early spawning in the highly cannibalistic Atlantic bluefin tuna larvae in the Mediterranean Sea. This shows the observed spawning phenology (larvae found in the field, bars) and the theoretical fitness of an egg (blue dashed line, scaled to the maximum value) calculated by temperature-dependent egg development time, larvae growth rate, and mortality born at any given day of the year. The red line shows the seasonal temperature cycle, which is an important driver egg and larval development rate and fitness. The figure is modified from [3].&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 1:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F1.medium.gif" width="440" height="146"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 1:" src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F1.medium.gif" width="440" height="146"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 1:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 1:</span>
+      <p id="p-7" class="first-child">A real world example of potential cannibalistic drive towards early spawning in the highly cannibalistic Atlantic bluefin tuna larvae in the Mediterranean Sea. This shows the observed spawning phenology (larvae found in the field, bars) and the theoretical fitness of an egg (blue dashed line, scaled to the maximum value) calculated by temperature-dependent egg development time, larvae growth rate, and mortality born at any given day of the year. The red line shows the seasonal temperature cycle, which is an important driver egg and larval development rate and fitness. The figure is modified from [
+       <a id="xref-ref-3-3" class="xref-bibr" href="#ref-3">3</a>].
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-8">Here we devise a theoretical approach to investigate how size-dependent cannibalism can shift breeding phenology in a seasonal environmental cycle. Our focus is on size-mediated priority effects on reproductive phenology, such as the effects of (i) intensity of cannibalism, (ii) the ontogeny of cannibalism, and (iii) duration of breeding season. We combine age-structured population dynamics with game-theoretic decision making to predict an evolutionary stable breeding phenology. Our goal is to achieve general predictions about the role of intensity and ontogeny of cannibalism, and the duration of the breeding season for breeding phenology. To keep the analysis simple, we focus only on the mortality part of cannibalism as in [
+     <a id="xref-ref-19-2" class="xref-bibr" href="#ref-19">19</a>, 
+     <a id="xref-ref-20-2" class="xref-bibr" href="#ref-20">20</a>, 
+     <a id="xref-ref-21-2" class="xref-bibr" href="#ref-21">21</a>, 
+     <a id="xref-ref-23-2" class="xref-bibr" href="#ref-23">23</a>]. This means that we do not consider resource limitation in the growth of larvae explicitly, there is no competition for food resources involved in the model, only the extra death risk involved for later born offspring. In relation to the Bluefin tuna example, this is equivalent to assuming temperature is the main environmental driver for growth and development, and that larvae will be able to find enough food even without intra-cohort cannibalism, but that they will consume smaller con-specifics at encounter. This gives a conservative assessment of the benefits of early breeding from a cannibalistic drive.
+    </p>
+    <p id="p-9">A common starting point to understand the timing of breeding or spawning in seasonal environments is the “match-mismatch” theory, where parents are selected to match their egg laying to the best environmental conditions for their offspring [
+     <a id="xref-ref-30-1" class="xref-bibr" href="#ref-30">30</a>, 
+     <a id="xref-ref-14-2" class="xref-bibr" href="#ref-14">14</a>]. In theoretical models, this is often inferred as a seasonal peak in food availability, which is also the best match for the critical period of the young.
+    </p>
+    <p id="p-10">We define the seasonal environment from some abiotic variable (e.g., temperature) that determine hatching success at time 
+     <em>t</em>. The optimal breeding time is to match the best environment for hatching if there is no cannibalism (
+     <a id="xref-fig-2-1" class="xref-fig" href="#F2">Fig. 2</a>). Then we add cannibalism among early life stages and game-theoretic decision making of breeding time among parents. If cannibalism is sufficiently strong, it can lead to deviations from the expectation of all offspring appearing at the optimal environmental conditions for hatching. The intensity of cannibalism is quantified by emerging survivorship through the egg and larval stages, depending on the number of larger individuals in the cohort. Here, we discuss three general size-dependent, ontogenetic cannibalistic modes: (i) egg are cannibalised by larvae (e.g., anuran [
+     <a id="xref-ref-31-1" class="xref-bibr" href="#ref-31">31</a>] and 
+     <em>Tribolium</em> (flour beetle) [
+     <a id="xref-ref-21-3" class="xref-bibr" href="#ref-21">21</a>]); (ii) larvae are cannibalised by larger larvae (e.g., damselfly [
+     <a id="xref-ref-18-2" class="xref-bibr" href="#ref-18">18</a>]); and (iii) larvae cannibalise both eggs and smaller larvae (e.g., cape anchovy [
+     <a id="xref-ref-32-1" class="xref-bibr" href="#ref-32">32</a>] and many fish species - see review in [
+     <a id="xref-ref-33-1" class="xref-bibr" href="#ref-33">33</a>]). Understanding the potential for intra-cohort cannibalism to induce phenological shifts in the optimal breeding schedule can unveil the potential for adaptation under environmental change and explain what otherwise seem to be sub-optimal behavior.
+    </p>
+    <div id="F2" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F2.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Schematic diagram of the abiotic environmental seasonal cycle and probability of recruitment success p(t) of two imaginary breeding seasons A and B where the duration of breeding seasons Te are indicated by bidirectional horizontal arrows. Eggs can hatch when environmental condition is above the physiological tolerance limits in an environment (thus, egg hatching success of an egg produced at this time is larger than zero p(t) &gt;; 0; the physiological tolerance limits of two hypothetical breeding seasons A and B are represented by EA and EB, respectively, on y-axis). The star icon represents the optimal environmental conditions for an egg to hatch, and without cannibalism we expect breeding to occur around this time to match this optimal environment with the hatching. With cannibalism, there can be a tradeoff between breeding at times of high egg hatching success or earlier, at times with lower risk of cannibalistic predation by older larvae. Therefore, there is a game between parents for optimal breeding time to maximize the survivorship of their own eggs to the adult stage." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-2109925372" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;Schematic diagram of the abiotic environmental seasonal cycle and probability of recruitment success &lt;;em&gt;;p&lt;;/em&gt;;(&lt;;em&gt;;t&lt;;/em&gt;;) of two imaginary breeding seasons A and B where the duration of breeding seasons &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;e&lt;;/em&gt;;&lt;;/sub&gt;; are indicated by bidirectional horizontal arrows. Eggs can hatch when environmental condition is above the physiological tolerance limits in an environment (thus, egg hatching success of an egg produced at this time is larger than zero &lt;;em&gt;;p&lt;;/em&gt;;(&lt;;em&gt;;t&lt;;/em&gt;;) &lt;;em&gt;;&gt;;&lt;;/em&gt;; 0; the physiological tolerance limits of two hypothetical breeding seasons A and B are represented by &lt;;em&gt;;E&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;A&lt;;/em&gt;;&lt;;/sub&gt;; and &lt;;em&gt;;E&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;B&lt;;/em&gt;;&lt;;/sub&gt;;, respectively, on &lt;;em&gt;;y&lt;;/em&gt;;-axis). The star icon represents the optimal environmental conditions for an egg to hatch, and without cannibalism we expect breeding to occur around this time to match this optimal environment with the hatching. With cannibalism, there can be a tradeoff between breeding at times of high egg hatching success or earlier, at times with lower risk of cannibalistic predation by older larvae. Therefore, there is a game between parents for optimal breeding time to maximize the survivorship of their own eggs to the adult stage.&lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 2:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F2.medium.gif" width="440" height="276"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 2:" src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F2.medium.gif" width="440" height="276"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F2.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 2:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F2.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 2:</span>
+      <p id="p-11" class="first-child">Schematic diagram of the abiotic environmental seasonal cycle and probability of recruitment success 
+       <em>p</em>(
+       <em>t</em>) of two imaginary breeding seasons A and B where the duration of breeding seasons 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub> are indicated by bidirectional horizontal arrows. Eggs can hatch when environmental condition is above the physiological tolerance limits in an environment (thus, egg hatching success of an egg produced at this time is larger than zero 
+       <em>p</em>(
+       <em>t</em>) 
+       <em>&gt;;</em> 0; the physiological tolerance limits of two hypothetical breeding seasons A and B are represented by 
+       <em>E</em>
+       <sub>
+        <em>A</em>
+       </sub> and 
+       <em>E</em>
+       <sub>
+        <em>B</em>
+       </sub>, respectively, on 
+       <em>y</em>-axis). The star icon represents the optimal environmental conditions for an egg to hatch, and without cannibalism we expect breeding to occur around this time to match this optimal environment with the hatching. With cannibalism, there can be a tradeoff between breeding at times of high egg hatching success or earlier, at times with lower risk of cannibalistic predation by older larvae. Therefore, there is a game between parents for optimal breeding time to maximize the survivorship of their own eggs to the adult stage.
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+   </div>
+   <div class="section" id="sec-2">
+    <h2 class="">Material and Methods</h2>
+    <p id="p-12">Population dynamics that incorporate age-dependent cannibalism is often described by the McKendrick-von Foerster equation [
+     <a id="xref-ref-19-3" class="xref-bibr" href="#ref-19">19</a>, 
+     <a id="xref-ref-20-3" class="xref-bibr" href="#ref-20">20</a>,
+     <a id="xref-ref-21-4" class="xref-bibr" href="#ref-21">21</a>]. We employ this as a basic model by assuming that older individuals are also larger, and describe the three different age-dependent cannibalistic modes: egg cannibalised by larvae, larvae cannibalised by elder larvae, and these combined. Our model describes deterministic population dynamics through early life stages and to the age at maturation 
+     <em>a</em>
+     <sub>
+      <em>m</em>
+     </sub>. Transition to the larval stage occurs after the egg development is completed, at age 
+     <em>a</em>
+     <sub>
+      <em>r</em>
+     </sub>. Schematic diagrams of the model are provided in 
+     <a id="xref-fig-3-1" class="xref-fig" href="#F3">Fig. 3</a>.
+    </p>
+    <div id="F3" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F3.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Schematic diagram of size-dependent cannibalism in the model. A constant rate of mortality from other sources is also included. We do not consider the dynamics of adult individuals and, hence, the corresponding age axis is described by the dotted line." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-2109925372" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Schematic diagram of size-dependent cannibalism in the model. A constant rate of mortality from other sources is also included. We do not consider the dynamics of adult individuals and, hence, the corresponding age axis is described by the dotted line.&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 3:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F3.medium.gif" width="440" height="154"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 3:" src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F3.medium.gif" width="440" height="154"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F3.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 3:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F3.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 3:</span>
+      <p id="p-13" class="first-child">Schematic diagram of size-dependent cannibalism in the model. A constant rate of mortality from other sources is also included. We do not consider the dynamics of adult individuals and, hence, the corresponding age axis is described by the dotted line.</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-14">The dynamics of a population with age 
+     <em>a</em> at time 
+     <em>t</em> in an age-dependent cannibalistic predation model is thus described by 
+     <span class="disp-formula" id="disp-formula-1">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-4.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-4.gif"/>
+       </noscript>
+      </span>
+     </span> where, 
+     <em>μ</em>(
+     <em>a</em>) is the age-specific mortality composed of the natural and cannibalistic mortalities 
+     <span class="disp-formula" id="disp-formula-2">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-5.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-5.gif"/>
+       </noscript>
+      </span>
+     </span> where, 
+     <em>μ</em>
+     <sub>1</sub> and 
+     <em>μ</em>
+     <sub>2</sub> are the egg and larvae natural mortality rates, respectively, 
+     <em>c</em>
+     <sub>1</sub> is the egg cannibalism rate by all larvae, and 
+     <em>c</em>
+     <sub>2</sub> is the larval cannibalism rate by elder larvae. 
+     <a id="xref-disp-formula-1-1" class="xref-disp-formula" href="#disp-formula-1">Eq. (1)</a> is prescribed with the boundary condition of the total number of eggs spawned at time 
+     <em>t</em>
+     <span class="disp-formula" id="disp-formula-3">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-6.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-6.gif"/>
+       </noscript>
+      </span>
+     </span>, where the total number of egg 
+     <em>E</em> = ∫ 
+     <em>n</em>(0
+     <em>, t</em>)
+     <em>dt</em> in the breeding season is held fixed [
+     <a id="xref-ref-28-2" class="xref-bibr" href="#ref-28">28</a>, 
+     <a id="xref-ref-21-5" class="xref-bibr" href="#ref-21">21</a>]. This also provides an opportunity to perform the experiment with the same number of eggs [
+     <a id="xref-ref-21-6" class="xref-bibr" href="#ref-21">21</a>].
+    </p>
+    <p id="p-15">The match-mismatch hypothesis normally refers to breeding phenologies adapted to a peak in some key food resource. Here, to keep the analysis simple, we let the abiotic environment drive the hatching success of an egg under the given environment at the day of birth. For example, Reglero et al. [
+     <a id="xref-ref-3-4" class="xref-bibr" href="#ref-3">3</a>] observed that the probability of egg hatching in Bluefin tuna varies with temperature, and that temperature and therefore egg hatching success in their natural spawning followed a cyclic pattern over the season. The dashed line in 
+     <a id="xref-fig-1-2" class="xref-fig" href="#F1">Fig. 1</a> includes this and several other temperature-dependent processes, which this represents any abiotic or density-independent seasonal factor that define a breeding window in time.
+    </p>
+    <p id="p-16">We assume that the number of newly hatched eggs at time 
+     <em>t</em> is determined by the eggs spawned at time 
+     <em>t</em> − 
+     <em>a</em>
+     <sub>
+      <em>r</em>
+     </sub>, where 
+     <em>a</em>
+     <sub>
+      <em>r</em>
+     </sub> is a fixed egg development time. Moreover, eggs experience the natural mortality rate 
+     <em>μ</em>
+     <sub>1</sub> during the egg development period and the egg hatching success is determined by the environmental condition (e.g., temperature or humidity) at time of hatching. Hence, the number of new larval recruits at age 
+     <em>a</em>
+     <sub>
+      <em>r</em>
+     </sub> is 
+     <span class="disp-formula" id="disp-formula-4">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-7.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-7.gif"/>
+       </noscript>
+      </span>
+     </span> where, 
+     <em>p</em>(
+     <em>t</em>) is the probability of hatching success at time 
+     <em>t</em>. We assume a cyclical environment as in 
+     <a id="xref-fig-2-2" class="xref-fig" href="#F2">Fig. 2</a>, and we describe the hatching probability 
+     <em>p</em>(
+     <em>t</em>) over the season as 
+     <span class="disp-formula" id="disp-formula-5">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-8.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-8.gif"/>
+       </noscript>
+      </span>
+     </span> , where nonnegative parameters 
+     <em>α</em> ∈ (0, 1] and 
+     <em>ω</em> determine the shape of the cycle, and 
+     <em>τ</em> is an arbitrary constant to adjust an environmental peak and the duration of the breeding season. Here, without loss of generality, we set 
+     <em>α</em> = 1. The period 
+     <em>T</em>
+     <sub>
+      <em>p</em>
+     </sub> defines the potential breeding period (i.e., when 
+     <em>p</em>(
+     <em>t</em>) 
+     <em>&gt;;</em> 0).
+    </p>
+    <p id="p-17">The situation with only egg or larval cannibalism arises by setting 
+     <em>c</em>
+     <sub>2</sub> = 0 in 
+     <a id="xref-disp-formula-1-2" class="xref-disp-formula" href="#disp-formula-1">Eq. (1)</a> and 
+     <em>c</em>
+     <sub>1</sub> = 0 in 
+     <a id="xref-disp-formula-4-1" class="xref-disp-formula" href="#disp-formula-4">Eq. (2)</a>, respectively. In our model, when no cannibalism occurs, the optimal time for breeding is independent of the decisions of others and it is a single point in time to match the best environment for egg hatching (
+     <a id="xref-fig-2-3" class="xref-fig" href="#F2">Fig. 2</a>) 
+     <span class="disp-formula" id="disp-formula-6">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-9.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-9.gif"/>
+       </noscript>
+      </span>
+     </span> determined by the density-independent abiotic conditions.
+    </p>
+    <p id="p-18">Let us define the egg fitness at breeding time 
+     <em>t</em>
+     <sub>0</sub> as the fraction of eggs that survive to the adult stage at time 
+     <em>t</em>
+     <sub>0</sub>: 
+     <span class="disp-formula" id="disp-formula-7">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-10.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-10.gif"/>
+       </noscript>
+      </span>
+     </span> .
+    </p>
+    <p id="p-19">When many parents compete with each other to maximize the fitness of their offspring in a non-cooperative game-theoretic context or ESS, the equilibrium egg fitness satisfies [
+     <a id="xref-ref-28-3" class="xref-bibr" href="#ref-28">28</a>] 
+     <span class="disp-formula" id="disp-formula-8">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-11.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/graphic-11.gif"/>
+       </noscript>
+      </span>
+     </span> where, 
+     <em>λ</em> is a positive constant. At this equilibrium, we anticipate that egg phenology in the potential breeding season, 
+     <em>T</em>
+     <sub>
+      <em>p</em>
+     </sub>, shows an emergent egg distribution with a length 
+     <em>T</em>
+     <sub>
+      <em>e</em>
+     </sub>. For convenience, we define the fraction of effective breeding season as 
+     <em>T</em>
+     <sub>
+      <em>e</em>
+     </sub>/
+     <em>T</em>
+     <sub>
+      <em>p</em>
+     </sub>. The deterministic population dynamics model we use (
+     <a id="xref-disp-formula-1-3" class="xref-disp-formula" href="#disp-formula-1">Eq. (1)</a>) does not distinguish between single and multiple reproduction events of single individuals in one breeding season, but merely search for an egg distribution that satisfies the condition 
+     <a id="xref-disp-formula-8-1" class="xref-disp-formula" href="#disp-formula-8">Eq. (6)</a>.
+    </p>
+    <p id="p-20">As in [
+     <a id="xref-ref-28-4" class="xref-bibr" href="#ref-28">28</a>], we assume a constant number of eggs and do not consider the population dynamics of adults. The ESS breeding phenology only represents one single breeding season, since following an ESS in a dynamic population over time involve large computational challenges. To find the optimal breeding schedule under size-dependent cannibalism, we numerically integrate 
+     <a id="xref-disp-formula-1-4" class="xref-disp-formula" href="#disp-formula-1">Eq. (1)</a> and perform a heuristic algorithm to find the condition satisfying with 
+     <a id="xref-disp-formula-8-2" class="xref-disp-formula" href="#disp-formula-8">Eq. (6)</a>. See Appendix for more details on the numerical details.
+    </p>
+   </div>
+   <div class="section" id="sec-3">
+    <h2 class="">Results</h2>
+    <p id="p-21">The intensity of cannibalism can differ between life stages, and we examined parameter sets representing larvae consuming eggs or smaller larvae or both. We also varied the length of the viable breeding season, and the total number of eggs produced by the parental population. 
+     <a id="xref-table-wrap-1-1" class="xref-table" href="#T1">Table 1</a> is the list for the parameter values examined.
+    </p>
+    <div id="T1" class="table pos-float">
+     <div class="table-inline table-callout-links">
+      <div class="callout">
+       <span>View this table:</span>
+       <ul class="callout-links">
+        <li class="view-inline first">
+         <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1113439/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+        </li>
+        <li class="view-popup">
+         <a href="/highwire/markup/1113439/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+        </li>
+        <li class="download-ppt last">
+         <a href="/highwire/powerpoint/1113439" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="table-caption">
+      <span class="table-label">Table 1:</span>
+      <p id="p-22" class="first-child">Parameters values used in the analysis</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-23">In general, cannibalism spread the emergent egg distribution over the breeding period (i.e., spawning asymmetry), rather than at a single breeding time as in a non-cannibalistic population (
+     <a id="xref-fig-4-1" class="xref-fig" href="#F4">Fig. 4 (a)-(c)</a>, top). Also, breeding occurs as soon as the environment allows eggs to hatch (an event that takes place after the egg development time 
+     <em>a</em>
+     <sub>
+      <em>r</em>
+     </sub>) and most of the breeding takes place earlier than the environmental optimum (stars on 
+     <em>x</em>-axis). Hatching earlier is favored as the cannibalism intensity increases, and this trend shifts the distribution earlier in the season, leading to a narrower breeding phenology due to an accumulation of egg density towards the earliest possible breeding. This creates a monotonically decaying breeding distribution. The intensity of cannibalism is also characterized by the egg fitness to the age at maturation, 
+     <em>a</em>
+     <sub>
+      <em>m</em>
+     </sub> (
+     <a id="xref-fig-4-2" class="xref-fig" href="#F4">Fig. 4 (a)-(c)</a>, bottom). Cannibalism on eggs causes lower egg fitness, and earlier hatching is favored, and more than for larval cannibalism. The emerging breeding period also varies with the strength of cannibalism, and it is more contracted with higher cannibalism.
+    </p>
+    <div id="F4" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F4.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="The distributions of the normalized egg density at breeding time (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; c1 = c2 = 0.0001); intermediate (center; c1 = c2 = 0.001); and high (right; c1 = c2 = 0.01). The stars on the x axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is Tp = 0.25 (top two rows) and Tp = 0.5 (bottom two rows). The number of eggs is E = 104. Other parameter values are shown in Table 1." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-2109925372" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;The distributions of the normalized egg density at breeding time (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.0001); intermediate (center; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.001); and high (right; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.01). The stars on the &lt;;em&gt;;x&lt;;/em&gt;; axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;p&lt;;/em&gt;;&lt;;/sub&gt;; = 0.25 (top two rows) and &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;p&lt;;/em&gt;;&lt;;/sub&gt;; = 0.5 (bottom two rows). The number of eggs is &lt;;em&gt;;E&lt;;/em&gt;; = 10&lt;;sup&gt;;4&lt;;/sup&gt;;. Other parameter values are shown in Table 1.&lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 4:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F4.medium.gif" width="440" height="306"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 4:" src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F4.medium.gif" width="440" height="306"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F4.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 4:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F4.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 4:</span>
+      <p id="p-24" class="first-child">The distributions of the normalized egg density at breeding time (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.0001); intermediate (center; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.001); and high (right; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.01). The stars on the 
+       <em>x</em> axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is 
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub> = 0.25 (top two rows) and 
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub> = 0.5 (bottom two rows). The number of eggs is 
+       <em>E</em> = 10
+       <sup>4</sup>. Other parameter values are shown in 
+       <a id="xref-table-wrap-1-2" class="xref-table" href="#T1">Table 1</a>.
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-25">We observed similar trends when the environment suitable for breeding is increased to 50% of a year (
+     <a id="xref-fig-4-3" class="xref-fig" href="#F4">Fig. 4 (d)-(f)</a>). Counterintuitively, the longer potential hatching periods tend to result in shorter breeding periods. An exception is when cannibalism is high and only on larvae (
+     <a id="xref-fig-4-4" class="xref-fig" href="#F4">Fig. 4 (f)</a>). In this case, the distribution of the breeding period is wider when the environmentally suitable breeding window is longer, giving a bimodal breeding distribution with one peak close to the abiotic environmental optimum and one peak early in the season, a signal of a breeding cycle within a single breeding period. Average values and fractions of effective breeding seasons are provided in 
+     <a id="xref-table-wrap-2-1" class="xref-table" href="#T2">Table 2</a> and the qualitative discussions above are verified.
+    </p>
+    <div id="T2" class="table pos-float">
+     <div class="table-inline table-callout-links">
+      <div class="callout">
+       <span>View this table:</span>
+       <ul class="callout-links">
+        <li class="view-inline first">
+         <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1113441/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+        </li>
+        <li class="view-popup">
+         <a href="/highwire/markup/1113441/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+        </li>
+        <li class="download-ppt last">
+         <a href="/highwire/powerpoint/1113441" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="table-caption">
+      <span class="table-label">Table 2:</span>
+      <p id="p-26" class="first-child">Mean value and the fraction of effective breeding season, 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub>/
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub>, of each curve in 
+       <a id="xref-fig-4-5" class="xref-fig" href="#F4">Figures 4</a> (mean, 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub>/
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub>).
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-27">Qualitatively similar patterns appear with different total numbers of eggs, 
+     <em>E</em> (see 
+     <a id="xref-fig-5-1" class="xref-fig" href="#F5">Figs. A.1</a> for 
+     <em>E</em> = 10
+     <sup>3</sup> and 
+     <a id="xref-fig-6-1" class="xref-fig" href="#F6">A.2</a> for 
+     <em>E</em> = 10
+     <sup>5</sup>, respectively, in Appendix). The exception is again when the cannibalistic intensity is high, and it is only imposed on larvae, and if the total number of eggs is ten times larger (
+     <em>N</em> = 10
+     <sup>5</sup>; 
+     <a id="xref-fig-6-2" class="xref-fig" href="#F6">Figs. A.2 (c)</a> and 
+     <a id="xref-fig-6-3" class="xref-fig" href="#F6">(f)</a>). Then, the smaller egg fitness yields a wider emergent breeding period.
+    </p>
+   </div>
+   <div class="section" id="sec-4">
+    <h2 class="">Discussion</h2>
+    <p id="p-28">Cannibalism on egg, larvae, or both from larvae hatched earlier in the season lead to intraspecific competition over the optimal breeding period, and apparently suboptimal breeding phenologies relative to some abiotic optimum may emerge. Firstly, cannibalism causes a breeding asymmetry rather than a simple match to the best seasonal environment. Emergent breeding phenologies are the outcome of a game-theoretic intraspecific competition between parents where each individual make a decision based on decisions of the others. It differs from other mechanisms inducing hatching asymmetry, such as conservative bet-hedging [
+     <a id="xref-ref-34-1" class="xref-bibr" href="#ref-34">34</a>] and diversified bet-hedging strategies [
+     <a id="xref-ref-35-1" class="xref-bibr" href="#ref-35">35</a>] where the main goal is adaptation to variable environments, not involving the choice of con-specifics [
+     <a id="xref-ref-36-1" class="xref-bibr" href="#ref-36">36</a>]. Secondly, the model predicts a shift of breeding towards earlier and less favourable conditions for the progeny if cannibalism is an important source of mortality. These two properties agree with observations of the spawning phenology of Atlantic bluefin tuna in the Mediterranean Sea [
+     <a id="xref-ref-3-5" class="xref-bibr" href="#ref-3">3</a>], where size-dependent larval intra-cohort cannibalism is known to occur [
+     <a id="xref-ref-26-2" class="xref-bibr" href="#ref-26">26</a>]. Also, DeBlock et al. [
+     <a id="xref-ref-25-3" class="xref-bibr" href="#ref-25">25</a>] observed early and log-normally distributed breeding phenologies under egg cannibalism in damselfly populations.
+    </p>
+    <p id="p-29">Emergent breeding phenology is sensitive to the ontogeny of cannibalism. Our model predicted that egg cannibalism tends to induce an earlier shift than larval cannibalism, since later hatching causes greater cannibalistic risk by the larvae. Hence, if eggs are vulnerable to intra-cohort cannibalism then total predation from cannibals are higher and the drive towards earlier spawning is stronger. For cannibalism acting on larvae, on the other hand, the cannibals are themselves thinned out by cannibalism. This limits the magnitude of cannibalistic mortality among smaller larvae, and allows parents to breed later and under a better environmental conditions.</p>
+    <p id="p-30">A longer potential breeding period (
+     <em>T</em>
+     <sub>
+      <em>p</em>
+     </sub> = 0.5) gave a lower ratio of emergent:potential breeding season (
+     <em>T</em>
+     <sub>
+      <em>e</em>
+     </sub>/
+     <em>T</em>
+     <sub>
+      <em>p</em>
+     </sub>) than the shorter potential breeding period (
+     <em>T</em>
+     <sub>
+      <em>p</em>
+     </sub> = 0.25). In a shorter potential breeding period, the tradeoff between the better seasonal environment and reduced predation risk is weaker, and provides a higher benefit to individuals breeding later in the season than the case of a longer potential breeding period, leading to less contracted breeding phenologies. The magnitude of change in the ratio again depends on cannibalism rate.
+    </p>
+    <p id="p-31">Also, depending on the intensity of cannibalism over the ontogeny, cannibalism can induce surprisingly diverse patterns of emergent breeding phenologies, including a symmetric bell-shaped distribution with and without cut off at the earliest possible breeding time or monotonically decreasing egg production curves (e.g., 
+     <a id="xref-fig-4-6" class="xref-fig" href="#F4">Fig. 4 (a)</a> and 
+     <a id="xref-fig-4-7" class="xref-fig" href="#F4">(c)</a>, top). The latter distribution appears in response to intensified cannibalism, and as a rule of thumb, intensifying cannibalism causes a shift of the egg distribution toward an earlier time and it leads to a cut-off of the distribution at the earliest possible breeding time (e.g., 
+     <a id="xref-fig-4-8" class="xref-fig" href="#F4">Fig. 4 (d)-(f)</a>, top). Moreover, even a bimodal pattern, a signal of a breeding cycle within a single breeding period (e.g., 
+     <a id="xref-fig-4-9" class="xref-fig" href="#F4">Fig. 4 (f)</a>, top) or more complex phenologies (
+     <a id="xref-fig-6-4" class="xref-fig" href="#F6">Figs. A.2 (c)</a> and 
+     <a id="xref-fig-6-5" class="xref-fig" href="#F6">(f)</a>, top) can occur if cannibalism is only on larvae by elder individuals and its effect on survival is high. These diverse patterns were previously reported in multiple taxa, and may be attributed to highly nonlinear mechanisms in reproductive decision making. The observed spawning phenology of Atlantic bluefin tuna resembles a bell-shaped curve [
+     <a id="xref-ref-3-6" class="xref-bibr" href="#ref-3">3</a>], while a monotonically decreasing pattern was observed in the burying beetle population under the filial cannibalism [
+     <a id="xref-ref-37-1" class="xref-bibr" href="#ref-37">37</a>]. In the context of an optimal breeding schedule of male butterflies to facilitate mating success, Iwasa et al. [
+     <a id="xref-ref-28-5" class="xref-bibr" href="#ref-28">28</a>] predicted a bell-shaped pattern with a cut-off as the optimal schedule.
+    </p>
+    <p id="p-32">We have used a deterministic model to analyse the effect of cannibalism on breeding phenology. Provided with a good understanding of the lifecycle and the cannibalistic interactions of concerned species, a wide variety of tactical models can be constructed based on our general model (e.g., [
+     <a id="xref-ref-38-1" class="xref-bibr" href="#ref-38">38</a>]) such as size/time dependency in biological parameters, or a more mechanistic formulation of the process of cannibalism. For example, Reglero et al. [
+     <a id="xref-ref-3-7" class="xref-bibr" href="#ref-3">3</a>] experimentally showed that temperature affects the egg hatching success of the Atlantic bluefin tuna, but also egg developmental time, larvae growth and mortality rate. The tuna spawn earlier than expected from the abiotic environment, and they proposed intra-specific cannibalism as a possible cause.
+    </p>
+    <p id="p-33">While our results are based on the reproductive phenology in a single season under a deterministic environment, this can still serve general understanding of the phenology over multiple years if the environmental fluctuation is moderate, and the population dynamics is stable. However, ideally the critical period concept of the match-mismatch theory should include dynamics of the full life-cycle over multiple generations (e.g. [
+     <a id="xref-ref-39-1" class="xref-bibr" href="#ref-39">39</a>]). In addition, a variable environment can lead to bet-hedging reproductive strategies [
+     <a id="xref-ref-36-2" class="xref-bibr" href="#ref-36">36</a>, 
+     <a id="xref-ref-35-2" class="xref-bibr" href="#ref-35">35</a>], and under such conditions, the realized phenology may deviate from our deterministic predictions. To assess these factors, we need models of greater complexity, and to connect game-theoretic and bet-hedging concepts.
+    </p>
+    <p id="p-34">Our minimal approach, assuming cannibalism causes only an additional mortality, predicts an early-shift in breeding phenology. It does not consider the benefit of energy gain by cannibalism, which may further promote an even earlier shift of breeding phenology. A physiologically structured population model is one way to explicitly include the energy gain from cannibalism [
+     <a id="xref-ref-24-2" class="xref-bibr" href="#ref-24">24</a>], although the model requires greater model complexity and larger number of parameters.
+    </p>
+    <p id="p-35">Our model can also help us understand context-dependent trajectories of species assemblage and priority effects [
+     <a id="xref-ref-40-1" class="xref-bibr" href="#ref-40">40</a>, 
+     <a id="xref-ref-10-2" class="xref-bibr" href="#ref-10">10</a>]. Species emerge in seasons in a constant game with other species, and the interactions are size- and time-dependent. Extensions of our modelling approach can include size-dependent competitive interactions between several species, and thus become a tool to integrate evolutionary dynamics of phenologies into analysis of environmental change. Phenological response to climate change differs in a complex manner between species and it can lead to a trophic mismatch [
+     <a id="xref-ref-41-1" class="xref-bibr" href="#ref-41">41</a>, 
+     <a id="xref-ref-42-1" class="xref-bibr" href="#ref-42">42</a>]. Yang and Rudolf [
+     <a id="xref-ref-4-3" class="xref-bibr" href="#ref-4">4</a>] emphasized the importance of understanding the interaction between phenology and stage-structured species interaction to predict the response to climatic change. Our model is only a starting point, but demonstrates the role that size-dependent intraspecific interactions can have in forming life histories and breeding phenology.
+    </p>
+   </div>
+   <div class="section" id="sec-5">
+    <h2 class="">Funding</h2>
+    <p id="p-37">NT was financially supported by Grant-in-Aid for the Japan Society for the Promotion of Science (JSPS) Fellows, and by Japan - Norway Researcher Mobility Programme of JSPS and the Reseach Council of Norway. ØF acknowledge support from the EU project H2020 PANDORA (No: 773713).</p>
+   </div>
+   <div class="section COI-statement" id="sec-6">
+    <h2 class="">Conflict of Interest</h2>
+    <p id="p-38">The authors declare that they have no conflict of interest.</p>
+   </div>
+   <div class="section" id="sec-7">
+    <h2 class="">Data Accessibility</h2>
+    <p id="p-39">The manuscript does not contain original data. Computer code written in C is available upon request.</p>
+   </div>
+   <div class="section ack" id="ack-1">
+    <h2 class="">Acknowledgements</h2>
+    <p id="p-36">We thank M. H. Cortez and T. Fung for reading a draft and providing thoughtful comments. We also thank two anonymous reviewers for their constructive comments.</p>
+   </div>
+   <div class="section app" id="app-1">
+    <h2 class="">Appendix Heuristic optimization</h2>
+    <p>Here we present the numerical algorithm that heuristically searches the distribution of egg production that satisfy the condition in 
+     <a id="xref-disp-formula-8-3" class="xref-disp-formula" href="#disp-formula-8">Eq. (6)</a>. The algorithm is based on the following simple steps 
+    </p>
+    <ol class="list-ord " id="list-1">
+     <li id="list-item-1">
+      <p id="p-41">Prepare an arbitrary initial egg distribution where the total eggs are 
+       <em>E</em> over the potential breeding period 
+       <em>b</em>(
+       <em>t</em>
+       <sub>
+        <em>i</em>
+       </sub>)Δ
+       <em>t</em> = 
+       <em>n
+        <sub>t
+         <sub>i</sub>
+        </sub>
+       </em>, where 
+       <em>b</em>(
+       <em>t</em>
+       <sub>
+        <em>i</em>
+       </sub>)Δ
+       <em>t</em> is the number of eggs between the time 
+       <em>t</em>
+       <sub>
+        <em>i</em>
+       </sub> and 
+       <em>t</em>
+       <sub>
+        <em>i</em>
+       </sub> + Δ
+       <em>t</em> and 
+       <em>b</em>(
+       <em>t</em>)
+       <em>dt</em> = 
+       <em>E</em> holds.
+      </p>
+     </li>
+     <li id="list-item-2">
+      <p id="p-42">Perform a numerical integration of 
+       <a id="xref-disp-formula-1-5" class="xref-disp-formula" href="#disp-formula-1">Eq. (1)</a> with the initial egg distribution and calculate fitness at each breeding schedule 
+       <em>ϕ</em>(
+       <em>t</em>).
+      </p>
+     </li>
+     <li id="list-item-3">
+      <p id="p-43">Find the maximum 
+       <em>ϕ</em>
+       <sub>max</sub> and minimum 
+       <em>ϕ</em>
+       <sub>min</sub> fitnesses among the possible breeding schedules and replace the number of eggs 
+       <em>dE</em> from the time with the lowest fitness to the highest fitness.
+      </p>
+     </li>
+     <li id="list-item-4">
+      <p id="p-44">Return to step 2. until the relative difference between 
+       <em>ϕ</em>
+       <sub>max</sub> and 
+       <em>ϕ</em>
+       <sub>min</sub> becomes smaller than the predetermine threshold 
+       <span class="inline-formula" id="inline-formula-1">
+        <span class="highwire-responsive-lazyload">
+         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-1.gif"/>
+         <noscript>
+          <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-1.gif"/>
+         </noscript>
+        </span>
+       </span>, where the index 
+       <em>i</em> represents the number of iterations of this algorithm.
+      </p>
+     </li>
+    </ol>
+    <p id="p-45">To avoid a cyclic egg replacement between two or more breeding times, we shuffle the egg number 
+     <em>dE</em> between two randomly chosen breeding times for every 10000 iterations. Moreover, we calculate the relative difference of the average relative fitness difference defined in step 4 for every 300 iterations over 100 iterations, and decrement 
+     <em>dE</em> by 5% when this relative difference becomes smaller than the predetermined threshold 
+     <span class="inline-formula" id="inline-formula-2">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-2.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-2.gif"/>
+       </noscript>
+      </span>
+     </span>, where 
+     <span class="inline-formula" id="inline-formula-3">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-3.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-3.gif"/>
+       </noscript>
+      </span>
+     </span> is the average relative fitness difference where its sampling starts at iteration time 
+     <em>i</em>.
+    </p>
+    <p id="p-46">Values used in this algorithm (e.g., predetermined thresholds) are heuristically determined. We used a uniform initial egg distribution. We observed the order of iterations to obtain convergence spans 10
+     <sup>4</sup>−10
+     <sup>6</sup> depending on the cannibalistic parameter used in the main text. We choose this algorithm because we observe that our objective function 
+     <span class="inline-formula" id="inline-formula-4">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-4.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2020/01/18/840264/embed/inline-graphic-4.gif"/>
+       </noscript>
+      </span>
+     </span> largely fluctuates over iterations (i.e., not monotonically decreases with 
+     <em>i</em>) and, therefore, ordinary optimization algorithms can not be directly applied. It is also noted that we truncated the fitness value where an egg load is smaller than 0.5, and define the interval of population 
+     <em>n</em>
+     <sub>
+      <em>t</em>
+     </sub>(
+     <em>a, t</em>) = max(
+     <em>n</em>
+     <sub>
+      <em>t</em>
+     </sub>(
+     <em>a, t</em>), 0) to facilitate the convergence of our heuristic algorithm.
+    </p>
+    <div id="F5" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F5.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="The distributions of the normalized egg density (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; c1 = c2 = 0.0001); intermediate (center; c1 = c2 = 0.001); and high (right; c1 = c2 = 0.01). The stars on the x axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is Tp = 0.25 (top two rows) and Tp = 0.5 (bottom two rows). The number of eggs is E = 103. Other parameter values are shown in Table 1." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-2109925372" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;The distributions of the normalized egg density (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.0001); intermediate (center; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.001); and high (right; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.01). The stars on the &lt;;em&gt;;x&lt;;/em&gt;; axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;p&lt;;/em&gt;;&lt;;/sub&gt;; = 0.25 (top two rows) and &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;p&lt;;/em&gt;;&lt;;/sub&gt;; = 0.5 (bottom two rows). The number of eggs is &lt;;em&gt;;E&lt;;/em&gt;; = 10&lt;;sup&gt;;3&lt;;/sup&gt;;. Other parameter values are shown in Table 1.&lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure A.1:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F5.medium.gif" width="440" height="306"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure A.1:" src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F5.medium.gif" width="440" height="306"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F5.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure A.1:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F5.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure A.1:</span>
+      <p id="p-47" class="first-child">The distributions of the normalized egg density (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.0001); intermediate (center; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.001); and high (right; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.01). The stars on the 
+       <em>x</em> axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is 
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub> = 0.25 (top two rows) and 
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub> = 0.5 (bottom two rows). The number of eggs is 
+       <em>E</em> = 10
+       <sup>3</sup>. Other parameter values are shown in 
+       <a id="xref-table-wrap-1-3" class="xref-table" href="#T1">Table 1</a>.
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <div id="F6" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F6.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="The distributions of the normalized egg density (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; c1 = c2 = 0.0001); intermediate (center; c1 = c2 = 0.001); and high (right; c1 = c2 = 0.01). The stars on the x axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is Tp = 0.25 (top two rows) and Tp = 0.5 (bottom two rows). The number of eggs is E = 105. Other parameter values are shown in Table 1." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-2109925372" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;The distributions of the normalized egg density (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.0001); intermediate (center; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.001); and high (right; &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;1&lt;;/sub&gt;; = &lt;;em&gt;;c&lt;;/em&gt;;&lt;;sub&gt;;2&lt;;/sub&gt;; = 0.01). The stars on the &lt;;em&gt;;x&lt;;/em&gt;; axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;p&lt;;/em&gt;;&lt;;/sub&gt;; = 0.25 (top two rows) and &lt;;em&gt;;T&lt;;/em&gt;;&lt;;sub&gt;;&lt;;em&gt;;p&lt;;/em&gt;;&lt;;/sub&gt;; = 0.5 (bottom two rows). The number of eggs is &lt;;em&gt;;E&lt;;/em&gt;; = 10&lt;;sup&gt;;5&lt;;/sup&gt;;. Other parameter values are shown in Table 1.&lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure A.2:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F6.medium.gif" width="440" height="305"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure A.2:" src="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F6.medium.gif" width="440" height="305"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F6.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure A.2:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/840264/F6.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure A.2:</span>
+      <p id="p-48" class="first-child">The distributions of the normalized egg density (top of each panel: left-vertical axis) under three cannibalism target (i) egg cannibalised by larvae (Egg); (ii) larvae cannibalised by larger larvae (Larvae); and (iii) larvae cannibalise both eggs and smaller larvae (Egg+larvae), and egg recruitment success in relation to the environmental condition (right-vertical axis). Bottom of each panel is egg fitness. These are examined under three cannibalistic scenarios: low (left; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.0001); intermediate (center; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.001); and high (right; 
+       <em>c</em>
+       <sub>1</sub> = 
+       <em>c</em>
+       <sub>2</sub> = 0.01). The stars on the 
+       <em>x</em> axis on the top of each panel represent the optimal spawning time under the no cannibalistic predation. The potential breeding period is 
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub> = 0.25 (top two rows) and 
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub> = 0.5 (bottom two rows). The number of eggs is 
+       <em>E</em> = 10
+       <sup>5</sup>. Other parameter values are shown in 
+       <a id="xref-table-wrap-1-4" class="xref-table" href="#T1">Table 1</a>.
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <div id="T3" class="table pos-float">
+     <div class="table-inline table-callout-links">
+      <div class="callout">
+       <span>View this table:</span>
+       <ul class="callout-links">
+        <li class="view-inline first">
+         <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1113437/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+        </li>
+        <li class="view-popup">
+         <a href="/highwire/markup/1113437/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+        </li>
+        <li class="download-ppt last">
+         <a href="/highwire/powerpoint/1113437" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="table-caption">
+      <span class="table-label">Table A.1:</span>
+      <p id="p-49" class="first-child">Mean value and the fraction of effective breeding season, 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub>/
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub>, of each curve in 
+       <a id="xref-fig-5-2" class="xref-fig" href="#F5">Figures A.1</a> (mean, 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub>/
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub>).
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <div id="T4" class="table pos-float">
+     <div class="table-inline table-callout-links">
+      <div class="callout">
+       <span>View this table:</span>
+       <ul class="callout-links">
+        <li class="view-inline first">
+         <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1113440/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+        </li>
+        <li class="view-popup">
+         <a href="/highwire/markup/1113440/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+        </li>
+        <li class="download-ppt last">
+         <a href="/highwire/powerpoint/1113440" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="table-caption">
+      <span class="table-label">Table A.2:</span>
+      <p id="p-50" class="first-child">Mean value and the fraction of effective breeding season, 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub>/
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub>, of each curve in 
+       <a id="xref-fig-6-6" class="xref-fig" href="#F6">Figures A.2</a> (mean, 
+       <em>T</em>
+       <sub>
+        <em>e</em>
+       </sub>/
+       <em>T</em>
+       <sub>
+        <em>p</em>
+       </sub>).
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+   </div>
+   <div class="section ref-list" id="ref-list-1">
+    <h2 class="">References</h2>
+    <ol class="cit-list ref-use-labels">
+     <li>
+      <span class="ref-label">[1].</span>
+      <a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference [1] in text" id="ref-1">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.1" data-doi="10.2307/1934273">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">I. A.</span>
+          <span class="cit-name-surname">McLaren</span>
+         </span>, “
+         <span class="cit-article-title">Adaptive Significance of Large Size and Long Life of the Chaetognath Sagitta Elegans in the Arctic</span>,” 
+         <abbr class="cit-jnl-abbrev">Ecology</abbr>, vol. 
+         <span class="cit-vol">47</span>, pp. 
+         <span class="cit-fpage">852</span>–
+         <span class="cit-lpage">855</span>, 
+         <span class="cit-pub-date">1966</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcology%26rft.volume%253D47%26rft.spage%253D852%26rft_id%253Dinfo%253Adoi%252F10.2307%252F1934273%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.2307/1934273&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A19668667700017&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[2].</span>
+      <a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference [2] in text" id="ref-2">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.2" data-doi="10.1098/rspb.1998.0514">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. E.</span>
+          <span class="cit-name-surname">Visser</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. J.</span>
+          <span class="cit-name-surname">Van Noordwijk</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. M.</span>
+          <span class="cit-name-surname">Tinbergen</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">C. M.</span>
+          <span class="cit-name-surname">Lessells</span>
+         </span>, “
+         <span class="cit-article-title">Warmer springs lead to mistimed reproduction in great tits (Parus major)</span>,” 
+         <abbr class="cit-jnl-abbrev">Proc. R. Soc. B Biol. Sci.</abbr>, vol. 
+         <span class="cit-vol">265</span>, pp. 
+         <span class="cit-fpage">1867</span>–
+         <span class="cit-lpage">1870</span>, 
+         <span class="cit-pub-date">1998</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DProceedings%2Bof%2Bthe%2BRoyal%2BSociety%2BB%253A%2BBiological%2BSciences%26rft.stitle%253DProc%2BR%2BSoc%2BB%26rft.aulast%253DVisser%26rft.auinit1%253DM.%2BE.%26rft.volume%253D265%26rft.issue%253D1408%26rft.spage%253D1867%26rft.epage%253D1870%26rft.atitle%253DWarmer%2Bsprings%2Blead%2Bto%2Bmistimed%2Breproduction%2Bin%2Bgreat%2Btits%2B%2528Parus%2Bmajor%2529%26rft_id%253Dinfo%253Adoi%252F10.1098%252Frspb.1998.0514%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1098/rspb.1998.0514&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000076410600009&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[3].</span>
+      <a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference [3] in text" id="ref-3">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.3" data-doi="10.1098/rspb.2017.1405">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">P.</span>
+          <span class="cit-name-surname">Reglero</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Ortega</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Balbín</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F. J.</span>
+          <span class="cit-name-surname">Abascal</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Medina</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">E.</span>
+          <span class="cit-name-surname">Blanco</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F.</span>
+          <span class="cit-name-surname">de la Gándara</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D.</span>
+          <span class="cit-name-surname">Alvarez-Berastegui</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Hidalgo</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">Rasmuson</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F.</span>
+          <span class="cit-name-surname">Alemany</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Fiksen</span>
+         </span>, “
+         <span class="cit-article-title">Atlantic bluefin tuna spawn at suboptimal temperatures for their offspring</span>,” 
+         <abbr class="cit-jnl-abbrev">Proc. R. Soc. B Biol. Sci.</abbr>, vol. 
+         <span class="cit-vol">285</span>, p. 
+         <span class="cit-fpage">20171405</span>, 
+         <span class="cit-pub-date">2018</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DProc.%2BR.%2BSoc.%2BB%2BBiol.%2BSci.%26rft_id%253Dinfo%253Adoi%252F10.1098%252Frspb.2017.1405%26rft_id%253Dinfo%253Apmid%252F29321292%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1098/rspb.2017.1405&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=29321292&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[4].</span>
+      <a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference [4] in text" id="ref-4">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.4" data-doi="10.1111/j.1461-0248.2009.01402.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L. H.</span>
+          <span class="cit-name-surname">Yang</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">V. H. W.</span>
+          <span class="cit-name-surname">Rudolf</span>
+         </span>, “
+         <span class="cit-article-title">Phenology, ontogeny and the effects of climate change on the timing of species interactions</span>,” 
+         <abbr class="cit-jnl-abbrev">Ecol. Lett.</abbr>, vol. 
+         <span class="cit-vol">13</span>, pp. 
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">10</span>, 
+         <span class="cit-pub-date">2010</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.stitle%253DEcol%2BLett%26rft.aulast%253DYang%26rft.auinit1%253DL.%2BH.%26rft.volume%253D13%26rft.issue%253D1%26rft.spage%253D1%26rft.epage%253D10%26rft.atitle%253DPhenology%252C%2Bontogeny%2Band%2Bthe%2Beffects%2Bof%2Bclimate%2Bchange%2Bon%2Bthe%2Btiming%2Bof%2Bspecies%2Binteractions.%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1461-0248.2009.01402.x%26rft_id%253Dinfo%253Apmid%252F19930396%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1461-0248.2009.01402.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=19930396&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000272996200001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[5].</span>
+      <a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference [5] in text" id="ref-5">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.5">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. J.</span>
+          <span class="cit-name-surname">Hobday</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. W.</span>
+          <span class="cit-name-surname">Young</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">O.</span>
+          <span class="cit-name-surname">Abe</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D. P.</span>
+          <span class="cit-name-surname">Costa</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R. K.</span>
+          <span class="cit-name-surname">Cowen</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">K.</span>
+          <span class="cit-name-surname">Evans</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. A.</span>
+          <span class="cit-name-surname">Gasalla</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Kloser</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">O.</span>
+          <span class="cit-name-surname">Maury</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">K. C.</span>
+          <span class="cit-name-surname">Weng</span>
+         </span>, “
+         <span class="cit-article-title">Climate impacts and oceanic top predators: Moving from impacts to adaptation in oceanic systems</span>,” 
+         <abbr class="cit-jnl-abbrev">Rev. Fish Biol. Fish.</abbr>, vol. 
+         <span class="cit-vol">23</span>, pp. 
+         <span class="cit-fpage">537</span>–
+         <span class="cit-lpage">546</span>, 
+         <span class="cit-pub-date">2013</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DRev.%2BFish%2BBiol.%2BFish.%26rft.volume%253D23%26rft.spage%253D537%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[6].</span>
+      <a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference [6] in text" id="ref-6">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.6">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">V. H.</span>
+          <span class="cit-name-surname">Rudolf</span>
+         </span>, “
+         <span class="cit-article-title">The role of seasonal timing and phenological shifts for species coexistence</span>,” 
+         <abbr class="cit-jnl-abbrev">Ecol. Lett.</abbr>, vol. 
+         <span class="cit-vol">22</span>, pp. 
+         <span class="cit-fpage">1324</span>–
+         <span class="cit-lpage">1338</span>, 
+         <span class="cit-pub-date">2019</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcol.%2BLett.%26rft.volume%253D22%26rft.spage%253D1324%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[7].</span>
+      <a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference [7] in text" id="ref-7">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.7" data-doi="10.2307/1937505">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. J.</span>
+          <span class="cit-name-surname">Shulman</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. C.</span>
+          <span class="cit-name-surname">Ogden</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. P.</span>
+          <span class="cit-name-surname">Ebersole</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">W. N.</span>
+          <span class="cit-name-surname">McFarland</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">S. L.</span>
+          <span class="cit-name-surname">Miller</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">N. G.</span>
+          <span class="cit-name-surname">Wolf</span>
+         </span>, “
+         <span class="cit-article-title">Priority effects in the recruitment of juvenile coral reef fishes</span>.,” 
+         <abbr class="cit-jnl-abbrev">Ecology</abbr>, vol. 
+         <span class="cit-vol">64</span>, pp. 
+         <span class="cit-fpage">1508</span>–
+         <span class="cit-lpage">1513</span>, 
+         <span class="cit-pub-date">1983</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcology%26rft.volume%253D64%26rft.spage%253D1508%26rft_id%253Dinfo%253Adoi%252F10.2307%252F1937505%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.2307/1937505&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1983RU21500018&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[8].</span>
+      <a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference [8] in text" id="ref-8">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.8">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Salamolard</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Butet</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Leroux</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">V.</span>
+          <span class="cit-name-surname">Bretagnolle</span>
+         </span>, “
+         <span class="cit-article-title">Responses of an avian predator to variations in prey density at a temperate latitude</span>,” 
+         <abbr class="cit-jnl-abbrev">Ecology</abbr>, vol. 
+         <span class="cit-vol">81</span>, pp. 
+         <span class="cit-fpage">2428</span>–
+         <span class="cit-lpage">2441</span>, 
+         <span class="cit-pub-date">2000</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcology%26rft.volume%253D81%26rft.spage%253D2428%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000089093500007&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[9].</span>
+      <a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference [9] in text" id="ref-9">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.9">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">N. L.</span>
+          <span class="cit-name-surname">Rasmussen</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">B. G.</span>
+          <span class="cit-name-surname">Van Allen</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">V. H. W.</span>
+          <span class="cit-name-surname">Rudolf</span>
+         </span>, “
+         <span class="cit-article-title">Linking phenological shifts to species interactions through size-mediated priority effects</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Anim. Ecol.</abbr>, vol. 
+         <span class="cit-vol">83</span>, pp. 
+         <span class="cit-fpage">1206</span>–
+         <span class="cit-lpage">1215</span>, 
+         <span class="cit-pub-date">2014</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ.%2BAnim.%2BEcol.%26rft.volume%253D83%26rft.spage%253D1206%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[10].</span>
+      <a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference [10] in text" id="ref-10">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.10" data-doi="10.1016/j.tree.2015.12.009">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">De Meester</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J.</span>
+          <span class="cit-name-surname">Vanoverbeke</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L. J.</span>
+          <span class="cit-name-surname">Kilsdonk</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. C.</span>
+          <span class="cit-name-surname">Urban</span>
+         </span>, “
+         <span class="cit-article-title">Evolving Perspectives on Monopolization and Priority Effects</span>,” 
+         <abbr class="cit-jnl-abbrev">Trends Ecol. Evol.</abbr>, vol. 
+         <span class="cit-vol">31</span>, pp. 
+         <span class="cit-fpage">136</span>–
+         <span class="cit-lpage">146</span>, 
+         <span class="cit-pub-date">2016</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DTrends%2BEcol.%2BEvol.%26rft.volume%253D31%26rft.spage%253D136%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.tree.2015.12.009%26rft_id%253Dinfo%253Apmid%252F26778169%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.tree.2015.12.009&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=26778169&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[11].</span>
+      <a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference [11] in text" id="ref-11">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.11">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">T. L.</span>
+          <span class="cit-name-surname">Anderson</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F. E.</span>
+          <span class="cit-name-surname">Rowland</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R. D.</span>
+          <span class="cit-name-surname">Semlitsch</span>
+         </span>, “
+         <span class="cit-article-title">Variation in phenology and density differentially affects predatorprey interactions between salamanders</span>,” 
+         <abbr class="cit-jnl-abbrev">Oecologia</abbr>, vol. 
+         <span class="cit-vol">185</span>, pp. 
+         <span class="cit-fpage">475</span>–
+         <span class="cit-lpage">486</span>, 
+         <span class="cit-pub-date">2017</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOecologia%26rft.volume%253D185%26rft.spage%253D475%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[12].</span>
+      <a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference [12] in text" id="ref-12">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.12">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">S.</span>
+          <span class="cit-name-surname">Sniegula</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. J.</span>
+          <span class="cit-name-surname">Golab</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F.</span>
+          <span class="cit-name-surname">Johansson</span>
+         </span>, “
+         <span class="cit-article-title">Size-mediated priority and temperature effects on intra-cohort competition and cannibalism in a damselfly</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Anim. Ecol.</abbr>, vol. 
+         <span class="cit-vol">88</span>, pp. 
+         <span class="cit-fpage">637</span>–
+         <span class="cit-lpage">648</span>, 
+         <span class="cit-pub-date">2019</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ.%2BAnim.%2BEcol.%26rft.volume%253D88%26rft.spage%253D637%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[13].</span>
+      <a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference [13] in text" id="ref-13">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.13" data-doi="10.1111/oik.01662">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Nosaka</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">N.</span>
+          <span class="cit-name-surname">Katayama</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">O.</span>
+          <span class="cit-name-surname">Kishida</span>
+         </span>, “
+         <span class="cit-article-title">Feedback between size balance and consumption strongly affects the consequences of hatching phenology in size-dependent predator-prey interactions</span>,” 
+         <abbr class="cit-jnl-abbrev">Oikos</abbr>, vol. 
+         <span class="cit-vol">124</span>, pp. 
+         <span class="cit-fpage">225</span>–
+         <span class="cit-lpage">234</span>, 
+         <span class="cit-pub-date">2015</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOikos%26rft.volume%253D124%26rft.spage%253D225%26rft_id%253Dinfo%253Adoi%252F10.1111%252Foik.01662%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/oik.01662&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[14].</span>
+      <a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference [14] in text" id="ref-14">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.14" data-doi="10.3354/cr033271">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. M.</span>
+          <span class="cit-name-surname">Durant</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D.</span>
+          <span class="cit-name-surname">Hjermann</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">G.</span>
+          <span class="cit-name-surname">Ottersen</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">N. C.</span>
+          <span class="cit-name-surname">Stenseth</span>
+         </span>, “
+         <span class="cit-article-title">Climate and the match or mismatch between predator requirements and resource availability</span>,” 
+         <abbr class="cit-jnl-abbrev">Clim. Res.</abbr>, vol. 
+         <span class="cit-vol">33</span>, pp. 
+         <span class="cit-fpage">271</span>–
+         <span class="cit-lpage">283</span>, 
+         <span class="cit-pub-date">2007</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DClim.%2BRes.%26rft.volume%253D33%26rft.spage%253D271%26rft_id%253Dinfo%253Adoi%252F10.3354%252Fcr033271%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.3354/cr033271&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000246434600006&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[15].</span>
+      <a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference [15] in text" id="ref-15">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.15" data-doi="10.1146/annurev.es.06.110175.000511">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L. R.</span>
+          <span class="cit-name-surname">Fox</span>
+         </span>, “
+         <span class="cit-article-title">Cannibalism in Natural Populations</span>,” 
+         <abbr class="cit-jnl-abbrev">Annu. Rev. Ecol. Syst.</abbr>, vol. 
+         <span class="cit-vol">6</span>, pp. 
+         <span class="cit-fpage">87</span>–
+         <span class="cit-lpage">106</span>, 
+         <span class="cit-pub-date">1975</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAnnual%2BReview%2Bof%2BEcology%2Band%2BSystematics%26rft.stitle%253DAnnu.%2BRev.%2BEcol.%2BSyst.%26rft.volume%253D6%26rft.spage%253D87%26rft_id%253Dinfo%253Adoi%252F10.1146%252Fannurev.es.06.110175.000511%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1146/annurev.es.06.110175.000511&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1975AW70200005&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[16].</span>
+      <a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference [16] in text" id="ref-16">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.16" data-doi="10.1146/annurev.es.12.110181.001301">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">G. A.</span>
+          <span class="cit-name-surname">Polis</span>
+         </span>, “
+         <span class="cit-article-title">The Evolution and Dynamics of Intraspecific Predation</span>,” 
+         <abbr class="cit-jnl-abbrev">Annu. Rev. Ecol. Syst.</abbr>, vol. 
+         <span class="cit-vol">12</span>, pp. 
+         <span class="cit-fpage">225</span>–
+         <span class="cit-lpage">251</span>, 
+         <span class="cit-pub-date">1981</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAnnual%2BReview%2Bof%2BEcology%2Band%2BSystematics%26rft.stitle%253DAnnu.%2BRev.%2BEcol.%2BSyst.%26rft.volume%253D12%26rft.spage%253D225%26rft_id%253Dinfo%253Adoi%252F10.1146%252Fannurev.es.12.110181.001301%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1146/annurev.es.12.110181.001301&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1981MQ93600009&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[17].</span>
+      <a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference [17] in text" id="ref-17">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.17" data-doi="10.1007/BF02769893">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">Y.</span>
+          <span class="cit-name-surname">Hironori</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">S.</span>
+          <span class="cit-name-surname">Katsuhiro</span>
+         </span>, “
+         <span class="cit-article-title">Cannibalism and interspecific predation in two predatory ladybirds in relation to prey abundance in the field</span>,” 
+         <abbr class="cit-jnl-abbrev">Entomophaga</abbr>, vol. 
+         <span class="cit-vol">42</span>, pp. 
+         <span class="cit-fpage">153</span>–
+         <span class="cit-lpage">163</span>, 
+         <span class="cit-pub-date">1997</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEntomophaga%26rft.volume%253D42%26rft.spage%253D153%26rft_id%253Dinfo%253Adoi%252F10.1007%252FBF02769893%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1007/BF02769893&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1997XY38700020&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[18].</span>
+      <a class="rev-xref-ref" href="#xref-ref-18-1" title="View reference [18] in text" id="ref-18">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.18">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">B. R.</span>
+          <span class="cit-name-surname">Anholt</span>
+         </span>, “
+         <span class="cit-article-title">Cannibalism and early instar survival in a larval damselfly</span>,” 
+         <abbr class="cit-jnl-abbrev">Oecologia</abbr>, vol. 
+         <span class="cit-vol">99</span>, pp. 
+         <span class="cit-fpage">60</span>–
+         <span class="cit-lpage">65</span>, 
+         <span class="cit-pub-date">1994</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOecologia%26rft.volume%253D99%26rft.spage%253D60%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[19].</span>
+      <a class="rev-xref-ref" href="#xref-ref-19-1" title="View reference [19] in text" id="ref-19">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.19" data-doi="10.1016/0025-5564(86)90029-5">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">O.</span>
+          <span class="cit-name-surname">Diekmann</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Nisbet</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">W.</span>
+          <span class="cit-name-surname">Gurney</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F.</span>
+          <span class="cit-name-surname">van den Bosch</span>
+         </span>, “
+         <span class="cit-article-title">Simple mathematical models for cannibalism: A critique and a new approach</span>,” 
+         <abbr class="cit-jnl-abbrev">Math. Biosci.</abbr>, vol. 
+         <span class="cit-vol">78</span>, pp. 
+         <span class="cit-fpage">21</span>–
+         <span class="cit-lpage">46</span>, 
+         <span class="cit-pub-date">1986</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMath.%2BBiosci.%26rft.volume%253D78%26rft.spage%253D21%26rft_id%253Dinfo%253Adoi%252F10.1016%252F0025-5564%252886%252990029-5%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/0025-5564(86)90029-5&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1986A670300002&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[20].</span>
+      <a class="rev-xref-ref" href="#xref-ref-20-1" title="View reference [20] in text" id="ref-20">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.20" data-doi="10.1086/284696">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Hastings</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R. F.</span>
+          <span class="cit-name-surname">Costantino</span>
+         </span>, “
+         <span class="cit-article-title">Cannibalistic Egg-Larva Interactions in Tribolium: An Explanation for the Oscillations in Population Numbers</span>,” 
+         <abbr class="cit-jnl-abbrev">Am. Nat.</abbr>, vol. 
+         <span class="cit-vol">130</span>, pp. 
+         <span class="cit-fpage">36</span>–
+         <span class="cit-lpage">52</span>, 
+         <span class="cit-pub-date">1987</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAm.%2BNat.%26rft.volume%253D130%26rft.spage%253D36%26rft_id%253Dinfo%253Adoi%252F10.1086%252F284696%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1086/284696&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1987J340700003&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[21].</span>
+      <a class="rev-xref-ref" href="#xref-ref-21-1" title="View reference [21] in text" id="ref-21">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.21">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Hastings</span>
+         </span>, “
+         <span class="cit-article-title">Cycles in cannibalistic egg-larval interactions</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Math. Biol.</abbr>, vol. 
+         <span class="cit-vol">24</span>, pp. 
+         <span class="cit-fpage">651</span>–
+         <span class="cit-lpage">666</span>, 
+         <span class="cit-pub-date">1987</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ.%2BMath.%2BBiol.%26rft.volume%253D24%26rft.spage%253D651%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[22].</span>
+      <a class="rev-xref-ref" href="#xref-ref-22-1" title="View reference [22] in text" id="ref-22">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.22" data-doi="10.1098/rspb.2003.2555">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D.</span>
+          <span class="cit-name-surname">Claessen</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. M.</span>
+          <span class="cit-name-surname">De Roos</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">Persson</span>
+         </span>, “
+         <span class="cit-article-title">Population dynamic theory of size-dependent cannibalism</span>,” 
+         <abbr class="cit-jnl-abbrev">Proc. R. Soc. B Biol. Sci.</abbr>, vol. 
+         <span class="cit-vol">271</span>, pp. 
+         <span class="cit-fpage">333</span>–
+         <span class="cit-lpage">340</span>, 
+         <span class="cit-pub-date">2004</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DProceedings%2Bof%2Bthe%2BRoyal%2BSociety%2BB%253A%2BBiological%2BSciences%26rft.stitle%253DProc%2BR%2BSoc%2BB%26rft.aulast%253DClaessen%26rft.auinit1%253DD.%26rft.volume%253D271%26rft.issue%253D1537%26rft.spage%253D333%26rft.epage%253D340%26rft.atitle%253DPopulation%2Bdynamic%2Btheory%2Bof%2Bsize-dependent%2Bcannibalism%26rft_id%253Dinfo%253Adoi%252F10.1098%252Frspb.2003.2555%26rft_id%253Dinfo%253Apmid%252F15101690%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1098/rspb.2003.2555&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=15101690&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000189028500001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[23].</span>
+      <a class="rev-xref-ref" href="#xref-ref-23-1" title="View reference [23] in text" id="ref-23">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.23">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">K. H.</span>
+          <span class="cit-name-surname">Olsson</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">K. H.</span>
+          <span class="cit-name-surname">Andersen</span>
+         </span>, “
+         <span class="cit-article-title">Cannibalism as a selective force on offspring size in fish</span>,” 
+         <abbr class="cit-jnl-abbrev">Oikos</abbr>, vol. 
+         <span class="cit-vol">127</span>, pp. 
+         <span class="cit-fpage">1264</span>–
+         <span class="cit-lpage">1271</span>, 
+         <span class="cit-pub-date">2018</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOikos%26rft.volume%253D127%26rft.spage%253D1264%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[24].</span>
+      <a class="rev-xref-ref" href="#xref-ref-24-1" title="View reference [24] in text" id="ref-24">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.24">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Huss</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">T.</span>
+          <span class="cit-name-surname">Van Kooten</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">Persson</span>
+         </span>, “
+         <span class="cit-article-title">Intra-cohort cannibalism and size bimodality: A balance between hatching synchrony and resource feedbacks</span>,” 
+         <abbr class="cit-jnl-abbrev">Oikos</abbr>, vol. 
+         <span class="cit-vol">119</span>, pp. 
+         <span class="cit-fpage">2000</span>–
+         <span class="cit-lpage">2011</span>, 
+         <span class="cit-pub-date">2010</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOikos%26rft.volume%253D119%26rft.spage%253D2000%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[25].</span>
+      <a class="rev-xref-ref" href="#xref-ref-25-1" title="View reference [25] in text" id="ref-25">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.25">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">De Block</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Stoks</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">De Bruyn</span>
+         </span>, “
+         <span class="cit-article-title">Egg hatching patterns within and among populations of a damselfly occupying permanent and temporary ponds</span>,” 
+         <abbr class="cit-jnl-abbrev">Arch. für Hydrobiol.</abbr>, vol. 
+         <span class="cit-vol">163</span>, pp. 
+         <span class="cit-fpage">195</span>–
+         <span class="cit-lpage">209</span>, 
+         <span class="cit-pub-date">2005</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DArch.%2Bf%25FCr%2BHydrobiol.%26rft.volume%253D163%26rft.spage%253D195%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[26].</span>
+      <a class="rev-xref-ref" href="#xref-ref-26-1" title="View reference [26] in text" id="ref-26">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.26">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">P.</span>
+          <span class="cit-name-surname">Reglero</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Urtizberea</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. P.</span>
+          <span class="cit-name-surname">Torres</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F.</span>
+          <span class="cit-name-surname">Alemany</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">O.</span>
+          <span class="cit-name-surname">Fiksen</span>
+         </span>, “
+         <span class="cit-article-title">Cannibalism among size classes of larvae may be a substantial mortality component in tuna</span>,” 
+         <abbr class="cit-jnl-abbrev">Mar. Ecol. Prog. Ser.</abbr>, vol. 
+         <span class="cit-vol">433</span>, pp. 
+         <span class="cit-fpage">205</span>–
+         <span class="cit-lpage">219</span>, 
+         <span class="cit-pub-date">2011</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMar.%2BEcol.%2BProg.%2BSer.%26rft.volume%253D433%26rft.spage%253D205%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000292890400017&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[27].</span>
+      <a class="rev-xref-ref" href="#xref-ref-27-1" title="View reference [27] in text" id="ref-27">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.27" data-doi="10.1093/beheco/arr029">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">O.</span>
+          <span class="cit-name-surname">Segev</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Mangel</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">N.</span>
+          <span class="cit-name-surname">Wolf</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Sadeh</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A.</span>
+          <span class="cit-name-surname">Kershenbaum</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L.</span>
+          <span class="cit-name-surname">Blaustein</span>
+         </span>, “
+         <span class="cit-article-title">Spatiotemporal reproductive strategies in the fire salamander: A model and empirical test</span>,” 
+         <abbr class="cit-jnl-abbrev">Behav. Ecol.</abbr>, vol. 
+         <span class="cit-vol">22</span>, pp. 
+         <span class="cit-fpage">670</span>–
+         <span class="cit-lpage">678</span>, 
+         <span class="cit-pub-date">2011</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBehav.%2BEcol.%26rft_id%253Dinfo%253Adoi%252F10.1093%252Fbeheco%252Farr029%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1093/beheco/arr029&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[28].</span>
+      <a class="rev-xref-ref" href="#xref-ref-28-1" title="View reference [28] in text" id="ref-28">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.28">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">Y.</span>
+          <span class="cit-name-surname">Iwasa</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">F. J.</span>
+          <span class="cit-name-surname">Odendaal</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D. D.</span>
+          <span class="cit-name-surname">Murphy</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">P. R.</span>
+          <span class="cit-name-surname">Ehrlich</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. E.</span>
+          <span class="cit-name-surname">Launer</span>
+         </span>, “
+         <span class="cit-article-title">Emergence patterns in male butterflies: A hypothesis and a test</span>,” 
+         <abbr class="cit-jnl-abbrev">Theor. Popul. Biol.</abbr>, vol. 
+         <span class="cit-vol">23</span>, pp. 
+         <span class="cit-fpage">363</span>–
+         <span class="cit-lpage">379</span>, 
+         <span class="cit-pub-date">1983</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DTheor.%2BPopul.%2BBiol.%26rft.volume%253D23%26rft.spage%253D363%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=A1983RA37900007&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[29].</span>
+      <a class="rev-xref-ref" href="#xref-ref-29-1" title="View reference [29] in text" id="ref-29">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.29" data-doi="10.1016/j.tpb.2007.12.009">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">V.</span>
+          <span class="cit-name-surname">Kivan</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Cressman</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">C.</span>
+          <span class="cit-name-surname">Schneider</span>
+         </span>, “
+         <span class="cit-article-title">The ideal free distribution: A review and synthesis of the game-theoretic perspective</span>,” 
+         <abbr class="cit-jnl-abbrev">Theor. Popul. Biol.</abbr>, vol. 
+         <span class="cit-vol">73</span>, pp. 
+         <span class="cit-fpage">403</span>–
+         <span class="cit-lpage">425</span>, 
+         <span class="cit-pub-date">2008</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DTheoretical%2Bpopulation%2Bbiology%26rft.stitle%253DTheor%2BPopul%2BBiol%26rft.aulast%253DKrivan%26rft.auinit1%253DV.%26rft.volume%253D73%26rft.issue%253D3%26rft.spage%253D403%26rft.epage%253D425%26rft.atitle%253DThe%2Bideal%2Bfree%2Bdistribution%253A%2Ba%2Breview%2Band%2Bsynthesis%2Bof%2Bthe%2Bgame-theoretic%2Bperspective.%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.tpb.2007.12.009%26rft_id%253Dinfo%253Apmid%252F18282592%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.tpb.2007.12.009&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=18282592&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000255852500009&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[30].</span>
+      <a class="rev-xref-ref" href="#xref-ref-30-1" title="View reference [30] in text" id="ref-30">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.30" data-doi="10.1016/S0065-2881(08)60202-3">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D. H.</span>
+          <span class="cit-name-surname">Cushing</span>
+         </span>, “
+         <span class="cit-article-title">Plankton production and year-class strength in fish populations: An update of the match/mismatch hypothesis</span>,” 
+         <abbr class="cit-jnl-abbrev">Adv. Mar. Biol.</abbr>, vol. 
+         <span class="cit-vol">26</span>, pp. 
+         <span class="cit-fpage">249</span>–
+         <span class="cit-lpage">293</span>, 
+         <span class="cit-pub-date">1990</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAdv.%2BMar.%2BBiol.%26rft.volume%253D26%26rft.spage%253D249%26rft_id%253Dinfo%253Adoi%252F10.1016%252FS0065-2881%252808%252960202-3%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/S0065-2881(08)60202-3&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[31].</span>
+      <a class="rev-xref-ref" href="#xref-ref-31-1" title="View reference [31] in text" id="ref-31">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.31">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. L.</span>
+          <span class="cit-name-surname">Crump</span>
+         </span>, “
+         <span class="cit-article-title">Opportunistic Cannibalism by Amphibian Larvae in Temporary Aquatic Environments</span>,” 
+         <abbr class="cit-jnl-abbrev">Am. Nat.</abbr>, vol. 
+         <span class="cit-vol">121</span>, pp. 
+         <span class="cit-fpage">281</span>–
+         <span class="cit-lpage">289</span>, 
+         <span class="cit-pub-date">1983</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAm.%2BNat.%26rft.volume%253D121%26rft.spage%253D281%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[32].</span>
+      <a class="rev-xref-ref" href="#xref-ref-32-1" title="View reference [32] in text" id="ref-32">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.32">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">C.</span>
+          <span class="cit-name-surname">Brownell</span>
+         </span>, “
+         <span class="cit-article-title">Laboratory Analysis of Cannibalism by Larvae of the Cape Anchovy Engraulis capensis</span>,” 
+         <abbr class="cit-jnl-abbrev">Trans. Am. Fish. Soc.</abbr>, vol. 
+         <span class="cit-vol">114</span>, pp. 
+         <span class="cit-fpage">512</span>–
+         <span class="cit-lpage">518</span>, 
+         <span class="cit-pub-date">1985</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DTrans.%2BAm.%2BFish.%2BSoc.%26rft.volume%253D114%26rft.spage%253D512%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[33].</span>
+      <a class="rev-xref-ref" href="#xref-ref-33-1" title="View reference [33] in text" id="ref-33">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.33">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">L. S.</span>
+          <span class="cit-name-surname">Pereira</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. A.</span>
+          <span class="cit-name-surname">Agostinho</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">K. O.</span>
+          <span class="cit-name-surname">Winemiller</span>
+         </span>, “
+         <span class="cit-article-title">Revisiting cannibalism in fishes</span>,” 
+         <abbr class="cit-jnl-abbrev">Rev. Fish Biol. Fish.</abbr>, vol. 
+         <span class="cit-vol">27</span>, pp. 
+         <span class="cit-fpage">499</span>–
+         <span class="cit-lpage">513</span>, 
+         <span class="cit-pub-date">2017</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DRev.%2BFish%2BBiol.%2BFish.%26rft.volume%253D27%26rft.spage%253D499%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[34].</span>
+      <a class="rev-xref-ref" href="#xref-ref-34-1" title="View reference [34] in text" id="ref-34">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.34" data-doi="10.1046/j.1420-9101.2003.00530.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. M.</span>
+          <span class="cit-name-surname">Simons</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. O.</span>
+          <span class="cit-name-surname">Johnston</span>
+         </span>, “
+         <span class="cit-article-title">Suboptimal timing of reproduction in Lobelia inflata may be a conservative bet-hedging strategy</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Evol. Biol.</abbr>, vol. 
+         <span class="cit-vol">16</span>, pp. 
+         <span class="cit-fpage">233</span>–
+         <span class="cit-lpage">243</span>, 
+         <span class="cit-pub-date">2003</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2Bevolutionary%2Bbiology%26rft.stitle%253DJ%2BEvol%2BBiol%26rft.aulast%253DSimons%26rft.auinit1%253DA.%2BM.%26rft.volume%253D16%26rft.issue%253D2%26rft.spage%253D233%26rft.epage%253D243%26rft.atitle%253DSuboptimal%2Btiming%2Bof%2Breproduction%2Bin%2BLobelia%2Binflata%2Bmay%2Bbe%2Ba%2Bconservative%2Bbet-hedging%2Bstrategy.%26rft_id%253Dinfo%253Adoi%252F10.1046%252Fj.1420-9101.2003.00530.x%26rft_id%253Dinfo%253Apmid%252F14635862%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1046/j.1420-9101.2003.00530.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=14635862&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000180926300007&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[35].</span>
+      <a class="rev-xref-ref" href="#xref-ref-35-1" title="View reference [35] in text" id="ref-35">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.35" data-doi="10.1890/140275">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">D. E.</span>
+          <span class="cit-name-surname">Schindler</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. B.</span>
+          <span class="cit-name-surname">Armstrong</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">T. E.</span>
+          <span class="cit-name-surname">Reed</span>
+         </span>, “
+         <span class="cit-article-title">The portfolio concept in ecology and evolution</span>,” 
+         <abbr class="cit-jnl-abbrev">Front. Ecol. Environ.</abbr>, vol. 
+         <span class="cit-vol">13</span>, pp. 
+         <span class="cit-fpage">257</span>–
+         <span class="cit-lpage">263</span>, 
+         <span class="cit-pub-date">2015</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DFront.%2BEcol.%2BEnviron.%26rft.volume%253D13%26rft.spage%253D257%26rft_id%253Dinfo%253Adoi%252F10.1890%252F140275%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1890/140275&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[36].</span>
+      <a class="rev-xref-ref" href="#xref-ref-36-1" title="View reference [36] in text" id="ref-36">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.36" data-doi="10.1111/j.1469-185X.2012.00225.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J.</span>
+          <span class="cit-name-surname">Starrfelt</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">H.</span>
+          <span class="cit-name-surname">Kokko</span>
+         </span>, “
+         <span class="cit-article-title">Bet-hedging-a triple trade-off between means, variances and correlations</span>,” 
+         <abbr class="cit-jnl-abbrev">Biol. Rev.</abbr>, vol. 
+         <span class="cit-vol">87</span>, pp. 
+         <span class="cit-fpage">742</span>–
+         <span class="cit-lpage">755</span>, 
+         <span class="cit-pub-date">2012</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBiological%2BReviews%2B%2528Cambridge%253B%2BPrint%2529%26rft.stitle%253DBiological%2BReviews%2B%2528Cambridge%253B%2BPrint%2529%26rft.aulast%253DStarrfelt%26rft.auinit1%253DJ.%26rft.volume%253D87%26rft.issue%253D3%26rft.spage%253D742%26rft.epage%253D755%26rft.atitle%253DBet-hedging--a%2Btriple%2Btrade-off%2Bbetween%2Bmeans%252C%2Bvariances%2Band%2Bcorrelations.%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1469-185X.2012.00225.x%26rft_id%253Dinfo%253Apmid%252F22404978%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1469-185X.2012.00225.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=22404978&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[37].</span>
+      <a class="rev-xref-ref" href="#xref-ref-37-1" title="View reference [37] in text" id="ref-37">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.37">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Takata</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">S.</span>
+          <span class="cit-name-surname">Koyama</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">T.</span>
+          <span class="cit-name-surname">Satoh</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">H.</span>
+          <span class="cit-name-surname">Fugo</span>
+         </span>, “
+         <span class="cit-article-title">Asynchronous hatching and brood reduction by filial cannibalism in the burying beetle Nicrophorus quadripunctatus</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Ethol.</abbr>, vol. 
+         <span class="cit-vol">31</span>, pp. 
+         <span class="cit-fpage">249</span>–
+         <span class="cit-lpage">254</span>, 
+         <span class="cit-pub-date">2013</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJ.%2BEthol.%26rft.volume%253D31%26rft.spage%253D249%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[38].</span>
+      <a class="rev-xref-ref" href="#xref-ref-38-1" title="View reference [38] in text" id="ref-38">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.38" data-doi="10.1016/j.jtbi.2010.12.006">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Hartvig</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">K. H.</span>
+          <span class="cit-name-surname">Andersen</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J. E.</span>
+          <span class="cit-name-surname">Beyer</span>
+         </span>, “
+         <span class="cit-article-title">Food web framework for size-structured populations</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Theor. Biol.</abbr>, vol. 
+         <span class="cit-vol">272</span>, pp. 
+         <span class="cit-fpage">113</span>–
+         <span class="cit-lpage">122</span>, 
+         <span class="cit-pub-date">2011</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2BTheoretical%2BBiology%26rft.stitle%253DJournal%2Bof%2BTheoretical%2BBiology%26rft.aulast%253DHartvig%26rft.auinit1%253DM.%26rft.volume%253D272%26rft.issue%253D1%26rft.spage%253D113%26rft.epage%253D122%26rft.atitle%253DFood%2Bweb%2Bframework%2Bfor%2Bsize-structured%2Bpopulations.%26rft_id%253Dinfo%253Adoi%252F10.1016%252Fj.jtbi.2010.12.006%26rft_id%253Dinfo%253Apmid%252F21146543%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/j.jtbi.2010.12.006&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=21146543&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000287227700012&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[39].</span>
+      <a class="rev-xref-ref" href="#xref-ref-39-1" title="View reference [39] in text" id="ref-39">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.39" data-doi="10.1111/j.1600-0706.2008.17036.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">Ø.</span>
+          <span class="cit-name-surname">Varpe</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">C.</span>
+          <span class="cit-name-surname">Jørgensen</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">G. A.</span>
+          <span class="cit-name-surname">Tarling</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">Ø.</span>
+          <span class="cit-name-surname">Fiksen</span>
+         </span>, “
+         <span class="cit-article-title">The adaptive value of energy storage and capital breeding in seasonal environments</span>,” 
+         <abbr class="cit-jnl-abbrev">Oikos</abbr>, vol. 
+         <span class="cit-vol">118</span>, pp. 
+         <span class="cit-fpage">363</span>–
+         <span class="cit-lpage">370</span>, 
+         <span class="cit-pub-date">2009</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DOikos%26rft.volume%253D118%26rft.spage%253D363%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1600-0706.2008.17036.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1600-0706.2008.17036.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000263967000006&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[40].</span>
+      <a class="rev-xref-ref" href="#xref-ref-40-1" title="View reference [40] in text" id="ref-40">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.40" data-doi="10.1146/annurev-ecolsys-110411-160340">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">T.</span>
+          <span class="cit-name-surname">Fukami</span>
+         </span>, “
+         <span class="cit-article-title">Historical Contingency in Community Assembly: Integrating Niches, Species Pools, and Priority Effects</span>,” 
+         <abbr class="cit-jnl-abbrev">Annu. Rev. Ecol. Evol. Syst.</abbr>, vol. 
+         <span class="cit-vol">46</span>, pp. 
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">23</span>, 
+         <span class="cit-pub-date">2015</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DAnnu.%2BRev.%2BEcol.%2BEvol.%2BSyst.%26rft.volume%253D46%26rft.spage%253D1%26rft_id%253Dinfo%253Adoi%252F10.1146%252Fannurev-ecolsys-110411-160340%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1146/annurev-ecolsys-110411-160340&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[41].</span>
+      <a class="rev-xref-ref" href="#xref-ref-41-1" title="View reference [41] in text" id="ref-41">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.41" data-doi="10.1038/nature02808">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Edwards</span>
+         </span> and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. J.</span>
+          <span class="cit-name-surname">Richardson</span>
+         </span>, “
+         <span class="cit-article-title">Impact of climate change on marine pelagic phenology and trophic mismatch</span>,” 
+         <abbr class="cit-jnl-abbrev">Nature</abbr>, vol. 
+         <span class="cit-vol">430</span>, p. 
+         <span class="cit-fpage">881</span>, 
+         <span class="cit-pub-date">2004</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DNature%26rft.stitle%253DNature%26rft.aulast%253DEdwards%26rft.auinit1%253DM.%26rft.volume%253D430%26rft.issue%253D7002%26rft.spage%253D881%26rft.epage%253D884%26rft.atitle%253DImpact%2Bof%2Bclimate%2Bchange%2Bon%2Bmarine%2Bpelagic%2Bphenology%2Band%2Btrophic%2Bmismatch.%26rft_id%253Dinfo%253Adoi%252F10.1038%252Fnature02808%26rft_id%253Dinfo%253Apmid%252F15318219%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1038/nature02808&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=15318219&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000223369800039&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label">[42].</span>
+      <a class="rev-xref-ref" href="#xref-ref-42-1" title="View reference [42] in text" id="ref-42">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-840264v2.42" data-doi="10.1111/j.1365-2656.2008.01458.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-given-names">C.</span>
+          <span class="cit-name-surname">Both</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M.</span>
+          <span class="cit-name-surname">Van</span>
+         </span> Asch, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R. G.</span>
+          <span class="cit-name-surname">Bijlsma</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">A. B.</span>
+          <span class="cit-name-surname">Van Den Burg</span>
+         </span>, and 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">M. E.</span>
+          <span class="cit-name-surname">Visser</span>
+         </span>, “
+         <span class="cit-article-title">Climate change and unequal phenological changes across four trophic levels: Constraints or adaptations?</span>,” 
+         <abbr class="cit-jnl-abbrev">J. Anim. Ecol.</abbr>, vol. 
+         <span class="cit-vol">78</span>, pp. 
+         <span class="cit-fpage">73</span>–
+         <span class="cit-lpage">83</span>, 
+         <span class="cit-pub-date">2009</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.stitle%253DJ%2BAnim%2BEcol%26rft.aulast%253DBoth%26rft.auinit1%253DC.%26rft.volume%253D78%26rft.issue%253D1%26rft.spage%253D73%26rft.epage%253D83%26rft.atitle%253DClimate%2Bchange%2Band%2Bunequal%2Bphenological%2Bchanges%2Bacross%2Bfour%2Btrophic%2Blevels%253A%2Bconstraints%2Bor%2Badaptations%253F%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1365-2656.2008.01458.x%26rft_id%253Dinfo%253Apmid%252F18771506%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1365-2656.2008.01458.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=18771506&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2020%2F01%2F18%2F840264.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000261620800009&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+    </ol>
+   </div>
+   <span class="highwire-journal-article-marker-end"/>
+  </div>
+ </body>
+</html>

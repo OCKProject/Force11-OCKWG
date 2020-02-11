@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2019_12_16_877696v1/results/search/invasive/results.xml">
+  <result pre="size annotation ( Gautier et al., 2014 ; Methods S3a)." exact="Population" post="structure was inferred with a Bayesian clustering approach under"/>
+  <result pre="year; Pearson[[#x2019]]s correlation coefficient: &amp;lt;;em&amp;gt;;R&amp;lt;;/em&amp;gt;; = 0.98, &amp;lt;;em&amp;gt;;P&amp;lt;;/em&amp;gt;; &amp;lt;; 0.01)." exact="Population" post="differentiation in T&amp;lt;;sub&amp;gt;;opt&amp;lt;;/sub&amp;gt;; relative to neutral genetic differentiation is"/>
+  <result pre="year; Pearson’s correlation coefficient: R = 0.98, P &amp;lt;; 0.01)." exact="Population" post="differentiation in T opt relative to neutral genetic differentiation"/>
+  <result pre="CrossRef PubMed Web of Science ↵ Austin M . 2007." exact="Species" post="distribution models and ecological theory: a critical assessment and"/>
+  <result pre="Linde CC , Zhan J , McDonald BA . 2002." exact="Population" post="structure of Mycosphaerella graminicola : from lesions to continents ."/>
+  <result pre="1974. A decimal code for the growth stages of cereals." exact="Weed" post="Research 14: 415– 421. OpenUrl CrossRef Web of Science"/>
+ </snippets>
+</snippetsTree>

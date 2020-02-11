@@ -1,0 +1,253 @@
+{
+  "id": [
+    "32002236"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32002236"
+  ],
+  "pmcid": [
+    "PMC6951873"
+  ],
+  "doi": [
+    "10.1093/af/vfy030"
+  ],
+  "title": [
+    "Impact of climate change on animal health and welfare."
+  ],
+  "authorString": [
+    "Lacetera N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lacetera N"
+          ],
+          "firstName": [
+            "Nicola"
+          ],
+          "lastName": [
+            "Lacetera"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Department of Agriculture and Forest Sciences, Viterbo, Italy."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2906358"
+      ],
+      "dateOfPublication": [
+        "2019 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Animal Frontiers: The Review Magazine of Animal Agriculture"
+          ],
+          "ISOAbbreviation": [
+            "Anim Front"
+          ],
+          "medlineAbbreviation": [
+            "Anim Front"
+          ],
+          "NLMid": [
+            "101754918"
+          ],
+          "ISSN": [
+            "2160-6056"
+          ],
+          "ESSN": [
+            "2160-6064"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "26-31"
+  ],
+  "affiliation": [
+    "Department of Agriculture and Forest Sciences, Viterbo, Italy."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Metabolism",
+        "Microorganisms",
+        "Immunity",
+        "Health",
+        "Vectors"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/af/vfy030"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6951873"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6951873?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-02-01"
+  ],
+  "firstIndexDate": [
+    "2020-02-07"
+  ],
+  "fullTextReceivedDate": [
+    "2020-02-04"
+  ],
+  "dateOfRevision": [
+    "2020-02-04"
+  ],
+  "electronicPublicationDate": [
+    "2018-11-10"
+  ],
+  "firstPublicationDate": [
+    "2018-11-10"
+  ]
+}

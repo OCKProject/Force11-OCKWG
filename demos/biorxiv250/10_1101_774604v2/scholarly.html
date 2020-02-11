@@ -1,0 +1,2375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+ <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes"/>
+  <meta name="article_thumbnail" content="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/embed/graphic-1.gif"/>
+  <meta name="type" content="article"/>
+  <meta name="category" content="article"/>
+  <meta name="HW.identifier" content="/biorxiv/early/2019/12/26/774604.atom"/>
+  <meta name="HW.pisa" content="biorxiv;774604v2"/>
+  <meta name="DC.Format" content="text/html"/>
+  <meta name="DC.Language" content="en"/>
+  <meta name="DC.Title" content="embarcadero: Species distribution modelling with Bayesian additive regression trees in R"/>
+  <meta name="DC.Identifier" content="10.1101/774604"/>
+  <meta name="DC.Date" content="2019-12-26"/>
+  <meta name="DC.Publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="DC.Rights" content="© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/"/>
+  <meta name="DC.AccessRights" content="restricted"/>
+  <meta name="DC.Description" content="1. embarcadero is an R package of convenience tools for species distribution modelling with Bayesian additive regression trees (BART), a powerful machine learning approach that has been rarely applied to ecological problems. 2. Like other classification and regression tree methods, BART estimates the probability of a binary outcome based on a set of decision trees. Unlike other methods, BART iteratively generates sets of trees based on a set of priors about tree structure and nodes, and builds a posterior distribution of estimated classification probabilities. So far, BARTs have yet to be applied to species distribution modelling. 3. embarcadero is a workflow wrapper for BART species distribution models, and includes functionality for easy spatial prediction, an automated variable selection procedure, several types of partial dependence visualization, and other tools for ecological application. The embarcadero package is available open source on Github and intended for eventual CRAN release. 4. To show how embarcadero can be used by ecologists, I illustrate a BART workflow for a virtual species distribution model. The supplement includes a more advanced vignette showing how BART can be used for mapping disease transmission risk, using the example of Crimean-Congo haemorrhagic fever in Africa."/>
+  <meta name="DC.Contributor" content="Colin J. Carlson"/>
+  <meta name="article:published_time" content="2019-12-26"/>
+  <meta name="article:section" content="New Results"/>
+  <meta name="citation_title" content="embarcadero: Species distribution modelling with Bayesian additive regression trees in R"/>
+  <meta name="citation_abstract" lang="en" content="&lt;;h3&gt;;Abstract&lt;;/h3&gt;; &lt;;p&gt;;embarcadero is an R package of convenience tools for species distribution modelling with Bayesian additive regression trees (BART), a powerful machine learning approach that has been rarely applied to ecological problems.&lt;;/p&gt;;&lt;;p&gt;;Like other classification and regression tree methods, BART estimates the probability of a binary outcome based on a set of decision trees. Unlike other methods, BART iteratively generates sets of trees based on a set of priors about tree structure and nodes, and builds a posterior distribution of estimated classification probabilities. So far, BARTs have yet to be applied to species distribution modelling.&lt;;/p&gt;;&lt;;p&gt;;embarcadero is a workflow wrapper for BART species distribution models, and includes functionality for easy spatial prediction, an automated variable selection procedure, several types of partial dependence visualization, and other tools for ecological application. The embarcadero package is available open source on Github and intended for eventual CRAN release.&lt;;/p&gt;;&lt;;p&gt;;To show how embarcadero can be used by ecologists, I illustrate a BART workflow for a virtual species distribution model. The supplement includes a more advanced vignette showing how BART can be used for mapping disease transmission risk, using the example of Crimean-Congo haemorrhagic fever in Africa.&lt;;/p&gt;;"/>
+  <meta name="citation_journal_title" content="bioRxiv"/>
+  <meta name="citation_publisher" content="Cold Spring Harbor Laboratory"/>
+  <meta name="citation_publication_date" content="2019/01/01"/>
+  <meta name="citation_mjid" content="biorxiv;774604v2"/>
+  <meta name="citation_id" content="774604v2"/>
+  <meta name="citation_public_url" content="https://www.biorxiv.org/content/10.1101/774604v2"/>
+  <meta name="citation_abstract_html_url" content="https://www.biorxiv.org/content/10.1101/774604v2.abstract"/>
+  <meta name="citation_full_html_url" content="https://www.biorxiv.org/content/10.1101/774604v2.full"/>
+  <meta name="citation_pdf_url" content="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604.full.pdf"/>
+  <meta name="citation_doi" content="10.1101/774604"/>
+  <meta name="citation_num_pages" content="22"/>
+  <meta name="citation_article_type" content="Article"/>
+  <meta name="citation_section" content="New Results"/>
+  <meta name="citation_firstpage" content="774604"/>
+  <meta name="citation_author" content="Colin J. Carlson"/>
+  <meta name="citation_author_institution" content="Department of Biology, Georgetown University"/>
+  <meta name="citation_author_email" content="cjc322@georgetown.edu"/>
+  <meta name="citation_reference" content="Babayan, S.A., Orton, R.J. &amp;; Streicker, D.G. (2018) Predicting reservoir hosts and arthropod vectors from evolutionary signatures in RNA virus genomes. Science, 362, 577–580."/>
+  <meta name="citation_reference" content="Bhatt, S., Gething, P.W., Brady, O.J., Messina, J.P., Farlow, A.W., Moyes, C.L., Drake, J.M., Brownstein, J.S., Hoen, A.G., Sankoh, O. et al. (2013) The global distribution and burden of dengue. Nature, 496, 504."/>
+  <meta name="citation_reference" content="Carlson, C.J., Kracalik, I.T., Ross, N., Alexander, K.A., Hugh-Jones, M.E., Fegan, M., Elkin, B.T., Epp, T., Shury, T.K., Zhang, W. et al. (2019) The global distribution of Bacillus anthracis and associated anthrax risk to humans, livestock and wildlife. Nature Microbiology, p. 1."/>
+  <meta name="citation_reference" content="Chipman, H., McCulloch, R. &amp;; Dorie, V. (2014) dbarts: Discrete Bayesian Additive Regression Trees Sampler. R package version 0.8-5."/>
+  <meta name="citation_reference" content="Chipman, H. &amp;; McCulloch, R. (2016) BayesTree: Bayesian Additive Regression Trees. R package version 0.3-1.3."/>
+  <meta name="citation_reference" content="Chipman, H.A., George, E.I., McCulloch, R.E. et al. (2010) BART: Bayesian additive regression trees. The Annals of Applied Statistics, 4, 266–298."/>
+  <meta name="citation_reference" content="Cumming, G. (1998) Host preference in African ticks (Acari: Ixodida): a quantitative data set. Bulletin of Entomological Research, 88, 379–406."/>
+  <meta name="citation_reference" content="Elith, J., H. Graham, C., P. Anderson, R., Dudík, M., Ferrier, S., Guisan, A., J. Hijmans, R., Huettmann, F., R. Leathwick, J., Lehmann, A. et al. (2006) Novel methods improve prediction of species’ distributions from occurrence data. Ecography, 29, 129–151."/>
+  <meta name="citation_reference" content="Elith, J., Leathwick, J.R. &amp;; Hastie, T. (2008) A working guide to boosted regression trees. Journal of Animal Ecology, 77, 802–813."/>
+  <meta name="citation_reference" content="Elith, J., Phillips, S.J., Hastie, T., Dudík, M., Chee, Y.E. &amp;; Yates, C.J. (2011) A statistical explanation of MaxEnt for ecologists. Diversity and Distributions, 17, 43–57."/>
+  <meta name="citation_reference" content="Farley, S.S. (2017) A General Framework for Predicting the Optimal Computing Configurations for Climate-driven Ecological Forecasting Models. Ph.D. thesis."/>
+  <meta name="citation_reference" content="Fourcade, Y., Besnard, A.G. &amp;; Secondi, J. (2018) Paintings predict the distribution of species, or the challenge of selecting environmental predictors and evaluation statistics. Global Ecology and Biogeography, 27, 245–256."/>
+  <meta name="citation_reference" content="Golding, N. &amp;; Purse, B.V. (2016) Fast and flexible Bayesian species distribution modelling using Gaussian processes. Methods in Ecology and Evolution, 7, 598–608."/>
+  <meta name="citation_reference" content="Guillera-Arroita, G., Lahoz-Monfort, J.J., Elith, J., Gordon, A., Kujala, H., Lentini, P.E., McCarthy, M.A., Tingley, R. &amp;; Wintle, B.A. (2015) Is my species distribution model fit for purpose? Matching data and models to applications. Global Ecology and Biogeography, 24, 276–292."/>
+  <meta name="citation_reference" content="Kraemer, M.U., Reiner Jr, R.C. &amp;; Bhatt, S. (2019) Causal inference in spatial mapping. Trends in Parasitology, 35, 743–746."/>
+  <meta name="citation_reference" content="Linero, A.R. (2018) Bayesian regression trees for high-dimensional prediction and variable selection. Journal of the American Statistical Association, 113, 626–636."/>
+  <meta name="citation_reference" content="Logan, T.M., Linthicum, K.J., Bailey, C.L., Watts, D.M. &amp;; Moulton, J.R. (1989) Experimental transmission of Crimean-Congo hemorrhagic fever virus by Hyalomma trun-catum Koch. The American Journal of Tropical Medicine and Hygiene, 40, 207–212."/>
+  <meta name="citation_reference" content="Mainali, K.P., Warren, D.L., Dhileepan, K., McConnachie, A., Strathie, L., Hassan, G., Karki, D., Shrestha, B.B. &amp;; Parmesan, C. (2015) Projecting future expansion of invasive species: comparing and improving methodologies for species distribution modeling. Global Change Biology, 21, 4464–4480."/>
+  <meta name="citation_reference" content="McCulloch, R., Sparapani, R., Gramacy, R., Spanbauer, C. &amp;; Pratola, M. (2018) BART: Bayesian additive regression trees. R package version 1.0."/>
+  <meta name="citation_reference" content="Merow, C. &amp;; Silander, J.A. (2014) A comparison of maxlike and maxent for modelling species distributions. Methods in Ecology and Evolution, 5, 215–225."/>
+  <meta name="citation_reference" content="Merow, C., Smith, M.J. &amp;; Silander, J.A. (2013) A practical guide to maxent for modeling species’ distributions: what it does, and why inputs and settings matter. Ecography, 36, 1058–1069."/>
+  <meta name="citation_reference" content="Messina, J.P., Kraemer, M.U., Brady, O.J., Pigott, D.M., Shearer, F.M., Weiss, D.J., Golding, N., Ruktanonchai, C.W., Gething, P.W., Cohn, E. et al. (2016) Mapping global environmental suitability for Zika virus. eLife, 5, e15272."/>
+  <meta name="citation_reference" content="Messina, J.P., Pigott, D.M., Duda, K.A., Brownstein, J.S., Myers, M.F., George, D.B. &amp;; Hay, S.I. (2015a) A global compendium of human Crimean-Congo haemorrhagic fever virus occurrence. Scientific Data, 2, 150016."/>
+  <meta name="citation_reference" content="Messina, J.P., Pigott, D.M., Golding, N., Duda, K.A., Brownstein, J.S., Weiss, D.J., Gibson, H., Robinson, T.P., Gilbert, M., William Wint, G. et al. (2015b) The global distribution of Crimean-Congo hemorrhagic fever. Transactions of the Royal Society of Tropical Medicine and Hygiene, 109, 503–513."/>
+  <meta name="citation_reference" content="Norberg, A., Abrego, N., Blanchet, F.G., Adler, F.R., Anderson, B.J., Anttila, J., Araújo, M.B., Dallas, T., Dunson, D., Elith, J. et al. (2019) A comprehensive evaluation of predictive performance of 33 species distribution models at species and community levels. Ecological Monographs, p. e01370."/>
+  <meta name="citation_reference" content="Papa, A., Tsergouli, K., Tsioka, K. &amp;; Mirazimi, A. (2017) Crimean-congo hemorrhagic fever: tick-host-virus interactions. Frontiers in Cellular and Infection Microbiology, 7, 213."/>
+  <meta name="citation_reference" content="Pigott, D.M., Golding, N., Mylne, A., Huang, Z., Henry, A.J., Weiss, D.J., Brady, O.J., Kraemer, M.U., Smith, D.L., Moyes, C.L. et al. (2014) Mapping the zoonotic niche of Ebola virus disease in Africa. eLife, 3, e04395."/>
+  <meta name="citation_reference" content="Redding, D.W., Lucas, T.C., Blackburn, T.M. &amp;; Jones, K.E. (2017) Evaluating Bayesian spatial methods for modelling species distributions with clumped and restricted occurrence data. PloS One, 12, e0187602."/>
+  <meta name="citation_reference" content="Rocková, V. &amp;; van der Pas, S. (2017) Posterior concentration for bayesian regression trees and forests. Annals of Statistics (In Revision), pp. 1–40."/>
+  <meta name="citation_reference" content="Smith, A.B. &amp;; Santos, M.J. (2019) Testing the ability of species distribution models to infer variable importance. bioRxiv, p. 715904."/>
+  <meta name="citation_reference" content="Sparapani, R., Dabbouseh, N., Gutterman, D., Zhang, J., Chen, H., Bluemke, D., Lima, J., Burke, G. &amp;; Soliman, E. (2018) Novel electrocardiographic criteria for the diagnosis of left ventricular hypertrophy derived with Bayesian additive regression trees: the multi-ethnic study of atherosclerosis. Circulation, 138, A10908–A10908."/>
+  <meta name="citation_reference" content="Tan, Y.V., Flannagan, C.A. &amp;; Elliott, M.R. (2018) Predicting human-driving behavior to help driverless vehicles drive: random intercept Bayesian additive regression trees. Statistics and Its Interface, 11, 557–572."/>
+  <meta name="citation_reference" content="VanDerWal, J., Murphy, H.T., Kutt, A.S., Perkins, G.C., Bateman, B.L., Perry, J.J. &amp;; Reside, A.E. (2013) Focus on poleward shifts in species’ distribution underestimates the fingerprint of climate change. Nature Climate Change, 3, 239."/>
+  <meta name="citation_reference" content="Vezhnevets, A. &amp;; Barinova, O. (2007) Avoiding boosting overfitting by removing confusing samples. European Conference on Machine Learning, pp. 430–441. Springer."/>
+  <meta name="citation_reference" content="Warren, D.L., Matzke, N.J. &amp;; Iglesias, T.L. (2019) Evaluating species distribution models with discrimination accuracy is uninformative for many applications. BioRxiv, p. 684399."/>
+  <meta name="citation_reference" content="Warren, R., VanDerWal, J., Price, J., Welbergen, J.A., Atkinson, I., Ramirez-Villegas, J., Osborn, T.J., Jarvis, A., Shoo, L.P., Williams, S.E. et al. (2013) Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss. Nature Climate Change, 3, 678."/>
+  <meta name="citation_reference" content="Wilson, M., Gonzalez, J.P., Cornet, J.P. &amp;; Camicas, J.L. (1991) Transmission of Crimean-Congo haemorrhagic fever virus from experimentally infected sheep to Hyalomma truncatum ticks. Research in Virology, 142, 395–404."/>
+  <meta name="citation_reference" content="Wisz, M.S., Hijmans, R.J., Li, J., Peterson, A.T., Graham, C., Guisan, A. &amp;; NCEAS Predicting Species Distributions Working Group (2008) Effects of sample size on the performance of species distribution models. Diversity and Distributions, 14, 763–773."/>
+  <meta name="citation_reference" content="Yen, J.D., Thomson, J.R., Vesk, P.A. &amp;; Mac Nally, R. (2011) To what are woodland birds responding? Inference on relative importance of in-site habitat variables using several ensemble habitat modelling techniques. Ecography, 34, 946–954."/>
+  <meta name="twitter:title" content="embarcadero: Species distribution modelling with Bayesian additive regression trees in R"/>
+  <meta name="twitter:site" content="@biorxivpreprint"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="twitter:description" content="1. embarcadero is an R package of convenience tools for species distribution modelling with Bayesian additive regression trees (BART), a powerful machine learning approach that has been rarely applied to ecological problems. 2. Like other classification and regression tree methods, BART estimates the probability of a binary outcome based on a set of decision trees. Unlike other methods, BART iteratively generates sets of trees based on a set of priors about tree structure and nodes, and builds a posterior distribution of estimated classification probabilities. So far, BARTs have yet to be applied to species distribution modelling. 3. embarcadero is a workflow wrapper for BART species distribution models, and includes functionality for easy spatial prediction, an automated variable selection procedure, several types of partial dependence visualization, and other tools for ecological application. The embarcadero package is available open source on Github and intended for eventual CRAN release. 4. To show how embarcadero can be used by ecologists, I illustrate a BART workflow for a virtual species distribution model. The supplement includes a more advanced vignette showing how BART can be used for mapping disease transmission risk, using the example of Crimean-Congo haemorrhagic fever in Africa."/>
+  <meta name="og-title" property="og:title" content="embarcadero: Species distribution modelling with Bayesian additive regression trees in R"/>
+  <meta name="og-url" property="og:url" content="https://www.biorxiv.org/content/10.1101/774604v2"/>
+  <meta name="og-site-name" property="og:site_name" content="bioRxiv"/>
+  <meta name="og-description" property="og:description" content="1. embarcadero is an R package of convenience tools for species distribution modelling with Bayesian additive regression trees (BART), a powerful machine learning approach that has been rarely applied to ecological problems. 2. Like other classification and regression tree methods, BART estimates the probability of a binary outcome based on a set of decision trees. Unlike other methods, BART iteratively generates sets of trees based on a set of priors about tree structure and nodes, and builds a posterior distribution of estimated classification probabilities. So far, BARTs have yet to be applied to species distribution modelling. 3. embarcadero is a workflow wrapper for BART species distribution models, and includes functionality for easy spatial prediction, an automated variable selection procedure, several types of partial dependence visualization, and other tools for ecological application. The embarcadero package is available open source on Github and intended for eventual CRAN release. 4. To show how embarcadero can be used by ecologists, I illustrate a BART workflow for a virtual species distribution model. The supplement includes a more advanced vignette showing how BART can be used for mapping disease transmission risk, using the example of Crimean-Congo haemorrhagic fever in Africa."/>
+  <meta name="og-type" property="og:type" content="article"/>
+  <meta name="og-image" property="og:image" content="https://www.biorxiv.org/sites/default/files/images/biorxiv_logo_homepage7-5-small.png"/>
+  <meta name="citation_date" content="2019-12-26"/> 
+  <meta name="description" content="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution"/>
+  <meta name="generator" content="Drupal 7 (http://drupal.org)"/> 
+  <title>embarcadero: Species distribution modelling with Bayesian additive regression trees in R | bioRxiv</title> 
+ </head>
+ <body class="html not-front not-logged-in page-node page-node- page-node-1082450 node-type-highwire-article context-content hw-default-jcode-biorxiv hw-article-type-article hw-article-category-new-results"> 
+  <div class="article fulltext-view ">
+   <span class="highwire-journal-article-marker-start"/>
+   <div class="section abstract" id="abstract-1">
+    <h2 class="">Abstract</h2>
+    <ol class="list-ord " id="list-1">
+     <li id="list-item-1">
+      <p id="p-2">
+       <kbd>embarcadero</kbd> is an 
+       <kbd>R</kbd> package of convenience tools for species distribution modelling with Bayesian additive regression trees (BART), a powerful machine learning approach that has been rarely applied to ecological problems.
+      </p>
+     </li>
+     <li id="list-item-2">
+      <p id="p-3">Like other classification and regression tree methods, BART estimates the probability of a binary outcome based on a set of decision trees. Unlike other methods, BART iteratively generates sets of trees based on a set of priors about tree structure and nodes, and builds a posterior distribution of estimated classification probabilities. So far, BARTs have yet to be applied to species distribution modelling.</p>
+     </li>
+     <li id="list-item-3">
+      <p id="p-4">
+       <kbd>embarcadero</kbd> is a workflow wrapper for BART species distribution models, and includes functionality for easy spatial prediction, an automated variable selection procedure, several types of partial dependence visualization, and other tools for ecological application. The 
+       <kbd>embarcadero</kbd> package is available open source on Github and intended for eventual CRAN release.
+      </p>
+     </li>
+     <li id="list-item-4">
+      <p id="p-5">To show how 
+       <kbd>embarcadero</kbd> can be used by ecologists, I illustrate a BART workflow for a virtual species distribution model. The supplement includes a more advanced vignette showing how BART can be used for mapping disease transmission risk, using the example of Crimean-Congo haemorrhagic fever in Africa.
+      </p>
+     </li>
+    </ol>
+   </div>
+   <div class="section" id="sec-1">
+    <h2 class="">1 Introduction</h2>
+    <p id="p-6">In the last two decades, over two dozen statistical and machine learning methods have been proposed for species distribution modelling (SDM) (
+     <a id="xref-ref-27-1" class="xref-bibr" href="#ref-27">Norberg 
+      <em>et al.</em>, 2019
+     </a>). Over time, a handful of methods have risen to predominance due to ease of implementation, computational speed, and strong predictive performance in rigorous cross-validation. Some methods are especially popular for specific applications, mostly because of disciplinary tradition. For example, maximum entropy (MaxEnt) models are widely popular for studies of global ecological responses to climate change (
+     <a id="xref-ref-36-1" class="xref-bibr" href="#ref-36">VanDerWal 
+      <em>et al.</em>, 2013
+     </a>; 
+     <a id="xref-ref-39-1" class="xref-bibr" href="#ref-39">Warren 
+      <em>et al.</em>, 2013
+     </a>). In disease ecology, boosted regression trees (BRTs) have become the dominant tool for mapping vectors, reservoirs, and transmission risk of infectious zoonoses and vector-borne diseases (
+     <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">Carlson 
+      <em>et al.</em>, 2019
+     </a>; 
+     <a id="xref-ref-29-1" class="xref-bibr" href="#ref-29">Pigott 
+      <em>et al.</em>, 2014
+     </a>; 
+     <a id="xref-ref-24-1" class="xref-bibr" href="#ref-24">Messina et al., 2016</a>), largely due to an influential 2013 paper on dengue virus (
+     <a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">Bhatt et al., 2013</a>). SDMs are used for several—sometimes conflicting—purposes in ecology, and popular methods are sometimes used despite known shortcomings (
+     <a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">Guillera-Arroita et al., 2015</a>; 
+     <a id="xref-ref-32-1" class="xref-bibr" href="#ref-32">Smith &amp;; Santos, 2019</a>). In particular, most popular methods have a limited framework for handling uncertainty, and conspicuously few popular methods are Bayesian (and vice versa).
+    </p>
+    <p id="p-7">In this paper, I discuss a new Bayesian approach to classification and regression trees (CART), one of the most popular families of machine learning methods used in ecology. Models in this family estimate the probability of a given output variable (in this case, a binary classification of habitat suitability or species presence) based on decision “trees” that split predictor variables with nested, binary rule-sets. The precise rules for generating these trees vary across implementations. For example, in 
+     <em>random forest</em> models, an ensemble of trees is generated, where each tree is independently generated based on a boostrap of the original dataset; trees grow to the maximum possible depth (the longest chain of splitting rules), with no pruning (trees are never 
+     <em>post hoc</em> reduced). In the 
+     <em>boosted regression trees</em> approach (BRT), shallower trees with a constrained depth (“weak learners”) are constructed iteratively that explain the residuals left by previous trees; this adds bias, but allows the model to focus on unusual cases at the potential expense of overfitting (
+     <a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">Elith 
+      <em>et al.</em>, 2008
+     </a>; 
+     <a id="xref-ref-37-1" class="xref-bibr" href="#ref-37">Vezhnevets &amp;; Barinova, 2007</a>). CART methods have many strengths for species distribution modelling; they consistently perform well in model comparisons (
+     <a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">Elith 
+      <em>et al.</em>, 2006
+     </a>; 
+     <a id="xref-ref-20-1" class="xref-bibr" href="#ref-20">Mainali 
+      <em>et al.</em>, 2015
+     </a>; 
+     <a id="xref-ref-30-1" class="xref-bibr" href="#ref-30">Redding 
+      <em>et al.</em>, 2017
+     </a>; 
+     <a id="xref-ref-41-1" class="xref-bibr" href="#ref-41">Wisz 
+      <em>et al.</em>, 2008
+     </a>), and the tree-based approach is often more intuitive than the complex fitting procedures “under the hood” of MaxEnt or Maxlike methods (
+     <a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">Elith 
+      <em>et al.</em>, 2011
+     </a>; 
+     <a id="xref-ref-23-1" class="xref-bibr" href="#ref-23">Merow 
+      <em>et al.</em>, 2013
+     </a>; 
+     <a id="xref-ref-22-1" class="xref-bibr" href="#ref-22">Merow &amp;; Silander, 2014</a>).
+    </p>
+    <p id="p-8">
+     <em>Bayesian additive regression trees</em> (BART) are an exciting and new alternative to other popular classification tree methods. As in other approaches, BART generates a set of decision trees that explain different components of variance in the outcome variable. Unlike random forests or boosted regression trees, the formulation of BART is Bayesian, with the posterior probability of a model shaped by priors 
+     <em>P</em>(trees) on how trees should look (i.e., the parameters used to generate those trees): 
+     <span class="disp-formula" id="disp-formula-1">
+      <span class="highwire-responsive-lazyload">
+       <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/26/774604/embed/graphic-1.gif"/>
+       <noscript>
+        <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/26/774604/embed/graphic-1.gif"/>
+       </noscript>
+      </span>
+     </span>
+    </p>
+    <p id="p-9">Like boosted regression trees, BART introduces variance by fitting a set of many shallow “weak learner” trees, but unlike BRT, this is explicitly controlled by three prior distributions: the probability a tree stops at a node of a given depth, the probability of a given variable being drawn for a splitting rule, and the probability of splitting that variable at a particular value. The latter two are usually treated as uniformly distributed (splits are randomly constructed by variable, and within each variables’ range), while the first is usually specified as a negative power law, constraining tree depth and penalizing overfitting. Using these priors, a specified number of trees 
+     <em>m</em> are generated with no splits, and then updated randomly in an MCMC process that allows them to be expanded, rearranged, or pruned. Each model instance is a 
+     <em>sum-of-trees</em> model, unlike random forests, which average predictions across trees; to create the sum-of-trees model, each tree is adjusted to the residuals of the sum-of-remaining-trees. This process superficially resembles how boosting works within boosted regression trees, but because trees are tuned to the ensemble, they rarely overfit to particular cases within the residuals. (
+     <a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">Chipman 
+      <em>et al.</em>, 2010
+     </a>) After dropping a burn-in period, the full set of sum-of-trees models from different points in the Markov chain is treated as a posterior distribution, and used to generate the posterior distribution of predictions. (For a more in-depth explanation, including a visualization of tree structure in the MCMC process, see 
+     <a id="xref-ref-35-1" class="xref-bibr" href="#ref-35">Tan &amp;; Roy (2019)</a>.)
+    </p>
+    <p id="p-10">In computer science, BARTs are used for everything from medical diagnostics to selfdriving car algorithms (
+     <a id="xref-ref-33-1" class="xref-bibr" href="#ref-33">Sparapani 
+      <em>et al.</em>, 2018
+     </a>; 
+     <a id="xref-ref-34-1" class="xref-bibr" href="#ref-34">Tan 
+      <em>et al.</em>, 2018
+     </a>); however, they have yet to find any widespread application in ecology. A study from 2011 used BART as a tool to examine habitat selection data on birds (
+     <a id="xref-ref-42-1" class="xref-bibr" href="#ref-42">Yen 
+      <em>et al.</em>, 2011
+     </a>); a 2017 study used BART to evaluate performance data of other species distribution modelling methods (
+     <a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">Farley, 2017</a>). But so far, they have not been used for the purpose of predicting species distributions. This reflects a broader deficit of Bayesian models in the SDM literature: several elegant Bayesian SDM methods have been previously proposed (
+     <a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">Golding &amp;; Purse, 2016</a>; 
+     <a id="xref-ref-30-2" class="xref-bibr" href="#ref-30">Redding 
+      <em>et al.</em>, 2017
+     </a>), but none are particularly widely adopted, possibly because advanced Bayesian models may seem discouraging or unintuitive.
+    </p>
+    <p id="p-11">BART brings the conceptual familiarity and strengths of classification tree methods, but adds a relatively simple Bayesian component that inherently and intuitively handles model uncertainty. This might make it a promising alternative not just to existing Bayesian approaches but also popular classification tree methods, in particular boosted regression trees. BRT has several easy to use out-of-the-box implementations, is powerful for ecological inference, and consistently performs well in rigorous tests of SDM performance. However, BRT also has downsides: it can be prone to overfitting, and fitting procedures are largely handed down as anecdotal best practices, with many studies choosing hyperparameters based on software defaults; very few studies select parameters from formal cross-validation as early work recommended (
+     <a id="xref-ref-9-2" class="xref-bibr" href="#ref-9">Elith 
+      <em>et al.</em>, 2008
+     </a>). Furthermore, uncertainty is usually measured by generating an unweighted ensemble of BRT submodels over subsetted training data, generating a confidence interval from data permutations (like random forests) rather than formal assumptions about model uncertainty. In contrast, the formal Bayesian structure of BART captures uncertainty within a single model, which is more coherent and intuitive than how uncertainty is usually generated in BRT ensembles. BART also shares many of the strengths of BRT, like easy out-of-the-box implementation and easy visualization of “black box” model components, and outperforms other CART methods in model comparisons. (
+     <a id="xref-ref-6-2" class="xref-bibr" href="#ref-6">Chipman 
+      <em>et al.</em>, 2010
+     </a>)
+    </p>
+    <p id="p-12">This paper introduces an 
+     <kbd>R</kbd> package, 
+     <kbd>embarcadero</kbd>, as a convenience tool for running SDMs with BARTs. Throughout, I use a simulated “virtual species” (see 
+     <a id="xref-app-1-1" class="xref-app" href="#app-1">Appendix 1</a>) to illustrate the workflow and the major features of the package, including model selection, visualization, and diagnostics. Because boosted regression trees are the most popular method of species distribution modelling in medical geography, the supplement includes a second, more detailed vignette using BART to map Crimean-Congo haemorrhagic fever (CCHF) in Africa, based on the distribution of the tick 
+     <em>Hyalomma truncatum</em>, a presumed vector. This is a more challenging and computationally-intensive implementation, and takes several hours to run on most machines, but highlights some of the strength of the approach for applied scientific questions.
+    </p>
+   </div>
+   <div class="section" id="sec-2">
+    <h2 class="">2 SDMs with BARTs</h2>
+    <div id="sec-3" class="subsection">
+     <h3>2.1 Implementing BART with binary classification</h3>
+     <p id="p-13">At least four 
+      <kbd>R</kbd> packages currently exist that can implement BARTs: 
+      <kbd>BayesTree</kbd> (
+      <a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">Chipman &amp;; McCulloch, 2016</a>), 
+      <kbd>bartMachine</kbd> (
+      <a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">Kapelner &amp;; Bleich, 2013</a>), 
+      <kbd>BART</kbd> (
+      <a id="xref-ref-21-1" class="xref-bibr" href="#ref-21">McCulloch 
+       <em>et al.</em>, 2018
+      </a>), and 
+      <kbd>dbarts</kbd> (
+      <a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">Chipman 
+       <em>et al.</em>, 2014
+      </a>). Their functionality differs in important ways, and not all of them are currently capable of important features like partial dependence plots that are important for SDMs. This package is an SDM-oriented workflow wrapper for 
+      <kbd>dbarts</kbd>, which includes most of the basic functionality needed for species distribution modelling, including a simple implementation of BART with binary outcomes. A list of the functions made available in 
+      <kbd>embarcadero</kbd>, versus their counterparts and additional useful functions in 
+      <kbd>dbarts</kbd>, is given in 
+      <a id="xref-table-wrap-1-1" class="xref-table" href="#T1">Table 1</a>.
+     </p>
+     <div id="T1" class="table pos-float">
+      <div class="table-inline table-callout-links">
+       <div class="callout">
+        <span>View this table:</span>
+        <ul class="callout-links">
+         <li class="view-inline first">
+          <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1088056/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+         </li>
+         <li class="view-popup">
+          <a href="/highwire/markup/1088056/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+         </li>
+         <li class="download-ppt last">
+          <a href="/highwire/powerpoint/1088056" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="table-caption">
+       <span class="table-label">Table 1:</span>
+       <p id="p-14" class="first-child">Functions available in 
+        <kbd>embarcadero</kbd> and additional functions in 
+        <kbd>dbarts</kbd> of importance.
+       </p>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+     <p id="p-15">In the original notation of 
+      <a id="xref-ref-6-3" class="xref-bibr" href="#ref-6">Chipman 
+       <em>et al.</em> (2010)
+      </a>, BART consists of tree structures 
+      <em>T</em> and terminal nodes (leaves) 
+      <em>M</em>, as an ensemble (
+      <em>T</em>
+      <sub>1</sub>, 
+      <em>M</em>
+      <sub>1</sub>),…, (
+      <em>T
+       <sub>n</sub>
+      </em>, 
+      <em>M
+       <sub>n</sub>
+      </em>). Each tree generates a predictive function 
+      <em>g</em>(·), with a sum of trees function 
+      <em>f</em> (·) given as 
+      <span class="disp-formula" id="disp-formula-2">
+       <span class="highwire-responsive-lazyload">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/26/774604/embed/graphic-3.gif"/>
+        <noscript>
+         <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/26/774604/embed/graphic-3.gif"/>
+        </noscript>
+       </span>
+      </span>
+     </p>
+     <p id="p-16">A set of posterior draws of 
+      <em>f</em>*, generated by the MCMC process described above, create the posterior distribution for 
+      <em>p</em>(
+      <em>f</em>|
+      <em>y</em>) ≡ 
+      <em>p</em>(trees\data). Given the assumption of normality, BART handles binary classification problems (like species distribution modelling) using a logit link, where Φ is the standard normal c.d.f. and: 
+      <span class="disp-formula" id="disp-formula-3">
+       <span class="highwire-responsive-lazyload">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="highwire-embed lazyload" alt="Embedded Image" data-src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/26/774604/embed/graphic-4.gif"/>
+        <noscript>
+         <img class="highwire-embed" alt="Embedded Image" src="https://www.biorxiv.org/sites/default/files/highwire/biorxiv/early/2019/12/26/774604/embed/graphic-4.gif"/>
+        </noscript>
+       </span>
+      </span>
+     </p>
+     <p id="p-17">Binary classification is run by 
+      <kbd>dbarts::bart</kbd> automatically when supplied with a binary outcome. However, the returned predictions are untransformed back into probabilities, a problem solved in 
+      <kbd>embarcadero</kbd> with a 
+      <kbd>predict</kbd> wrapper. (This also allows prediction on raster datasets, a key piece of SDM workflow.)
+     </p>
+    </div>
+    <div id="sec-4" class="subsection">
+     <h3>2.2 An example of a BART SDM</h3>
+     <p id="p-18">To see how BART works, we can generate a virtual species on a hypothetical landscape which responds to climate variables X1 through X4, but is uninfluenced by variables X5 to X8 (see 
+      <a id="xref-app-1-2" class="xref-app" href="#app-1">Appendix 1</a>). Like most other SDM methods in R, the BART model itself is run on a data frame of presence-absence or presence-pseudoabsence points, and associated environmental covariates. For example, with a 
+      <kbd>RasterStack</kbd> called 
+      <kbd>climate</kbd> and an occurrence dataset called 
+      <kbd>occ</kbd>.df, the basic workflow is 
+      <span class="preformat"> library(embarcadero) xnames &lt;;- c(‘x1, ‘x2’, ‘x3’, ‘x4’, ‘x5’, ‘x6’, ‘x7’, ‘x8’) ## Run the BART model sdm &lt;;- bart(y.train=occ.df[,‘bserved’], x.train=occ.df[,xnames], keeptrees = TRUE) ## Predict the species distribution map &lt;;- predict(sdm, climate ## Visualize model performance summary(bart) </span>
+     </p>
+     <p id="p-19">This last line returns a brief model diagnostic including the optimal cutoff for thresholding classifications and some measures of performance, like the area under the receiveroperator curve (AUC): 
+      <span class="preformat"> Call: bart occ.df[, xnames] occ.df[, “Observed”] TRUE Predictor list: x1 x2 x3 x4 x5 x6 x7 x8 Area under the receiver-operator curve AUC =0.91 Recommended threshold (maximizes true skill statistic) Cutoff = 0.42 TSS = 0.71 Resulting type I error rate: 0.078 Resulting type II error rate: 0.21 </span>
+     </p>
+     <p id="p-20">Additionally, summary returns a diagnostic figure (
+      <strong>
+       <a id="xref-fig-1-1" class="xref-fig" href="#F1">Figure 1</a>
+      </strong>), summarizing the performance of the classifier on the training data.
+     </p>
+     <div id="F1" class="fig pos-float type-figure odd">
+      <div class="highwire-figure">
+       <div class="fig-inline-img-wrapper">
+        <div class="fig-inline-img">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F1.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="The model diagnostic returned by summary()." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-887869228" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;The model diagnostic returned by &lt;;kbd&gt;;summary()&lt;;/kbd&gt;;.&lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+          <span class="hw-responsive-img">
+           <img class="highwire-fragment fragment-image lazyload" alt="Figure 1:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F1.medium.gif" width="440" height="411"/>
+           <noscript>
+            <img class="highwire-fragment fragment-image" alt="Figure 1:" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F1.medium.gif" width="440" height="411"/>
+           </noscript>
+          </span>
+         </a>
+        </div>
+       </div>
+       <ul class="highwire-figure-links inline">
+        <li class="download-fig first">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 1:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+        </li>
+        <li class="new-tab last">
+         <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+        </li>
+       </ul>
+      </div>
+      <div class="fig-caption">
+       <span class="fig-label">Figure 1:</span>
+       <p id="p-21" class="first-child">The model diagnostic returned by 
+        <kbd>summary()</kbd>.
+       </p>
+       <div class="sb-div caption-clear"/>
+      </div>
+     </div>
+     <p id="p-22">The primary appeal of BART, compared to other CART methods, is a formal way of measuring model uncertainty within any individual implementation. Pulling uncertainty out of BART predictions is easy with embarcadero; for example, to pull a 95% credible interval, a user can specify: 
+      <span class="preformat">map &lt;;- predict(sdm, climate, quantiles=c(0.025, 0.975))</span>
+     </p>
+     <p id="p-23">Mapping the difference between these two rasters gives the credible interval width, which provides a native measure of spatial uncertainty, analogous to how the coefficient of variation can be used to measure spatial uncertainty across an ensemble of BRT runs (
+      <a id="xref-ref-3-2" class="xref-bibr" href="#ref-3">Carlson 
+       <em>et al.</em>, 2019
+      </a>). When running tasks especially with several quantiles, or large rasters, prediction runtime grows quickly and memory can become limiting; predict() has a “splitby” option that breaks the task into pieces, which minimizes memory conflicts, adds a progress bar, and allows estimation of total runtime based on the first chunk: 
+      <span class="preformat">map &lt;;- predict(sdm, climate, quantiles=c(0.025, 0.975), splitby=10)</span>
+     </p>
+    </div>
+   </div>
+   <div class="section" id="sec-5">
+    <h2 class="">3 Variable selection</h2>
+    <p id="p-24">Variable importance (calculated by 
+     <kbd>varimp()</kbd>) is usually measured in BART models by counting the number of times a given variable is used by a tree split across the full posterior draw of trees. (This is similar to variable importance in BRTs, which is calculated from the number of tree splits and the corresponding improvement they cause in the model.) In models with higher numbers of trees, the difference in variable importance becomes less pronounced, and less informative variables receive a higher number of splitting rules. Conversely, variable selection can be performed by running models with a small number of trees (
+     <em>m</em> = 10 or 20), and observing which variables stop being included in trees. (
+     <a id="xref-ref-6-4" class="xref-bibr" href="#ref-6">Chipman 
+      <em>et al.</em>, 2010
+     </a>) This diagnostic is generated in 
+     <kbd>embarcadero</kbd> by 
+     <kbd>varimp.diag()</kbd> (see an example in 
+     <strong>
+      <a id="xref-fig-2-1" class="xref-fig" href="#F2">Figure 2</a>
+     </strong>).
+    </p>
+    <div id="F2" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F2.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="The model diagnostic returned by varimp.diag()." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-887869228" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;&lt;;div xmlns=&quot;;http://www.w3.org/1999/xhtml&quot;;&gt;;The model diagnostic returned by &lt;;kbd&gt;;varimp.diag()&lt;;/kbd&gt;;.&lt;;/div&gt;;&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 2:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F2.medium.gif" width="440" height="277"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 2:" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F2.medium.gif" width="440" height="277"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F2.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 2:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F2.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 2:</span>
+      <p id="p-25" class="first-child">The model diagnostic returned by 
+       <kbd>varimp.diag()</kbd>.
+      </p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p>Analysis of this diagnostic plot is still subjective and informal. As a way to standardize variable set reduction rules across workflows, 
+     <kbd>embarcadero</kbd> includes an automatic variable selection procedure in 
+     <kbd>variable.step():</kbd>
+    </p>
+    <ol class="list-romanlower " id="list-2">
+     <li id="list-item-5">
+      <p id="p-27">Fit a full model with all predictors and a small tree ensemble (default 
+       <em>m</em> = 10), a fixed number of times (default 
+       <em>n</em> = 50)
+      </p>
+     </li>
+     <li id="list-item-6">
+      <p id="p-28">Eliminate the least informative variable across all 50 runs;</p>
+     </li>
+     <li id="list-item-7">
+      <p id="p-29">Re-run the models again minus the least informative variable (
+       <em>n</em> = 50 times again), recording the root mean square error (on the training data);
+      </p>
+     </li>
+     <li id="list-item-8">
+      <p id="p-30">Repeat steps 2 and 3 until there are only three covariates left;</p>
+     </li>
+     <li id="list-item-9">
+      <p id="p-31">Finally, select the model with the lowest average root mean square error (RMSE).</p>
+     </li>
+    </ol>
+    <p id="p-32">Anecdotally, this procedure almost always recommends dropping every variable with decreasing importance in models with fewer trees, and conserves every variable with increasing importance. In our virtual species case, for example, the diagnostic shows that X1 through X4 have much higher performance than X5 through X8 (
+     <strong>
+      <a id="xref-fig-2-2" class="xref-fig" href="#F2">Figure 2</a>
+     </strong>), and the automated procedure recommends dropping X5 through X8: 
+     <span class="preformat"> varimp.diag(occ.df[,xnames], occ.df[,”Observed”], iter=50) step.model &lt;;- variable.step(x.data=occ.df[,xnames], y.data=occ.df[,”Observed”]) step.model [1] “x1” “x2” “x3” “x4” </span>
+    </p>
+    <p id="p-33">This largely matches original work which found that BART is highly effective at identifying informative subsets of predictors (see section 5.2.1 of 
+     <a id="xref-ref-6-5" class="xref-bibr" href="#ref-6">Chipman 
+      <em>et al.</em>, 2010
+     </a>).
+    </p>
+    <p id="p-34">I recommend careful analysis of all diagnostic information, but include a full automated variable selection pipeline in 
+     <kbd>bart.step</kbd>, which (a) produces the initial multi-
+     <em>m</em> diagnostic plot, (b) runs automated variable selection, (c) returns a model trained with the optimal variable set, (d) plots variable importance in the final model, and (e) returns the summary of the final model. Despite automation, this procedure is not a fail-safe against the inclusion of uninformative predictors, or false inference on them; this is true of almost all methods, and predictors should always be chosen based on at least some expert opinion about biological plausibility (
+     <a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">Fourcade 
+      <em>et al.</em>, 2018
+     </a>). Similarly, validation of partial depencence curves against biological knowledge should be treated as an additional level of model validation, potentially more informative than measuring predictive accuracy (
+     <a id="xref-ref-38-1" class="xref-bibr" href="#ref-38">Warren 
+      <em>et al.</em>, 2019
+     </a>).
+    </p>
+   </div>
+   <div class="section" id="sec-6">
+    <h2 class="">4 Visualizing model results</h2>
+    <p id="p-35">
+     <kbd>embarcadero</kbd> includes several methods for generating partial dependence plots. The function 
+     <kbd>partial</kbd> is written as a wrapper for 
+     <kbd>dbarts::pdbart</kbd>, and can be used to generate partial dependence plots with a customizable, 
+     <kbd>ggplot2</kbd>-based aesthetic, including multiple ways of visualizing uncertainty. (As with overall predictions, credible intervals on partial plots are true Bayesian credible intervals.) Posteriors can be visualized with traceplots of individual draws, or bars for a credible interval of a specified width (by default 95%): 
+     <span class="preformat"> partial(sdm, x.vars=c(“x4”), smooth=5, equal=TRUE, trace=FALSE) ## VERSUS, for comparison, gbm1 &lt;;- dismo::gbm.step(data=occ.df, gbm.x = 2:5, gbm.y = 1, family = “bernoulli”, tree.complexity = 5, learning.rate = 0.01, bag.fraction =0.5) dismo::gbm.plot(gbm1, variable.no=4, rug=TRUE, plot.layout=c(1,1))</span>
+    </p>
+    <p id="p-36">This visualizes uncertainty much clearer than, for example, 
+     <kbd>dismo::gbm.plot</kbd> can in a single instance (
+     <strong>
+      <a id="xref-fig-3-1" class="xref-fig" href="#F3">Figure 3</a>
+     </strong>). Two-dimensional partial dependence plots (interactions among two predictor variables) can also be generated using 
+     <kbd>dbarts::pd2bart</kbd>.
+    </p>
+    <div id="F3" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F3.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="Partial dependence curves generated by single-instance BART implementations (A) show uncertainty with more transparency and clarity than those generated from single-instance BRT implementations (B)." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-887869228" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;Partial dependence curves generated by single-instance BART implementations (A) show uncertainty with more transparency and clarity than those generated from single-instance BRT implementations (B).&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 3:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F3.medium.gif" width="215" height="440"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 3:" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F3.medium.gif" width="215" height="440"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F3.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 3:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F3.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 3:</span>
+      <p id="p-37" class="first-child">Partial dependence curves generated by single-instance BART implementations (A) show uncertainty with more transparency and clarity than those generated from single-instance BRT implementations (B).</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+    <p id="p-38">Finally, 
+     <kbd>embarcadero</kbd> a new visualization called 
+     <em>spatial partial dependence plots</em>, which reclassify predictor rasters based on their partial dependence plots, and show the relative suitability of different regions for an individual covariate. The 
+     <kbd>spartial</kbd> function can be used to generate these maps, and answer questions like “What desert regions are too arid, even in their wettest month, for spadefoot toads?” or “Where are the soils with the best pH for redwood growth?” These visualization options are illustrated in greater depth in the advanced vignette.
+    </p>
+   </div>
+   <div class="section" id="sec-7">
+    <h2 class="">5 An advanced vignette</h2>
+    <p id="p-39">To demonstrate applications to disease transmission mapping, the supplement includes an advanced tutorial on embarcadero focused on updating an African risk map for Crimean-Congo haemorrhagic fever virus (CCHF). CCHF is a tick-borne Bunyavirus that causes extremely severe, and often fatal, illness in humans. Very little is known about CCHF, compared to other cosmopolitan tick-borne illnesses like Lyme disease or tularemia. The definitive reservoir of CCHF is unknown but likely ungulates (
+     <a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">Babayan 
+      <em>et al.</em>, 2018
+     </a>); outbreaks frequently affect sheep and other domestic ruminants. The vectors of CCHF are better known, and are presumed to almost always be 
+     <em>Hyalomma</em> ticks, which are widespread throughout Africa and Eurasia; other tick vectors have been suspected, but evidence for their competence is limited. (
+     <a id="xref-ref-28-1" class="xref-bibr" href="#ref-28">Papa 
+      <em>et al.</em>, 2017
+     </a>) In Africa, 
+     <em>Hyalomma trun-catum</em> in particular is common throughout rangeland and is a strong candidate for a primary vector. (
+     <a id="xref-ref-19-1" class="xref-bibr" href="#ref-19">Logan 
+      <em>et al.</em>, 1989
+     </a>; 
+     <a id="xref-ref-40-1" class="xref-bibr" href="#ref-40">Wilson 
+      <em>et al.</em>, 1991
+     </a>) A global map of Crimean-Congo haemorrhagic fever has been previously been produced with boosted regression trees; a significant amount of the Black Sea region was suitable, while areas outside had highly localized predictions of suitability, presumably because of data sparsity in Africa especially. (
+     <a id="xref-ref-26-1" class="xref-bibr" href="#ref-26">Messina 
+      <em>et al.</em>, 2015b
+     </a>) However, some major areas of presence appeared under-predicted, such as the western Congo Basin.
+    </p>
+    <p id="p-40">The advanced vignette shows how BART can be used to map CCHF in Africa, using the same occurrence dataset as previous mapping efforts have (
+     <a id="xref-ref-25-1" class="xref-bibr" href="#ref-25">Messina 
+      <em>et al.</em>, 2015a
+     </a>). Just as studies of dengue risk have included suitability for the 
+     <em>Aedes aegypti</em> mosquito as a covariate, the new model includes a suitability layer for 
+     <em>Hyalomma truncatum</em>, created from the canonical dataset on African tick distributions. (
+     <a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">Cumming, 1998</a>). The updated map predicts that the distribution of CCHF may be more geographically expansive than previous studies have indicated (
+     <strong>
+      <a id="xref-fig-4-1" class="xref-fig" href="#F4">Figure 4</a>
+     </strong>). Areas of the highest risk are still heavily concentrated in Sahel rangeland and east African highlands, but also far more extensive in southern Africa and along the Atlantic coast than previously believed. A detailed tutorial is provided showing this workflow in the Supplementary Materials of this paper, and all data are available online (github.com/cjcarlson/pier39).
+    </p>
+    <div id="F4" class="fig pos-float type-figure odd">
+     <div class="highwire-figure">
+      <div class="fig-inline-img-wrapper">
+       <div class="fig-inline-img">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F4.large.jpg?width=800&amp;;height=600&amp;;carousel=1" title="A map of Crimean-Congo haemorrhagic fever transmission risk, constructed using ecological niche modelling with BART (see Supplementary Materials)." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-887869228" data-figure-caption="&lt;;div class=&quot;;highwire-markup&quot;;&gt;;A map of Crimean-Congo haemorrhagic fever transmission risk, constructed using ecological niche modelling with BART (see Supplementary Materials).&lt;;/div&gt;;" data-icon-position="" data-hide-link-title="0">
+         <span class="hw-responsive-img">
+          <img class="highwire-fragment fragment-image lazyload" alt="Figure 4:" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F4.medium.gif" width="440" height="372"/>
+          <noscript>
+           <img class="highwire-fragment fragment-image" alt="Figure 4:" src="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F4.medium.gif" width="440" height="372"/>
+          </noscript>
+         </span>
+        </a>
+       </div>
+      </div>
+      <ul class="highwire-figure-links inline">
+       <li class="download-fig first">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F4.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 4:" data-icon-position="" data-hide-link-title="0">Download figure</a>
+       </li>
+       <li class="new-tab last">
+        <a href="https://www.biorxiv.org/content/biorxiv/early/2019/12/26/774604/F4.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a>
+       </li>
+      </ul>
+     </div>
+     <div class="fig-caption">
+      <span class="fig-label">Figure 4:</span>
+      <p id="p-41" class="first-child">A map of Crimean-Congo haemorrhagic fever transmission risk, constructed using ecological niche modelling with BART (see Supplementary Materials).</p>
+      <div class="sb-div caption-clear"/>
+     </div>
+    </div>
+   </div>
+   <div class="section" id="sec-8">
+    <h2 class="">6 Discussion</h2>
+    <p id="p-42">Because BART is a comparatively new method, many of the basic use case questions remain mostly unaddressed: Do pseudoabsences perform notably worse than absences? Is there a minimum sample size? Does collinearity inflate or distort variable importance? Users may wish to explore some of these points using virtual species before working with BART on their data, or to compare BART results to other methods as a sense check.</p>
+    <p id="p-43">Furthermore, as with any other Bayesian method, out of the box implementation can make it easy to neglect or underconsider prior selection. More advanced users may be interested in going more in depth within the BART literature to set better priors. For example, using a uniform prior on covariate importance can be unhelpful—especially in high-dimensionality data with only a few valid predictors, where the model tends to converge on the variable importance prior. (
+     <a id="xref-ref-34-2" class="xref-bibr" href="#ref-34">Tan 
+      <em>et al.</em>, 2018
+     </a>; 
+     <a id="xref-ref-31-1" class="xref-bibr" href="#ref-31">Rocková &amp;; van der Pas, 2017</a>) Instead, setting a Dirichlet distribution for the prior can significantly improve model performance and variable selection. (
+     <a id="xref-ref-18-1" class="xref-bibr" href="#ref-18">Linero, 2018</a>)
+    </p>
+    <p id="p-44">Finally, it is worth mentioning that BART is a growing topic of interest in machine learning, and new extensions may expand applications within SDM work and more broady in spatial ecology. For example, the random intercept BART (riBART) model is a framework for handling cases of structure within outcome data; this framework might be useful for cases where sampling bias has categorical structure (e.g., different levels of sampling across country or state borders). (
+     <a id="xref-ref-34-3" class="xref-bibr" href="#ref-34">Tan 
+      <em>et al.</em>, 2018
+     </a>) Similarly, causal inference using the BART framework has become especially popular (
+     <a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">Hahn 
+      <em>et al.</em>, 2017
+     </a>), which may be an interesting direction for modelling given recent work proposing causal inference as a new priority for mapping infectious diseases. (
+     <a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">Kraemer 
+      <em>et al.</em>, 2019
+     </a>) Expanding work along these lines will help establish better best practices for using BARTs in SDM applications.
+    </p>
+   </div>
+   <div class="section ack" id="ack-1">
+    <h2 class="">Acknowledgements</h2>
+    <p id="p-45">Thanks to Vincent Dorie for creating the fabulous and wonderfully useful 
+     <kbd>dbarts</kbd> package, to Shweta Bansal and Jason Blackburn for research support, to Ethan Beaman for telling me about BARTs in the first place, to Zack Susswein for helpful comments on design of Bayesian models, to Tad Dallas for helpful comments on the R package and manuscript, and to David Lawrence Miller and a second anonymous reviewer for detailed and helpful feedback. This work was funded by a Georgetown Environment Initiative (GEI) postdoctoral fellowship.
+    </p>
+   </div>
+   <div class="section app" id="app-1">
+    <h2 class="">Appendix 1. Generating a virtual species for modelling</h2>
+    <p id="p-46">For this example, we create a virtual landscape of eight Gaussian “climate variables” on a 150 by 150 cell grid (with 
+     <kbd>NLMR</kbd>), create a virtual species inhabiting that landscape but only depending on four of eight total “climate variables” (with 
+     <kbd>virtualspecies</kbd>), and then extract a presence-absence dataset for modelling (with 
+     <kbd>embarcadero</kbd>). 
+     <span class="preformat"> library(NLMR, quietly = T) library(virtualspecies, quietly = T) set.seed(12345)</span>
+     <span class="preformat">## Random landscape onelandscape &lt;;- function(x) {NLMR::nlm_gaussianfield(nrow = 150, ncol = 150, rescale = FALSE)} climate &lt;;- stack(lapply(c(1:8), onelandscape)) names(climate) &lt;;- c(“x1”,”x2”,”x3”,”x4”,”x5”,”x6”,”x7”,”x8”) ## Generate the species’ climatic niche from X1 through X4 random.sp &lt;;- generateRandomSp(climate[[1:4]], approach=“pca”, relations=“gaussian”, species.prevalence=0.5, realistic.sp = TRUE, PA.method=“threshold”) ## Generate some presences, and some absences sp.points &lt;;- sample0ccurrences(random.sp, n=250, type = “presence-absence”) ## Extract the associated climate values occ &lt;;- SpatialPoints(sp.points$sample.points[,c(“x”,”y”)]) occ.df &lt;;- cbind(sp.points$sample.points, raster::extract(climate, occ)) ## Finally, let’s drop the long-lats and the “Real” presence-absence ## values and just leave behind an “Observed” and the climate data occ.df &lt;;- occ.df[,-c(1:3)]</span>
+    </p>
+    <p id="p-47">If we were to run head(occ.df) it should return a data frame that looks like this:</p>
+    <div id="T2" class="table pos-float">
+     <div class="table-inline table-callout-links">
+      <div class="callout">
+       <span>View this table:</span>
+       <ul class="callout-links">
+        <li class="view-inline first">
+         <a href="##" class="table-expand-inline" data-table-url="/highwire/markup/1088057/expansion?postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed&amp;;table-expand-inline=1" data-icon-position="" data-hide-link-title="0">View inline</a>
+        </li>
+        <li class="view-popup">
+         <a href="/highwire/markup/1088057/expansion?width=1000&amp;;height=500&amp;;iframe=true&amp;;postprocessors=highwire_tables%2Chighwire_reclass%2Chighwire_figures%2Chighwire_math%2Chighwire_inline_linked_media%2Chighwire_embed" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables" data-icon-position="" data-hide-link-title="0">View popup</a>
+        </li>
+        <li class="download-ppt last">
+         <a href="/highwire/powerpoint/1088057" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="section ref-list" id="ref-list-1">
+    <h2 class="">References</h2>
+    <ol class="cit-list ref-use-labels">
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference in text" id="ref-1">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.1" data-doi="10.1126/science.aap9072">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Babayan</span>, 
+          <span class="cit-name-given-names">S.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Orton</span>, 
+          <span class="cit-name-given-names">R.J.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Streicker</span>, 
+          <span class="cit-name-given-names">D.G.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">Predicting reservoir hosts and arthropod vectors from evolutionary signatures in RNA virus genomes</span>. 
+         <abbr class="cit-jnl-abbrev">Science</abbr>, 
+         <span class="cit-vol">362</span>, 
+         <span class="cit-fpage">577</span>–
+         <span class="cit-lpage">580</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DScience%26rft.stitle%253DScience%26rft.aulast%253DBabayan%26rft.auinit1%253DS.%2BA.%26rft.volume%253D362%26rft.issue%253D6414%26rft.spage%253D577%26rft.epage%253D580%26rft.atitle%253DPredicting%2Breservoir%2Bhosts%2Band%2Barthropod%2Bvectors%2Bfrom%2Bevolutionary%2Bsignatures%2Bin%2BRNA%2Bvirus%2Bgenomes%26rft_id%253Dinfo%253Adoi%252F10.1126%252Fscience.aap9072%26rft_id%253Dinfo%253Apmid%252F30385576%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6Mzoic2NpIjtzOjU6InJlc2lkIjtzOjEyOiIzNjIvNjQxNC81NzciO3M6NDoiYXRvbSI7czozNzoiL2Jpb3J4aXYvZWFybHkvMjAxOS8xMi8yNi83NzQ2MDQuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink">
+         <span>
+          <span class="cit-reflinks-abstract">Abstract</span>
+          <span class="cit-sep cit-reflinks-variant-name-sep">/</span>
+          <span class="cit-reflinks-full-text">
+           <span class="free-full-text">FREE </span>Full Text
+          </span>
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference in text" id="ref-2">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.2" data-doi="10.1038/nature12060">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bhatt</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gething</span>, 
+          <span class="cit-name-given-names">P.W.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brady</span>, 
+          <span class="cit-name-given-names">O.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Messina</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Farlow</span>, 
+          <span class="cit-name-given-names">A.W.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Moyes</span>, 
+          <span class="cit-name-given-names">C.L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Drake</span>, 
+          <span class="cit-name-given-names">J.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brownstein</span>, 
+          <span class="cit-name-given-names">J.S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hoen</span>, 
+          <span class="cit-name-given-names">A.G.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Sankoh</span>, 
+          <span class="cit-name-given-names">O.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">The global distribution and burden of dengue</span>. 
+         <abbr class="cit-jnl-abbrev">Nature</abbr>, 
+         <span class="cit-vol">496</span>, 
+         <span class="cit-fpage">504</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DNature%26rft.volume%253D496%26rft.spage%253D504%26rft_id%253Dinfo%253Adoi%252F10.1038%252Fnature12060%26rft_id%253Dinfo%253Apmid%252F23563266%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1038/nature12060&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=23563266&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F26%2F774604.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000317984400041&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference in text" id="ref-3">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.3">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Carlson</span>, 
+          <span class="cit-name-given-names">C.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kracalik</span>, 
+          <span class="cit-name-given-names">I.T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ross</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Alexander</span>, 
+          <span class="cit-name-given-names">K.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hugh-Jones</span>, 
+          <span class="cit-name-given-names">M.E.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Fegan</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elkin</span>, 
+          <span class="cit-name-given-names">B.T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Epp</span>, 
+          <span class="cit-name-given-names">T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Shury</span>, 
+          <span class="cit-name-given-names">T.K.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Zhang</span>, 
+          <span class="cit-name-given-names">W.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">The global distribution of 
+          <em>Bacillus anthracis</em> and associated anthrax risk to humans, livestock and wildlife
+         </span>. 
+         <abbr class="cit-jnl-abbrev">Nature Microbiology</abbr>, p. 
+         <span class="cit-fpage">1</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference in text" id="ref-4">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.4">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chipman</span>, 
+          <span class="cit-name-given-names">H.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">McCulloch</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dorie</span>, 
+          <span class="cit-name-given-names">V.</span>
+         </span> (
+         <span class="cit-pub-date">2014</span>) 
+         <span class="cit-article-title">dbarts: Discrete Bayesian Additive Regression Trees Sampler</span>. 
+         <abbr class="cit-jnl-abbrev">R package version 0.8-5</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference in text" id="ref-5">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.5">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chipman</span>, 
+          <span class="cit-name-given-names">H.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">McCulloch</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">BayesTree: Bayesian Additive Regression Trees</span>. 
+         <abbr class="cit-jnl-abbrev">R package version 0.3-1.3</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference in text" id="ref-6">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.6">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chipman</span>, 
+          <span class="cit-name-given-names">H.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">George</span>, 
+          <span class="cit-name-given-names">E.I.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">McCulloch</span>, 
+          <span class="cit-name-given-names">R.E.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2010</span>) 
+         <span class="cit-article-title">BART: Bayesian additive regression trees</span>. 
+         <abbr class="cit-jnl-abbrev">The Annals of Applied Statistics</abbr>, 
+         <span class="cit-vol">4</span>, 
+         <span class="cit-fpage">266</span>–
+         <span class="cit-lpage">298</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DThe%2BAnnals%2Bof%2BApplied%2BStatistics%26rft.volume%253D4%26rft.spage%253D266%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference in text" id="ref-7">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.7" data-doi="10.1017/S0007485300042139">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cumming</span>, 
+          <span class="cit-name-given-names">G.</span>
+         </span> (
+         <span class="cit-pub-date">1998</span>) 
+         <span class="cit-article-title">Host preference in African ticks (Acari: Ixodida): a quantitative data set</span>. 
+         <abbr class="cit-jnl-abbrev">Bulletin of Entomological Research</abbr>, 
+         <span class="cit-vol">88</span>, 
+         <span class="cit-fpage">379</span>–
+         <span class="cit-lpage">406</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DBulletin%2Bof%2BEntomological%2BResearch%26rft.volume%253D88%26rft.spage%253D379%26rft_id%253Dinfo%253Adoi%252F10.1017%252FS0007485300042139%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1017/S0007485300042139&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference in text" id="ref-8">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.8" data-doi="10.1111/j.2006.0906-7590.04596.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">H.</span>
+          <span class="cit-name-surname">Graham</span>
+         </span>, C., 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">P.</span>
+          <span class="cit-name-surname">Anderson</span>
+         </span>, R., 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dudík</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ferrier</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Guisan</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">J.</span>
+          <span class="cit-name-surname">Hijmans</span>
+         </span>, R., 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Huettmann</span>, 
+          <span class="cit-name-given-names">F.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-given-names">R.</span>
+          <span class="cit-name-surname">Leathwick</span>
+         </span>, J., 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lehmann</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2006</span>) 
+         <span class="cit-article-title">Novel methods improve prediction of species’ distributions from occurrence data</span>. 
+         <abbr class="cit-jnl-abbrev">Ecography</abbr>, 
+         <span class="cit-vol">29</span>, 
+         <span class="cit-fpage">129</span>–
+         <span class="cit-lpage">151</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcography%26rft.volume%253D29%26rft.spage%253D129%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.2006.0906-7590.04596.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.2006.0906-7590.04596.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000236767000001&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference in text" id="ref-9">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.9" data-doi="10.1111/j.1365-2656.2008.01390.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Leathwick</span>, 
+          <span class="cit-name-given-names">J.R.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hastie</span>, 
+          <span class="cit-name-given-names">T.</span>
+         </span> (
+         <span class="cit-pub-date">2008</span>) 
+         <span class="cit-article-title">A working guide to boosted regression trees</span>. 
+         <abbr class="cit-jnl-abbrev">Journal of Animal Ecology</abbr>, 
+         <span class="cit-vol">77</span>, 
+         <span class="cit-fpage">802</span>–
+         <span class="cit-lpage">813</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2BAnimal%2BEcology%26rft.volume%253D77%26rft.spage%253D802%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1365-2656.2008.01390.x%26rft_id%253Dinfo%253Apmid%252F18397250%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1365-2656.2008.01390.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=18397250&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F26%2F774604.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000256539800020&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference in text" id="ref-10">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.10">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Phillips</span>, 
+          <span class="cit-name-given-names">S.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hastie</span>, 
+          <span class="cit-name-given-names">T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dudík</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chee</span>, 
+          <span class="cit-name-given-names">Y.E.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Yates</span>, 
+          <span class="cit-name-given-names">C.J.</span>
+         </span> (
+         <span class="cit-pub-date">2011</span>) 
+         <span class="cit-article-title">A statistical explanation of MaxEnt for ecologists</span>. 
+         <abbr class="cit-jnl-abbrev">Diversity and Distributions</abbr>, 
+         <span class="cit-vol">17</span>, 
+         <span class="cit-fpage">43</span>–
+         <span class="cit-lpage">57</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DDiversity%2Band%2BDistributions%26rft.volume%253D17%26rft.spage%253D43%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference in text" id="ref-11">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.11">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Farley</span>, 
+          <span class="cit-name-given-names">S.S.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <abbr class="cit-jnl-abbrev">A General Framework for Predicting the Optimal Computing Configurations for Climate-driven Ecological Forecasting Models</abbr>. Ph.D. thesis.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference in text" id="ref-12">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.12">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Fourcade</span>, 
+          <span class="cit-name-given-names">Y.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Besnard</span>, 
+          <span class="cit-name-given-names">A.G.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Secondi</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">Paintings predict the distribution of species, or the challenge of selecting environmental predictors and evaluation statistics</span>. 
+         <abbr class="cit-jnl-abbrev">Global Ecology and Biogeography</abbr>, 
+         <span class="cit-vol">27</span>, 
+         <span class="cit-fpage">245</span>–
+         <span class="cit-lpage">256</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DGlobal%2BEcology%2Band%2BBiogeography%26rft.volume%253D27%26rft.spage%253D245%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference in text" id="ref-13">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.13">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Golding</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Purse</span>, 
+          <span class="cit-name-given-names">B.V.</span>
+         </span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Fast and flexible Bayesian species distribution modelling using Gaussian processes</span>. 
+         <abbr class="cit-jnl-abbrev">Methods in Ecology and Evolution</abbr>, 
+         <span class="cit-vol">7</span>, 
+         <span class="cit-fpage">598</span>–
+         <span class="cit-lpage">608</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMethods%2Bin%2BEcology%2Band%2BEvolution%26rft.volume%253D7%26rft.spage%253D598%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference in text" id="ref-14">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.14">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Guillera-Arroita</span>, 
+          <span class="cit-name-given-names">G.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lahoz-Monfort</span>, 
+          <span class="cit-name-given-names">J.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gordon</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kujala</span>, 
+          <span class="cit-name-given-names">H.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lentini</span>, 
+          <span class="cit-name-given-names">P.E.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">McCarthy</span>, 
+          <span class="cit-name-given-names">M.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tingley</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wintle</span>, 
+          <span class="cit-name-given-names">B.A.</span>
+         </span> (
+         <span class="cit-pub-date">2015</span>) 
+         <span class="cit-article-title">Is my species distribution model fit for purpose? Matching data and models to applications</span>. 
+         <abbr class="cit-jnl-abbrev">Global Ecology and Biogeography</abbr>, 
+         <span class="cit-vol">24</span>, 
+         <span class="cit-fpage">276</span>–
+         <span class="cit-lpage">292</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DGlobal%2BEcology%2Band%2BBiogeography%26rft.volume%253D24%26rft.spage%253D276%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference in text" id="ref-15">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.15">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hahn</span>, 
+          <span class="cit-name-given-names">P.R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Murray</span>, 
+          <span class="cit-name-given-names">J.S.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Carvalho</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">Bayesian regression tree models for causal inference: regularization, confounding, and heterogeneous effects</span>. 
+         <abbr class="cit-jnl-abbrev">arXiv preprint</abbr>
+         <span class="cit-pub-id-sep cit-pub-id-arxiv-sep"> </span>
+         <span class="cit-pub-id-scheme">arXiv:</span>
+         <span class="cit-pub-id cit-pub-id-arxiv">-170609523</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference in text" id="ref-16">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.16">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kapelner</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bleich</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">bartMachine: Machine learning with Bayesian additive regression trees</span>. 
+         <abbr class="cit-jnl-abbrev">arXiv preprint</abbr>
+         <span class="cit-pub-id-sep cit-pub-id-arxiv-sep"> </span>
+         <span class="cit-pub-id-scheme">arXiv:</span>
+         <span class="cit-pub-id cit-pub-id-arxiv">13122171</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference in text" id="ref-17">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.17">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kraemer</span>, 
+          <span class="cit-name-given-names">M.U.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Reiner</span>
+          <span class="cit-name-suffix">Jr</span>, 
+          <span class="cit-name-given-names">R.C.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bhatt</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">Causal inference in spatial mapping</span>. 
+         <abbr class="cit-jnl-abbrev">Trends in Parasitology</abbr>, 
+         <span class="cit-vol">35</span>, 
+         <span class="cit-fpage">743</span>–
+         <span class="cit-lpage">746</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DTrends%2Bin%2BParasitology%26rft.volume%253D35%26rft.spage%253D743%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-18-1" title="View reference in text" id="ref-18">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.18">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Linero</span>, 
+          <span class="cit-name-given-names">A.R.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">Bayesian regression trees for high-dimensional prediction and variable selection</span>. 
+         <abbr class="cit-jnl-abbrev">Journal of the American Statistical Association</abbr>, 
+         <span class="cit-vol">113</span>, 
+         <span class="cit-fpage">626</span>–
+         <span class="cit-lpage">636</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DJournal%2Bof%2Bthe%2BAmerican%2BStatistical%2BAssociation%26rft.volume%253D113%26rft.spage%253D626%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-19-1" title="View reference in text" id="ref-19">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.19">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Logan</span>, 
+          <span class="cit-name-given-names">T.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Linthicum</span>, 
+          <span class="cit-name-given-names">K.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bailey</span>, 
+          <span class="cit-name-given-names">C.L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Watts</span>, 
+          <span class="cit-name-given-names">D.M.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Moulton</span>, 
+          <span class="cit-name-given-names">J.R.</span>
+         </span> (
+         <span class="cit-pub-date">1989</span>) 
+         <span class="cit-article-title">Experimental transmission of Crimean-Congo hemorrhagic fever virus by 
+          <em>Hyalomma trun-catum</em> Koch
+         </span>. 
+         <abbr class="cit-jnl-abbrev">The American Journal of Tropical Medicine and Hygiene</abbr>, 
+         <span class="cit-vol">40</span>, 
+         <span class="cit-fpage">207</span>–
+         <span class="cit-lpage">212</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DThe%2BAmerican%2BJournal%2Bof%2BTropical%2BMedicine%2Band%2BHygiene%26rft.stitle%253DAm%2BJ%2BTrop%2BMed%2BHyg%26rft.aulast%253DLogan%26rft.auinit1%253DT.%2BM.%26rft.volume%253D40%26rft.issue%253D2%26rft.spage%253D207%26rft.epage%253D212%26rft.atitle%253DExperimental%2BTransmission%2Bof%2BCrimean-Congo%2BHemorrhagic%2BFever%2BVirus%2Bby%2BHyalomma%2BTruncatum%2BKoch%26rft_id%253Dinfo%253Apmid%252F2493203%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NzoidHJvcG1lZCI7czo1OiJyZXNpZCI7czo4OiI0MC8yLzIwNyI7czo0OiJhdG9tIjtzOjM3OiIvYmlvcnhpdi9lYXJseS8yMDE5LzEyLzI2Lzc3NDYwNC5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30=" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink">
+         <span>
+          <span class="cit-reflinks-abstract">Abstract</span>
+          <span class="cit-sep cit-reflinks-variant-name-sep">/</span>
+          <span class="cit-reflinks-full-text">
+           <span class="free-full-text">FREE </span>Full Text
+          </span>
+         </span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-20-1" title="View reference in text" id="ref-20">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.20">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mainali</span>, 
+          <span class="cit-name-given-names">K.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Warren</span>, 
+          <span class="cit-name-given-names">D.L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dhileepan</span>, 
+          <span class="cit-name-given-names">K.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">McConnachie</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Strathie</span>, 
+          <span class="cit-name-given-names">L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hassan</span>, 
+          <span class="cit-name-given-names">G.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Karki</span>, 
+          <span class="cit-name-given-names">D.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Shrestha</span>, 
+          <span class="cit-name-given-names">B.B.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Parmesan</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span> (
+         <span class="cit-pub-date">2015</span>) 
+         <span class="cit-article-title">Projecting future expansion of invasive species: comparing and improving methodologies for species distribution modeling</span>. 
+         <abbr class="cit-jnl-abbrev">Global Change Biology</abbr>, 
+         <span class="cit-vol">21</span>, 
+         <span class="cit-fpage">4464</span>–
+         <span class="cit-lpage">4480</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DGlobal%2BChange%2BBiology%26rft.volume%253D21%26rft.spage%253D4464%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-21-1" title="View reference in text" id="ref-21">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.21">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">McCulloch</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Sparapani</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gramacy</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Spanbauer</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pratola</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">BART: Bayesian additive regression trees</span>. 
+         <abbr class="cit-jnl-abbrev">R package version 1.0</abbr>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-22-1" title="View reference in text" id="ref-22">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.22">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Merow</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Silander</span>, 
+          <span class="cit-name-given-names">J.A.</span>
+         </span> (
+         <span class="cit-pub-date">2014</span>) 
+         <span class="cit-article-title">A comparison of maxlike and maxent for modelling species distributions</span>. 
+         <abbr class="cit-jnl-abbrev">Methods in Ecology and Evolution</abbr>, 
+         <span class="cit-vol">5</span>, 
+         <span class="cit-fpage">215</span>–
+         <span class="cit-lpage">225</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DMethods%2Bin%2BEcology%2Band%2BEvolution%26rft.volume%253D5%26rft.spage%253D215%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-23-1" title="View reference in text" id="ref-23">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.23" data-doi="10.1111/j.1600-0587.2013.07872.x">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Merow</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Smith</span>, 
+          <span class="cit-name-given-names">M.J.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Silander</span>, 
+          <span class="cit-name-given-names">J.A.</span>
+         </span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">A practical guide to maxent for modeling species’ distributions: what it does, and why inputs and settings matter</span>. 
+         <abbr class="cit-jnl-abbrev">Ecography</abbr>, 
+         <span class="cit-vol">36</span>, 
+         <span class="cit-fpage">1058</span>–
+         <span class="cit-lpage">1069</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcography%26rft.volume%253D36%26rft.spage%253D1058%26rft_id%253Dinfo%253Adoi%252F10.1111%252Fj.1600-0587.2013.07872.x%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1111/j.1600-0587.2013.07872.x&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=000325114500002&amp;;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-newisilink cit-ref-sprinkles-webofscience">
+         <span>Web of Science</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-24-1" title="View reference in text" id="ref-24">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.24" data-doi="10.7554/eLife.15272">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Messina</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kraemer</span>, 
+          <span class="cit-name-given-names">M.U.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brady</span>, 
+          <span class="cit-name-given-names">O.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pigott</span>, 
+          <span class="cit-name-given-names">D.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Shearer</span>, 
+          <span class="cit-name-given-names">F.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Weiss</span>, 
+          <span class="cit-name-given-names">D.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Golding</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ruktanonchai</span>, 
+          <span class="cit-name-given-names">C.W.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gething</span>, 
+          <span class="cit-name-given-names">P.W.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cohn</span>, 
+          <span class="cit-name-given-names">E.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2016</span>) 
+         <span class="cit-article-title">Mapping global environmental suitability for Zika virus</span>. 
+         <abbr class="cit-jnl-abbrev">eLife</abbr>, 
+         <span class="cit-vol">5</span>, 
+         <span class="cit-fpage">e15272</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DeLife%26rft.volume%253D5%26rft.spage%253De15272%26rft_id%253Dinfo%253Adoi%252F10.7554%252FeLife.15272%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.7554/eLife.15272&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-25-1" title="View reference in text" id="ref-25">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.25">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Messina</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pigott</span>, 
+          <span class="cit-name-given-names">D.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Duda</span>, 
+          <span class="cit-name-given-names">K.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brownstein</span>, 
+          <span class="cit-name-given-names">J.S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Myers</span>, 
+          <span class="cit-name-given-names">M.F.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">George</span>, 
+          <span class="cit-name-given-names">D.B.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hay</span>, 
+          <span class="cit-name-given-names">S.I.</span>
+         </span> (
+         <span class="cit-pub-date">2015a</span>) 
+         <span class="cit-article-title">A global compendium of human Crimean-Congo haemorrhagic fever virus occurrence</span>. 
+         <abbr class="cit-jnl-abbrev">Scientific Data</abbr>, 
+         <span class="cit-vol">2</span>, 
+         <span class="cit-fpage">150016</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DScientific%2BData%26rft.volume%253D2%26rft.spage%253D150016%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-26-1" title="View reference in text" id="ref-26">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.26" data-doi="10.1093/trstmh/trv050">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Messina</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pigott</span>, 
+          <span class="cit-name-given-names">D.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Golding</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Duda</span>, 
+          <span class="cit-name-given-names">K.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brownstein</span>, 
+          <span class="cit-name-given-names">J.S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Weiss</span>, 
+          <span class="cit-name-given-names">D.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gibson</span>, 
+          <span class="cit-name-given-names">H.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Robinson</span>, 
+          <span class="cit-name-given-names">T.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gilbert</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">William Wint</span>, 
+          <span class="cit-name-given-names">G.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2015b</span>) 
+         <span class="cit-article-title">The global distribution of Crimean-Congo hemorrhagic fever</span>. 
+         <abbr class="cit-jnl-abbrev">Transactions of the Royal Society of Tropical Medicine and Hygiene</abbr>, 
+         <span class="cit-vol">109</span>, 
+         <span class="cit-fpage">503</span>–
+         <span class="cit-lpage">513</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DTransactions%2Bof%2Bthe%2BRoyal%2BSociety%2Bof%2BTropical%2BMedicine%2Band%2BHygiene%26rft_id%253Dinfo%253Adoi%252F10.1093%252Ftrstmh%252Ftrv050%26rft_id%253Dinfo%253Apmid%252F26142451%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1093/trstmh/trv050&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=26142451&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F26%2F774604.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-27-1" title="View reference in text" id="ref-27">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.27">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Norberg</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Abrego</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Blanchet</span>, 
+          <span class="cit-name-given-names">F.G.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Adler</span>, 
+          <span class="cit-name-given-names">F.R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Anderson</span>, 
+          <span class="cit-name-given-names">B.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Anttila</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Araújo</span>, 
+          <span class="cit-name-given-names">M.B.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dallas</span>, 
+          <span class="cit-name-given-names">T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dunson</span>, 
+          <span class="cit-name-given-names">D.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elith</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">A comprehensive evaluation of predictive performance of 33 species distribution models at species and community levels</span>. 
+         <abbr class="cit-jnl-abbrev">Ecological Monographs</abbr>, p. 
+         <span class="cit-fpage">e01370</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-28-1" title="View reference in text" id="ref-28">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.28">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Papa</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tsergouli</span>, 
+          <span class="cit-name-given-names">K.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tsioka</span>, 
+          <span class="cit-name-given-names">K.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mirazimi</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">Crimean-congo hemorrhagic fever: tick-host-virus interactions</span>. 
+         <abbr class="cit-jnl-abbrev">Frontiers in Cellular and Infection Microbiology</abbr>, 
+         <span class="cit-vol">7</span>, 
+         <span class="cit-fpage">213</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DFrontiers%2Bin%2BCellular%2Band%2BInfection%2BMicrobiology%26rft.volume%253D7%26rft.spage%253D213%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-29-1" title="View reference in text" id="ref-29">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.29" data-doi="10.7554/eLife.04395">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Pigott</span>, 
+          <span class="cit-name-given-names">D.M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Golding</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mylne</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Huang</span>, 
+          <span class="cit-name-given-names">Z.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Henry</span>, 
+          <span class="cit-name-given-names">A.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Weiss</span>, 
+          <span class="cit-name-given-names">D.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Brady</span>, 
+          <span class="cit-name-given-names">O.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kraemer</span>, 
+          <span class="cit-name-given-names">M.U.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Smith</span>, 
+          <span class="cit-name-given-names">D.L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Moyes</span>, 
+          <span class="cit-name-given-names">C.L.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2014</span>) 
+         <span class="cit-article-title">Mapping the zoonotic niche of Ebola virus disease in Africa</span>. 
+         <abbr class="cit-jnl-abbrev">eLife</abbr>, 
+         <span class="cit-vol">3</span>, 
+         <span class="cit-fpage">e04395</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DeLife%26rft.stitle%253Delife%26rft.volume%253D3%26rft.issue%253D0%26rft.spage%253De04395%26rft.epage%253De04395%26rft.atitle%253DMapping%2Bthe%2Bzoonotic%2Bniche%2Bof%2BEbola%2Bvirus%2Bdisease%2Bin%2BAfrica%26rft_id%253Dinfo%253Adoi%252F10.7554%252FeLife.04395%26rft_id%253Dinfo%253Apmid%252F25201877%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.7554/eLife.04395&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=25201877&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F26%2F774604.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-30-1" title="View reference in text" id="ref-30">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.30">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Redding</span>, 
+          <span class="cit-name-given-names">D.W.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lucas</span>, 
+          <span class="cit-name-given-names">T.C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Blackburn</span>, 
+          <span class="cit-name-given-names">T.M.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Jones</span>, 
+          <span class="cit-name-given-names">K.E.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">Evaluating Bayesian spatial methods for modelling species distributions with clumped and restricted occurrence data</span>. 
+         <abbr class="cit-jnl-abbrev">PloS One</abbr>, 
+         <span class="cit-vol">12</span>, 
+         <span class="cit-fpage">e0187602</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DPloS%2BOne%26rft.volume%253D12%26rft.spage%253De0187602%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-31-1" title="View reference in text" id="ref-31">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.31">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Rocková</span>, 
+          <span class="cit-name-given-names">V.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">van der Pas</span>, 
+          <span class="cit-name-given-names">S.</span>
+         </span> (
+         <span class="cit-pub-date">2017</span>) 
+         <span class="cit-article-title">Posterior concentration for bayesian regression trees and forests</span>. 
+         <abbr class="cit-jnl-abbrev">Annals of Statistics (In Revision)</abbr>, pp. 
+         <span class="cit-fpage">1</span>–
+         <span class="cit-lpage">40</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-32-1" title="View reference in text" id="ref-32">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.32">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Smith</span>, 
+          <span class="cit-name-given-names">A.B.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Santos</span>, 
+          <span class="cit-name-given-names">M.J.</span>
+         </span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">Testing the ability of species distribution models to infer variable importance</span>. 
+         <abbr class="cit-jnl-abbrev">bioRxiv</abbr>, p. 
+         <span class="cit-fpage">715904</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-33-1" title="View reference in text" id="ref-33">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.33">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Sparapani</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Dabbouseh</span>, 
+          <span class="cit-name-given-names">N.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gutterman</span>, 
+          <span class="cit-name-given-names">D.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Zhang</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Chen</span>, 
+          <span class="cit-name-given-names">H.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bluemke</span>, 
+          <span class="cit-name-given-names">D.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Lima</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Burke</span>, 
+          <span class="cit-name-given-names">G.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Soliman</span>, 
+          <span class="cit-name-given-names">E.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">Novel electrocardiographic criteria for the diagnosis of left ventricular hypertrophy derived with Bayesian additive regression trees: the multi-ethnic study of atherosclerosis</span>. 
+         <abbr class="cit-jnl-abbrev">Circulation</abbr>, 
+         <span class="cit-vol">138</span>, 
+         <span class="cit-fpage">A10908</span>–
+         <span class="cit-lpage">A10908</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DCirculation%26rft.volume%253D138%26rft.spage%253DA10908%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-34-1" title="View reference in text" id="ref-34">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.34">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tan</span>, 
+          <span class="cit-name-given-names">Y.V.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Flannagan</span>, 
+          <span class="cit-name-given-names">C.A.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Elliott</span>, 
+          <span class="cit-name-given-names">M.R.</span>
+         </span> (
+         <span class="cit-pub-date">2018</span>) 
+         <span class="cit-article-title">Predicting human-driving behavior to help driverless vehicles drive: random intercept Bayesian additive regression trees</span>. 
+         <abbr class="cit-jnl-abbrev">Statistics and Its Interface</abbr>, 
+         <span class="cit-vol">11</span>, 
+         <span class="cit-fpage">557</span>–
+         <span class="cit-lpage">572</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DStatistics%2Band%2BIts%2BInterface%26rft.volume%253D11%26rft.spage%253D557%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-35-1" title="View reference in text" id="ref-35">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.35">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Tan</span>, 
+          <span class="cit-name-given-names">Y.V.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Roy</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">Bayesian additive regression trees and the general bart model</span>. 
+         <abbr class="cit-jnl-abbrev">arXiv preprint</abbr>
+         <span class="cit-pub-id-sep cit-pub-id-arxiv-sep"> </span>
+         <span class="cit-pub-id-scheme">arXiv:</span>
+         <span class="cit-pub-id cit-pub-id-arxiv">190107504</span>
+         <span class="cit-pub-id-sep cit-pub-id-arxiv-sep">;</span>
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-36-1" title="View reference in text" id="ref-36">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.36">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">VanDerWal</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Murphy</span>, 
+          <span class="cit-name-given-names">H.T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Kutt</span>, 
+          <span class="cit-name-given-names">A.S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Perkins</span>, 
+          <span class="cit-name-given-names">G.C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Bateman</span>, 
+          <span class="cit-name-given-names">B.L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Perry</span>, 
+          <span class="cit-name-given-names">J.J.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Reside</span>, 
+          <span class="cit-name-given-names">A.E.</span>
+         </span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">Focus on poleward shifts in species’ distribution underestimates the fingerprint of climate change</span>. 
+         <abbr class="cit-jnl-abbrev">Nature Climate Change</abbr>, 
+         <span class="cit-vol">3</span>, 
+         <span class="cit-fpage">239</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DNature%2BClimate%2BChange%26rft.volume%253D3%26rft.spage%253D239%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-37-1" title="View reference in text" id="ref-37">↵</a>
+      <div class="cit ref-cit ref-book" id="cit-774604v2.37">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Vezhnevets</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Barinova</span>, 
+          <span class="cit-name-given-names">O.</span>
+         </span> (
+         <span class="cit-pub-date">2007</span>) 
+         <span class="cit-chapter-title">Avoiding boosting overfitting by removing confusing samples</span>. 
+         <span class="cit-source">European Conference on Machine Learning</span>, pp. 
+         <span class="cit-fpage">430</span>–
+         <span class="cit-lpage">441</span>. 
+         <span class="cit-publ-name">Springer</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-38-1" title="View reference in text" id="ref-38">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.38">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Warren</span>, 
+          <span class="cit-name-given-names">D.L.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Matzke</span>, 
+          <span class="cit-name-given-names">N.J.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Iglesias</span>, 
+          <span class="cit-name-given-names">T.L.</span>
+         </span> (
+         <span class="cit-pub-date">2019</span>) 
+         <span class="cit-article-title">Evaluating species distribution models with discrimination accuracy is uninformative for many applications</span>. 
+         <abbr class="cit-jnl-abbrev">BioRxiv</abbr>, p. 
+         <span class="cit-fpage">684399</span>.
+        </cite>
+       </div>
+       <div class="cit-extra"/>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-39-1" title="View reference in text" id="ref-39">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.39">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Warren</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">VanDerWal</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Price</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Welbergen</span>, 
+          <span class="cit-name-given-names">J.A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Atkinson</span>, 
+          <span class="cit-name-given-names">I.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Ramirez-Villegas</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Osborn</span>, 
+          <span class="cit-name-given-names">T.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Jarvis</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Shoo</span>, 
+          <span class="cit-name-given-names">L.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Williams</span>, 
+          <span class="cit-name-given-names">S.E.</span>
+         </span>
+         <span class="cit-etal">et al.</span> (
+         <span class="cit-pub-date">2013</span>) 
+         <span class="cit-article-title">Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss</span>. 
+         <abbr class="cit-jnl-abbrev">Nature Climate Change</abbr>, 
+         <span class="cit-vol">3</span>, 
+         <span class="cit-fpage">678</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DNature%2BClimate%2BChange%26rft.volume%253D3%26rft.spage%253D678%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-40-1" title="View reference in text" id="ref-40">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.40" data-doi="10.1016/0923-2516(91)90007-P">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wilson</span>, 
+          <span class="cit-name-given-names">M.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Gonzalez</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Cornet</span>, 
+          <span class="cit-name-given-names">J.P.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Camicas</span>, 
+          <span class="cit-name-given-names">J.L.</span>
+         </span> (
+         <span class="cit-pub-date">1991</span>) 
+         <span class="cit-article-title">Transmission of Crimean-Congo haemorrhagic fever virus from experimentally infected sheep to 
+          <em>Hyalomma truncatum</em> ticks
+         </span>. 
+         <abbr class="cit-jnl-abbrev">Research in Virology</abbr>, 
+         <span class="cit-vol">142</span>, 
+         <span class="cit-fpage">395</span>–
+         <span class="cit-lpage">404</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DResearch%2Bin%2Bvirology%26rft.stitle%253DRes%2BVirol%26rft.aulast%253DWilson%26rft.auinit1%253DM.%2BL.%26rft.volume%253D142%26rft.issue%253D5%26rft.spage%253D395%26rft.epage%253D404%26rft.atitle%253DTransmission%2Bof%2BCrimean-Congo%2Bhaemorrhagic%2Bfever%2Bvirus%2Bfrom%2Bexperimentally%2Binfected%2Bsheep%2Bto%2BHyalomma%2Btruncatum%2Bticks.%26rft_id%253Dinfo%253Adoi%252F10.1016%252F0923-2516%252891%252990007-P%26rft_id%253Dinfo%253Apmid%252F1771294%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=10.1016/0923-2516(91)90007-P&amp;;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref">
+         <span>CrossRef</span>
+        </a>
+        <a href="/lookup/external-ref?access_num=1771294&amp;;link_type=MED&amp;;atom=%2Fbiorxiv%2Fearly%2F2019%2F12%2F26%2F774604.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline">
+         <span>PubMed</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-41-1" title="View reference in text" id="ref-41">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.41">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Wisz</span>, 
+          <span class="cit-name-given-names">M.S.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Hijmans</span>, 
+          <span class="cit-name-given-names">R.J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Li</span>, 
+          <span class="cit-name-given-names">J.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Peterson</span>, 
+          <span class="cit-name-given-names">A.T.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Graham</span>, 
+          <span class="cit-name-given-names">C.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Guisan</span>, 
+          <span class="cit-name-given-names">A.</span>
+         </span> &amp;; NCEAS Predicting Species Distributions Working Group (
+         <span class="cit-pub-date">2008</span>) 
+         <span class="cit-article-title">Effects of sample size on the performance of species distribution models</span>. 
+         <abbr class="cit-jnl-abbrev">Diversity and Distributions</abbr>, 
+         <span class="cit-vol">14</span>, 
+         <span class="cit-fpage">763</span>–
+         <span class="cit-lpage">773</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DDiversity%2Band%2BDistributions%26rft.volume%253D14%26rft.spage%253D763%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+     <li>
+      <span class="ref-label ref-label-empty"/>
+      <a class="rev-xref-ref" href="#xref-ref-42-1" title="View reference in text" id="ref-42">↵</a>
+      <div class="cit ref-cit ref-journal" id="cit-774604v2.42">
+       <div class="cit-metadata">
+        <cite>
+         <span class="cit-auth">
+          <span class="cit-name-surname">Yen</span>, 
+          <span class="cit-name-given-names">J.D.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Thomson</span>, 
+          <span class="cit-name-given-names">J.R.</span>
+         </span>, 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Vesk</span>, 
+          <span class="cit-name-given-names">P.A.</span>
+         </span> &amp;; 
+         <span class="cit-auth">
+          <span class="cit-name-surname">Mac Nally</span>, 
+          <span class="cit-name-given-names">R.</span>
+         </span> (
+         <span class="cit-pub-date">2011</span>) 
+         <span class="cit-article-title">To what are woodland birds responding? Inference on relative importance of in-site habitat variables using several ensemble habitat modelling techniques</span>. 
+         <abbr class="cit-jnl-abbrev">Ecography</abbr>, 
+         <span class="cit-vol">34</span>, 
+         <span class="cit-fpage">946</span>–
+         <span class="cit-lpage">954</span>.
+        </cite>
+       </div>
+       <div class="cit-extra">
+        <a href="{openurl}?query=rft.jtitle%253DEcography%26rft.volume%253D34%26rft.spage%253D946%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url">
+         <span>OpenUrl</span>
+        </a>
+       </div>
+      </div>
+     </li>
+    </ol>
+   </div>
+   <span class="highwire-journal-article-marker-end"/>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_534636v1/results/search/funders/results.xml">
+  <result pre="colors along branches indicate occurrence times later in the year." exact="Orange" post="rectangles indicate species with a light coloration, black boxes"/>
+  <result pre="colors along branches indicate occurrence times later in the year." exact="Orange" post="rectangles indicate species with a light coloration, black boxes"/>
+  <result pre="earlier in year = cooler colors) relative to parent node." exact="Orange" post="rectangles indicate species with a light coloration, and black"/>
+  <result pre="earlier in year = cooler colors) relative to parent node." exact="Orange" post="rectangles indicate species with a light coloration, and black"/>
+  <result pre="was funded by the following: Desert Research Fund, from The" exact="Community Foundation" post="Serving Riverside and San Bernardino Counties, CA, USA; UC"/>
+  <result pre="MEXUS Dissertation Research Grant; Theodore Roosevelt Memorial Fund from the" exact="American Museum of Natural History;" post="Anza-Borrego Foundation and Institute (ABFI) Entomology; Committee for Research"/>
+  <result pre="Institute (ABFI) Entomology; Committee for Research and Exploration of the" exact="National Geographic Society;" post="Walker Fund in Entomology UCB; Robert L. Usinger Memorial"/>
+  <result pre="Fly (Diptera: Mydidae), a Little-Known Endangered Species. Annals of the" exact="Entomological Society of America," post="89, 883– 891. OpenUrl CrossRef ↵ Kingsley, K.J. ("/>
+  <result pre="of adaptation to climate change. Proceedings. Biological sciences / The" exact="Royal Society," post="275, 649– 59. OpenUrl ↵ Warren, D.L. , Glor,"/>
+ </snippets>
+</snippetsTree>

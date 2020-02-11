@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2020_01_14_906297v1/results/search/disease/results.xml">
+  <result pre="consider the inclusion of other arboviruses as predictors, such as" exact="chikungunya" post="and Zika as well as examine the importance of"/>
+  <result pre="R , Tong S , Hu W . Surveillance of" exact="dengue fever" post="virus: A review of epidemiological models and early warning"/>
+  <result pre="Brownstein JS , Santillana M , Evaluating the performance of" exact="infectious disease" post="forecasts: A comparison of climate-driven and seasonal dengue forecasts"/>
+  <result pre="J , et al. Application of artificial neural networks for" exact="dengue fever" post="outbreak predictions in the northwest coast of Yucatan, Mexico"/>
+  <result pre="comparison of random forests and support vector machines for microarray-based" exact="cancer" post="classification. BMC Bioinformatics 2008; 9: 319. OpenUrl CrossRef PubMed"/>
+  <result pre="Data integration and predictive analysis system for disease prophylaxis: Incorporating" exact="dengue fever" post="forecasts. Proceedings of the 51 st Hawaii International Conference"/>
+  <result pre="Sun J , Liu Q , Time series analysis of" exact="dengue fever" post="and weather in Guangzhou, China, BMC Public Health 2009;"/>
+  <result pre="for infestation trends of Aedes aegypti, the vector of dengue," exact="chikungunya" post="and Zika. Parasites Vectors 2017; 10: 78. OpenUrl [59]."/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_752196v1/results/search/disease/results.xml">
+  <result pre="( 2017) Mass mortality of eastern box turtles with upper" exact="respiratory disease" post="following atypical cold weather. Diseases of Aquatic Organisms, 124,"/>
+  <result pre="H et al. ( 2004) CITED4 inhibits hypoxia-activated transcription in" exact="cancer" post="cells, and its cytoplasmic location in breast cancer is"/>
+  <result pre="hypoxia-activated transcription in cancer cells, and its cytoplasmic location in" exact="breast cancer" post="is associated with elevated expression of tumor cell hypoxia-inducible"/>
+  <result pre="transcription in cancer cells, and its cytoplasmic location in breast" exact="cancer" post="is associated with elevated expression of tumor cell hypoxia-inducible"/>
+ </snippets>
+</snippetsTree>

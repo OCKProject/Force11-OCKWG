@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="frequencies">
+ <result title="frequency" word="{border-style" count="20"/>
+ <result title="frequency" word="px;}" count="18"/>
+ <result title="frequency" word="#ffffff;}" count="17"/>
+ <result title="frequency" word="SCI" count="14"/>
+ <result title="frequency" word="health" count="11"/>
+ <result title="frequency" word="living" count="11"/>
+ <result title="frequency" word="individuals" count="9"/>
+ <result title="frequency" word="climate" count="8"/>
+ <result title="frequency" word="hurricane" count="8"/>
+ <result title="frequency" word="preparedness" count="8"/>
+ <result title="frequency" word="px;" count="8"/>
+ <result title="frequency" word="{font-family" count="8"/>
+ <result title="frequency" word="[]." count="7"/>
+ <result title="frequency" word="care" count="7"/>
+ <result title="frequency" word="font-size" count="7"/>
+ <result title="frequency" word="double;" count="6"/>
+ <result title="frequency" word="needs" count="6"/>
+ <result title="frequency" word="persons" count="6"/>
+ <result title="frequency" word="Kossin" count="5"/>
+ <result title="frequency" word="border-color" count="5"/>
+ <result title="frequency" word="border-width" count="5"/>
+ <result title="frequency" word="change" count="5"/>
+ <result title="frequency" word="hurricanes" count="5"/>
+ <result title="frequency" word="medical" count="5"/>
+ <result title="frequency" word="professionals" count="5"/>
+ <result title="frequency" word="solid;" count="5"/>
+ <result title="frequency" word="special" count="5"/>
+ <result title="frequency" word="{font-style" count="5"/>
+ <result title="frequency" word="{font-weight" count="5"/>
+ <result title="frequency" word="Health" count="4"/>
+ <result title="frequency" word="J.M." count="4"/>
+ <result title="frequency" word="J.P." count="4"/>
+ <result title="frequency" word="Shultz" count="4"/>
+ <result title="frequency" word="bold" count="4"/>
+ <result title="frequency" word="cord" count="4"/>
+ <result title="frequency" word="courier;" count="4"/>
+ <result title="frequency" word="disaster" count="4"/>
+ <result title="frequency" word="em;" count="4"/>
+ <result title="frequency" word="increasing" count="4"/>
+ <result title="frequency" word="injury" count="4"/>
+ <result title="frequency" word="patients" count="4"/>
+ <result title="frequency" word="pt;}" count="4"/>
+ <result title="frequency" word="spinal" count="4"/>
+</results>

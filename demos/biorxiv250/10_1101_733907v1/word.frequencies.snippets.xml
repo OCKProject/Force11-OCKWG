@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_733907v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="forest" count="125"/>
+  <result title="frequency" word="OpenUrl" count="82"/>
+  <result title="frequency" word="&amp;amp;;" count="79"/>
+  <result title="frequency" word="flowering" count="78"/>
+  <result title="frequency" word="phenology" count="68"/>
+  <result title="frequency" word="management" count="58"/>
+  <result title="frequency" word="species" count="57"/>
+  <result title="frequency" word="plots" count="41"/>
+  <result title="frequency" word="spring" count="40"/>
+  <result title="frequency" word="plant" count="39"/>
+  <result title="frequency" word="change" count="37"/>
+  <result title="frequency" word="climate" count="37"/>
+  <result title="frequency" word="peak" count="36"/>
+  <result title="frequency" word="mean" count="35"/>
+  <result title="frequency" word="CrossRef" count="31"/>
+  <result title="frequency" word="phenological" count="29"/>
+  <result title="frequency" word="temperature" count="29"/>
+  <result title="frequency" word="plants" count="27"/>
+  <result title="frequency" word="Table" count="26"/>
+  <result title="frequency" word="different" count="26"/>
+  <result title="frequency" word="tree" count="25"/>
+  <result title="frequency" word="microclimatic" count="23"/>
+  <result title="frequency" word="structural" count="23"/>
+  <result title="frequency" word="changes" count="22"/>
+  <result title="frequency" word="regression" count="22"/>
+  <result title="frequency" word="Figure" count="21"/>
+  <result title="frequency" word="characteristics" count="21"/>
+  <result title="frequency" word="coniferous" count="21"/>
+  <result title="frequency" word="data" count="21"/>
+ </snippets>
+</snippetsTree>

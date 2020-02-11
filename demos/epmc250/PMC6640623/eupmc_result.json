@@ -1,0 +1,333 @@
+{
+  "id": [
+    "31341729"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31341729"
+  ],
+  "pmcid": [
+    "PMC6640623"
+  ],
+  "doi": [
+    "10.7717/peerj.7220"
+  ],
+  "title": [
+    "Climate change and forest plagues: assessing current and future impacts of diprionid sawflies on the pine forests of north-western Mexico."
+  ],
+  "authorString": [
+    "Aguilera-Molina VM, Munguía-Ortega KK, López-Reyes E, Martínez-Aquino A, Ceccarelli FS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Aguilera-Molina VM"
+          ],
+          "firstName": [
+            "Víctor M"
+          ],
+          "lastName": [
+            "Aguilera-Molina"
+          ],
+          "initials": [
+            "VM"
+          ],
+          "affiliation": [
+            "Departamento de Biología de la Conservación, Centro de Investigación Científica y de Educación Superior de Ensenada, Ensenada, Baja California, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Munguía-Ortega KK"
+          ],
+          "firstName": [
+            "Khutzy K"
+          ],
+          "lastName": [
+            "Munguía-Ortega"
+          ],
+          "initials": [
+            "KK"
+          ],
+          "affiliation": [
+            "Departamento de Biología de la Conservación, Centro de Investigación Científica y de Educación Superior de Ensenada, Ensenada, Baja California, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "López-Reyes E"
+          ],
+          "firstName": [
+            "Eulogio"
+          ],
+          "lastName": [
+            "López-Reyes"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Biología de la Conservación, Centro de Investigación Científica y de Educación Superior de Ensenada, Ensenada, Baja California, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez-Aquino A"
+          ],
+          "firstName": [
+            "Andrés"
+          ],
+          "lastName": [
+            "Martínez-Aquino"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias, Universidad Autónoma de Baja California, Ensenada, Baja California, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Ceccarelli FS"
+          ],
+          "firstName": [
+            "F Sara"
+          ],
+          "lastName": [
+            "Ceccarelli"
+          ],
+          "initials": [
+            "FS"
+          ],
+          "affiliation": [
+            "Departamento de Biología de la Conservación, CONACYT-Centro de Investigación Científica y de Educación Superior de Ensenada, Ensenada, Baja California, Mexico."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2769901"
+      ],
+      "dateOfPublication": [
+        "2019 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "e7220"
+  ],
+  "abstractText": [
+    "The imminent threat of climate change lies in its potential to disrupt the balance of ecosystems, particularly vulnerable areas such as mountain-top remnant forests. An example of such a fragile ecosystem is the Sierra San Pedro Mártir (SSPM) National Park of Mexico's Baja California state, where high levels of endemism can be found, and which is home to one of the country's few populations of the emblematic Jeffrey pine (Pinus jeffreyi). Recent outbreaks of pine-feeding sawfly larvae in SSPM increase the vulnerability of this forest ecosystem, calling for immediate assessments of the severity of this threat. Here, we present a thorough study of the sawfly's biology and distribution, carrying out molecular and morphology-based identification of the species and creating model-based predictions of the species distribution in the area. The sawfly was found to belong to an undescribed species of the genus Zadiprion (family Diprionidae) with a one-year life-cycle. The distribution of this species appears to be restricted to the SSPM national park and it will probably persist for at least another 50 years, even considering the effects of climate change."
+  ],
+  "affiliation": [
+    "Departamento de Biología de la Conservación, Centro de Investigación Científica y de Educación Superior de Ensenada, Ensenada, Baja California, Mexico."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Climate change",
+        "National park",
+        "Diprionidae",
+        "pests",
+        "Climate Modeling",
+        "Baja California",
+        "Defoliators",
+        "Pinus Jeffreyi",
+        "Conifer Sawfly",
+        "Zadiprion"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.7220"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6640623"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6640623?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2019-07-26"
+  ],
+  "firstIndexDate": [
+    "2019-07-31"
+  ],
+  "fullTextReceivedDate": [
+    "2019-07-28"
+  ],
+  "dateOfRevision": [
+    "2019-07-28"
+  ],
+  "electronicPublicationDate": [
+    "2019-07-16"
+  ],
+  "firstPublicationDate": [
+    "2019-07-16"
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_2019_12_22_886218v1/results/search/invasive/results.xml">
+  <result pre="Medicago genome version 5 ( Pecrix et al., 2018 )." exact="Population" post="structure, calculated using STRUCTURE by Bonhomme et al. (2014)"/>
+  <result pre="M. E. , … Nuzhdin, S. V . ( 2010)." exact="Population" post="genomic analysis of Tunisian Medicago truncatula reveals candidates for"/>
+  <result pre="weed population dynamics: A review of model approaches and applications." exact="Weed" post="Research, 47( 1), 1– 14. https://doi.org/10.1111/j.1365-3180.2007.00534.x OpenUrl CrossRef Web"/>
+  <result pre="doi: 10.1104/pp.109.3.751 OpenUrl Abstract Levine, J. M . ( 2000)." exact="Species" post="diversity and biological invasions: Relating local process to community"/>
+  <result pre="Full Text Naimi B . ( 2017). Uncertainty Analysis for" exact="Species" post="Distribution Models. Version 1. 1– 18. http://r-gis.net OpenUrl ↵"/>
+ </snippets>
+</snippetsTree>

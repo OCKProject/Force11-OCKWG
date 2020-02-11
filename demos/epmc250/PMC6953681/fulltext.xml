@@ -1,0 +1,944 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6953681</article-id><article-id pub-id-type="doi">10.1002/ece3.5877</article-id><article-id pub-id-type="publisher-id">ECE35877</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Assessing the exposure of forest habitat types to projected climate change&#x02014;Implications for Bavarian protected areas</article-title><alt-title alt-title-type="left-running-head">STEINACKER et al.</alt-title></title-group><contrib-group><contrib id="ece35877-cr-0001" contrib-type="author" corresp="yes"><name><surname>Steinacker</surname><given-names>Claudia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9378-2237</contrib-id><xref ref-type="aff" rid="ece35877-aff-0001">
+<sup>1</sup>
+</xref><address><email>claudia_steinacker@web.de</email></address></contrib><contrib id="ece35877-cr-0002" contrib-type="author"><name><surname>Beierkuhnlein</surname><given-names>Carl</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6456-4628</contrib-id><xref ref-type="aff" rid="ece35877-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece35877-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ece35877-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece35877-cr-0003" contrib-type="author"><name><surname>Jaeschke</surname><given-names>Anja</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8361-0960</contrib-id><xref ref-type="aff" rid="ece35877-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ece35877-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Biogeography</named-content>
+<institution>University of Bayreuth</institution>
+<city>Bayreuth</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece35877-aff-0002">
+<label><sup>2</sup></label>
+<institution>Bayreuth Center for Ecology and Environmental Research BayCEER</institution>
+<city>Bayreuth</city>
+<country country="DE">Germany</country>
+</aff><aff id="ece35877-aff-0003">
+<label><sup>3</sup></label>
+<institution>Geographical Institute Bayreuth GIB</institution>
+<city>Bayreuth</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Claudia Steinacker, Department of Biogeography, University of Bayreuth, Universitaetsstra&#x000df;e 30, 95447 Bayreuth, Germany.<break/>
+Email: <email>claudia_steinacker@web.de</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>11</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2019</year></pub-date><volume>9</volume><issue>24</issue><issue-id pub-id-type="doi">10.1002/ece3.v9.24</issue-id><fpage>14417</fpage><lpage>14429</lpage><history><date date-type="received"><day>17</day><month>7</month><year>2019</year></date><date date-type="rev-recd"><day>24</day><month>10</month><year>2019</year></date><date date-type="accepted"><day>04</day><month>11</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-9-14417.pdf"/><abstract id="ece35877-abs-0001"><title>Abstract</title><sec id="ece35877-sec-0001"><title>Aim</title><p>Due to their longevity and structure, forest ecosystems are particularly affected by climate change with consequences for their biodiversity, functioning, and services to mankind. In the European Union (EU), natural and seminatural forests are protected by the Habitats Directive and the Natura 2000 network. This study aimed to assess the exposure of three legally defined forest habitat types to climate change, namely (a) <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines (9180*), (b) bog woodlands (91D0*), and (c) alluvial forests with <italic>Alnus glutinosa</italic> and <italic>Fraxinus excelsior</italic> (91E0*). We analyzed possible changes in their Bavarian distribution, including their potential future coverage by Natura 2000 sites. We hypothesized that protected areas (PAs) with larger elevational ranges will remain suitable for the forests as they allow for altitudinal distribution shifts.</p></sec><sec id="ece35877-sec-0002"><title>Methods</title><p>To estimate changes in range size and coverage by PAs, we combined correlative species distribution models (SDMs) with spatial analyses. Ensembles of SDM&#x02010;algorithms were applied to two climate change scenarios (RCP4.5 and RCP8.5) of the HadGEM2&#x02010;ES model for the period 2061&#x02013;2080.</p></sec><sec id="ece35877-sec-0003"><title>Results</title><p>Our results revealed that bog woodlands experience the highest range losses (&#x0003e;2/3) and lowest PA coverage (max. 15% of sites with suitable conditions). <italic>Tilio&#x02010;Acerion</italic> forests exhibit opposing trends depending on the scenario, while alluvial forests are less exposed to climatic changes. As expected, the impacts of climate change are more pronounced under the &#x0201c;business as usual&#x0201d; scenario (RCP8.5). Additionally, PAs in flat landscapes are more likely to lose environmental suitability for currently established forest habitat types.</p></sec><sec id="ece35877-sec-0004"><title>Main conclusions</title><p>Based on these findings, we advocate the expansion of the Natura 2000 network particularly in consideration of elevational gradients, connectivity, and projected climatic suitability. Nonclimatic stressors on forest ecosystems, especially bog woodlands, should be decreased and climate change mitigation efforts enhanced. We recommend transferring the approach to other habitat types and regions.</p></sec></abstract><abstract abstract-type="graphical" id="ece35877-abs-0002"><p>Climate change particularly affects forest ecosystems due to their longevity and slow migration response. Using ensembles of species distribution models, this study analyzed the exposure of forest habitat types from the EU Habitats Directive to projected climate change. Focussing on their conservation status, the environmental suitability of Natura 2000 sites was modeled in order to detect future short&#x02010;comings of the protected area network on a regional scale. The results show profound differences in exposure among the assessed forest habitat types, as well as between climate change scenarios.<boxed-text position="anchor" content-type="graphic" id="ece35877-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-9-14417-g004.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece35877-kwd-0001">climate change impacts</kwd><kwd id="ece35877-kwd-0002">conservation</kwd><kwd id="ece35877-kwd-0003">ecosystems</kwd><kwd id="ece35877-kwd-0004">European Union</kwd><kwd id="ece35877-kwd-0005">forests</kwd><kwd id="ece35877-kwd-0006">Habitats Directive</kwd><kwd id="ece35877-kwd-0007">Natura 2000</kwd><kwd id="ece35877-kwd-0008">sensitivity</kwd><kwd id="ece35877-kwd-0009">species distribution models</kwd><kwd id="ece35877-kwd-0010">vulnerability</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>European Union's Horizon 2020 research and innovation program ECOPOTENTIAL</funding-source><award-id>641762</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>German Research Foundation (DFG) </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001659</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0003"><funding-source>University of Bayreuth</funding-source></award-group></funding-group><counts><fig-count count="3"/><table-count count="3"/><page-count count="13"/><word-count count="10322"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.4 mode:remove_FC converted:10.01.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece35877-cit-1001">
+<string-name>
+<surname>Steinacker</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Beierkuhnlein</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Jaeschke</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Assessing the exposure of forest habitat types to projected climate change&#x02014;Implications for Bavarian protected areas</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2019</year>;<volume>9</volume>:<fpage>14417</fpage>&#x02013;<lpage>14429</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.5877</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece35877-body-0001"><sec id="ece35877-sec-0005"><label>1</label><title>INTRODUCTION</title><p>Besides timber and fuel production, forests are providing a series of ecosystem services for human well&#x02010;being and societal interests (Brockerhoff et al., <xref rid="ece35877-bib-0013" ref-type="ref">2017</xref>). Forest ecosystems play a crucial rule, inter alia, for carbon sequestration, balancing climatic extremes and maintaining biodiversity, explaining their importance in nature conservation and for protected area networks.</p><p>In the European Union (EU), natural and seminatural forest habitat types are listed in the Habitats Directive since 1992 (European Council, <xref rid="ece35877-bib-0030" ref-type="ref">1992</xref>). In this Directive, standardized &#x0201c;habitat types&#x0201d; are defined by characteristic species assemblages and abiotic conditions. One instrument, which arose from this EU legislation, is the Natura 2000 network. It was set up as a Europe&#x02010;wide network of conservation sites, which were designated under the Habitats Directive and the Birds Directive from 1979 (European Council, <xref rid="ece35877-bib-0030" ref-type="ref">1992</xref>). Covering more than one&#x02010;fifth of the EU territory, Natura 2000 is declared the largest protected area network across the globe (EEA, <xref rid="ece35877-bib-0025" ref-type="ref">2015</xref>).</p><p>However, concerns have been issued whether static protected area (PA) networks will represent the species and habitats of conservation interest under projected climate change (e.g., Alagador, Cerdeira, &#x00026; Ara&#x000fa;jo, <xref rid="ece35877-bib-0001" ref-type="ref">2016</xref>; Hannah, <xref rid="ece35877-bib-0042" ref-type="ref">2008</xref>; Kujala, Ara&#x000fa;jo, Thuiller, &#x00026; Cabeza, <xref rid="ece35877-bib-0056" ref-type="ref">2011</xref>). According to a study by Ara&#x000fa;jo, Alagador, Cabeza, Nogu&#x000e9;s&#x02010;Bravo, and Thuiller (<xref rid="ece35877-bib-0002" ref-type="ref">2011</xref>), more than half of the assessed species from the EU Habitats and Birds Directives will lose suitable climatic conditions within current European PAs until 2080. One&#x02010;fifth of the listed habitats is graded as threatened by climate change according to the countries&#x02019; reports (Evans, <xref rid="ece35877-bib-0031" ref-type="ref">2012</xref>).</p><p>Forests are considered to exhibit particularly fragile habitat types (Evans, <xref rid="ece35877-bib-0031" ref-type="ref">2012</xref>; Wagner&#x02010;L&#x000fc;cker, F&#x000f6;rster, &#x00026; Janauer, <xref rid="ece35877-bib-0089" ref-type="ref">2014</xref>). Both, their measured conservation status and projected distribution losses are worse in comparison with other habitats (Dempe, Jaeschke, Bittner, &#x00026; Beierkuhnlein, <xref rid="ece35877-bib-0022" ref-type="ref">2012</xref>; EEA, <xref rid="ece35877-bib-0025" ref-type="ref">2015</xref>). Their long life spans, slow migration responses, and the fragmentation of landscapes impede necessary distribution shifts to follow suitable climate (e.g., Honnay et al., <xref rid="ece35877-bib-0045" ref-type="ref">2002</xref>; Lindner et al., <xref rid="ece35877-bib-0059" ref-type="ref">2014</xref>; Milad, Schaich, B&#x000fc;rgi, &#x00026; Konold, <xref rid="ece35877-bib-0065" ref-type="ref">2011</xref>; Renwick &#x00026; Rocca, <xref rid="ece35877-bib-0079" ref-type="ref">2015</xref>; Zhu, Woodall, &#x00026; Clark, <xref rid="ece35877-bib-0095" ref-type="ref">2012</xref>). We argue that the spatial responses of forest habitat types to climatic changes have not received enough attention in research despite their high climate&#x02010;sensitivity, large share within Natura 2000 areas, and important role as carbon sinks (EEA, <xref rid="ece35877-bib-0026" ref-type="ref">2016</xref>; Orlikowska, Roberge, Blicharska, &#x00026; Mikusi&#x00144;ski, <xref rid="ece35877-bib-0071" ref-type="ref">2016</xref>). Studies on climate change impacts on European forests have either focussed on individual tree species (Buras &#x00026; Menzel, <xref rid="ece35877-bib-0016" ref-type="ref">2019</xref>; Dyderski, Pa&#x0017a;, Frelich, &#x00026; Jagodzi&#x00144;ski, <xref rid="ece35877-bib-0023" ref-type="ref">2018</xref>; Frejaville, Fady, Kremer, Ducousso, &#x00026; Garzon, <xref rid="ece35877-bib-0034" ref-type="ref">2019</xref>) or, less frequently, on regional forest ecosystems (Hester, Britton, Hewison, Ross, &#x00026; Potts, <xref rid="ece35877-bib-0044" ref-type="ref">2019</xref>; Lehsten et al., <xref rid="ece35877-bib-0057" ref-type="ref">2015</xref>). Plant communities have rarely been addressed and do not relate directly to the habitat types of the Habitats Directive.</p><p>This study addresses three EU forest habitat types (official EU code in brackets) spanning across a wide range of site conditions:
+<list list-type="bullet" id="ece35877-list-0001"><list-item><p>
+<italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines (9180*)</p></list-item><list-item><p>Bog woodlands (91D0*)</p></list-item><list-item><p>Alluvial forests with <italic>Alnus glutinosa</italic> and <italic>Fraxinus excelsior</italic> (91E0*).</p></list-item></list>
+</p><p>Within Annex I of the EU Habitats Directive, they are categorized as priority (indicated by asterisk in their codes). Priority natural habitat types are classified as &#x0201c;in danger of disappearance,&#x0201d; which translates into enhanced conservation responsibilities for the member states (European Council, <xref rid="ece35877-bib-0030" ref-type="ref">1992</xref>). Therefore, it is of outstanding importance to investigate menaces to their persistence. Climate change represents a major threat to the selected forest habitat types as warming combined with drought is expected to cause water stress in plants (Breshears et al., <xref rid="ece35877-bib-0012" ref-type="ref">2013</xref>). All types of forest in this study are soil moisture dependent (EC, <xref rid="ece35877-bib-0024" ref-type="ref">2013</xref>)&#x02014;either by their vicinity to rivers and shallow aquifers (alluvial forests), their substrate and precipitation regime (bog woodlands) or their shady topography and reduced evapotranspiration (<italic>Tilio&#x02010;Acerion</italic> forests). The restriction of these forests to specific site conditions renders them especially vulnerable to climate change, as they might not find the required conditions in places with future climatic suitability.</p><p>The study was carried out for the federal state of Bavaria in Germany. The responsibilities for nature conservation legislation and implementation, including of EU Directives, lie at this administrative level. Consequently, Natura 2000 sites are designated by regional authorities and the habitat types monitored at this scale. The example of Bavaria was chosen because of its extensive area of woodland (about 2.6 million hectares, approx. 37% of the total area of Bavaria) ranging across a diversity of landscapes and elevation (BMEL, <xref rid="ece35877-bib-0011" ref-type="ref">2015</xref>). Bavaria has designated 11.4% of its territory to Natura 2000 sites (LfU, <xref rid="ece35877-bib-0058" ref-type="ref">2018</xref>). The individual Natura 2000 sites vary significantly in their spatial extent&#x02014;from very local features to national parks, former military areas, and vast mountain ranges. Bavaria is located between continental and alpine biogeographic regions of Europe and represents a transition zone of contrasting future rainfall trends (Jacob et al., <xref rid="ece35877-bib-0050" ref-type="ref">2014</xref>; Kovats et al., <xref rid="ece35877-bib-0054" ref-type="ref">2014</xref>; Stagl, Hattermann, &#x00026; Vohland, <xref rid="ece35877-bib-0083" ref-type="ref">2015</xref>). Although the predicted precipitation patterns vary geographically within the region and between climate models (Stagl et al., <xref rid="ece35877-bib-0083" ref-type="ref">2015</xref>; Wagner, Berg, Sch&#x000e4;dler, &#x00026; Kunstmann, <xref rid="ece35877-bib-0088" ref-type="ref">2013</xref>), studies mostly agree on decreases in summer season and gains in winter (Gerstengarbe, Hoffmann, &#x000d6;sterle, &#x00026; Werner, <xref rid="ece35877-bib-0038" ref-type="ref">2015</xref>; Pfeifer et al., <xref rid="ece35877-bib-0076" ref-type="ref">2015</xref>). These forecasts have severe implications for forests, as they would limit the water available to plants during the vegetation period. Regarding the future temperature development, regional climate models predict increases of varying magnitude (e.g., Jacob et al., <xref rid="ece35877-bib-0050" ref-type="ref">2014</xref>). In the Alpine foothills, for example, summer warming is expected to exceed 4&#x000b0;C in comparison with 1971&#x02013;2000 by the end of this century under an extreme scenario (Jacob et al., <xref rid="ece35877-bib-0050" ref-type="ref">2014</xref>).</p><p>To analyze climate change threats to the selected forest habitat types, this study built on ensembles of correlative species distribution models (SDMs), which are widely used in climate change impact research and conservation planning (e.g., Meller et al., <xref rid="ece35877-bib-0064" ref-type="ref">2014</xref>; Summers, Bryan, Crossman, &#x00026; Meyer, <xref rid="ece35877-bib-0085" ref-type="ref">2012</xref>). For conservation purposes, it is crucial to communicate the multitude of possible trajectories to avoid decision&#x02010;making based on a singular, uncertain model projection. Ensembles of model forecasts are capable of illustrating the range and trend of projections, which vary across algorithms, model setting, global circulation models, or climate change scenarios (Ara&#x000fa;jo &#x00026; New, <xref rid="ece35877-bib-0004" ref-type="ref">2007</xref>).</p><p>Using this methodology, we aimed to: (a) predict changes in the habitat types&#x02019; range size and distribution, (b) estimate their potential future coverage by PAs, (c) and examine the linkage between elevational ranges within PAs and their projected environmental suitability for the considered forest habitat types. Previous studies have documented distribution shifts of tree species along elevational gradients (both upward and disparate directions) under warming climate (e.g., Morin et al., <xref rid="ece35877-bib-0066" ref-type="ref">2018</xref>; Rabasa et al., <xref rid="ece35877-bib-0078" ref-type="ref">2013</xref>). Therefore, we hypothesized that PAs with larger elevational ranges are more likely to remain hosts of currently established forests as they allow for such distribution shifts. The analyses of this study were designed to enable comparisons between habitat types with regard to the impacts of climate change in order to detect eventual needs for management and adaptation strategies.</p></sec><sec sec-type="methods" id="ece35877-sec-0006"><label>2</label><title>METHODS</title><sec id="ece35877-sec-0007"><label>2.1</label><title>Distribution data and environmental predictors</title><p>The three habitat types, which are defined in the EU Habitats Directive, were selected in order to represent a range of forest ecosystems. (a) <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines occur on locations with steep topography as indicated in their name. They are divided into two groups: the dry and warm environments with lime trees (<italic>Tilia cordata</italic>, <italic>Tilia platyphyllos</italic>) and the humid and cool sites with sycamore maple (<italic>Acer pseudoplatanus</italic>) dominance. (b) Bog woodlands depend on oligotrophic, wet, or humid peat substrates with high groundwater table. Both coniferous and broad&#x02010;leaved tree species can be found under this habitat type. (c) Alluvial forests with <italic>Alnus glutinosa</italic> and <italic>Fraxinus excelsior</italic> develop along rivers or on other periodically inundated soils. Three phytosociological vegetation units can be distinguished: <italic>Alno</italic>&#x02010;<italic>Padion</italic>, <italic>Alnion incanae,</italic> and <italic>Salicion albae</italic>. Detailed descriptions of the habitat types can be found in the official EU manual (EC, <xref rid="ece35877-bib-0024" ref-type="ref">2013</xref>).</p><p>We applied a direct modeling approach to the habitat types, in which they are modeled in their entirety and not by means of their constituting species (sensu Bittner, Jaeschke, Reineking, &#x00026; Beierkuhnlein, <xref rid="ece35877-bib-0010" ref-type="ref">2011</xref>). Necessary information on the distribution of the forest habitat types (Figure <xref rid="ece35877-fig-0001" ref-type="fig">1</xref> and Figure <xref rid="ece35877-sup-0002" ref-type="supplementary-material">S1.1</xref>) builds on the official reporting by EU member states for the period 2007&#x02013;2012. In the monitoring reports, each 10&#x000a0;&#x000d7;&#x000a0;10 km grid cell, which harbors a forest patch, is marked as occurrence. For further analyses, centroids were extracted from the reported occurrences. Occurrence data were considered for the continental scale to cover wider ecological niches in the models than the mere records within Bavaria would depict (following Falk &#x00026; Mellert, <xref rid="ece35877-bib-0032" ref-type="ref">2011</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece35877-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Current distribution of important moisture&#x02010;dependent forest habitat types in Bavaria, Germany. Terminology is given by the EU Habitats Directive. (a) Location of study region within Europe (orange filling&#x000a0;=&#x000a0;Bavaria, orange outline&#x000a0;=&#x000a0;Germany). (b) &#x0201c;<italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines,&#x0201d; (c) &#x0201c;Bog woodlands,&#x0201d; and (d) &#x0201c;Alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior.&#x0201d;</italic> Occurrence data originate from mandatory monitoring of protected habitat types by member states between 2007 and 2012 (EEA, <xref rid="ece35877-bib-0028" ref-type="ref">2018</xref>). Records are protocolled in 10&#x000a0;&#x000d7;&#x000a0;10&#x000a0;km grid cells</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-9-14417-g001"/></fig><p>Climatic variables, soil attributes, and topographic information were included as environmental predictors for the correlative species distribution modeling. The ecological needs of the key tree species (EC, <xref rid="ece35877-bib-0024" ref-type="ref">2013</xref>; IUCN, <xref rid="ece35877-bib-0049" ref-type="ref">2018</xref>) were considered for the identification of relevant variables for each habitat type (Table <xref rid="ece35877-tbl-0001" ref-type="table">1</xref>). Additionally, correlation between predictors was excluded (Pearson correlation coefficient &#x0003e;0.7, sensu Bittner et al., <xref rid="ece35877-bib-0010" ref-type="ref">2011</xref>) and variable importance measured with the R package &#x0201c;hier.part&#x0201d; (Walsh &#x00026; Mac Nally, <xref rid="ece35877-bib-0091" ref-type="ref">2015</xref>). The detailed procedure is shown in Appendix <xref rid="ece35877-sup-0001" ref-type="supplementary-material">S2</xref>. The selected climate variables depict seasonal patterns and drivers of plant growth and health. To assess uncertainties related to climate development in the upcoming decades, two Representative Concentration Pathway (RCP) scenarios were used for the period 2061&#x02013;2080: the moderate RCP4.5 and the &#x0201c;business as usual&#x0201d; scenario RCP8.5. The future climate data are based on the HadGEM2&#x02010;ES model, a successor of the widely used HadCM3 (Martin et al., <xref rid="ece35877-bib-0006" ref-type="ref">2011</xref>).</p><table-wrap id="ece35877-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Selected environmental predictors for forest habitat types utilized in correlative species distribution models</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Environmental variables</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Habitat types</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>Tilio&#x02010;Acerion</italic> forests</th><th align="left" valign="bottom" rowspan="1" colspan="1">Bog woodlands</th><th align="left" valign="bottom" rowspan="1" colspan="1">Alluvial forests</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Minimum temperature of the coldest month</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">Temperature annual range</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Mean temperature of the wettest quarter</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Mean temperature of the coldest quarter</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Precipitation seasonality</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Precipitation of the driest quarter</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">Precipitation of the warmest quarter</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">pH in 2&#x000a0;m soil depth</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Organic carbon content (g/kg) in 2&#x000a0;m soil depth</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Elevation</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td></tr><tr><td align="left" rowspan="1" colspan="1">Slope</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">x</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr></tbody></table><table-wrap-foot id="ece35877-ntgp-0001"><title>Note</title><fn id="ece35877-note-3000"><p>'x' indicates, which variables were used for the ensemble model of each habitat type.</p></fn><fn id="ece35877-note-0001"><p>&#x000a0;Climatic variables are derived from WorldClim (<xref rid="ece35877-bib-0094" ref-type="ref">2016</xref>, <xref rid="ece35877-bib-0093" ref-type="ref">n.d.</xref>), soil attributes from the ISRIC&#x02014;World Soil Information institute (<xref rid="ece35877-bib-0047" ref-type="ref">2018a</xref>, <xref rid="ece35877-bib-0048" ref-type="ref">2018b</xref>). The variable slope was calculated based on a digital elevation map provided by the European Environment Agency (EEA, <xref rid="ece35877-bib-0027" ref-type="ref">2017</xref>). All data sources and original resolutions are listed in Table <xref rid="ece35877-sup-0012" ref-type="supplementary-material">S1.2</xref>.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece35877-sec-0008"><label>2.2</label><title>Modeling</title><p>Ensembles of species distribution models (SDMs) were created with the &#x0201c;biomod2&#x0201d;&#x02010;package version 3.3&#x02010;7 (Thuiller, Damien, Engler, &#x00026; Breiner, <xref rid="ece35877-bib-0087" ref-type="ref">2016</xref>) in R software 3.5.1 (R Core Team, <xref rid="ece35877-bib-0077" ref-type="ref">2018</xref>) to minimize inaccuracies of individual model algorithms. Generalized linear models (GLM), generalized additive models (GAM), generalized boosted methods (GBM), and random forest (RF) were integrated into the ensembles. Modeling took place at the 30&#x02010;arc&#x02010;seconds resolution of the utilized climatic variables. After masking out the 10&#x000a0;&#x000d7;&#x000a0;10&#x000a0;km occurrence cells, pseudo&#x02010;absences were selected randomly within the EU following the 50% prevalence approach by Liu, Berry, Dawson, and Pearson (<xref rid="ece35877-bib-0060" ref-type="ref">2005</xref>). Input datasets were split into train (70%) and test data (30%) for the evaluation of the models&#x02019; performances. In a cross&#x02010;validation process, the validation measures ROC (relative operating characteristic), TSS (true skill statistic), and Cohen's Kappa were determined. The model outputs were projected to both current and future environmental conditions of Bavaria. Finally, a total consensus model was compiled over all model algorithms and runs for each habitat type. Following Marmion, Parviainen, Luoto, Heikkinen, and Thuiller (<xref rid="ece35877-bib-0063" ref-type="ref">2009</xref>), we used the weighted mean of the ensembles for further analysis. Using the threshold that maximizes the sum of sensitivity and specificity (Liu, White, &#x00026; Newell, <xref rid="ece35877-bib-0061" ref-type="ref">2013</xref>), the occurrence probabilities for each habitat type were converted into binary information.</p></sec><sec id="ece35877-sec-0009"><label>2.3</label><title>Range change, coverage analysis, and elevational gradient statistics</title><p>Based on the modeling results, range changes of the habitat types were estimated for each RCP scenario by comparing the projected future distribution with reported present&#x02010;day occurrences (&#x0201c;BIOMOD_RangeSize&#x0201d;&#x02010;function in &#x0201c;biomod2&#x0201d;&#x02010;package). For this purpose, the binary model outputs (30 arc&#x02010;seconds) were aggregated to the resolution of the original distribution data (10&#x000a0;&#x000d7;&#x000a0;10&#x000a0;km). The estimated changes in range size for the study region served as one criterion for the determination of the habitat types&#x02019; exposure levels.</p><p>As second criterion for the exposure of habitat types to climate change, we assessed their coverage by PAs in Bavaria. The overlap of potential occurrences of the forests with shapefiles of Natura 2000 sites was computed for all time steps and RCP scenarios. The following categories express changing environmental suitability of the protected areas with respect to the forest habitat types:
+<list list-type="bullet" id="ece35877-list-0002"><list-item><p>unoccupied stable: PA does not host habitat type at present nor in future;</p></list-item><list-item><p>loss: PA hosts habitat type at present but potentially not in future;</p></list-item><list-item><p>occupied stable: PA hosts habitat type at present and potentially also in future;</p></list-item><list-item><p>gain: PA does not host habitat type at present but potentially in future.</p></list-item></list>
+</p><p>The changing environmental suitability of the PAs was then tested against the elevational range found inside of the corresponding conservation site. The zonal statistics tool in ArcGIS 10.5 was used to assign elevation ranges to the individual PAs based on a digital elevation map (EEA, <xref rid="ece35877-bib-0027" ref-type="ref">2017</xref>). Kruskal&#x02013;Wallis rank&#x02010;sum tests (R package &#x0201c;stats&#x0201d; 3.5.1) compared the previously defined &#x0201c;changing suitability&#x0201d; categories of the PAs with regard to this elevation range attribute. Post hoc tests were carried out with the &#x0201c;kruskalmc&#x0201d;&#x02010;function of the R package &#x0201c;pgirmess&#x0201d; version 1.6.9 (Giraudoux, Antonietti, Beale, Pleydell, &#x00026; Treglia, <xref rid="ece35877-bib-0040" ref-type="ref">2018</xref>). Wilcoxon tests (R package &#x0201c;stats&#x0201d;) were executed to furthermore test whether the elevational range interferes with the future environmental suitability of PAs independent of their current occupation by the habitat types.</p></sec></sec><sec sec-type="results" id="ece35877-sec-0010"><label>3</label><title>RESULTS</title><sec id="ece35877-sec-0011"><label>3.1</label><title>Range change of forest habitat types under climate change in Bavaria, Germany</title><p>The three studied forest habitat types face very different perspectives until the 2070s. Bog woodlands react most sensitively to expected abiotic changes. Up to 94% of their small Bavarian range are projected to be lost until the second half of this century (Table <xref rid="ece35877-tbl-0002" ref-type="table">2</xref>). Irrespective of the scenario, &#x0003c;10% of the entire study region will provide suitable environmental conditions for bog woodlands. Potential refugia are situated in the Alps and their foothills (Figure <xref rid="ece35877-fig-0002" ref-type="fig">2</xref>). For RCP4.5, sites in eastern Bavaria additionally remain suitable or emerge as appropriate locations.</p><table-wrap id="ece35877-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Projected range change of <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines (9180*), bog woodlands (91D0*), and alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic> (91E0*) in Bavaria, Germany</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">&#x000a0;</th><th align="left" valign="top" rowspan="1" colspan="1">&#x000a0;</th><th align="left" valign="top" rowspan="1" colspan="1">Climate change scenario</th><th align="left" valign="top" rowspan="1" colspan="1">Total suitable grid cells [%]</th><th align="left" valign="top" rowspan="1" colspan="1">Lost grid cells [%]</th><th align="left" valign="top" rowspan="1" colspan="1">Gained grid cells [%]</th><th align="left" valign="top" rowspan="1" colspan="1">Net change in occupied cells [%]</th></tr></thead><tbody><tr><td align="left" rowspan="9" colspan="1">Habitat type</td><td align="left" rowspan="3" colspan="1">9180*</td><td align="left" rowspan="1" colspan="1">Current</td><td align="char" char="." rowspan="1" colspan="1">41</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP4.5</td><td align="char" char="." rowspan="1" colspan="1">55</td><td align="char" char="." rowspan="1" colspan="1">34</td><td align="char" char="." rowspan="1" colspan="1">70</td><td align="char" char="." rowspan="1" colspan="1">+36</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP8.5</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="char" char="." rowspan="1" colspan="1">67</td><td align="char" char="." rowspan="1" colspan="1">35</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;32</td></tr><tr><td align="left" rowspan="3" colspan="1">91D0*</td><td align="left" rowspan="1" colspan="1">Current</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP4.5</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">74</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;68</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP8.5</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">94</td><td align="char" char="." rowspan="1" colspan="1">&#x0003c;1</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;94</td></tr><tr><td align="left" rowspan="3" colspan="1">91E0*</td><td align="left" rowspan="1" colspan="1">Current</td><td align="char" char="." rowspan="1" colspan="1">92</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP4.5</td><td align="char" char="." rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">+9</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP8.5</td><td align="char" char="." rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">&#x0003c;1</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">+9</td></tr></tbody></table><table-wrap-foot id="ece35877-ntgp-0002"><title>Note</title><fn id="ece35877-note-0002"><p>Change analysis compared observed current with projected future occupation of cells (10&#x000a0;&#x000d7;&#x000a0;10&#x000a0;km). &#x0201c;Total suitable grid cells&#x0201d; refers to environmentally suitable proportion of Bavaria's territory. Percentages for &#x0201c;loss,&#x0201d; &#x0201c;gain,&#x0201d; &#x0201c;net change&#x0201d; are relative to current range size. The future distribution of the habitat types was modeled as ensembles of correlative species distribution models combining GAM, GLM, GBM and RF. Climate change scenarios RCP4.5 and RCP8.5 were considered for the HadGEM2&#x02010;ES model for 2061&#x02013;2080.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="ece35877-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Modeled range change of (a, b) <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines, (c, d) bog woodlands, and (e, f) alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic> in Bavaria until 2061&#x02013;2080. Change classes distinguish between cells, which are likely to lose the habitat type, gain suitability for it or remain either stable occupied or unoccupied by it under climate change. For detailed description on change analysis and models, see Section <xref rid="ece35877-sec-0002" ref-type="sec">2</xref> and caption of Table <xref rid="ece35877-tbl-0002" ref-type="table">2</xref>
+</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-9-14417-g002"/></fig><p>For the <italic>Tilio&#x02010;Acerion</italic> forests, the spatial response varies considerably between the two climate change scenarios. Under RCP4.5, the model projects an overall range expansion (36% relative to current range size), constituted by both losses of currently occupied cells (34%) and gains of new suitable area (70%) (Table <xref rid="ece35877-tbl-0002" ref-type="table">2</xref>). In contrast, the proportion of newly available areas under RCP8.5 is noticeably lower (35% relative to current range size), while the projected losses amount to 67% of currently occupied grid cells. As a consequence, <italic>Tilio&#x02010;Acerion</italic> forests will experience an overall range contraction under RCP8.5 to about two&#x02010;third of their current range size within Bavaria. Spatially, the distribution of this habitat type will shift east&#x02010; and southward (Figure <xref rid="ece35877-fig-0002" ref-type="fig">2</xref>) according to the model. While the observed presences in central and northern Bavaria could still be occupied under RCP4.5, they are likely to disappear under RCP8.5.</p><p>The alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic> prove to be less exposed. For both climate change scenarios, this habitat type is projected to not shrink. Focussing on the fundamental environmental suitability of space rather than the exact locations of watercourses, the alluvial forests could slightly expand their range under RCP4.5 (9% gain relative to current range size) (Table <xref rid="ece35877-tbl-0002" ref-type="table">2</xref>).</p></sec><sec id="ece35877-sec-0012"><label>3.2</label><title>Future coverage of forest habitat types in the Bavarian Natura 2000 network</title><p>One important criterion when assessing the endangerment of forest types is their coverage by PAs. The intersection between modeled future distribution of the forest habitat types and the locations of Bavarian Natura 2000 sites revealed distinct differences in potential representation (Table <xref rid="ece35877-tbl-0003" ref-type="table">3</xref>).</p><table-wrap id="ece35877-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Changing environmental suitability of Bavarian Natura 2000 sites to host habitat types <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines (9180*), bog woodlands (91D0*), and alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic> (91E0*) under climate change</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">&#x000a0;</th><th align="left" rowspan="2" valign="bottom" colspan="1">&#x000a0;</th><th align="left" rowspan="2" valign="bottom" colspan="1">Climate change scenario</th><th align="left" colspan="4" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">[%] of all Bavarian Natura 2000 sites</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">[%] of currently suitable Bavarian Natura 2000 sites</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Unoccupied stable</th><th align="left" valign="bottom" rowspan="1" colspan="1">Loss</th><th align="left" valign="bottom" rowspan="1" colspan="1">Occupied stable</th><th align="left" valign="bottom" rowspan="1" colspan="1">Gain</th><th align="left" valign="bottom" rowspan="1" colspan="1">Loss</th><th align="left" valign="bottom" rowspan="1" colspan="1">Occupied stable</th></tr></thead><tbody><tr><td align="left" rowspan="6" colspan="1">Habitat type</td><td align="left" rowspan="2" colspan="1">9180*</td><td align="left" rowspan="1" colspan="1">RCP4.5</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="char" char="." rowspan="1" colspan="1">21</td><td align="char" char="." rowspan="1" colspan="1">51</td><td align="char" char="." rowspan="1" colspan="1">14</td><td align="char" char="." rowspan="1" colspan="1">29</td><td align="char" char="." rowspan="1" colspan="1">71</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP8.5</td><td align="char" char="." rowspan="1" colspan="1">23</td><td align="char" char="." rowspan="1" colspan="1">43</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">61</td><td align="char" char="." rowspan="1" colspan="1">39</td></tr><tr><td align="left" rowspan="2" colspan="1">91D0*</td><td align="left" rowspan="1" colspan="1">RCP4.5</td><td align="char" char="." rowspan="1" colspan="1">58</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="char" char="." rowspan="1" colspan="1">14</td><td align="char" char="." rowspan="1" colspan="1">&#x0003c;1</td><td align="char" char="." rowspan="1" colspan="1">66</td><td align="char" char="." rowspan="1" colspan="1">34</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP8.5</td><td align="char" char="." rowspan="1" colspan="1">59</td><td align="char" char="." rowspan="1" colspan="1">38</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">93</td><td align="char" char="." rowspan="1" colspan="1">7</td></tr><tr><td align="left" rowspan="2" colspan="1">91E0*</td><td align="left" rowspan="1" colspan="1">RCP4.5</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">98</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">100</td></tr><tr><td align="left" rowspan="1" colspan="1">RCP8.5</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">&#x0003c;1</td><td align="char" char="." rowspan="1" colspan="1">98</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">100</td></tr></tbody></table><table-wrap-foot id="ece35877-ntgp-0003"><title>Note</title><fn id="ece35877-note-0003"><p>Based on intersection of observed current and projected future distribution of habitat types with protected area (PA) polygons. For detailed description on models, see Section <xref rid="ece35877-sec-0002" ref-type="sec">2</xref> and caption of Table <xref rid="ece35877-tbl-0002" ref-type="table">2</xref>. Change classes of PAs: "unoccupied stable" (no current host and no future host of habitat type), "loss" (current host of habitat type but no future host), "occupied stable" (current and future host of habitat type) or "gain" (no current host but future host of habitat type).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Even under the criterion of PA coverage, bog woodlands reach the highest exposure scores. Two&#x02010;thirds of the PAs, which accommodate the habitat type at present, lose their function as host even under moderate climate change (RCP4.5). For RCP8.5, this proportion raises to more than 90%. From all Bavarian Natura 2000 sites, 15% potentially accommodate fractions of bog woodlands under RCP4.5 and as little as 3% provide suitable environmental conditions under RCP8.5. Under RCP8.5, only 310&#x000a0;km<sup>2</sup> of the modeled suitable territory fall within currently established PAs.</p><p>The projected future PA coverage of <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines is likewise threatened. Twenty nine percent (RCP4.5) and 61% (RCP8.5) of those sites, which host the habitat type nowadays, lose their environmental suitability during the 21st century. The pronounced differences between climate change scenarios in the case of this habitat type are visible for the conservation status as well. Thirty four percent of all Bavarian Natura 2000 sites potentially intersect with <italic>Tilio&#x02010;Acerion</italic> forests under RCP8.5, compared to 65% under RCP4.5. Along with the projected range reduction under RCP8.5, the area suitable for <italic>Tilio&#x02010;Acerion</italic> forests and covered by PAs drops by 42%.</p><p>For alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic>, more Natura 2000 sites than today seem to be capable of accommodating the habitat type in the future. For the change classes, neither &#x0201c;loss&#x0201d; nor &#x0201c;unoccupied stable&#x0201d; are represented in RCP4.5 and are negligible under RCP8.5.</p></sec><sec id="ece35877-sec-0013"><label>3.3</label><title>Elevational range as predictor for future suitability of protected areas</title><p>In addition to the exposure assessments for the forest habitat types, it was analyzed whether larger elevational ranges inside of conservation sites favor their future role as refuge for endangered habitat types. The statistical results (Figure <xref rid="ece35877-fig-0003" ref-type="fig">3</xref>, Appendix <xref rid="ece35877-sup-0001" ref-type="supplementary-material">S3</xref>) indicate that PAs differ significantly in their future potential for hosting two out of three habitat types (bog woodlands and <italic>Tilio&#x02010;Acerion</italic> forests) depending on the elevational range found inside of them. Partially confirming the initial assumption, PAs with larger elevational ranges are more likely to maintain environmental suitability for these two habitat types for both climate change scenarios. For the widespread alluvial forests such a pattern could not be found.</p><fig fig-type="Figure" xml:lang="en" id="ece35877-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Local elevation range within Bavarian Natura 2000 areas in relation to their modeled function as potential hosts for selected forest habitat types under climate change scenario RCP8.5. For detailed description on change classes of PAs and models, see Section <xref rid="ece35877-sec-0002" ref-type="sec">2</xref> and caption of Tables <xref rid="ece35877-tbl-0002" ref-type="table">2</xref> and <xref rid="ece35877-tbl-0003" ref-type="table">3</xref>. Statistics were performed with Kruskal&#x02013;Wallis rank&#x02010;sum test and &#x0201c;kruskalmc&#x0201d; post hoc test (R packages &#x0201c;stats&#x0201d; and &#x0201c;pgirmess&#x0201d;). Significance levels are expressed by asterisks, where *** symbolises p values of &#x02264; .001 and 'ns' refers to p values &#x02265; .05. The lowercase alphabets describe, which groups are significantly different from each other. Additional statistical graphs in Appendix <xref rid="ece35877-sup-0001" ref-type="supplementary-material">S3</xref>
+</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-9-14417-g003"/></fig></sec><sec id="ece35877-sec-0014"><label>3.4</label><title>Model evaluation</title><p>Evaluating the quality of the models, projections for the reference period of 1970&#x02013;2000 were mostly over&#x02010;predictive in comparison with the currently observed distributions within Bavaria (compare Figure <xref rid="ece35877-fig-0001" ref-type="fig">1</xref> and Appendix <xref rid="ece35877-sup-0001" ref-type="supplementary-material">S4</xref>). On European scale, the ensemble models were capable to project the range of the forest habitat types adequately (Table <xref rid="ece35877-sup-0013" ref-type="supplementary-material">S5.1</xref> and Figure <xref rid="ece35877-sup-0002" ref-type="supplementary-material">S1.1</xref>). Comparing expert&#x02010;based ecology descriptions for the key tree species (e.g., EC, <xref rid="ece35877-bib-0024" ref-type="ref">2013</xref>; IUCN, <xref rid="ece35877-bib-0049" ref-type="ref">2018</xref>) with generated response curves (Appendix <xref rid="ece35877-sup-0001" ref-type="supplementary-material">S6</xref>) and variable importance rankings (Table <xref rid="ece35877-sup-0014" ref-type="supplementary-material">S7.1</xref>) permitted an additional assessment of the models&#x02019; plausibility. Known differences of the forest types with regard to frost sensitivity, for example, were captured well by the models. The corresponding variables &#x0201c;minimum temperature of the coldest month&#x0201d; or &#x0201c;mean temperature of the coldest quarter&#x0201d; were crucial to explain current distribution patterns of all three habitat types. While bog woodlands tolerate cold temperatures, which is emphasized by their range expansion toward Northern Europe (Figure <xref rid="ece35877-sup-0002" ref-type="supplementary-material">S1.1</xref>), <italic>Tilio&#x02010;Acerion</italic> forests and alluvial forests react sensitively toward frost. The different ecological requirements also serve to reason the reaction of the individual habitat types to climate change.</p></sec></sec><sec sec-type="discussion" id="ece35877-sec-0015"><label>4</label><title>DISCUSSION</title><sec id="ece35877-sec-0016"><label>4.1</label><title>Exposure differences among forest habitat types</title><p>Measured by the modeled range size, range change and coverage by Natura 2000 areas, the investigated forest habitat types exhibit different levels of exposure toward climate change at a regional scale. Comparable previous research did not consider the criterion of protected area coverage. Nevertheless, literature supports the results presented here by likewise predicting range losses for many tree species and stressing sensitivity differences (Dyderski et al., <xref rid="ece35877-bib-0023" ref-type="ref">2018</xref>; Ohlem&#x000fc;ller, Gritti, Sykes, &#x00026; Thomas, <xref rid="ece35877-bib-0070" ref-type="ref">2006</xref>; Walentowski et al., <xref rid="ece35877-bib-0090" ref-type="ref">2017</xref>). In this context, altered species compositions of forests become relevant (Buras &#x00026; Menzel, <xref rid="ece35877-bib-0016" ref-type="ref">2019</xref>). According to Schlumprecht, Gohlke, and Bierkuhnlein (<xref rid="ece35877-bib-0081" ref-type="ref">2014</xref>), distribution shifts of habitat types are less likely than the contraction of their ranges. In our study, bog woodlands are most threatened, followed by <italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines. The alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic> seem to be remarkably less exposed to climatic changes.</p><p>For bog woodlands, projects by the German Federal Agency for Nature Conservation (Bittner &#x00026; Beierkuhnlein, <xref rid="ece35877-bib-0009" ref-type="ref">2014</xref>) and the European Topic Centre on Air and Climate Change (Otto, Harley, van Minnen, Pooley, &#x00026; de Soye, <xref rid="ece35877-bib-0072" ref-type="ref">2012</xref>) also assigned high vulnerability levels to this habitat type. For <italic>Picea abies</italic> and <italic>Pinus sylvestris</italic>, which are characteristic to bog woodlands, other studies projected vast declines for their European range (Takolander, Hickler, Meller, &#x00026; Cabeza, <xref rid="ece35877-bib-0086" ref-type="ref">2019</xref>) and their climate envelopes&#x02019; accordance with the climatic conditions of Bavaria (K&#x000f6;lling &#x00026; Zimmermann, <xref rid="ece35877-bib-0053" ref-type="ref">2007</xref>). Based on the identified high importance of cold minimum temperatures for this habitat type, we conclude that expected milder temperatures cause the projected negative range trends of bog woodlands. Seasonal decreases in precipitation might be a further threat to bog woodlands, as they depend on specific soil water conditions (EC, <xref rid="ece35877-bib-0024" ref-type="ref">2013</xref>). Due to their low pH values and restrictions in nutrient availability (see Figure <xref rid="ece35877-sup-0010" ref-type="supplementary-material">S6.2</xref>; Table <xref rid="ece35877-sup-0014" ref-type="supplementary-material">S7.1</xref>), bog woodlands are additionally narrowed to sites that will not evolve within short time scales.</p><p>Focusing on the tree species of <italic>Tilio&#x02010;Acerion</italic> forests, a trade&#x02010;off between the thermophilic character of <italic>T.&#x000a0;cordata</italic> and <italic>T.&#x000a0;platyphyllos</italic> (Ellenberg &#x00026; Leuschner, <xref rid="ece35877-bib-0029" ref-type="ref">2010</xref>) and the drought sensitivity of <italic>T.&#x000a0;cordata</italic> and <italic>A.&#x000a0;pseudoplatanus</italic> (Crowley, Rivers, &#x00026; Barstow, <xref rid="ece35877-bib-0021" ref-type="ref">2017</xref>; Rivers, Barstow, &#x00026; Khela, <xref rid="ece35877-bib-0080" ref-type="ref">2017</xref>) might explain the opposing trends in range size depending on the considered climate change scenario. While a moderate warming (especially of minimum temperatures) under RCP4.5 is likely to favor this habitat type, conditions under RCP8.5 might become too dry for its persistence (lower precipitation of the driest quarter). Discrepancies between our results and the studies by K&#x000f6;lling and Zimmermann (<xref rid="ece35877-bib-0053" ref-type="ref">2007</xref>), as well as Bittner and Beierkuhnlein (<xref rid="ece35877-bib-0009" ref-type="ref">2014</xref>), therefore potentially originate in differences of climate change scenarios, climate models, time period, and utilized variables. These studies found the region as a stable host for <italic>Tilio&#x02010;Acerion</italic> forests and identified a low susceptibility of key tree species to climate change. However, model results for single species cannot be translated directly into the development of the corresponding habitat type.</p><p>Investigating <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic>, belonging to the alluvial forests, K&#x000f6;lling and Zimmermann (<xref rid="ece35877-bib-0053" ref-type="ref">2007</xref>) support the here postulated positive trend for the future. A potential reason for the projected high occurrence probability of alluvial forests within Bavaria might lie in milder mean temperatures of the coldest quarter. Both experts (Shaw, Roy, &#x00026; Wilson, <xref rid="ece35877-bib-0082" ref-type="ref">2014</xref>) and our models highlight the sensitivity of alluvial forests to longer phases of frost. Note that in total three phytosociological alliances and a magnitude of plant species fall into the definition of this habitat type resulting in a high variety of species assemblages, which enlarges its tolerated spectrum of environmental conditions and aggravates interpretations in an ecological context. Including very different communities in its definition in EU legislation also explains the low sensitivity of this habitat type to climatic changes in comparison with others that are comparably uniform in species composition.</p></sec><sec id="ece35877-sec-0017"><label>4.2</label><title>Implications for nature conservation</title><p>This study demonstrated that all examined forest habitat types face&#x000a0;less favorable conditions under more intense climatic changes (i.e., RCP8.5). This relates to modeled changes in range size and future coverage by PAs. The estimated representation within the Bavarian Natura 2000 network is lower for all three habitat types under RCP8.5 than RCP4.5. For <italic>Tilio&#x02010;Acerion</italic> forests, the two climate change scenarios even cause opposite trends in range size development. Therefore, the mitigation of anthropogenic climate change must be the first step of any conservation strategy. As climatic changes are unavoidable to some extent (Kovats et al., <xref rid="ece35877-bib-0054" ref-type="ref">2014</xref>), scientists also call for the reduction of nonclimatic stressors on endangered forests (EEA, <xref rid="ece35877-bib-0026" ref-type="ref">2016</xref>).</p><p>Further implications for conservation practice relate to the extent and functionality of the Natura 2000 network. The designation of additional sites seems necessary to sustain the representation of the forest habitat types despite climate change induced distribution shifts. Spatially, conservation gaps might form in the east and south of the study region. Especially, the Alpine foothills and Alps serve as refugia to the two more threatened habitat types.</p><p>In the selection process for new Natura 2000 sites, connectivity, coherence, area, redundancy, and climate change concerns need to be considered (Hannah, <xref rid="ece35877-bib-0042" ref-type="ref">2008</xref>). Connecting corridors or stepping stones should link recent occurrences with regions of projected future suitability and allow for genetic exchange between populations to foster adaptation (e.g., Keeley et al., <xref rid="ece35877-bib-0052" ref-type="ref">2018</xref>; Nu&#x000f1;ez et al., <xref rid="ece35877-bib-0069" ref-type="ref">2013</xref>). As elevational ranges demonstrably influence the future potential of PAs to host certain habitat types, we add the inclusion of elevational ranges to these recommendations. Other researchers have already mentioned diversity of topography and &#x0201c;topoclimate&#x0201d; as necessary criteria (Heller et al., <xref rid="ece35877-bib-0043" ref-type="ref">2015</xref>; Nadeau, Fuller, &#x00026; Rosenblatt, <xref rid="ece35877-bib-0068" ref-type="ref">2015</xref>). PAs flexible in space and time represent another progressive conservation concept (Bull, Suttle, Singh, &#x00026; Milner&#x02010;Gulland, <xref rid="ece35877-bib-0015" ref-type="ref">2013</xref>; Hannah, <xref rid="ece35877-bib-0042" ref-type="ref">2008</xref>). However, Milad et al. (<xref rid="ece35877-bib-0065" ref-type="ref">2011</xref>) raise concerns about competing land use interests and established property structures in the context of PA designations. Numerous case studies have described conflicts during the implementation of Natura 2000 sites and their management (e.g., Beunen &#x00026; de Vries, <xref rid="ece35877-bib-0008" ref-type="ref">2011</xref>; Campagnaro, Sitzia, Bridgewater, Evans, &#x00026; Ellis, <xref rid="ece35877-bib-0018" ref-type="ref">2019</xref>; Crossey, Ro&#x000df;meier, &#x00026; Weber, <xref rid="ece35877-bib-0020" ref-type="ref">2019</xref>; Gallo, Malovrh, Lakti&#x00107;, De Meo, &#x00026; Paletto, <xref rid="ece35877-bib-0036" ref-type="ref">2018</xref>; Kati et al., <xref rid="ece35877-bib-0051" ref-type="ref">2015</xref>; Paletto et al., <xref rid="ece35877-bib-0073" ref-type="ref">2019</xref>). They suggest to enable participatory approaches which involve local stakeholders, for example, foresters and land owners.</p><p>Particularly for tree species and forest habitats, assisted colonization is an option worth considering (e.g., Williams &#x00026; Dumroese, <xref rid="ece35877-bib-0092" ref-type="ref">2013</xref>). Kreyling et al. (<xref rid="ece35877-bib-0055" ref-type="ref">2011</xref>) summarize the advantages and risks connected to this conservation concept. In a forest context, this would include the support of better&#x02010;adapted tree species or provenances and increasing overall heterogeneity and diversity. With assisted migration, the barriers imposed by landscape fragmentation and limited dispersal abilities of tree species could be reduced. The improvement of the management of Natura 2000 sites plays another important role in safeguarding the priority habitat types (Geyer, Kreft, Jeltsch, &#x00026; Ibisch, <xref rid="ece35877-bib-0039" ref-type="ref">2017</xref>). Conservation measures for the here considered forest habitat types include, for example, the restoration of natural hydrological conditions and the removal of exotic plants (Hughes, del T&#x000e1;nago, &#x00026; Mountford, <xref rid="ece35877-bib-0046" ref-type="ref">2012</xref>; Stiftung Naturschutzfonds Brandenburg, <xref rid="ece35877-bib-0084" ref-type="ref">n.d.</xref>).</p><p>In the context of changing environmental suitability for target habitat types, assessments of the functionality of individual Natura 2000 sites become relevant. While additional sites would ensure the future coverage of protected habitat types, prospective unsuitable PAs should be investigated with respect to their purpose. Here, we argue that the multifunctionality of Natura 2000 areas reduces their risk of losing the reason for existence. Questions arise whether the EU Habitats Directive provides the means to adapt conservation strategies and the protected area network as described above (Cliquet, <xref rid="ece35877-bib-0019" ref-type="ref">2014</xref>). As the future might foster entirely new, unexperienced species compositions (&#x0201c;novel ecosystems&#x0201d;), altered legal definitions of the habitat types could ensure the maintenance of the conservation status of natural and seminatural forests of Europe.</p></sec><sec id="ece35877-sec-0018"><label>4.3</label><title>Limitations</title><p>While this research highlights the usefulness of correlative SDMs for conservation purposes, we recognize limitations to the presented approach. Foregoing general criticism of correlative SDMs (see Ara&#x000fa;jo et al., <xref rid="ece35877-bib-0003" ref-type="ref">2019</xref>; Ara&#x000fa;jo &#x00026; Peterson, <xref rid="ece35877-bib-0005" ref-type="ref">2012</xref>; Ferrier &#x00026; Guisan, <xref rid="ece35877-bib-0033" ref-type="ref">2006</xref>; Peterson, Cobos, &#x00026; Jim&#x000e9;nez&#x02010;Garc&#x000ed;a, <xref rid="ece35877-bib-0075" ref-type="ref">2018</xref>), modeling forest habitat types remains particularly challenging.</p><p>A major obstacle lies in the availability of data: Firstly, monitoring data for EU habitat types is only available at a 10&#x000a0;&#x000d7;&#x000a0;10&#x000a0;km resolution. However, Bavarian Natura 2000 sites are often smaller. Secondly, distribution data from non&#x02010;EU countries would be useful, as nature does not conform with political boundaries. In addition, habitat types are interpreted differently across countries and cannot be described by the mere sum of their constituting species (Berry, <xref rid="ece35877-bib-0007" ref-type="ref">2012</xref>; Bittner et al., <xref rid="ece35877-bib-0010" ref-type="ref">2011</xref>; Evans, <xref rid="ece35877-bib-0031" ref-type="ref">2012</xref>). Therefore, we applied a direct modeling approach to the legally defined habitats. For habitat types, which are defined more uniformly, another approach (e.g., M&#x000fc;cher, Hennekens, Bunce, Schamin&#x000e9;e, &#x00026; Schaepman, <xref rid="ece35877-bib-0067" ref-type="ref">2009</xref>) may be suitable as well. There, the distribution of a habitat is modeled in an indirect manner based on indicator plant species and ecological knowledge.</p><p>It should be borne in mind that the direct impact of climate change is not the only threat to EU habitat types. Altered forest health conditions and pest outbreaks (e.g., bark beetles, see Marini et al., <xref rid="ece35877-bib-0062" ref-type="ref">2017</xref>) are additional challenges. Of outstanding importance for the here investigated forest habitat types is the ash dieback caused by the fungus <italic>Hymenoscyphus pseudoalbidus</italic>, which infects <italic>F.&#x000a0;excelsior</italic> (Pautasso, Aas, Queloz, &#x00026; Holdenrieder, <xref rid="ece35877-bib-0074" ref-type="ref">2013</xref>). Consequently, the projected widespread environmental suitability for alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic> cannot be translated into a worry&#x02010;free future. Habitat type 91E0* is furthermore severely threatened by the invasion of alien plant species (Campagnaro, Brundu, &#x00026; Sitzia, <xref rid="ece35877-bib-0017" ref-type="ref">2018</xref>). Natura 2000 sites are, in general, vulnerable to biological invasions due to their less strict exclusion of human activities (Gallardo et al., <xref rid="ece35877-bib-0035" ref-type="ref">2017</xref>; Guerra, Baquero, Guti&#x000e9;rrez&#x02010;Arellano, &#x00026; Nicola, <xref rid="ece35877-bib-0041" ref-type="ref">2018</xref>). These menaces need to be considered when interpreting the future conservation status of protected habitat types.</p></sec><sec id="ece35877-sec-0019"><label>4.4</label><title>Outlook</title><p>Building on the here modeled future environmental suitability of Bavaria for the considered forest habitat types, precise locations for complementary PAs can be identified in a next step by including mask layers for land cover and watercourses. This step will be particularly crucial to increase the reliability of suitability maps for the alluvial forests. We advocate to consider additional climate models and scenarios in subsequent ensemble modeling studies to further reduce uncertainties related to the climate development itself (Buisson, Thuiller, Casajus, Lek, &#x00026; Grenouillet, <xref rid="ece35877-bib-0014" ref-type="ref">2010</xref>; Peterson et al., <xref rid="ece35877-bib-0075" ref-type="ref">2018</xref>).</p><p>Moving ahead methodologically, the monitoring of habitats from the EU Directive needs to be conducted at a better resolution. To further improve the quality of input data, research on nonequilibrium states of the observed distributions of European forests should be strengthened (Garc&#x000ed;a&#x02010;Vald&#x000e9;s, Zavala, Ara&#x000fa;jo, &#x00026; Purves, <xref rid="ece35877-bib-0037" ref-type="ref">2013</xref>). In order to advance the models themselves, we call for the incorporation of three additional factors: the competition by alien species, scenarios on forest management options, and the dispersal abilities of the habitat types&#x02019; constituting species. For the latter, supplementary research is necessary to fully comprehend the translation of species&#x02019; dispersal into the more complex process of habitat shifts. Moreover, management, such as assisted colonization, enables the establishment of trees even in naturally &#x0201c;unreachable&#x0201d; grid cells.</p><p>Expanding the analysis to a continental scale could provide insights into the overall perspectives of the forests, detect large&#x02010;scale refugia for the most threatened bog woodlands, and determine Bavaria's role in conserving the selected habitat types. Comparable research is needed to improve the understanding of climate change impacts on other EU habitat types, especially the prioritized ones.</p><p>Ultimately, this research addressed essential knowledge gaps regarding the future conservation status of protected EU forest habitat types and the risks they face under climate change. Combining range change analyses based on correlative SDMs with estimates on the coverage by PAs, different levels of exposure of three moisture&#x02010;dependent habitats toward climatic changes were identified.</p><p>The study therefore offers a methodology for conservation&#x02010;oriented research questions in the face of climate change. For the investigated habitat types (<italic>Tilio&#x02010;Acerion</italic> forests of slopes, screes, and ravines; bog woodlands; alluvial forests with <italic>A.&#x000a0;glutinosa</italic> and <italic>F.&#x000a0;excelsior</italic>), first suggestions for conservation strategies were derived. By the second half of the century, practitioners will be confronted with altered climatic conditions of currently established PAs. Environmental suitability maps and exposure comparisons of conservation targets can support them by allocating limited resources to most threatened biota and improving the Bavarian Natura 2000 network under here identified criteria. As the EU law requires favorable conservation statuses for all listed natural habitat types (European Council, <xref rid="ece35877-bib-0030" ref-type="ref">1992</xref>), we advocate the evaluation of future impacts on protected habitats to initiate informed conservation strategies.</p></sec></sec><sec sec-type="COI-statement" id="ece35877-sec-0021"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflict of interest.</p></sec><sec id="ece35877-sec-0022"><title>AUTHOR CONTRIBUTIONS</title><p>While all authors conceptualized the study, Claudia Steinacker conducted the analysis, interpreted the results, and led the writing process. Carl Beierkuhnlein and Anja Jaeschke supervised this study and reviewed the manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece35877-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0002"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0003"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0004"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s004.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0005"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s005.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0006"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s006.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0007"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s007.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0008"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s008.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0009"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s009.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0010"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s010.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0011"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s011.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0012"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s012.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0013"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s013.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35877-sup-0014"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-9-14417-s014.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece35877-sec-0020"><title>ACKNOWLEDGMENTS</title><p>This project has received funding from the European Union's Horizon 2020 research and innovation program ECOPOTENTIAL under grant agreement No 641762. The publication was funded by the German Research Foundation (DFG) and the University of Bayreuth in the funding program Open Access Publishing. Members of the Department of Biogeography at the University of Bayreuth supported this project by providing technical assistance on the methodology and intellectual input on this manuscript.</p></ack><sec sec-type="data-availability" id="ece35877-sec-0024"><title>DATA AVAILABILITY STATEMENT</title><p>The data used for this study were derived from publicly available datasets. The sources are listed in Appendix <xref rid="ece35877-sup-0001" ref-type="supplementary-material">S1.2</xref> as well as in the reference list. The R code, produced ensemble models, range change maps, and protected area shapefiles can be accessed under <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.3532892" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.3532892</ext-link> of the Zenodo Repository.</p></sec><ref-list content-type="cited-references" id="ece35877-bibl-0001"><title>REFERENCES</title><ref id="ece35877-bib-0001"><mixed-citation publication-type="journal" id="ece35877-cit-0001">
+<string-name>
+<surname>Alagador</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Cerdeira</surname>, <given-names>J. O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Climate change, species range shifts and dispersal corridors: An evaluation of spatial conservation models</article-title>. <source xml:lang="en">Methods in Ecology and Evolution</source>, <volume>7</volume>, <fpage>853</fpage>&#x02013;<lpage>866</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210X.12524</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0002"><mixed-citation publication-type="journal" id="ece35877-cit-0002">
+<string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name>
+<surname>Alagador</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Cabeza</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Nogu&#x000e9;s&#x02010;Bravo</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name> (<year>2011</year>). <article-title>Climate change threatens European conservation areas</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>14</volume>, <fpage>484</fpage>&#x02013;<lpage>492</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2011.01610.x</pub-id>
+<pub-id pub-id-type="pmid">21447141</pub-id></mixed-citation></ref><ref id="ece35877-bib-0003"><mixed-citation publication-type="journal" id="ece35877-cit-0003">
+<string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name>
+<surname>M&#x000e1;rcia Barbosa</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Beale</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Dormann</surname>, <given-names>C. F.</given-names>
+</string-name>, <string-name>
+<surname>Early</surname>, <given-names>R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rahbek</surname>, <given-names>C.</given-names>
+</string-name> (<year>2019</year>). <article-title>Standards for distribution models in biodiversity assessments</article-title>. <source xml:lang="en">Science Advances</source>, <volume>5</volume>, <fpage>eaat4858</fpage>
+<pub-id pub-id-type="doi">10.1126/sciadv.aat4858</pub-id>
+<pub-id pub-id-type="pmid">30746437</pub-id></mixed-citation></ref><ref id="ece35877-bib-0004"><mixed-citation publication-type="journal" id="ece35877-cit-0004">
+<string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>New</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Ensemble forecasting of species distributions</article-title>. <source xml:lang="en">Trends in Ecology &#x00026; Evolution</source>, <volume>22</volume>, <fpage>42</fpage>&#x02013;<lpage>47</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2006.09.010</pub-id>
+<pub-id pub-id-type="pmid">17011070</pub-id></mixed-citation></ref><ref id="ece35877-bib-0005"><mixed-citation publication-type="journal" id="ece35877-cit-0005">
+<string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Peterson</surname>, <given-names>A. T.</given-names>
+</string-name> (<year>2012</year>). <article-title>Uses and misuses of bioclimatic envelope modeling</article-title>. <source xml:lang="en">Ecology</source>, <volume>93</volume>, <fpage>1527</fpage>&#x02013;<lpage>1539</lpage>. <pub-id pub-id-type="doi">10.1890/11-1930.1</pub-id>
+<pub-id pub-id-type="pmid">22919900</pub-id></mixed-citation></ref><ref id="ece35877-bib-0006"><mixed-citation publication-type="journal" id="ece35877-cit-0006">
+<string-name>
+<surname>Bellouin</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Collins</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Culverwell</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name>
+<surname>Halloran</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<surname>Hardiman</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name>
+<surname>Hinton</surname>, <given-names>T. J.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wiltshire</surname>, <given-names>A.</given-names>
+</string-name> (<year>2011</year>). <article-title>The HadGEM2 family of met office unified model climate configurations</article-title>. <source xml:lang="en">Geoscientific Model Development</source>, <volume>4</volume>, <fpage>723</fpage>&#x02013;<lpage>757</lpage>. <pub-id pub-id-type="doi">10.5194/gmd-4-723-2011</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0007"><mixed-citation publication-type="book" id="ece35877-cit-0007">
+<string-name>
+<surname>Berry</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <chapter-title>Habitat sensitivity to climate change</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Ellwanger</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Ssymank</surname><given-names>A.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Paulsch</surname><given-names>C.</given-names></name></person-group> (Eds.), <source xml:lang="en">Naturschutz und Biologische Vielfalt: Vol. 118. Natura 2000 and climate change &#x02013; a challenge</source> (pp. <fpage>111</fpage>&#x02013;<lpage>122</lpage>). <publisher-loc>M&#x000fc;nster, Germany</publisher-loc>: <publisher-name>BfN&#x02010;Schriftenvertrieb Landwirtschaftsverlag</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0008"><mixed-citation publication-type="journal" id="ece35877-cit-0008">
+<string-name>
+<surname>Beunen</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>de Vries</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2011</year>). <article-title>The governance of Natura 2000 sites: The importance of initial choices in the organisation of planning processes</article-title>. <source xml:lang="en">Journal of Environmental Planning and Management</source>, <volume>54</volume>, <fpage>1041</fpage>&#x02013;<lpage>1059</lpage>. <pub-id pub-id-type="doi">10.1080/09640568.2010.549034</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0009"><mixed-citation publication-type="book" id="ece35877-cit-0009">
+<string-name>
+<surname>Bittner</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beierkuhnlein</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <chapter-title>Entwicklung von Szenarien zur Beeinflussung und Ver&#x000e4;nderung von Lebensr&#x000e4;umen durch den Klimawandel</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Beierkuhnlein</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Jentsch</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Reineking</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Schlumprecht</surname><given-names>H.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Ellwanger</surname><given-names>G.</given-names></name></person-group> (Eds.), <source xml:lang="en">Naturschutz und Biologische Vielfalt: Vol. 137. Auswirkungen des Klimawandels auf Fauna, Flora und Lebensr&#x000e4;ume sowie Anpassungsstrategien des Naturschutzes</source> (pp. <fpage>274</fpage>&#x02013;<lpage>367</lpage>). <publisher-loc>M&#x000fc;nster, Germany</publisher-loc>: <publisher-name>BfN&#x02010;Schriftenvertrieb Landwirtschaftsverlag</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0010"><mixed-citation publication-type="journal" id="ece35877-cit-0010">
+<string-name>
+<surname>Bittner</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Jaeschke</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Reineking</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beierkuhnlein</surname>, <given-names>C.</given-names>
+</string-name> (<year>2011</year>). <article-title>Comparing modelling approaches at two levels of biological organisation &#x02013; Climate change impacts on selected Natura 2000 habitats</article-title>. <source xml:lang="en">Journal of Vegetation Science</source>, <volume>22</volume>, <fpage>699</fpage>&#x02013;<lpage>710</lpage>. <pub-id pub-id-type="doi">10.1111/j.1654-1103.2011.01266.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0011"><mixed-citation publication-type="book" id="ece35877-cit-0011">
+<collab collab-type="authors">BMEL (Federal Ministry of Food and Agriculture)</collab>
+(<year>2015</year>). <source xml:lang="en">The forests in Germany. Selected results of the third national forest inventory</source>. <publisher-loc>Rostock, Germany</publisher-loc>: <publisher-name>Publikationsversand der Bundesregierung</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0012"><mixed-citation publication-type="journal" id="ece35877-cit-0012">
+<string-name>
+<surname>Breshears</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>, <given-names>H. D.</given-names>
+</string-name>, <string-name>
+<surname>Eamus</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>McDowell</surname>, <given-names>N. G.</given-names>
+</string-name>, <string-name>
+<surname>Law</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Will</surname>, <given-names>R. E.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Zou</surname>, <given-names>C. B.</given-names>
+</string-name> (<year>2013</year>). <article-title>The critical amplifying role of increasing atmospheric moisture demand on tree mortality and associated regional die&#x02010;off</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>4</volume>, <fpage>266</fpage>
+<pub-id pub-id-type="doi">10.3389/fpls.2013.00266</pub-id>
+<pub-id pub-id-type="pmid">23935600</pub-id></mixed-citation></ref><ref id="ece35877-bib-0013"><mixed-citation publication-type="journal" id="ece35877-cit-0013">
+<string-name>
+<surname>Brockerhoff</surname>, <given-names>E. G.</given-names>
+</string-name>, <string-name>
+<surname>Barbaro</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Castagneyrol</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Forrester</surname>, <given-names>D. I.</given-names>
+</string-name>, <string-name>
+<surname>Gardiner</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gonz&#x000e1;lez&#x02010;Olabarria</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Jactel</surname>, <given-names>H.</given-names>
+</string-name> (<year>2017</year>). <article-title>Forest biodiversity, ecosystem functioning and the provision of ecosystem services</article-title>. <source xml:lang="en">Biodiversity and Conservation</source>, <volume>26</volume>, <fpage>3005</fpage>&#x02013;<lpage>3035</lpage>. <pub-id pub-id-type="doi">10.1007/s10531-017-1453-2</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0014"><mixed-citation publication-type="journal" id="ece35877-cit-0014">
+<string-name>
+<surname>Buisson</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Casajus</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Lek</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Grenouillet</surname>, <given-names>G.</given-names>
+</string-name> (<year>2010</year>). <article-title>Uncertainty in ensemble forecasting of species distribution</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>16</volume>, <fpage>1145</fpage>&#x02013;<lpage>1157</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2009.02000.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0015"><mixed-citation publication-type="journal" id="ece35877-cit-0015">
+<string-name>
+<surname>Bull</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name>
+<surname>Suttle</surname>, <given-names>K. B.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Milner&#x02010;Gulland</surname>, <given-names>E. J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Conservation when nothing stands still: Moving targets and biodiversity offsets</article-title>. <source xml:lang="en">Frontiers in Ecology and the Environment</source>, <volume>11</volume>, <fpage>203</fpage>&#x02013;<lpage>210</lpage>. <pub-id pub-id-type="doi">10.1890/120020</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0016"><mixed-citation publication-type="journal" id="ece35877-cit-0016">
+<string-name>
+<surname>Buras</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Menzel</surname>, <given-names>A.</given-names>
+</string-name> (<year>2019</year>). <article-title>Projecting tree species composition changes of European forests for 2061&#x02013;2090 under RCP 4.5 and RCP 8.5 scenarios</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>9</volume>, <pub-id pub-id-type="doi">10.3389/fpls.2018.01986</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0017"><mixed-citation publication-type="journal" id="ece35877-cit-0017">
+<string-name>
+<surname>Campagnaro</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Brundu</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sitzia</surname>, <given-names>T.</given-names>
+</string-name> (<year>2018</year>). <article-title>Five major invasive alien tree species in European Union forest habitat types of the Alpine and Continental biogeographical regions</article-title>. <source xml:lang="en">Journal for Nature Conservation</source>, <volume>43</volume>, <fpage>227</fpage>&#x02013;<lpage>238</lpage>. <pub-id pub-id-type="doi">10.1016/j.jnc.2017.07.007</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0018"><mixed-citation publication-type="journal" id="ece35877-cit-0018">
+<string-name>
+<surname>Campagnaro</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sitzia</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bridgewater</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ellis</surname>, <given-names>E. C.</given-names>
+</string-name> (<year>2019</year>). <article-title>Half earth or whole earth: What can Natura 2000 teach us?</article-title>
+<source xml:lang="en">BioScience</source>, <volume>69</volume>, <fpage>117</fpage>&#x02013;<lpage>124</lpage>. <pub-id pub-id-type="doi">10.1093/biosci/biy153</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0019"><mixed-citation publication-type="journal" id="ece35877-cit-0019">
+<string-name>
+<surname>Cliquet</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>). <article-title>International and European law on protected areas and climate change: Need for adaptation or implementation?</article-title>
+<source xml:lang="en">Environmental Management</source>, <volume>54</volume>, <fpage>720</fpage>&#x02013;<lpage>731</lpage>. <pub-id pub-id-type="doi">10.1007/s00267-013-0228-0</pub-id>
+<pub-id pub-id-type="pmid">24390082</pub-id></mixed-citation></ref><ref id="ece35877-bib-0020"><mixed-citation publication-type="book" id="ece35877-cit-0020">
+<string-name>
+<surname>Crossey</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Ro&#x000df;meier</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Weber</surname>, <given-names>F.</given-names>
+</string-name> (<year>2019</year>). <chapter-title>Zwischen der Erreichung von Biodiversit&#x000e4;tszielen und bef&#x000fc;rchteten Nutzungseinschr&#x000e4;nkungen &#x02013; (Landschafts)Konflikte um das europ&#x000e4;ische Schutzgebietsnetz Natura 2000 in Bayern</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Berr</surname><given-names>K.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Jenal</surname><given-names>C.</given-names></name></person-group> (Eds.), <source xml:lang="en">Landschaftskonflikte</source> (pp. <fpage>269</fpage>&#x02013;<lpage>290</lpage>). <publisher-loc>Wiesbaden, Germany</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0021"><mixed-citation publication-type="book" id="ece35877-cit-0021">
+<string-name>
+<surname>Crowley</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Rivers</surname>, <given-names>M. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Barstow</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <source xml:lang="en">Acer pseudoplatanus (errata version published in 2018). The IUCN red list of threatened species 2017</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.iucnredlist.org/details/193856/0">http://www.iucnredlist.org/details/193856/0</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0022"><mixed-citation publication-type="journal" id="ece35877-cit-0022">
+<string-name>
+<surname>Dempe</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Jaeschke</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Bittner</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beierkuhnlein</surname>, <given-names>C.</given-names>
+</string-name> (<year>2012</year>). <article-title>Zukunft von Eichen&#x02010;Hainbuchenw&#x000e4;ldern und Heiden angesichts des Klimawandels. Potenzielle Entwicklung der Koh&#x000e4;renz von Lebensr&#x000e4;umen im Natura 2000&#x02010;Netzwerk</article-title>. <source xml:lang="en">Naturschutz und Landschaftsplanung</source>, <volume>44</volume>, <fpage>149</fpage>&#x02013;<lpage>153</lpage>.</mixed-citation></ref><ref id="ece35877-bib-0023"><mixed-citation publication-type="journal" id="ece35877-cit-0023">
+<string-name>
+<surname>Dyderski</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name>
+<surname>Pa&#x0017a;</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Frelich</surname>, <given-names>L. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jagodzi&#x00144;ski</surname>, <given-names>A. M.</given-names>
+</string-name> (<year>2018</year>). <article-title>How much does climate change threaten European forest tree species distributions?</article-title>
+<source xml:lang="en">Global Change Biology</source>, <volume>24</volume>, <fpage>1150</fpage>&#x02013;<lpage>1163</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.13925</pub-id>
+<pub-id pub-id-type="pmid">28991410</pub-id></mixed-citation></ref><ref id="ece35877-bib-0024"><mixed-citation publication-type="book" id="ece35877-cit-0024">
+<collab collab-type="authors">EC (European Commission)</collab>
+(<year>2013</year>). <source xml:lang="en">Interpretation manual of European Union habitats</source>. EUR28. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/environment/nature/legislation/habitatsdirective/docs/Int_Manual_EU28.pdf">https://ec.europa.eu/environment/nature/legislation/habitatsdirective/docs/Int_Manual_EU28.pdf</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0025"><mixed-citation publication-type="book" id="ece35877-cit-0025">
+<collab collab-type="authors">EEA (European Environment Agency)</collab>
+(<year>2015</year>). <source xml:lang="en">EEA Technical Report: Vol. 2. State of nature in the EU. Results from reporting under the nature directives 2007&#x02013;2012</source>. <publisher-loc>Luxembourg, UK</publisher-loc>: <publisher-name>Publications Office of the European Union</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0026"><mixed-citation publication-type="book" id="ece35877-cit-0026">
+<collab collab-type="authors">EEA (European Environment Agency)</collab>
+(<year>2016</year>). <source xml:lang="en">EEA Technical Report: Vol. 5. European forest ecosystems. State and trends</source>. <publisher-loc>Luxembourg, UK</publisher-loc>: <publisher-name>Publications Office of the European Union</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0027"><mixed-citation publication-type="book" id="ece35877-cit-0027">
+<collab collab-type="authors">EEA (European Environment Agency)</collab>
+(<year>2017</year>). <source xml:lang="en">Digital Elevation Model over Europe (EU&#x02010;DEM)</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/eu-dem/dem-epsg-3035/eudem_dem_3035_europe-tif.ovr">https://www.eea.europa.eu/data-and-maps/data/eu-dem/dem-epsg-3035/eudem_dem_3035_europe-tif.ovr</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0028"><mixed-citation publication-type="book" id="ece35877-cit-0028">
+<collab collab-type="authors">EEA (European Environment Agency)</collab>
+(<year>2018</year>). <source xml:lang="en">Distribution of species and habitat types</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/article-17-database-habitats-directive-92-43-eec-1/distribution-of-species-zipped-shapefile-vector-polygon">https://www.eea.europa.eu/data-and-maps/data/article-17-database-habitats-directive-92-43-eec-1/distribution-of-species-zipped-shapefile-vector-polygon</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0029"><mixed-citation publication-type="book" id="ece35877-cit-0029">
+<string-name>
+<surname>Ellenberg</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Leuschner</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>). <source xml:lang="en">Vegetation Mitteleuropas mit den Alpen in &#x000f6;kologischer, dynamischer und historischer Sicht</source> (<edition designator="6">6th </edition>
+<edition>ed</edition>
+<edition>.</edition>). <publisher-loc>Stuttgart, Germany</publisher-loc>: <publisher-name>Verlag Eugen Ulmer</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0030"><mixed-citation publication-type="journal" id="ece35877-cit-0030">
+<collab collab-type="authors">European Council</collab>
+(<year>1992</year>). <article-title>Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna and flora</article-title>. <source xml:lang="en">Official Journal of the European Communities</source>, <volume>206</volume>, <fpage>7</fpage>&#x02013;<lpage>50</lpage>.</mixed-citation></ref><ref id="ece35877-bib-0031"><mixed-citation publication-type="book" id="ece35877-cit-0031">
+<string-name>
+<surname>Evans</surname>, <given-names>D.</given-names>
+</string-name> (<year>2012</year>). <chapter-title>The habitats of annex I and climate change</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Ellwanger</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Ssymank</surname><given-names>A.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Paulsch</surname><given-names>C.</given-names></name></person-group> (Eds.), <source xml:lang="en">Naturschutz und Biologische Vielfalt: Vol. 118. Natura 2000 and climate change &#x02013; a challenge</source> (pp. <fpage>73</fpage>&#x02013;<lpage>82</lpage>). <publisher-loc>M&#x000fc;nster, Germany</publisher-loc>: <publisher-name>BfN&#x02010;Schriftenvertrieb Landwirtschaftsverlag</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0032"><mixed-citation publication-type="journal" id="ece35877-cit-0032">
+<string-name>
+<surname>Falk</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mellert</surname>, <given-names>K. H.</given-names>
+</string-name> (<year>2011</year>). <article-title>Species distribution models as a tool for forest management planning under climate change: Risk evaluation of <italic>Abies </italic>
+<italic>alba</italic> in Bavaria</article-title>. <source xml:lang="en">Journal of Vegetation Science</source>, <volume>22</volume>, <fpage>621</fpage>&#x02013;<lpage>634</lpage>. <pub-id pub-id-type="doi">10.1111/j.1654-1103.2011.01294.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0033"><mixed-citation publication-type="journal" id="ece35877-cit-0033">
+<string-name>
+<surname>Ferrier</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Guisan</surname>, <given-names>A.</given-names>
+</string-name> (<year>2006</year>). <article-title>Spatial modelling of biodiversity at the community level</article-title>. <source xml:lang="en">Journal of Applied Ecology</source>, <volume>43</volume>, <fpage>393</fpage>&#x02013;<lpage>404</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2006.01149.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0034"><mixed-citation publication-type="journal" id="ece35877-cit-0034">
+<string-name>
+<surname>Frejaville</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Fady</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Kremer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Ducousso</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garzon</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>2019</year>). <article-title>Inferring phenotypic plasticity and local adaptation to climate across tree species ranges using forest inventory data</article-title>. <source xml:lang="en">Global Ecology and Biogeography</source>, <volume>28</volume>, <fpage>1259</fpage>&#x02013;<lpage>1271</lpage>. <pub-id pub-id-type="doi">10.1111/geb.12930</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0035"><mixed-citation publication-type="journal" id="ece35877-cit-0035">
+<string-name>
+<surname>Gallardo</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Aldridge</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name>
+<surname>Gonz&#x000e1;lez&#x02010;Moreno</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Pergl</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Pizarro</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Vil&#x000e0;</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Protected areas offer refuge from invasive species spreading under climate change</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>23</volume>, <fpage>5331</fpage>&#x02013;<lpage>5343</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.13798</pub-id>
+<pub-id pub-id-type="pmid">28758293</pub-id></mixed-citation></ref><ref id="ece35877-bib-0036"><mixed-citation publication-type="journal" id="ece35877-cit-0036">
+<string-name>
+<surname>Gallo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Malovrh</surname>, <given-names>&#x00160;. P.</given-names>
+</string-name>, <string-name>
+<surname>Lakti&#x00107;</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>De Meo</surname>, <given-names>I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Paletto</surname>, <given-names>A.</given-names>
+</string-name> (<year>2018</year>). <article-title>Collaboration and conflicts between stakeholders in drafting the Natura 2000 Management Programme (2015&#x02013;2020) in Slovenia</article-title>. <source xml:lang="en">Journal for Nature Conservation</source>, <volume>42</volume>, <fpage>36</fpage>&#x02013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/j.jnc.2018.02.003</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0037"><mixed-citation publication-type="journal" id="ece35877-cit-0037">
+<string-name>
+<surname>Garc&#x000ed;a&#x02010;Vald&#x000e9;s</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Zavala</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Purves</surname>, <given-names>D. W.</given-names>
+</string-name> (<year>2013</year>). <article-title>Chasing a moving target: Projecting climate change&#x02010;induced shifts in non&#x02010;equilibrial tree species distributions</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>101</volume>, <fpage>441</fpage>&#x02013;<lpage>453</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12049</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0038"><mixed-citation publication-type="journal" id="ece35877-cit-0038">
+<string-name>
+<surname>Gerstengarbe</surname>, <given-names>F. W.</given-names>
+</string-name>, <string-name>
+<surname>Hoffmann</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>&#x000d6;sterle</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Werner</surname>, <given-names>P. C.</given-names>
+</string-name> (<year>2015</year>). <article-title>Ensemble simulations for the RCP8.5&#x02010;Scenario</article-title>. <source xml:lang="en">Meteorologische Zeitschrift</source>, <volume>24</volume>, <fpage>147</fpage>&#x02013;<lpage>156</lpage>. <pub-id pub-id-type="doi">10.1127/metz/2014/0523</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0039"><mixed-citation publication-type="journal" id="ece35877-cit-0039">
+<string-name>
+<surname>Geyer</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kreft</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Jeltsch</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ibisch</surname>, <given-names>P. L.</given-names>
+</string-name> (<year>2017</year>). <article-title>Assessing climate change&#x02010;robustness of protected area management plans &#x02013; The case of Germany</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>12</volume>, <elocation-id>e0185972</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0185972</pub-id>
+<pub-id pub-id-type="pmid">28982187</pub-id></mixed-citation></ref><ref id="ece35877-bib-0040"><mixed-citation publication-type="book" id="ece35877-cit-0040">
+<string-name>
+<surname>Giraudoux</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Antonietti</surname>, <given-names>J.&#x02010;P.</given-names>
+</string-name>, <string-name>
+<surname>Beale</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Pleydell</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Treglia</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>). <source xml:lang="en">Package &#x02018;pgirmess&#x02019;</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://202.90.158.4/pub/pub/R/web/packages/pgirmess/pgirmess.pdf">http://202.90.158.4/pub/pub/R/web/packages/pgirmess/pgirmess.pdf</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0041"><mixed-citation publication-type="journal" id="ece35877-cit-0041">
+<string-name>
+<surname>Guerra</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Baquero</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Guti&#x000e9;rrez&#x02010;Arellano</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nicola</surname>, <given-names>G. G.</given-names>
+</string-name> (<year>2018</year>). <article-title>Is the Natura 2000 network effective to prevent the biological invasions?</article-title>
+<source xml:lang="en">Global Ecology and Conservation</source>, <volume>16</volume>, <elocation-id>e00497</elocation-id>
+<pub-id pub-id-type="doi">10.1016/j.gecco.2018.e00497</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0042"><mixed-citation publication-type="journal" id="ece35877-cit-0042">
+<string-name>
+<surname>Hannah</surname>, <given-names>L.</given-names>
+</string-name> (<year>2008</year>). <article-title>Protected areas and climate change</article-title>. <source xml:lang="en">Annals of the New York Academy of Sciences</source>, <volume>1134</volume>, <fpage>201</fpage>&#x02013;<lpage>212</lpage>. <pub-id pub-id-type="doi">10.1196/annals.1439.009</pub-id>
+<pub-id pub-id-type="pmid">18566095</pub-id></mixed-citation></ref><ref id="ece35877-bib-0043"><mixed-citation publication-type="journal" id="ece35877-cit-0043">
+<string-name>
+<surname>Heller</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name>
+<surname>Kreitler</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ackerly</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name>
+<surname>Weiss</surname>, <given-names>S. B.</given-names>
+</string-name>, <string-name>
+<surname>Recinos</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Branciforte</surname>, <given-names>R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Micheli</surname>, <given-names>E.</given-names>
+</string-name> (<year>2015</year>). <article-title>Targeting climate diversity in conservation planning to build resilience to climate change</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>6</volume>, <fpage>1</fpage>&#x02013;<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1890/ES14-00313.1</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0044"><mixed-citation publication-type="journal" id="ece35877-cit-0044">
+<string-name>
+<surname>Hester</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Britton</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Hewison</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name>
+<surname>Ross</surname>, <given-names>L. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Potts</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Long&#x02010;term vegetation change in Scotland's native forests</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>235</volume>, <fpage>136</fpage>&#x02013;<lpage>146</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2019.04.018</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0045"><mixed-citation publication-type="journal" id="ece35877-cit-0045">
+<string-name>
+<surname>Honnay</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Verheyen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Butaye</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jacquemyn</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Bossuyt</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hermy</surname>, <given-names>M.</given-names>
+</string-name> (<year>2002</year>). <article-title>Possible effects of habitat fragmentation and climate change on the range of forest plant species</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>5</volume>, <fpage>525</fpage>&#x02013;<lpage>530</lpage>. <pub-id pub-id-type="doi">10.1046/j.1461-0248.2002.00346.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0046"><mixed-citation publication-type="book" id="ece35877-cit-0046">
+<string-name>
+<surname>Hughes</surname>, <given-names>F. M.</given-names>
+</string-name>, <string-name>
+<surname>del T&#x000e1;nago</surname>, <given-names>M. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mountford</surname>, <given-names>J. O.</given-names>
+</string-name> (<year>2012</year>). <chapter-title>Restoring floodplain forests in Europe</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Stanturf</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Madsen</surname><given-names>P.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Lamb</surname><given-names>D.</given-names></name></person-group> (Eds.), <source xml:lang="en">A goal&#x02010;oriented approach to forest landscape restoration</source> (pp. <fpage>393</fpage>&#x02013;<lpage>422</lpage>). <publisher-loc>Dordrecht, the Netherlands</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0047"><mixed-citation publication-type="book" id="ece35877-cit-0047">
+<collab collab-type="authors">ISRIC (World Soil Information)</collab>
+(<year>2018a</year>). <source xml:lang="en">SoilGrids250m &#x02013; Soil organic carbon content (fine earth fraction)</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/076db4e8-11a9-4262-b6aa-cfa703a3c0af">http://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/076db4e8-11a9-4262-b6aa-cfa703a3c0af</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0048"><mixed-citation publication-type="book" id="ece35877-cit-0048">
+<collab collab-type="authors">ISRIC (World Soil Information)</collab>
+(<year>2018b</year>). <source xml:lang="en">SoilGrids250m &#x02013; Soil pH in H<sub>2</sub>O</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/4c59ee58-a24e-4154-912e-0ff18395ac0d">http://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/4c59ee58-a24e-4154-912e-0ff18395ac0d</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0049"><mixed-citation publication-type="book" id="ece35877-cit-0049">
+<collab collab-type="authors">IUCN (International Union for Conservation of Nature)</collab>
+(<year>2018</year>). <source xml:lang="en">The IUCN Red List of Threatened Species. Version 2018&#x02013;1</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.iucnredlist.org">http://www.iucnredlist.org</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0050"><mixed-citation publication-type="journal" id="ece35877-cit-0050">
+<string-name>
+<surname>Jacob</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Petersen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Eggert</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Alias</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Christensen</surname>, <given-names>O. B.</given-names>
+</string-name>, <string-name>
+<surname>Bouwer</surname>, <given-names>L. M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Georgopoulou</surname>, <given-names>E.</given-names>
+</string-name> (<year>2014</year>). <article-title>EURO&#x02010;CORDEX: New high&#x02010;resolution climate change projections for European impact research</article-title>. <source xml:lang="en">Regional Environmental Change</source>, <volume>14</volume>, <fpage>563</fpage>&#x02013;<lpage>578</lpage>. <pub-id pub-id-type="doi">10.1007/s10113-013-0499-2</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0051"><mixed-citation publication-type="journal" id="ece35877-cit-0051">
+<string-name>
+<surname>Kati</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Hovardas</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Dieterich</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ibisch</surname>, <given-names>P. L.</given-names>
+</string-name>, <string-name>
+<surname>Mihok</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Selva</surname>, <given-names>N.</given-names>
+</string-name> (<year>2015</year>). <article-title>The challenge of implementing the European network of protected areas Natura 2000</article-title>. <source xml:lang="en">Conservation Biology</source>, <volume>29</volume>, <fpage>260</fpage>&#x02013;<lpage>270</lpage>. <pub-id pub-id-type="doi">10.1111/cobi.12366</pub-id>
+<pub-id pub-id-type="pmid">25103194</pub-id></mixed-citation></ref><ref id="ece35877-bib-0052"><mixed-citation publication-type="journal" id="ece35877-cit-0052">
+<string-name>
+<surname>Keeley</surname>, <given-names>A. T. H.</given-names>
+</string-name>, <string-name>
+<surname>Ackerly</surname>, <given-names>D. D.</given-names>
+</string-name>, <string-name>
+<surname>Cameron</surname>, <given-names>D. R.</given-names>
+</string-name>, <string-name>
+<surname>Heller</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<surname>Schloss</surname>, <given-names>C. A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Merenlender</surname>, <given-names>A. M.</given-names>
+</string-name> (<year>2018</year>). <article-title>New concepts, models, and assessments of climate&#x02010;wise connectivity</article-title>. <source xml:lang="en">Environmental Research Letters</source>, <volume>13</volume>, <fpage>073002</fpage>
+<pub-id pub-id-type="doi">10.1088/1748-9326/aacb85</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0053"><mixed-citation publication-type="journal" id="ece35877-cit-0053">
+<string-name>
+<surname>K&#x000f6;lling</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zimmermann</surname>, <given-names>L.</given-names>
+</string-name> (<year>2007</year>). <article-title>Die Anf&#x000e4;lligkeit der W&#x000e4;lder Deutschlands gegen&#x000fc;ber dem Klimawandel</article-title>. <source xml:lang="en">Gefahrstoffe&#x02010;Reinhaltung der Luft</source>, <volume>67</volume>, <fpage>259</fpage>&#x02013;<lpage>268</lpage>.</mixed-citation></ref><ref id="ece35877-bib-0054"><mixed-citation publication-type="book" id="ece35877-cit-0054">
+<string-name>
+<surname>Kovats</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Valentini</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bouwer</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Georgopoulou</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Jacob</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>, <given-names>E.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>White</surname>, <given-names>L. L.</given-names>
+</string-name> (<year>2014</year>). <chapter-title>Europe</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Barros</surname><given-names>V. R.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Field</surname><given-names>C. B.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Dokken</surname><given-names>D. J.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Mastrandrea</surname><given-names>M. D.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Mach</surname><given-names>K. J.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Bilir</surname><given-names>T. E.</given-names></name></person-group>, &#x02026; <person-group person-group-type="editor"><name name-style="western"><surname>White</surname><given-names>L. L.</given-names></name></person-group> (Eds.), <source xml:lang="en">Climate change 2014: Impacts, adaptation and vulnerability. Part B: Regional aspects. Contribution of working group II to the fifth assessment report of the Intergovernmental Panel on Climate Change</source> (pp. <fpage>1267</fpage>&#x02013;<lpage>1326</lpage>). <publisher-loc>Cambridge, UK</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0055"><mixed-citation publication-type="journal" id="ece35877-cit-0055">
+<string-name>
+<surname>Kreyling</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bittner</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Jaeschke</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Jentsch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Steinbauer</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Thiel</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beierkuhnlein</surname>, <given-names>C.</given-names>
+</string-name> (<year>2011</year>). <article-title>Assisted colonization: A question of focal units and recipient localities</article-title>. <source xml:lang="en">Restoration Ecology</source>, <volume>19</volume>, <fpage>433</fpage>&#x02013;<lpage>440</lpage>. <pub-id pub-id-type="doi">10.1111/j.1526-100X.2011.00777.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0056"><mixed-citation publication-type="journal" id="ece35877-cit-0056">
+<string-name>
+<surname>Kujala</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Ara&#x000fa;jo</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cabeza</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Misleading results from conventional gap analysis &#x02013; Messages from the warming north</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>144</volume>, <fpage>2450</fpage>&#x02013;<lpage>2458</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2011.06.023</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0057"><mixed-citation publication-type="journal" id="ece35877-cit-0057">
+<string-name>
+<surname>Lehsten</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Sykes</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name>
+<surname>Scott</surname>, <given-names>A. V.</given-names>
+</string-name>, <string-name>
+<surname>Tzanopoulos</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kallimanis</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Mazaris</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Verburg</surname>, <given-names>P. H.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Vogiatzakis</surname>, <given-names>I.</given-names>
+</string-name> (<year>2015</year>). <article-title>Disentangling the effects of land&#x02010;use change, climate and CO2 on projected future European habitat types.</article-title>
+<source xml:lang="en">Global Ecology and Biogeography</source>, <volume>24</volume>, <fpage>653</fpage>&#x02013;<lpage>663</lpage>. <pub-id pub-id-type="doi">10.1111/geb.12291</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0058"><mixed-citation publication-type="book" id="ece35877-cit-0058">
+<collab collab-type="authors">LfU (Bayerisches Landesamt f&#x000fc;r Umwelt)</collab>
+(<year>2018</year>). <source xml:lang="en">Einf&#x000fc;hrung &#x02013; was ist Natura 2000</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.lfu.bayern.de/natur/natura_2000/index.htm">https://www.lfu.bayern.de/natur/natura_2000/index.htm</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0059"><mixed-citation publication-type="journal" id="ece35877-cit-0059">
+<string-name>
+<surname>Lindner</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Fitzgerald</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name>
+<surname>Zimmermann</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name>
+<surname>Reyer</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Delzon</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>van der Maaten</surname>, <given-names>E.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Hanewinkel</surname>, <given-names>M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Climate change and European forests: What do we know, what are the uncertainties, and what are the implications for forest management?</article-title>
+<source xml:lang="en">Journal of Environmental Management</source>, <volume>146</volume>, <fpage>69</fpage>&#x02013;<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1016/j.jenvman.2014.07.030</pub-id>
+<pub-id pub-id-type="pmid">25156267</pub-id></mixed-citation></ref><ref id="ece35877-bib-0060"><mixed-citation publication-type="journal" id="ece35877-cit-0060">
+<string-name>
+<surname>Liu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Berry</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Dawson</surname>, <given-names>T. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pearson</surname>, <given-names>R. G.</given-names>
+</string-name> (<year>2005</year>). <article-title>Selecting thresholds of occurrence in the prediction of species distributions</article-title>. <source xml:lang="en">Ecography</source>, <volume>28</volume>, <fpage>385</fpage>&#x02013;<lpage>393</lpage>. <pub-id pub-id-type="doi">10.1111/j.0906-7590.2005.03957.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0061"><mixed-citation publication-type="journal" id="ece35877-cit-0061">
+<string-name>
+<surname>Liu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>White</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Newell</surname>, <given-names>G.</given-names>
+</string-name> (<year>2013</year>). <article-title>Selecting thresholds for the prediction of species occurrence with presence&#x02010;only data</article-title>. <source xml:lang="en">Journal of Biogeography</source>, <volume>40</volume>, <fpage>778</fpage>&#x02013;<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1111/jbi.12058</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0062"><mixed-citation publication-type="journal" id="ece35877-cit-0062">
+<string-name>
+<surname>Marini</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>&#x000d8;kland</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>J&#x000f6;nsson</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Bentz</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Carroll</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Forster</surname>, <given-names>B.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Schroeder</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Climate drivers of bark beetle outbreak dynamics in Norway spruce forests</article-title>. <source xml:lang="en">Ecography</source>, <volume>40</volume>, <fpage>1426</fpage>&#x02013;<lpage>1435</lpage>. <pub-id pub-id-type="doi">10.1111/ecog.02769</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0063"><mixed-citation publication-type="journal" id="ece35877-cit-0063">
+<string-name>
+<surname>Marmion</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Parviainen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Luoto</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Heikkinen</surname>, <given-names>R. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name> (<year>2009</year>). <article-title>Evaluation of consensus methods in predictive species distribution modelling</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>15</volume>, <fpage>59</fpage>&#x02013;<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1111/j.1472-4642.2008.00491.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0064"><mixed-citation publication-type="journal" id="ece35877-cit-0064">
+<string-name>
+<surname>Meller</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Cabeza</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Pironon</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Barbet&#x02010;Massin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Maiorano</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Georges</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name> (<year>2014</year>). <article-title>Ensemble distribution models in conservation prioritization: From consensus predictions to consensus reserve networks</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>20</volume>, <fpage>309</fpage>&#x02013;<lpage>321</lpage>. <pub-id pub-id-type="doi">10.1111/ddi.12162</pub-id>
+<pub-id pub-id-type="pmid">24791145</pub-id></mixed-citation></ref><ref id="ece35877-bib-0065"><mixed-citation publication-type="journal" id="ece35877-cit-0065">
+<string-name>
+<surname>Milad</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Schaich</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>B&#x000fc;rgi</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Konold</surname>, <given-names>W.</given-names>
+</string-name> (<year>2011</year>). <article-title>Climate change and nature conservation in Central European forests: A review of consequences, concepts and challenges</article-title>. <source xml:lang="en">Forest Ecology and Management</source>, <volume>261</volume>, <fpage>829</fpage>&#x02013;<lpage>843</lpage>. <pub-id pub-id-type="doi">10.1016/j.foreco.2010.10.038</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0066"><mixed-citation publication-type="journal" id="ece35877-cit-0066">
+<string-name>
+<surname>Morin</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Fahse</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Jactel</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Scherer&#x02010;Lorenzen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Garc&#x000ed;a&#x02010;Vald&#x000e9;s</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bugmann</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018</year>). <article-title>Long&#x02010;term response of forest productivity to climate change is mostly driven by change in tree species composition</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>8</volume>, <fpage>5627</fpage>
+<pub-id pub-id-type="doi">10.1038/s41598-018-23763-y</pub-id>
+<pub-id pub-id-type="pmid">29618754</pub-id></mixed-citation></ref><ref id="ece35877-bib-0067"><mixed-citation publication-type="journal" id="ece35877-cit-0067">
+<string-name>
+<surname>M&#x000fc;cher</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Hennekens</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Bunce</surname>, <given-names>R. G.</given-names>
+</string-name>, <string-name>
+<surname>Schamin&#x000e9;e</surname>, <given-names>J. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schaepman</surname>, <given-names>M. E.</given-names>
+</string-name> (<year>2009</year>). <article-title>Modelling the spatial distribution of Natura 2000 habitats across Europe</article-title>. <source xml:lang="en">Landscape and Urban Planning</source>, <volume>92</volume>, <fpage>148</fpage>&#x02013;<lpage>159</lpage>. <pub-id pub-id-type="doi">10.1016/j.landurbplan.2009.04.003</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0068"><mixed-citation publication-type="journal" id="ece35877-cit-0068">
+<string-name>
+<surname>Nadeau</surname>, <given-names>C. P.</given-names>
+</string-name>, <string-name>
+<surname>Fuller</surname>, <given-names>A. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rosenblatt</surname>, <given-names>D. L.</given-names>
+</string-name> (<year>2015</year>). <article-title>Climate&#x02010;smart management of biodiversity</article-title>. <source xml:lang="en">Ecosphere</source>, <volume>6</volume>, <fpage>1</fpage>&#x02013;<lpage>17</lpage>. <pub-id pub-id-type="doi">10.1890/ES15-00069.1</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0069"><mixed-citation publication-type="journal" id="ece35877-cit-0069">
+<string-name>
+<surname>Nu&#x000f1;ez</surname>, <given-names>T. A.</given-names>
+</string-name>, <string-name>
+<surname>Lawler</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>McRae</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<surname>Pierce</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Krosby</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name>
+<surname>Kavanagh</surname>, <given-names>D. M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Tewksbury</surname>, <given-names>J. J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Connectivity planning to address climate change</article-title>. <source xml:lang="en">Conservation Biology</source>, <volume>27</volume>, <fpage>407</fpage>&#x02013;<lpage>416</lpage>. <pub-id pub-id-type="doi">10.1111/cobi.12014</pub-id>
+<pub-id pub-id-type="pmid">23410037</pub-id></mixed-citation></ref><ref id="ece35877-bib-0070"><mixed-citation publication-type="journal" id="ece35877-cit-0070">
+<string-name>
+<surname>Ohlem&#x000fc;ller</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Gritti</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name>
+<surname>Sykes</surname>, <given-names>M. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thomas</surname>, <given-names>C. D.</given-names>
+</string-name> (<year>2006</year>). <article-title>Quantifying components of risk for European woody species under climate change</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>12</volume>, <fpage>1788</fpage>&#x02013;<lpage>1799</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2006.01231.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0071"><mixed-citation publication-type="journal" id="ece35877-cit-0071">
+<string-name>
+<surname>Orlikowska</surname>, <given-names>E. H.</given-names>
+</string-name>, <string-name>
+<surname>Roberge</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Blicharska</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mikusi&#x00144;ski</surname>, <given-names>G.</given-names>
+</string-name> (<year>2016</year>). <article-title>Gaps in ecological research on the world's largest internationally coordinated network of protected areas: A review of Natura 2000</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>200</volume>, <fpage>216</fpage>&#x02013;<lpage>227</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2016.06.015</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0072"><mixed-citation publication-type="book" id="ece35877-cit-0072">
+<string-name>
+<surname>Otto</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Harley</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>van Minnen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Pooley</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>de Soye</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2012</year>). <chapter-title>Vulnerability assessment of species and habitats of the Natura 2000 network</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Ellwanger</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Ssymank</surname><given-names>A.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Paulsch</surname><given-names>C.</given-names></name></person-group> (Eds.), <source xml:lang="en">Naturschutz und Biologische Vielfalt: Vol. 118. Natura 2000 and climate change &#x02013; a challenge</source> (pp. <fpage>83</fpage>&#x02013;<lpage>94</lpage>). <publisher-loc>M&#x000fc;nster, Germany</publisher-loc>: <publisher-name>BfN&#x02010;Schriftenvertrieb Landwirtschaftsverlag</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0073"><mixed-citation publication-type="journal" id="ece35877-cit-0073">
+<string-name>
+<surname>Paletto</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Lakti&#x00107;</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Posavec</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Dob&#x00161;insk&#x000e1;</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Mari&#x00107;</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>&#x00110;ordjevi&#x00107;</surname>, <given-names>I.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Pezdev&#x00161;ek Malovrh</surname>, <given-names>&#x00160;.</given-names>
+</string-name> (<year>2019</year>). <article-title>Nature conservation versus forestry activities in protected areas&#x02010;the stakeholders&#x02019; point of view</article-title>. <source xml:lang="en">&#x00160;umarski List</source>, <volume>143</volume>, <fpage>307</fpage>&#x02013;<lpage>317</lpage>. <pub-id pub-id-type="doi">10.31298/sl.143.7-8.2</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0074"><mixed-citation publication-type="journal" id="ece35877-cit-0074">
+<string-name>
+<surname>Pautasso</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Aas</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Queloz</surname>, <given-names>V.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Holdenrieder</surname>, <given-names>O.</given-names>
+</string-name> (<year>2013</year>). <article-title>European ash (<italic>Fraxinus excelsior</italic>) dieback &#x02013; a conservation biology challenge</article-title>. <source xml:lang="en">Biological Conservation</source>, <volume>158</volume>, <fpage>37</fpage>&#x02013;<lpage>49</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2012.08.026</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0075"><mixed-citation publication-type="journal" id="ece35877-cit-0075">
+<string-name>
+<surname>Peterson</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name>
+<surname>Cobos</surname>, <given-names>M. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jim&#x000e9;nez&#x02010;Garc&#x000ed;a</surname>, <given-names>D.</given-names>
+</string-name> (<year>2018</year>). <article-title>Major challenges for correlational ecological niche model projections to future climate conditions</article-title>. <source xml:lang="en">Annals of the New York Academy of Sciences</source>, <volume>1429</volume>, <fpage>66</fpage>&#x02013;<lpage>77</lpage>. <pub-id pub-id-type="doi">10.1111/nyas.13873</pub-id>
+<pub-id pub-id-type="pmid">29923606</pub-id></mixed-citation></ref><ref id="ece35877-bib-0076"><mixed-citation publication-type="journal" id="ece35877-cit-0076">
+<string-name>
+<surname>Pfeifer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>B&#x000fc;low</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Gobiet</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>H&#x000e4;nsler</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Mudelsee</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Otto</surname>, <given-names>J.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Jacob</surname>, <given-names>D.</given-names>
+</string-name> (<year>2015</year>). <article-title>Robustness of ensemble climate projections analyzed with climate signal maps: Seasonal and extreme precipitation for Germany</article-title>. <source xml:lang="en">Atmosphere</source>, <volume>6</volume>, <fpage>677</fpage>&#x02013;<lpage>698</lpage>. <pub-id pub-id-type="doi">10.3390/atmos6050677</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0077"><mixed-citation publication-type="book" id="ece35877-cit-0077">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name> Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0078"><mixed-citation publication-type="journal" id="ece35877-cit-0078">
+<string-name>
+<surname>Rabasa</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name>
+<surname>Granda</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Benavides</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Kunstler</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Espelta</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Ogaya</surname>, <given-names>R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Valladares</surname>, <given-names>F.</given-names>
+</string-name> (<year>2013</year>). <article-title>Disparity in elevational shifts of European trees in response to recent climate warming</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>19</volume>, <fpage>2490</fpage>&#x02013;<lpage>2499</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.12220</pub-id>
+<pub-id pub-id-type="pmid">23572443</pub-id></mixed-citation></ref><ref id="ece35877-bib-0079"><mixed-citation publication-type="journal" id="ece35877-cit-0079">
+<string-name>
+<surname>Renwick</surname>, <given-names>K. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rocca</surname>, <given-names>M. E.</given-names>
+</string-name> (<year>2015</year>). <article-title>Temporal context affects the observed rate of climate&#x02010;driven range shifts in tree species</article-title>. <source xml:lang="en">Global Ecology and Biogeography</source>, <volume>24</volume>, <fpage>44</fpage>&#x02013;<lpage>51</lpage>. <pub-id pub-id-type="doi">10.1111/geb.12240</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0080"><mixed-citation publication-type="book" id="ece35877-cit-0080">
+<string-name>
+<surname>Rivers</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Barstow</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Khela</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <source xml:lang="en">Tilia cordata. The IUCN red list of threatened species</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.iucnredlist.org/details/203360/0">http://www.iucnredlist.org/details/203360/0</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0081"><mixed-citation publication-type="book" id="ece35877-cit-0081">
+<string-name>
+<surname>Schlumprecht</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Gohlke</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bierkuhnlein</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <chapter-title>Klimaanpassung f&#x000fc;r FFH&#x02010;Tierarten und &#x02010;Lebensr&#x000e4;ume</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Beierkuhnlein</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Jentsch</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Reineking</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="editor"><name name-style="western"><surname>Schlumprecht</surname><given-names>H.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Ellwanger</surname><given-names>G.</given-names></name></person-group> (Eds.), <source xml:lang="en">Naturschutz und Biologische Vielfalt: Vol. 137. Auswirkungen des Klimawandels auf Fauna, Flora und Lebensr&#x000e4;ume sowie Anpassungsstrategien des Naturschutzes</source> (pp. <fpage>400</fpage>&#x02013;<lpage>416</lpage>). <publisher-loc>M&#x000fc;nster, Germany</publisher-loc>: <publisher-name>BfN&#x02010;Schriftenvertrieb Landwirtschaftsverlag</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0082"><mixed-citation publication-type="book" id="ece35877-cit-0082">
+<string-name>
+<surname>Shaw</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Roy</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wilson</surname>, <given-names>B.</given-names>
+</string-name> (<year>2014</year>). <source xml:lang="en">Alnus glutinosa. The IUCN red list of threatened species</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.iucnredlist.org/details/63517/0">http://www.iucnredlist.org/details/63517/0</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0083"><mixed-citation publication-type="journal" id="ece35877-cit-0083">
+<string-name>
+<surname>Stagl</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Hattermann</surname>, <given-names>F. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vohland</surname>, <given-names>K.</given-names>
+</string-name> (<year>2015</year>). <article-title>Exposure to climate change in Central Europe: What can be gained from regional climate projections for management decisions of protected areas?</article-title>
+<source xml:lang="en">Regional Environmental Change</source>, <volume>15</volume>, <fpage>1409</fpage>&#x02013;<lpage>1419</lpage>. <pub-id pub-id-type="doi">10.1007/s10113-014-0704-y</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0084"><mixed-citation publication-type="book" id="ece35877-cit-0084">
+<collab collab-type="authors">Stiftung Naturschutzfonds Brandenburg</collab>
+(n.d.). <source xml:lang="en">LIFE Feuchtw&#x000e4;lder. Project objectives</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://www.feuchtwaelder.de/projekt/english-project-summary/project-objectives/">https://www.feuchtwaelder.de/projekt/english-project-summary/project-objectives/</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0085"><mixed-citation publication-type="journal" id="ece35877-cit-0085">
+<string-name>
+<surname>Summers</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Bryan</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name>
+<surname>Crossman</surname>, <given-names>N. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Meyer</surname>, <given-names>W. S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Species vulnerability to climate change: Impacts on spatial conservation priorities and species representation</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>18</volume>, <fpage>2335</fpage>&#x02013;<lpage>2348</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2012.02700.x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0086"><mixed-citation publication-type="journal" id="ece35877-cit-0086">
+<string-name>
+<surname>Takolander</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Hickler</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Meller</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cabeza</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Comparing future shifts in tree species distributions across Europe projected by statistical and dynamic process&#x02010;based models</article-title>. <source xml:lang="en">Regional Environmental Change</source>, <volume>19</volume>, <fpage>251</fpage>&#x02013;<lpage>266</lpage>. <pub-id pub-id-type="doi">10.1007/s10113-018-1403-x</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0087"><mixed-citation publication-type="book" id="ece35877-cit-0087">
+<string-name>
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Damien</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Engler</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Breiner</surname>, <given-names>F.</given-names>
+</string-name> (<year>2016</year>). <source xml:lang="en">Package &#x02018;biomod2&#x02019;. Ensemble Platform for Species Distribution Modeling</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/biomod2/biomod2.pdf">https://cran.r-project.org/web/packages/biomod2/biomod2.pdf</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0088"><mixed-citation publication-type="journal" id="ece35877-cit-0088">
+<string-name>
+<surname>Wagner</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Berg</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Sch&#x000e4;dler</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kunstmann</surname>, <given-names>H.</given-names>
+</string-name> (<year>2013</year>). <article-title>High resolution regional climate model simulations for Germany: Part II &#x02013; projected climate changes</article-title>. <source xml:lang="en">Climate Dynamics</source>, <volume>40</volume>, <fpage>415</fpage>&#x02013;<lpage>427</lpage>. <pub-id pub-id-type="doi">10.1007/s00382-012-1510-1</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0089"><mixed-citation publication-type="book" id="ece35877-cit-0089">
+<string-name>
+<surname>Wagner&#x02010;L&#x000fc;cker</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>F&#x000f6;rster</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Janauer</surname>, <given-names>G.</given-names>
+</string-name> (<year>2014</year>). <chapter-title>Assessment of climate&#x02010;induced impacts on habitats</chapter-title> In <person-group person-group-type="editor"><name name-style="western"><surname>Rannow</surname><given-names>S.</given-names></name></person-group> &#x00026; <person-group person-group-type="editor"><name name-style="western"><surname>Neubert</surname><given-names>M.</given-names></name></person-group> (Eds.), <source xml:lang="en">Advances in Global Change Research: Vol. 58. Managing protected areas in central and Eastern Europe under climate change</source> (pp. <fpage>115</fpage>&#x02013;<lpage>134</lpage>). <publisher-loc>Dordrecht, Netherlands</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece35877-bib-0090"><mixed-citation publication-type="journal" id="ece35877-cit-0090">
+<string-name>
+<surname>Walentowski</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Falk</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Mette</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Kunz</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Br&#x000e4;uning</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Meinardus</surname>, <given-names>C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Leuschner</surname>, <given-names>C.</given-names>
+</string-name> (<year>2017</year>). <article-title>Assessing future suitability of tree species under climate change by multiple methods: A case study in southern Germany</article-title>. <source xml:lang="en">Annals of Forest Research</source>, <volume>60</volume>, <fpage>101</fpage>&#x02013;<lpage>126</lpage>. <pub-id pub-id-type="doi">10.15287/afr.2016.789</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0091"><mixed-citation publication-type="book" id="ece35877-cit-0091">
+<string-name>
+<surname>Walsh</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mac Nally</surname>, <given-names>R.</given-names>
+</string-name> (<year>2015</year>). <source xml:lang="en">Package &#x02018;hier.part&#x02019;</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/hier.part/hier.part.pdf">https://cran.r-project.org/web/packages/hier.part/hier.part.pdf</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0092"><mixed-citation publication-type="journal" id="ece35877-cit-0092">
+<string-name>
+<surname>Williams</surname>, <given-names>M. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dumroese</surname>, <given-names>R. K.</given-names>
+</string-name> (<year>2013</year>). <article-title>Preparing for climate change: Forestry and assisted migration</article-title>. <source xml:lang="en">Journal of Forestry</source>, <volume>111</volume>, <fpage>287</fpage>&#x02013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.5849/jof.13-016</pub-id>
+</mixed-citation></ref><ref id="ece35877-bib-0093"><mixed-citation publication-type="book" id="ece35877-cit-0093">
+<collab collab-type="authors">WorldClim &#x02013; Global Climate Data</collab>
+(n.d.). <source xml:lang="en">CMIP5 30&#x02010;seconds. Downscaled IPPC5 (CMIP5) data at 30 seconds resolution</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.worldclim.org/cmip5_30s">http://www.worldclim.org/cmip5_30s</ext-link>
+</mixed-citation></ref><ref id="ece35877-bib-0094"><mixed-citation publication-type="book" id="ece35877-cit-0094">
+<collab collab-type="authors">WorldClim &#x02013; Global Climate Data</collab>
+(<year>2016</year>). <source xml:lang="en">WorldClim Version2</source>. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://worldclim.org/version2">http://worldclim.org/version2</ext-link>.</mixed-citation></ref><ref id="ece35877-bib-0095"><mixed-citation publication-type="journal" id="ece35877-cit-0095">
+<string-name>
+<surname>Zhu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Woodall</surname>, <given-names>C. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Clark</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>2012</year>). <article-title>Failure to migrate: Lack of tree range expansion in response to climate change</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>18</volume>, <fpage>1042</fpage>&#x02013;<lpage>1052</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2011.02571.x</pub-id>
+</mixed-citation></ref></ref-list></back></article>

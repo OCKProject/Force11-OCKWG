@@ -1,0 +1,241 @@
+{
+  "id": [
+    "32002232"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32002232"
+  ],
+  "pmcid": [
+    "PMC6951910"
+  ],
+  "doi": [
+    "10.1093/af/vfy039"
+  ],
+  "title": [
+    "Climate change: impact on livestock and how can we adapt."
+  ],
+  "authorString": [
+    "Bernabucci U."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bernabucci U"
+          ],
+          "firstName": [
+            "Umberto"
+          ],
+          "lastName": [
+            "Bernabucci"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Department of Agriculture and Forests Science, University of Tuscia-Viterbo, Italy."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2906358"
+      ],
+      "dateOfPublication": [
+        "2019 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Animal Frontiers: The Review Magazine of Animal Agriculture"
+          ],
+          "ISOAbbreviation": [
+            "Anim Front"
+          ],
+          "medlineAbbreviation": [
+            "Anim Front"
+          ],
+          "NLMid": [
+            "101754918"
+          ],
+          "ISSN": [
+            "2160-6056"
+          ],
+          "ESSN": [
+            "2160-6064"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "3-5"
+  ],
+  "affiliation": [
+    "Department of Agriculture and Forests Science, University of Tuscia-Viterbo, Italy."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/af/vfy039"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6951910"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6951910?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-02-01"
+  ],
+  "firstIndexDate": [
+    "2020-02-07"
+  ],
+  "fullTextReceivedDate": [
+    "2020-02-04"
+  ],
+  "dateOfRevision": [
+    "2020-01-31"
+  ],
+  "electronicPublicationDate": [
+    "2019-01-03"
+  ],
+  "firstPublicationDate": [
+    "2019-01-03"
+  ]
+}

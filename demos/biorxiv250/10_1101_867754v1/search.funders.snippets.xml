@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_867754v1/results/search/funders/results.xml">
+  <result pre="DNA for genome sequencing. This project was funded by the" exact="Australian Institute of Marine Science," post="the Australian Government’s National Environmental Science Program, the Agouron"/>
+  <result pre="Marine Science, the Australian Government’s National Environmental Science Program, the" exact="Agouron Institute" post="and by Columbia University. We acknowledge computing resources from"/>
+  <result pre="Government’s National Environmental Science Program, the Agouron Institute and by" exact="Columbia University." post="We acknowledge computing resources from Columbia University’s Shared Research"/>
+  <result pre="accommodation and assimilation of plastic phenotypes, Philosophical Transactions of the" exact="Royal Society" post="B: Biological Sciences 374, 20180176 ( 2019). OpenUrl CrossRef"/>
+  <result pre="genetic variation in terms of restriction endonucleases, Proceedings of the" exact="National Academy of Sciences" post="76, 5269 ( 1979), ISSN 0027-8424, 1091-6490. OpenUrl Abstract"/>
+  <result pre="climate resilient corals to construct bleaching-resistant nurseries, Proceedings of the" exact="National Academy of Sciences" post="116, 10586 ( 2019), ISSN 0027-8424, 1091-6490. OpenUrl Abstract"/>
+  <result pre="corals: shall the deep inherit the reef?, Proceedings of the" exact="Royal Society" post="B: Biological Sciences 284, 20171551 ( 2017). OpenUrl CrossRef"/>
+  <result pre="Building coral reef resilience through assisted evolution, Proceedings of the" exact="National Academy of Sciences" post="112, 2307 ( 2015), ISSN 0027-8424, 1091-6490. OpenUrl Abstract"/>
+ </snippets>
+</snippetsTree>

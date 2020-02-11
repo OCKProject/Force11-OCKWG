@@ -1,0 +1,364 @@
+{
+  "id": [
+    "31937881"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31937881"
+  ],
+  "pmcid": [
+    "PMC6959231"
+  ],
+  "doi": [
+    "10.1038/s41598-019-57150-y"
+  ],
+  "title": [
+    "Climate change or irrigated agriculture - what drives the water level decline of Lake Urmia."
+  ],
+  "authorString": [
+    "Schulz S, Darehshouri S, Hassanzadeh E, Tajrishy M, Schüth C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Schulz S"
+          ],
+          "firstName": [
+            "Stephan"
+          ],
+          "lastName": [
+            "Schulz"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7060-7690",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Technische Universität Darmstadt, Institute of Applied Geosciences, Schnittspahnstr. 9, 64287, Darmstadt, Germany. schulz@geo.tu-darmstadt.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Darehshouri S"
+          ],
+          "firstName": [
+            "Sahand"
+          ],
+          "lastName": [
+            "Darehshouri"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Technische Universität Darmstadt, Institute of Applied Geosciences, Schnittspahnstr. 9, 64287, Darmstadt, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Hassanzadeh E"
+          ],
+          "firstName": [
+            "Elmira"
+          ],
+          "lastName": [
+            "Hassanzadeh"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Polytechnique Montréal - Department of Civil, Geological and Mining Engineering, Montreal, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Tajrishy M"
+          ],
+          "firstName": [
+            "Massoud"
+          ],
+          "lastName": [
+            "Tajrishy"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Sharif University of Technology, Urmia Lake Restoration Program, Department of Civil Engineering, Azadi Ave, P.O.Box: 11155, 9313, Tehran, Iran."
+          ]
+        },
+        {
+          "fullName": [
+            "Schüth C"
+          ],
+          "firstName": [
+            "Christoph"
+          ],
+          "lastName": [
+            "Schüth"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Technische Universität Darmstadt, Institute of Applied Geosciences, Schnittspahnstr. 9, 64287, Darmstadt, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7060-7690",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2899419"
+      ],
+      "dateOfPublication": [
+        "2020 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "236"
+  ],
+  "abstractText": [
+    "Lake Urmia is one of the largest hypersaline lakes on earth with a unique biodiversity. Over the past two decades the lake water level declined dramatically, threatening the functionality of the lake's ecosystems. There is a controversial debate about the reasons for this decline, with either mismanagement of the water resources, or climatic changes assumed to be the main cause. In this study we quantified the water budget components of Lake Urmia and analyzed their temporal evolution and interplay over the last five decades. With this we can show that variations of Lake Urmia's water level during the analyzed period were mainly triggered by climatic changes. However, under the current climatic conditions agricultural water extraction volumes are significant compared to the remaining surface water inflow volumes. Changes in agricultural water withdrawal would have a significant impact on the lake volume and could either stabilize the lake, or lead to its complete collapse."
+  ],
+  "affiliation": [
+    "Technische Universität Darmstadt, Institute of Applied Geosciences, Schnittspahnstr. 9, 64287, Darmstadt, Germany. schulz@geo.tu-darmstadt.de."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "57156376"
+          ],
+          "agency": [
+            "Deutscher Akademischer Austauschdienst"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-019-57150-y"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6959231"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6959231?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-01-16"
+  ],
+  "firstIndexDate": [
+    "2020-01-17"
+  ],
+  "fullTextReceivedDate": [
+    "2020-01-19"
+  ],
+  "dateOfRevision": [
+    "2020-01-17"
+  ],
+  "electronicPublicationDate": [
+    "2020-01-14"
+  ],
+  "firstPublicationDate": [
+    "2020-01-14"
+  ]
+}

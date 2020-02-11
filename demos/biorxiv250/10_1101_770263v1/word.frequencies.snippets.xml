@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="testsearch250/10_1101_770263v1/results/word/frequencies/results.xml">
+  <result title="frequency" word="&amp;amp;;" count="94"/>
+  <result title="frequency" word="species" count="69"/>
+  <result title="frequency" word="mortality" count="60"/>
+  <result title="frequency" word="marine" count="48"/>
+  <result title="frequency" word="OpenUrl" count="42"/>
+  <result title="frequency" word="risk" count="41"/>
+  <result title="frequency" word="threats" count="41"/>
+  <result title="frequency" word="annual" count="38"/>
+  <result title="frequency" word="population" count="33"/>
+  <result title="frequency" word="seabird" count="31"/>
+  <result title="frequency" word="predator" count="27"/>
+  <result title="frequency" word="threshold" count="25"/>
+  <result title="frequency" word="Table" count="23"/>
+  <result title="frequency" word="plastic" count="23"/>
+  <result title="frequency" word="adult" count="22"/>
+ </snippets>
+</snippetsTree>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippetsTree>
+ <snippets file="epmc250/PMC6962452/results/word/frequencies/results.xml">
+  <result title="frequency" word="barley" count="160"/>
+  <result title="frequency" word="malt" count="90"/>
+  <result title="frequency" word="land" count="76"/>
+  <result title="frequency" word="supply" count="66"/>
+  <result title="frequency" word="water" count="62"/>
+  <result title="frequency" word="total" count="55"/>
+  <result title="frequency" word="production" count="53"/>
+  <result title="frequency" word="use" count="47"/>
+  <result title="frequency" word="climate" count="44"/>
+  <result title="frequency" word="malting" count="39"/>
+  <result title="frequency" word="virtual" count="39"/>
+  <result title="frequency" word="area" count="38"/>
+  <result title="frequency" word="percentile" count="35"/>
+  <result title="frequency" word="current" count="33"/>
+  <result title="frequency" word="food" count="33"/>
+  <result title="frequency" word="thousand" count="30"/>
+  <result title="frequency" word="future" count="29"/>
+  <result title="frequency" word="yields" count="29"/>
+  <result title="frequency" word="change" count="28"/>
+  <result title="frequency" word="deficits" count="27"/>
+  <result title="frequency" word="scenarios" count="27"/>
+  <result title="frequency" word="projected" count="24"/>
+  <result title="frequency" word="tonnes" count="24"/>
+  <result title="frequency" word="HES" count="23"/>
+  <result title="frequency" word="scenario" count="23"/>
+  <result title="frequency" word="yield" count="23"/>
+  <result title="frequency" word="observed" count="22"/>
+  <result title="frequency" word="time" count="22"/>
+  <result title="frequency" word="global" count="21"/>
+ </snippets>
+</snippetsTree>
