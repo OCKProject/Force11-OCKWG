@@ -46,6 +46,14 @@ for dictionary searches on `empc250`. The dictionaries are the column headings w
 
 NOTE: this is a very preiminary result and details of the search are not given. In essence it follows the `getpapers` strategy (but uses `curl`) to issue a query, download the ResultSet of metadata, create landing pages for each and then issues requests for the fulltext in HTML.
 
+#### outputs
+
+*  [**result set**](http://htmlpreview.github.io/?https://github.com/OCKProject/Force11-OCKWG/blob/master/demos/biorxiv250/__metadata//resultSet1.clean.html)
+
+* [spreadsheet (`full.dataTables.html`)](http://htmlpreview.github.io/?https://github.com/OCKProject/Force11-OCKWG/blob/master/demos/biorxiv250/full.dataTables.html)
+
+
+
 [Output for biorxiv250](../demos/biorxiv250/).
 
 ## Interpretation of searches
