@@ -6,7 +6,7 @@ To analyse the hundreds of thousands of articles on climate change we have creat
 * searching by keywords
 * display 
 
-of Open Access articles in repositories. These demos have a very small subset of the available material but shouled be enough to illustrate the approach.
+of Open Access articles in repositories. These demos have a very small subset of the available material but should be enough to illustrate the approach.
 
 All analysis is done on the client side, and if you wish to do this yourself you'll need to install the software and reserve diskspace for your downloaded articles.
 
