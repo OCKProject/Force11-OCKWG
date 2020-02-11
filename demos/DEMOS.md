@@ -12,7 +12,7 @@ of Open Access articles in repositories. These demos have a very small subset of
 
 * **EuropePMC** . This is a European version of PubMedCentral and uses the EPMC server to download in bulk. We use `getpapers` , developed by Rik Smith-Unna for 
 contentmine.org which issues a query, retrieves the metadata and then downoads variants of the fulltext,
-[Output for epmc250](../epmc250/)
+[Output for epmc250](../demos/epmc250/)
 
 
 
