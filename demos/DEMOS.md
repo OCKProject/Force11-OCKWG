@@ -29,7 +29,14 @@ ami-search -p epmc250 --dictionary country funders ...
 ```
 which queries the articles with dictionaries for `country`, funders` (and several more).
 
-The results are here
+#### outputs
+
+[spreadsheet (`full.dataTables.html`)](http://htmlpreview.github.io/?https://github.com/OCKProject/Force11-OCKWG/blob/master/demos/epmc250/full.dataTables.html)
+
+for dictionary searches on `empc250`. The dictionaries are the column headings while the articles are rows.
+
+
+
 
 [Output for epmc250](../demos/epmc250/).
 
