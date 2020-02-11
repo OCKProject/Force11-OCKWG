@@ -41,6 +41,17 @@ NOTE: this is a very preiminary result and details of the search are not given. 
 
 [Output for biorxiv250](../demos/biorxiv250/).
 
+## Interpretation of searches
+
+Each search returns:
+
+* global metadata (describing the whole search, e.g. number of hits and overview)
+* a directory for each article, with a unique ID (either PMCID or doi)
+* within the directory 
+  - metadata for the article
+  - fulltext (XML, PDF or HTML)
+* transformed material, (searches, extractions, sectioning, etc.)
+* 
 
 
 
